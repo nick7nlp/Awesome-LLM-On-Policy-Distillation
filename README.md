@@ -8,7 +8,7 @@ A curated collection of papers, resources, and tools for **On-Policy Distillatio
 
 On-policy distillation trains the student model on its *own* generated outputs rather than the teacher's, eliminating exposure bias and enabling the student to learn from its own mistakes. This paradigm has become central to modern LLM post-training pipelines (DeepSeek-R1, Qwen3, etc.).
 
-> 📖 This repository accompanies our survey: **"A Survey of On-Policy Distillation for Large Language Models"** (COLM 2026).
+> 📖 This repository accompanies our survey: **"A Survey of On-Policy Distillation for Large Language Models"** (coming soon).
 
 ---
 
@@ -37,7 +37,7 @@ On-policy distillation trains the student model on its *own* generated outputs r
 
 | Paper | Venue | Date |
 |-------|-------|------|
-| [A Survey of On-Policy Distillation for Large Language Models](#) | COLM 2026 | 2026 |
+| [A Survey of On-Policy Distillation for Large Language Models](#) | Coming Soon | 2026 |
 
 ### Taxonomy
 
@@ -223,7 +223,7 @@ No external teacher; the model improves through self-generated feedback.
 
 ## 🗺️ Open Problems
 
-Based on our survey, the following remain open research directions:
+The following remain open research directions:
 
 1. **On-Policy Distillation Scaling Laws** — No equivalent of Chinchilla for OPD; the student rollout cost adds a new compute axis
 2. **Teacher Calibration & Uncertainty** — Teacher logits may be miscalibrated on student-generated OOD prefixes
@@ -253,11 +253,12 @@ If you find this repository useful, please star it! ⭐
 
 ## 📄 Citation
 
-If you find this collection helpful, please consider citing our survey:
+If you find this collection helpful, please consider citing our survey (paper link coming soon):
 
 ```bibtex
 @article{opd-survey-2026,
   title={A Survey of On-Policy Distillation for Large Language Models},
+  author={},
   year={2026}
 }
 ```
