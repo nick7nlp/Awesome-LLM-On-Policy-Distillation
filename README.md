@@ -209,7 +209,6 @@ On-Policy Distillation
 | Paper | Date |
 |-------|:----:|
 | 🟢 [KEPO: Knowledge-Enhanced Preference Optimization for Reinforcement Learning with Reasoning](https://arxiv.org/abs/2602.00400) | 2026 |
-| 🟡 [Probing to Refine: Reinforcement Distillation of LLMs via Explanatory Inversion](https://arxiv.org/abs/2603.19266) | 2026 |
 | 🟢 [Learning beyond Teacher: Generalized On-Policy Distillation with Reward Extrapolation](https://arxiv.org/abs/2602.12125) | 2026 |
 | 🟢 [Reinforcement-aware Knowledge Distillation for LLM Reasoning](https://arxiv.org/abs/2602.22495) | 2026 |
 | 🟢 [RLKD: Distilling LLMs' Reasoning via Reinforcement Learning](https://arxiv.org/abs/2505.16142) | 2025 |
