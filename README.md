@@ -30,7 +30,6 @@
 </p>
 
 <p align="center">
-  🟢 = In survey &nbsp;&nbsp; 🟡 = New (not yet in survey)
 </p>
 
 ---
@@ -104,9 +103,6 @@ On-Policy Distillation
 
 | Paper | Date |
 |-------|:----:|
-| 🟡 [Dual-Space Knowledge Distillation with Key-Query Matching for Large Language Models](https://arxiv.org/abs/2603.22056) | 2026 |
-| 🟡 [Knowledge Distillation for Large Language Models](https://arxiv.org/abs/2603.13765) | 2026 |
-| 🟡 [KDFlow: A User-Friendly and Efficient Knowledge Distillation Framework for Large Language Models](https://arxiv.org/abs/2603.01875) | 2026 |
 | 🟢 [Entropy-Aware On-Policy Distillation of Language Models](https://arxiv.org/abs/2603.07079) | 2026 |
 | 🟢 [PACED: Distillation and Self-Distillation at the Frontier of Student Competence](https://arxiv.org/abs/2603.11178) | 2026 |
 | 🟢 [Scaling Reasoning Efficiently via Relaxed On-Policy Distillation](https://arxiv.org/abs/2603.11137) | 2026 |
@@ -189,13 +185,6 @@ On-Policy Distillation
 
 | Paper | Date |
 |-------|:----:|
-| 🟡 [HEAL: Hindsight Entropy-Assisted Learning for Reasoning Distillation](https://arxiv.org/abs/2603.10359) | 2026 |
-| 🟡 [Outcome-Conditioned Reasoning Distillation for Resolving Software Issues](https://arxiv.org/abs/2601.23257) | 2026 |
-| 🟡 [Thinking Broad, Acting Fast: Latent Reasoning Distillation from Multi-Perspective Thinking](https://arxiv.org/abs/2601.21611) | 2026 |
-| 🟡 [Reasoning Distillation for Lightweight Automated Program Repair](https://arxiv.org/abs/2601.10987) | 2026 |
-| 🟡 [Skill-Aware Data Selection and Fine-Tuning for Data-Efficient Reasoning Distillation](https://arxiv.org/abs/2601.10109) | 2026 |
-| 🟡 [Long-Chain Reasoning Distillation via Adaptive Prefix Alignment](https://arxiv.org/abs/2601.10064) | 2026 |
-| 🟡 [Hán Dān Xué Bù (Mimicry) or Qīng Chū Yú Lán (Mastery)? A Cognitive Perspective on Reasoning Distillation](https://arxiv.org/abs/2601.05019) | 2026 |
 | 🟢 [On-Policy Context Distillation for Language Models](https://arxiv.org/abs/2602.12275) | 2026 |
 | 🟢 [From Correction to Mastery: Reinforced Distillation of Large Language Model Agents](https://arxiv.org/abs/2509.14257) | 2025 |
 | 🟢 [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) | 2025 |
@@ -207,7 +196,6 @@ On-Policy Distillation
 
 | Paper | Date |
 |-------|:----:|
-| 🟡 [Federated Reasoning Distillation Framework with Model Learnability-Aware Data Allocation](https://arxiv.org/abs/2602.18749) | 2026 |
 | 🟢 [KEPO: Knowledge-Enhanced Preference Optimization for Reinforcement Learning with Reasoning](https://arxiv.org/abs/2602.00400) | 2026 |
 | 🟢 [Learning beyond Teacher: Generalized On-Policy Distillation with Reward Extrapolation](https://arxiv.org/abs/2602.12125) | 2026 |
 | 🟢 [Reinforcement-aware Knowledge Distillation for LLM Reasoning](https://arxiv.org/abs/2602.22495) | 2026 |
@@ -225,7 +213,6 @@ On-Policy Distillation
 
 | Paper | Date |
 |-------|:----:|
-| 🟡 [VLA-OPD: Bridging Offline SFT and Online RL for Vision-Language-Action Models via On-Policy Distillation](https://arxiv.org/abs/2603.26666) | 2026 |
 | 🟢 [Nemotron-Cascade 2: Post-Training LLMs with Cascade RL and Multi-Domain On-Policy Distillation](https://arxiv.org/abs/2603.19220) | 2026 |
 | 🟢 [MiMo-V2-Flash Technical Report](https://arxiv.org/abs/2601.02780) | 2026 |
 | 🟢 [OVD: On-policy Verbal Distillation](https://arxiv.org/abs/2601.21968) | 2026 |
