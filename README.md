@@ -25,6 +25,10 @@
   On-policy distillation trains the student on its <b>own</b> generated outputs rather than the teacher's, eliminating exposure bias and enabling learning from self-generated mistakes. This paradigm has become central to modern LLM post-training pipelines.
 </p>
 
+<p align="center">
+  📖 <b>Survey Paper:</b> <a href="https://arxiv.org/abs/2604.00626">A Survey of On-Policy Distillation for Large Language Models</a>
+</p>
+
 ---
 
 <details>
@@ -277,12 +281,13 @@ We welcome contributions! Please submit a **Pull Request** with:
 
 ## 📄 Citation
 
-If you find this collection helpful, please consider citing our survey (paper link coming soon):
+If you find this collection helpful, please consider citing our survey:
 
 ```bibtex
-@article{opd-survey-2026,
+@article{song2026survey,
   title={A Survey of On-Policy Distillation for Large Language Models},
-  author={},
+  author={Song, Mingyang and Zheng, Mao},
+  journal={arXiv preprint arXiv:2604.00626},
   year={2026}
 }
 ```
