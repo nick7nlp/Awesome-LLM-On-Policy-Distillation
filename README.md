@@ -66,8 +66,8 @@ On-Policy Distillation
 | Paper | Venue | Date | Key Contribution |
 |-------|-------|------|-----------------|
 | [Let's Verify Step by Step](https://arxiv.org/abs/2305.20050) | ICLR 2024 | 2024 | Process Reward Models |
-| [The False Promise of Imitating Proprietary LLMs](https://arxiv.org/abs/2305.15717) | ICLR 2024 | 2023 | Off-policy imitation limits |
-| [f-Divergence Minimization for Sequence-Level Knowledge Distillation](https://arxiv.org/abs/2307.15190) | ICML 2024 | 2023 | f-divergence family for KD |
+| [The False Promise of Imitating Proprietary LLMs](https://arxiv.org/abs/2305.15717) | arXiv 2023 | 2023 | Off-policy imitation limits |
+| [f-Divergence Minimization for Sequence-Level Knowledge Distillation](https://arxiv.org/abs/2307.15190) | ACL 2023 | 2023 | f-divergence family for KD |
 | [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) | NeurIPS 2022 | 2022 | Chinchilla scaling laws |
 | [Sequence-Level Knowledge Distillation](https://arxiv.org/abs/1606.07947) | EMNLP 2016 | 2016 | Seq-level KD for NMT |
 | [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531) | NeurIPS Workshop 2015 | 2015 | Foundational KD framework |
@@ -83,10 +83,10 @@ The most active research direction. The student generates on-policy, and the tea
 
 | Paper | Abbrev. | Venue | Date | Key Innovation |
 |-------|---------|-------|------|----------------|
-| [Entropy-Aware On-Policy Distillation](https://arxiv.org/abs/2603.07079) | **EA-OPD** | ICLR 2026 | 2026 | Dynamically switch Forward/Reverse KL by teacher entropy |
+| [Entropy-Aware On-Policy Distillation](https://arxiv.org/abs/2603.07079) | **EA-OPD** | arXiv 2026 | 2026 | Dynamically switch Forward/Reverse KL by teacher entropy |
 | [PACED: Principled and Adaptive Curriculum for On-Policy Distillation](https://arxiv.org/abs/2603.11178) | **PACED** | 2026 | 2026 | Beta-kernel zone-of-proximal-development weighting |
 | [Veto: Verification-Enhanced Token-Level OPD](https://arxiv.org/abs/2602.12674) | **Veto** | 2026 | 2026 | Verifier-enhanced token selection |
-| [DSKD: Dual-Space Knowledge Distillation for LLMs](https://arxiv.org/abs/2504.11426) | **DSKD** | ACL 2025 | 2025 | Cross-tokenizer OPD via dual-space projectors |
+| [DSKD: Dual-Space Knowledge Distillation for LLMs](https://arxiv.org/abs/2504.11426) | **DSKD** | arXiv 2025 | 2025 | Cross-tokenizer OPD via dual-space projectors |
 | [X-KD: Cross-Model Knowledge Distillation](https://arxiv.org/abs/2510.07842) | **X-KD** | 2025 | 2025 | Adaptive token-level switching with context-aware threshold |
 | [REOPOLD: On-Policy Distillation as Policy Optimization](https://arxiv.org/abs/2503.00386) | **REOPOLD** | 2025 | 2025 | Reinterpret OPD as RL (teacher-student ratio = reward) |
 | [KETCHUP: Knowledge Extraction for Token-wise Credit via Hierarchical Underwriting](https://arxiv.org/abs/2503.02832) | **KETCHUP** | 2025 | 2025 | Hierarchical credit assignment for token-level KD |
@@ -162,7 +162,7 @@ No external teacher; the model improves through self-generated feedback.
 | Paper | Abbrev. | Venue | Date | Key Innovation |
 |-------|---------|-------|------|----------------|
 | [MTP Self-Distillation for Reasoning](https://arxiv.org/abs/2505.09388) | **Qwen3** | 2025 | 2025 | Multi-teacher distillation + thinking mode control |
-| [Distilling Reasoning Capabilities into Smaller LMs](https://arxiv.org/abs/2310.08461) | - | NeurIPS 2024 | 2024 | Specialized reasoning distillation |
+| [Distilling Reasoning Capabilities into Smaller LMs](https://arxiv.org/abs/2212.00193) | - | Findings of ACL 2023 | 2023 | Specialized reasoning distillation |
 | [Distilling Step-by-Step](https://arxiv.org/abs/2305.02301) | **DSS** | ACL 2023 | 2023 | Extract rationales as training signal |
 
 ### Reward-Guided On-Policy Distillation
@@ -196,8 +196,8 @@ No external teacher; the model improves through self-generated feedback.
 | Paper | Venue | Date | Key Insight |
 |-------|-------|------|-------------|
 | [OPD Can Appear Successful on Benchmarks While Failing on Distribution Shift](https://arxiv.org/abs/2603.25562) | 2026 | 2026 | Benchmark performance ≠ true generalization |
-| [Does RL Really Incentivize Reasoning in LLMs?](https://arxiv.org/abs/2504.13837) | NeurIPS 2025 | 2025 | RLVR improves sampling efficiency, not reasoning ability |
-| [Cross-Tokenizer KD](https://arxiv.org/abs/2402.12030) | TMLR 2024 | 2024 | Optimal transport for vocabulary mismatch |
+| [Does RL Really Incentivize Reasoning in LLMs?](https://arxiv.org/abs/2504.13837) | arXiv 2025 | 2025 | RLVR improves sampling efficiency, not reasoning ability |
+| [Cross-Tokenizer KD](https://arxiv.org/abs/2402.12030) | TMLR 2025 | 2025 | Optimal transport for vocabulary mismatch |
 
 ---
 
