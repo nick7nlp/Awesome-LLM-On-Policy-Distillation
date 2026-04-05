@@ -30,6 +30,10 @@
 </p>
 
 <p align="center">
+  🟢 = In survey &nbsp;&nbsp; 🟡 = New (not yet in survey)
+</p>
+
+<p align="center">
 </p>
 
 ---
