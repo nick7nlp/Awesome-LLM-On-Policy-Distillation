@@ -111,45 +111,45 @@ On-Policy Distillation
 
 > The most active research direction. The student generates on-policy, and the teacher provides dense token-level logit supervision.
 
-|  | Paper | Abbrev. | Date | Key Innovation |
-|:---:|-------|---------|:----:|----------------|
-| 🆕 | [Entropy-Aware On-Policy Distillation](https://arxiv.org/abs/2603.07079) | **EA-OPD** | 2026 | Dynamically switch Forward/Reverse KL by teacher entropy |
-| 🆕 | [PACED: Principled and Adaptive Curriculum for OPD](https://arxiv.org/abs/2603.11178) | **PACED** | 2026 | Beta-kernel zone-of-proximal-development weighting |
-| 🆕 | [Veto: Verification-Enhanced Token-Level OPD](https://arxiv.org/abs/2602.12674) | **Veto** | 2026 | Verifier-enhanced token selection |
-|  | [DSKD: Dual-Space Knowledge Distillation](https://arxiv.org/abs/2504.11426) | **DSKD** | 2025 | Cross-tokenizer OPD via dual-space projectors |
-|  | [X-KD: Cross-Model Knowledge Distillation](https://arxiv.org/abs/2510.07842) | **X-KD** | 2025 | Adaptive token-level switching with context-aware threshold |
-|  | [REOPOLD: OPD as Policy Optimization](https://arxiv.org/abs/2503.00386) | **REOPOLD** | 2025 | Reinterpret OPD as RL (teacher-student ratio = reward) |
-|  | [KETCHUP: Token-wise Credit via Hierarchical Underwriting](https://arxiv.org/abs/2503.02832) | **KETCHUP** | 2025 | Hierarchical credit assignment for token-level KD |
-|  | [DDT: Distillation via Difference of Distributions](https://arxiv.org/abs/2505.16297) | **DDT/ToDi** | 2025 | Sigmoid-weighted Forward+Reverse KL per token |
-|  | [GKD: On-Policy Distillation of Language Models](https://arxiv.org/abs/2306.13649) | **GKD** | 2024 | ⭐ Foundational OPD: student generates, teacher scores |
-|  | [MiniLLM: Knowledge Distillation of Large Language Models](https://arxiv.org/abs/2306.08543) | **MiniLLM** | 2024 | ⭐ Reverse KL + policy gradient for OPD |
-|  | [DistiLLM: Streamlined Distillation for LLMs](https://arxiv.org/abs/2402.03898) | **DistiLLM** | 2024 | Skewed KL + adaptive off-policy sampling |
-|  | [DistiLLM-2: Versatile On-Policy KD Framework](https://arxiv.org/abs/2412.15218) | **DistiLLM-2** | 2024 | Generalized f-divergence OPD framework |
-|  | [Fast OPD with Gradient-Level KD](https://arxiv.org/abs/2408.00118) | **Fast OPD** | 2024 | Gradient-level supervision for efficiency |
-|  | [Generalized On-Policy Distillation](https://arxiv.org/abs/2402.12842) | **G-OPD** | 2024 | Generalized divergence family |
-|  | [TSD-KD: Token-Selective Distillation](https://arxiv.org/abs/2402.13116) | **TSD-KD** | 2024 | Select informative tokens for distillation |
-|  | [DASD: Dual Adaptive Self-Distillation](https://arxiv.org/abs/2407.14679) | **DASD** | 2024 | Self-distillation with dual adaptive mechanisms |
+|  | Paper | Date | Key Innovation |
+|:---:|-------|:----:|----------------|
+| 🆕 | **EA-OPD** [Entropy-Aware On-Policy Distillation](https://arxiv.org/abs/2603.07079) | 2026 | Dynamically switch Forward/Reverse KL by teacher entropy |
+| 🆕 | **PACED** [PACED: Principled and Adaptive Curriculum for OPD](https://arxiv.org/abs/2603.11178) | 2026 | Beta-kernel zone-of-proximal-development weighting |
+| 🆕 | **Veto** [Veto: Verification-Enhanced Token-Level OPD](https://arxiv.org/abs/2602.12674) | 2026 | Verifier-enhanced token selection |
+|  | **DSKD** [DSKD: Dual-Space Knowledge Distillation](https://arxiv.org/abs/2504.11426) | 2025 | Cross-tokenizer OPD via dual-space projectors |
+|  | **X-KD** [X-KD: Cross-Model Knowledge Distillation](https://arxiv.org/abs/2510.07842) | 2025 | Adaptive token-level switching with context-aware threshold |
+|  | **REOPOLD** [REOPOLD: OPD as Policy Optimization](https://arxiv.org/abs/2503.00386) | 2025 | Reinterpret OPD as RL (teacher-student ratio = reward) |
+|  | **KETCHUP** [KETCHUP: Token-wise Credit via Hierarchical Underwriting](https://arxiv.org/abs/2503.02832) | 2025 | Hierarchical credit assignment for token-level KD |
+|  | **DDT/ToDi** [DDT: Distillation via Difference of Distributions](https://arxiv.org/abs/2505.16297) | 2025 | Sigmoid-weighted Forward+Reverse KL per token |
+|  | **GKD** [GKD: On-Policy Distillation of Language Models](https://arxiv.org/abs/2306.13649) | 2024 | ⭐ Foundational OPD: student generates, teacher scores |
+|  | **MiniLLM** [MiniLLM: Knowledge Distillation of Large Language Models](https://arxiv.org/abs/2306.08543) | 2024 | ⭐ Reverse KL + policy gradient for OPD |
+|  | **DistiLLM** [DistiLLM: Streamlined Distillation for LLMs](https://arxiv.org/abs/2402.03898) | 2024 | Skewed KL + adaptive off-policy sampling |
+|  | **DistiLLM-2** [DistiLLM-2: Versatile On-Policy KD Framework](https://arxiv.org/abs/2412.15218) | 2024 | Generalized f-divergence OPD framework |
+|  | **Fast OPD** [Fast OPD with Gradient-Level KD](https://arxiv.org/abs/2408.00118) | 2024 | Gradient-level supervision for efficiency |
+|  | **G-OPD** [Generalized On-Policy Distillation](https://arxiv.org/abs/2402.12842) | 2024 | Generalized divergence family |
+|  | **TSD-KD** [TSD-KD: Token-Selective Distillation](https://arxiv.org/abs/2402.13116) | 2024 | Select informative tokens for distillation |
+|  | **DASD** [DASD: Dual Adaptive Self-Distillation](https://arxiv.org/abs/2407.14679) | 2024 | Self-distillation with dual adaptive mechanisms |
 
 ### Sequence-Level On-Policy Methods
 
 > The student generates complete sequences; the loss is applied at the trajectory level.
 
-|  | Paper | Abbrev. | Date | Key Innovation |
-|:---:|-------|---------|:----:|----------------|
-|  | [SCoRe: Multi-Turn Self-Correction for Reasoning](https://arxiv.org/abs/2509.14257) | **SCoRe** | 2025 | Multi-turn correction with teacher feedback on earliest error |
-|  | [MiniLLM](https://arxiv.org/abs/2306.08543) | **MiniLLM** | 2024 | Policy gradient with teacher log-probs as reward |
-|  | [Constrained On-Policy Distillation](https://arxiv.org/abs/2402.11890) | **Constrained** | 2024 | KL-constrained sequence-level objective |
+|  | Paper | Date | Key Innovation |
+|:---:|-------|:----:|----------------|
+|  | **SCoRe** [SCoRe: Multi-Turn Self-Correction for Reasoning](https://arxiv.org/abs/2509.14257) | 2025 | Multi-turn correction with teacher feedback on earliest error |
+|  | **MiniLLM** [MiniLLM](https://arxiv.org/abs/2306.08543) | 2024 | Policy gradient with teacher log-probs as reward |
+|  | **Constrained** [Constrained On-Policy Distillation](https://arxiv.org/abs/2402.11890) | 2024 | KL-constrained sequence-level objective |
 
 ### Hybrid & Adaptive Approaches
 
 > Combining token-level and sequence-level signals; adaptive divergence selection.
 
-|  | Paper | Abbrev. | Date | Key Innovation |
-|:---:|-------|---------|:----:|----------------|
-| 🆕 | [PACED](https://arxiv.org/abs/2603.11178) | **PACED** | 2026 | Minimax-robust curriculum + adaptive granularity |
-|  | [AdaSwitch: Adaptive Switching for Token-Level Distillation](https://arxiv.org/abs/2510.07842) | **AdaSwitch** | 2025 | Context-aware threshold for teacher guidance |
-|  | [Fast OPD](https://arxiv.org/abs/2408.00118) | **Fast OPD** | 2024 | Gradient-level signal bridging token and sequence |
-|  | [SuperCorrect: Hierarchical Thought Templates](https://arxiv.org/abs/2410.09008) | **SuperCorrect** | 2024 | Step-level reasoning distillation + cross-model DPO |
+|  | Paper | Date | Key Innovation |
+|:---:|-------|:----:|----------------|
+| 🆕 | **PACED** [PACED](https://arxiv.org/abs/2603.11178) | 2026 | Minimax-robust curriculum + adaptive granularity |
+|  | **AdaSwitch** [AdaSwitch: Adaptive Switching for Token-Level Distillation](https://arxiv.org/abs/2510.07842) | 2025 | Context-aware threshold for teacher guidance |
+|  | **Fast OPD** [Fast OPD](https://arxiv.org/abs/2408.00118) | 2024 | Gradient-level signal bridging token and sequence |
+|  | **SuperCorrect** [SuperCorrect: Hierarchical Thought Templates](https://arxiv.org/abs/2410.09008) | 2024 | Step-level reasoning distillation + cross-model DPO |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,29 +161,29 @@ On-Policy Distillation
 
 > When the teacher is API-only (no logit access).
 
-|  | Paper | Abbrev. | Date | Key Innovation |
-|:---:|-------|---------|:----:|----------------|
-| 🆕 | [OVD: On-Policy Verifiable Distillation](https://arxiv.org/abs/2603.24596) | **OVD** | 2026 | Cross-modal OPD (text teacher → speech student) |
-|  | [GAD: Generative Adversarial Distillation](https://arxiv.org/abs/2511.10643) | **GAD** | 2025 | Discriminator distinguishes student from API output |
-|  | [LUFFY: Merging Exploration and Exploitation in OPD](https://arxiv.org/abs/2504.14945) | **LUFFY** | 2025 | Dynamic coefficient balancing exploration and imitation |
-|  | [Lion: Adversarial Distillation of Proprietary LLMs](https://arxiv.org/abs/2305.12870) | **Lion** | 2023 | Teacher as preference annotator + curriculum designer |
+|  | Paper | Date | Key Innovation |
+|:---:|-------|:----:|----------------|
+| 🆕 | **OVD** [OVD: On-Policy Verifiable Distillation](https://arxiv.org/abs/2603.24596) | 2026 | Cross-modal OPD (text teacher → speech student) |
+|  | **GAD** [GAD: Generative Adversarial Distillation](https://arxiv.org/abs/2511.10643) | 2025 | Discriminator distinguishes student from API output |
+|  | **LUFFY** [LUFFY: Merging Exploration and Exploitation in OPD](https://arxiv.org/abs/2504.14945) | 2025 | Dynamic coefficient balancing exploration and imitation |
+|  | **Lion** [Lion: Adversarial Distillation of Proprietary LLMs](https://arxiv.org/abs/2305.12870) | 2023 | Teacher as preference annotator + curriculum designer |
 
 ### Self-Play & Self-Distillation
 
 > No external teacher; the model improves through self-generated feedback.
 
-|  | Paper | Abbrev. | Date | Key Innovation |
-|:---:|-------|---------|:----:|----------------|
-| 🆕 | [OPSD: On-Policy Self-Distillation for LLMs](https://arxiv.org/abs/2601.18734) | **OPSD** | 2026 | Privileged info (ground-truth) as teacher signal |
-| 🆕 | [OPSDC: Self-Distillation for Reasoning Compression](https://arxiv.org/abs/2603.05433) | **OPSDC** | 2026 | "Be concise" self-distillation, 57-59% token reduction |
-| 🆕 | [GATES: Gated Self-Distillation without Ground-Truth](https://arxiv.org/abs/2602.20574) | **GATES** | 2026 | Consensus-based gating for self-distillation |
-| 🆕 | [SDPO: Self-Distillation Policy Optimization](https://arxiv.org/abs/2601.20802) | **SDPO** | 2026 | Rich textual feedback → dense token-level self-distillation |
-| 🆕 | [OEL: Online Experiential Learning](https://arxiv.org/abs/2603.16856) | **OEL** | 2026 | Continuous post-deployment on-policy context distillation |
-| 🆕 | [SDFT: Self-Distillation for Continual Learning](https://arxiv.org/abs/2601.19897) | **SDFT** | 2026 | On-policy self-distillation reduces catastrophic forgetting |
-| 🆕 | [HDPO: Hybrid Distillation Policy Optimization](https://arxiv.org/abs/2503.00386) | **HDPO** | 2026 | Privileged distillation for "cliff prompts" |
-| 🆕 | [Privileged Information Distillation](https://arxiv.org/abs/2602.04942) | **PI-Distill** | 2026 | Training-time privileged info for hard RL settings |
-|  | [SPIN: Self-Play Fine-Tuning](https://arxiv.org/abs/2401.01335) | **SPIN** | 2024 | Two-player game: distinguish self vs human |
-|  | [OPCD: On-Policy Context Distillation](https://arxiv.org/abs/2402.12842) | **OPCD** | 2024 | Internalize experiential knowledge via context distillation |
+|  | Paper | Date | Key Innovation |
+|:---:|-------|:----:|----------------|
+| 🆕 | **OPSD** [OPSD: On-Policy Self-Distillation for LLMs](https://arxiv.org/abs/2601.18734) | 2026 | Privileged info (ground-truth) as teacher signal |
+| 🆕 | **OPSDC** [OPSDC: Self-Distillation for Reasoning Compression](https://arxiv.org/abs/2603.05433) | 2026 | "Be concise" self-distillation, 57-59% token reduction |
+| 🆕 | **GATES** [GATES: Gated Self-Distillation without Ground-Truth](https://arxiv.org/abs/2602.20574) | 2026 | Consensus-based gating for self-distillation |
+| 🆕 | **SDPO** [SDPO: Self-Distillation Policy Optimization](https://arxiv.org/abs/2601.20802) | 2026 | Rich textual feedback → dense token-level self-distillation |
+| 🆕 | **OEL** [OEL: Online Experiential Learning](https://arxiv.org/abs/2603.16856) | 2026 | Continuous post-deployment on-policy context distillation |
+| 🆕 | **SDFT** [SDFT: Self-Distillation for Continual Learning](https://arxiv.org/abs/2601.19897) | 2026 | On-policy self-distillation reduces catastrophic forgetting |
+| 🆕 | **HDPO** [HDPO: Hybrid Distillation Policy Optimization](https://arxiv.org/abs/2503.00386) | 2026 | Privileged distillation for "cliff prompts" |
+| 🆕 | **PI-Distill** [Privileged Information Distillation](https://arxiv.org/abs/2602.04942) | 2026 | Training-time privileged info for hard RL settings |
+|  | **SPIN** [SPIN: Self-Play Fine-Tuning](https://arxiv.org/abs/2401.01335) | 2024 | Two-player game: distinguish self vs human |
+|  | **OPCD** [OPCD: On-Policy Context Distillation](https://arxiv.org/abs/2402.12842) | 2024 | Internalize experiential knowledge via context distillation |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -193,22 +193,22 @@ On-Policy Distillation
 
 ### Chain-of-Thought Distillation
 
-|  | Paper | Abbrev. | Date | Key Innovation |
-|:---:|-------|---------|:----:|----------------|
-|  | [Qwen3: MTP Self-Distillation for Reasoning](https://arxiv.org/abs/2505.09388) | **Qwen3** | 2025 | Multi-teacher distillation + thinking mode control |
-|  | [Distilling Reasoning Capabilities into Smaller LMs](https://arxiv.org/abs/2212.00193) | - | 2023 | Specialized reasoning distillation |
-|  | [Distilling Step-by-Step](https://arxiv.org/abs/2305.02301) | **DSS** | 2023 | Extract rationales as training signal |
+|  | Paper | Date | Key Innovation |
+|:---:|-------|:----:|----------------|
+|  | **Qwen3** [Qwen3: MTP Self-Distillation for Reasoning](https://arxiv.org/abs/2505.09388) | 2025 | Multi-teacher distillation + thinking mode control |
+|  | [Distilling Reasoning Capabilities into Smaller LMs](https://arxiv.org/abs/2212.00193) | 2023 | Specialized reasoning distillation |
+|  | **DSS** [Distilling Step-by-Step](https://arxiv.org/abs/2305.02301) | 2023 | Extract rationales as training signal |
 
 ### Reward-Guided On-Policy Distillation
 
-|  | Paper | Abbrev. | Date | Key Innovation |
-|:---:|-------|---------|:----:|----------------|
-| 🆕 | [KEPO: Knowledge-Enhanced Policy Optimization](https://arxiv.org/abs/2602.12125) | **KEPO** | 2026 | Student exceeds teacher via reward-guided exploration |
-|  | [RLKD: Reinforcement Learning via KD](https://arxiv.org/abs/2505.16142) | **RLKD** | 2025 | RL objective with KD regularization |
-|  | [AlignDistil: Align-then-Distill](https://arxiv.org/abs/2503.02832) | **AlignDistil** | 2025 | Preference optimization + OPD |
-|  | [KDRL: Joint KD and RL](https://arxiv.org/abs/2506.02208) | **KDRL** | 2025 | Jointly optimize KD+RL to prevent forgetting |
-|  | [RLAD: RL with Auxiliary Distillation](https://arxiv.org/abs/2512.23097) | **RLAD** | 2025 | Unified KD+RL framework |
-|  | [VOLD: Vision-Language On-Policy Distillation](https://arxiv.org/abs/2510.23497) | **VOLD** | 2025 | Text teacher → VLM student with SFT cold-start |
+|  | Paper | Date | Key Innovation |
+|:---:|-------|:----:|----------------|
+| 🆕 | **KEPO** [KEPO: Knowledge-Enhanced Policy Optimization](https://arxiv.org/abs/2602.12125) | 2026 | Student exceeds teacher via reward-guided exploration |
+|  | **RLKD** [RLKD: Reinforcement Learning via KD](https://arxiv.org/abs/2505.16142) | 2025 | RL objective with KD regularization |
+|  | **AlignDistil** [AlignDistil: Align-then-Distill](https://arxiv.org/abs/2503.02832) | 2025 | Preference optimization + OPD |
+|  | **KDRL** [KDRL: Joint KD and RL](https://arxiv.org/abs/2506.02208) | 2025 | Jointly optimize KD+RL to prevent forgetting |
+|  | **RLAD** [RLAD: RL with Auxiliary Distillation](https://arxiv.org/abs/2512.23097) | 2025 | Unified KD+RL framework |
+|  | **VOLD** [VOLD: Vision-Language On-Policy Distillation](https://arxiv.org/abs/2510.23497) | 2025 | Text teacher → VLM student with SFT cold-start |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
