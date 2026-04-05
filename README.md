@@ -170,7 +170,6 @@ No external teacher; the model improves through self-generated feedback.
 | Paper | Abbrev. | Date | Key Innovation |
 |-------|---------|------|----------------|
 | [KEPO: Knowledge-Enhanced Policy Optimization](https://arxiv.org/abs/2602.12125) | **KEPO** | 2026 | Student exceeds teacher via reward-guided exploration |
-| [DeepSeek-R1: Incentivizing Reasoning in LLMs via RL](https://arxiv.org/abs/2501.12948) | **DeepSeek-R1** | 2025 | Off-policy reasoning distillation at scale |
 | [RLKD: Reinforcement Learning via KD](https://arxiv.org/abs/2505.16142) | **RLKD** | 2025 | RL objective with KD regularization |
 | [AlignDistil: Align-then-Distill](https://arxiv.org/abs/2503.02832) | **AlignDistil** | 2025 | Preference optimization + OPD |
 | [KDRL: Joint KD and RL](https://arxiv.org/abs/2506.02208) | **KDRL** | 2025 | Jointly optimize KD+RL to prevent forgetting |
