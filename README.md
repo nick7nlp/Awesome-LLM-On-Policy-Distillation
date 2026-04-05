@@ -185,6 +185,8 @@ On-Policy Distillation
 | 🟢 [Distribution-Aligned Sequence Distillation for Superior Long-CoT Reasoning](https://arxiv.org/abs/2601.09088) | 2026 |
 | 🟢 [Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models](https://arxiv.org/abs/2401.01335) | 2024 |
 | 🟡 [On-Policy Supervised Fine-Tuning for Efficient Reasoning](https://arxiv.org/abs/2602.13407) | 2026 |
+| 🟡 [Semantic Soft Bootstrapping: Long Context Reasoning in LLMs without Reinforcement Learning](https://arxiv.org/abs/2512.05105) | 2025 |
+| 🟡 [Expanding the Capabilities of Reinforcement Learning via Text Feedback](https://arxiv.org/abs/2602.02482) | 2026 |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,7 +257,6 @@ On-Policy Distillation
 | Paper | Date |
 |-------|:----:|
 | 🟢 [DistillSpec: Improving Speculative Decoding via Knowledge Distillation](https://arxiv.org/abs/2310.08461) | 2023 |
-| 🟡 [KDFlow: A User-Friendly and Efficient Knowledge Distillation Framework for Large Language Models](https://arxiv.org/abs/2603.01875) | 2026 |
 | 🟢 [Delta Knowledge Distillation for Large Language Models](https://arxiv.org/abs/2509.14526) | 2025 |
 | 🟢 [Distillation of Large Language Models via Concrete Score Matching](https://arxiv.org/abs/2509.25837) | 2025 |
 | 🟢 [ORPO-Distill: Mixed-Policy Preference Optimization for Cross-Architecture LLM Distillation](https://arxiv.org/abs/2509.25100) | 2025 |
