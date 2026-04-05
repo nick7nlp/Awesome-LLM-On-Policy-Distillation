@@ -171,6 +171,7 @@ On-Policy Distillation
 | Paper | Date |
 |-------|:----:|
 | 🟢 [Self-Distilled Reasoner: On-Policy Self-Distillation for Large Language Models](https://arxiv.org/abs/2601.18734) | 2026 |
+| 🟡 [OpenClaw-RL: Train Any Agent Simply by Talking](https://arxiv.org/abs/2603.10165) | 2026 |
 | 🟢 [On-Policy Self-Distillation for Reasoning Compression](https://arxiv.org/abs/2603.05433) | 2026 |
 | 🟢 [GATES: Self-Distillation under Privileged Context with Consensus Gating](https://arxiv.org/abs/2602.20574) | 2026 |
 | 🟢 [Reinforcement Learning via Self-Distillation](https://arxiv.org/abs/2601.20802) | 2026 |
