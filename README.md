@@ -108,6 +108,7 @@ On-Policy Distillation
 | Paper | Date |
 |-------|:----:|
 | 🟢 [Entropy-Aware On-Policy Distillation of Language Models](https://arxiv.org/abs/2603.07079) | 2026 |
+| 🟡 [VLA-OPD: Bridging Offline SFT and Online RL for Vision-Language-Action Models via On-Policy Distillation](https://arxiv.org/abs/2603.26666) | 2026 |
 | 🟢 [PACED: Distillation and Self-Distillation at the Frontier of Student Competence](https://arxiv.org/abs/2603.11178) | 2026 |
 | 🟢 [Scaling Reasoning Efficiently via Relaxed On-Policy Distillation](https://arxiv.org/abs/2603.11137) | 2026 |
 | 🟢 [X-KD: General Experiential Knowledge Distillation for Large Language Models](https://arxiv.org/abs/2602.12674) | 2026 |
@@ -136,6 +137,7 @@ On-Policy Distillation
 
 | Paper | Date |
 |-------|:----:|
+| 🟡 [Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing](https://arxiv.org/abs/2604.02288) | 2026 |
 | 🟢 [Fast and Effective On-policy Distillation from Reasoning Prefixes](https://arxiv.org/abs/2602.15260) | 2026 |
 | 🟢 [Towards On-Policy SFT: Distribution Discriminant Theory and its Applications in LLM Training](https://arxiv.org/abs/2602.12222) | 2026 |
 | 🟢 [TMS: Trajectory-Mixed Supervision for Reward-Free, On-Policy SFT](https://arxiv.org/abs/2602.03073) | 2026 |
@@ -218,10 +220,7 @@ On-Policy Distillation
 | Paper | Date |
 |-------|:----:|
 | 🟢 [Nemotron-Cascade 2: Post-Training LLMs with Cascade RL and Multi-Domain On-Policy Distillation](https://arxiv.org/abs/2603.19220) | 2026 |
-| 🟡 [Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing](https://arxiv.org/abs/2604.02288) | 2026 |
 | 🟡 [KAT-Coder-V2 Technical Report](https://arxiv.org/abs/2603.27703) | 2026 |
-| 🟡 [VLA-OPD: Bridging Offline SFT and Online RL for Vision-Language-Action Models via On-Policy Distillation](https://arxiv.org/abs/2603.26666) | 2026 |
-| 🟡 [KDFlow: A User-Friendly and Efficient Knowledge Distillation Framework for Large Language Models](https://arxiv.org/abs/2603.01875) | 2026 |
 | 🟢 [MiMo-V2-Flash Technical Report](https://arxiv.org/abs/2601.02780) | 2026 |
 | 🟢 [OVD: On-policy Verbal Distillation](https://arxiv.org/abs/2601.21968) | 2026 |
 | 🟢 [Video-OPD: Efficient Post-Training of Multimodal Large Language Models for Temporal Video Grounding via On-Policy Distillation](https://arxiv.org/abs/2602.02994) | 2026 |
@@ -252,6 +251,7 @@ On-Policy Distillation
 | Paper | Date |
 |-------|:----:|
 | 🟢 [DistillSpec: Improving Speculative Decoding via Knowledge Distillation](https://arxiv.org/abs/2310.08461) | 2023 |
+| 🟡 [KDFlow: A User-Friendly and Efficient Knowledge Distillation Framework for Large Language Models](https://arxiv.org/abs/2603.01875) | 2026 |
 | 🟢 [Delta Knowledge Distillation for Large Language Models](https://arxiv.org/abs/2509.14526) | 2025 |
 | 🟢 [Distillation of Large Language Models via Concrete Score Matching](https://arxiv.org/abs/2509.25837) | 2025 |
 | 🟢 [ORPO-Distill: Mixed-Policy Preference Optimization for Cross-Architecture LLM Distillation](https://arxiv.org/abs/2509.25100) | 2025 |
