@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-80+-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-90+-blue" alt="Papers">
   <img src="https://img.shields.io/badge/Last%20Updated-April%202026-green" alt="Last Updated">
 </p>
 
@@ -27,6 +27,10 @@
 
 <p align="center">
   📖 <b>Survey Paper:</b> <a href="https://arxiv.org/abs/2604.00626">A Survey of On-Policy Distillation for Large Language Models</a>
+</p>
+
+<p align="center">
+  🟢 = In survey &nbsp;&nbsp; 🟡 = New (not yet in survey)
 </p>
 
 ---
@@ -82,13 +86,13 @@ On-Policy Distillation
 
 | Paper | Date |
 |-------|:----:|
-| [Let's Verify Step by Step](https://arxiv.org/abs/2305.20050) | 2024 |
-| [The False Promise of Imitating Proprietary LLMs](https://arxiv.org/abs/2305.15717) | 2023 |
-| [f-Divergence Minimization for Sequence-Level Knowledge Distillation](https://arxiv.org/abs/2307.15190) | 2023 |
-| [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) | 2022 |
-| [Sequence-Level Knowledge Distillation](https://arxiv.org/abs/1606.07947) | 2016 |
-| [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531) | 2015 |
-| [A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning](https://arxiv.org/abs/1011.0686) | 2011 |
+| 🟢 [Let's Verify Step by Step](https://arxiv.org/abs/2305.20050) | 2024 |
+| 🟢 [The False Promise of Imitating Proprietary LLMs](https://arxiv.org/abs/2305.15717) | 2023 |
+| 🟢 [f-Divergence Minimization for Sequence-Level Knowledge Distillation](https://arxiv.org/abs/2307.15190) | 2023 |
+| 🟢 [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) | 2022 |
+| 🟢 [Sequence-Level Knowledge Distillation](https://arxiv.org/abs/1606.07947) | 2016 |
+| 🟢 [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531) | 2015 |
+| 🟢 [A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning](https://arxiv.org/abs/1011.0686) | 2011 |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,24 +104,27 @@ On-Policy Distillation
 
 | Paper | Date |
 |-------|:----:|
-| [Entropy-Aware On-Policy Distillation of Language Models](https://arxiv.org/abs/2603.07079) | 2026 |
-| [PACED: Distillation and Self-Distillation at the Frontier of Student Competence](https://arxiv.org/abs/2603.11178) | 2026 |
-| [Scaling Reasoning Efficiently via Relaxed On-Policy Distillation](https://arxiv.org/abs/2603.11137) | 2026 |
-| [X-KD: General Experiential Knowledge Distillation for Large Language Models](https://arxiv.org/abs/2602.12674) | 2026 |
-| [Stable On-Policy Distillation through Adaptive Target Reformulation](https://arxiv.org/abs/2601.07155) | 2026 |
-| [Explain in Your Own Words: Improving Reasoning via Token-Selective Dual Knowledge Distillation](https://arxiv.org/abs/2603.13260) | 2026 |
-| [A Dual-Space Framework for General Knowledge Distillation of Large Language Models](https://arxiv.org/abs/2504.11426) | 2025 |
-| [AdaSwitch: Balancing Exploration and Guidance in Knowledge Distillation via Adaptive Switching](https://arxiv.org/abs/2510.07842) | 2025 |
-| [KETCHUP: K-Step Return Estimation for Sequential Knowledge Distillation](https://arxiv.org/abs/2504.19024) | 2025 |
-| [ToDi: Token-wise Distillation via Fine-Grained Divergence Control](https://arxiv.org/abs/2505.16297) | 2025 |
-| [LLM-Oriented Token-Adaptive Knowledge Distillation](https://arxiv.org/abs/2510.11615) | 2025 |
-| [SelecTKD: Selective Token-Weighted Knowledge Distillation for LLMs](https://arxiv.org/abs/2510.24021) | 2025 |
-| [DistiLLM-2: A Contrastive Approach Boosts the Distillation of LLMs](https://arxiv.org/abs/2503.07067) | 2025 |
-| [Rethinking Kullback-Leibler Divergence in Knowledge Distillation for Large Language Models](https://arxiv.org/abs/2404.02657) | 2024 |
-| [On-Policy Distillation of Language Models: Learning from Self-Generated Mistakes](https://arxiv.org/abs/2306.13649) | 2024 |
-| [MiniLLM: On-Policy Distillation of Large Language Models](https://arxiv.org/abs/2306.08543) | 2024 |
-| [DistiLLM: Towards Streamlined Distillation for Large Language Models](https://arxiv.org/abs/2402.03898) | 2024 |
-| [Revisiting Knowledge Distillation for Autoregressive Language Models](https://arxiv.org/abs/2402.11890) | 2024 |
+| 🟡 [Dual-Space Knowledge Distillation with Key-Query Matching for Large Language Models](https://arxiv.org/abs/2603.22056) | 2026 |
+| 🟡 [Knowledge Distillation for Large Language Models](https://arxiv.org/abs/2603.13765) | 2026 |
+| 🟡 [KDFlow: A User-Friendly and Efficient Knowledge Distillation Framework for Large Language Models](https://arxiv.org/abs/2603.01875) | 2026 |
+| 🟢 [Entropy-Aware On-Policy Distillation of Language Models](https://arxiv.org/abs/2603.07079) | 2026 |
+| 🟢 [PACED: Distillation and Self-Distillation at the Frontier of Student Competence](https://arxiv.org/abs/2603.11178) | 2026 |
+| 🟢 [Scaling Reasoning Efficiently via Relaxed On-Policy Distillation](https://arxiv.org/abs/2603.11137) | 2026 |
+| 🟢 [X-KD: General Experiential Knowledge Distillation for Large Language Models](https://arxiv.org/abs/2602.12674) | 2026 |
+| 🟢 [Stable On-Policy Distillation through Adaptive Target Reformulation](https://arxiv.org/abs/2601.07155) | 2026 |
+| 🟢 [Explain in Your Own Words: Improving Reasoning via Token-Selective Dual Knowledge Distillation](https://arxiv.org/abs/2603.13260) | 2026 |
+| 🟢 [A Dual-Space Framework for General Knowledge Distillation of Large Language Models](https://arxiv.org/abs/2504.11426) | 2025 |
+| 🟢 [AdaSwitch: Balancing Exploration and Guidance in Knowledge Distillation via Adaptive Switching](https://arxiv.org/abs/2510.07842) | 2025 |
+| 🟢 [KETCHUP: K-Step Return Estimation for Sequential Knowledge Distillation](https://arxiv.org/abs/2504.19024) | 2025 |
+| 🟢 [ToDi: Token-wise Distillation via Fine-Grained Divergence Control](https://arxiv.org/abs/2505.16297) | 2025 |
+| 🟢 [LLM-Oriented Token-Adaptive Knowledge Distillation](https://arxiv.org/abs/2510.11615) | 2025 |
+| 🟢 [SelecTKD: Selective Token-Weighted Knowledge Distillation for LLMs](https://arxiv.org/abs/2510.24021) | 2025 |
+| 🟢 [DistiLLM-2: A Contrastive Approach Boosts the Distillation of LLMs](https://arxiv.org/abs/2503.07067) | 2025 |
+| 🟢 [Rethinking Kullback-Leibler Divergence in Knowledge Distillation for Large Language Models](https://arxiv.org/abs/2404.02657) | 2024 |
+| 🟢 [On-Policy Distillation of Language Models: Learning from Self-Generated Mistakes](https://arxiv.org/abs/2306.13649) | 2024 |
+| 🟢 [MiniLLM: On-Policy Distillation of Large Language Models](https://arxiv.org/abs/2306.08543) | 2024 |
+| 🟢 [DistiLLM: Towards Streamlined Distillation for Large Language Models](https://arxiv.org/abs/2402.03898) | 2024 |
+| 🟢 [Revisiting Knowledge Distillation for Autoregressive Language Models](https://arxiv.org/abs/2402.11890) | 2024 |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,12 +136,12 @@ On-Policy Distillation
 
 | Paper | Date |
 |-------|:----:|
-| [Fast and Effective On-policy Distillation from Reasoning Prefixes](https://arxiv.org/abs/2602.15260) | 2026 |
-| [Towards On-Policy SFT: Distribution Discriminant Theory and its Applications in LLM Training](https://arxiv.org/abs/2602.12222) | 2026 |
-| [TMS: Trajectory-Mixed Supervision for Reward-Free, On-Policy SFT](https://arxiv.org/abs/2602.03073) | 2026 |
-| [Didactic to Constructive: Turning Expert Solutions into Learnable Reasoning](https://arxiv.org/abs/2602.02405) | 2026 |
-| [SuperCorrect: Advancing Small LLM Reasoning with Thought Template Distillation and Self-Correction](https://arxiv.org/abs/2410.09008) | 2024 |
-| [Rethinking Large Language Model Distillation: A Constrained Markov Decision Process Perspective](https://arxiv.org/abs/2509.22921) | 2025 |
+| 🟢 [Fast and Effective On-policy Distillation from Reasoning Prefixes](https://arxiv.org/abs/2602.15260) | 2026 |
+| 🟢 [Towards On-Policy SFT: Distribution Discriminant Theory and its Applications in LLM Training](https://arxiv.org/abs/2602.12222) | 2026 |
+| 🟢 [TMS: Trajectory-Mixed Supervision for Reward-Free, On-Policy SFT](https://arxiv.org/abs/2602.03073) | 2026 |
+| 🟢 [Didactic to Constructive: Turning Expert Solutions into Learnable Reasoning](https://arxiv.org/abs/2602.02405) | 2026 |
+| 🟢 [SuperCorrect: Advancing Small LLM Reasoning with Thought Template Distillation and Self-Correction](https://arxiv.org/abs/2410.09008) | 2024 |
+| 🟢 [Rethinking Large Language Model Distillation: A Constrained Markov Decision Process Perspective](https://arxiv.org/abs/2509.22921) | 2025 |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,10 +153,10 @@ On-Policy Distillation
 
 | Paper | Date |
 |-------|:----:|
-| [X-OPD: Cross-Modal On-Policy Distillation for Capability Alignment in Speech LLMs](https://arxiv.org/abs/2603.24596) | 2026 |
-| [Black-Box On-Policy Distillation of Large Language Models](https://arxiv.org/abs/2511.10643) | 2025 |
-| [Learning to Reason under Off-Policy Guidance](https://arxiv.org/abs/2504.14945) | 2025 |
-| [Lion: Adversarial Distillation of Proprietary Large Language Models](https://arxiv.org/abs/2305.12870) | 2023 |
+| 🟢 [X-OPD: Cross-Modal On-Policy Distillation for Capability Alignment in Speech LLMs](https://arxiv.org/abs/2603.24596) | 2026 |
+| 🟢 [Black-Box On-Policy Distillation of Large Language Models](https://arxiv.org/abs/2511.10643) | 2025 |
+| 🟢 [Learning to Reason under Off-Policy Guidance](https://arxiv.org/abs/2504.14945) | 2025 |
+| 🟢 [Lion: Adversarial Distillation of Proprietary Large Language Models](https://arxiv.org/abs/2305.12870) | 2023 |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,18 +168,18 @@ On-Policy Distillation
 
 | Paper | Date |
 |-------|:----:|
-| [Self-Distilled Reasoner: On-Policy Self-Distillation for Large Language Models](https://arxiv.org/abs/2601.18734) | 2026 |
-| [On-Policy Self-Distillation for Reasoning Compression](https://arxiv.org/abs/2603.05433) | 2026 |
-| [GATES: Self-Distillation under Privileged Context with Consensus Gating](https://arxiv.org/abs/2602.20574) | 2026 |
-| [Reinforcement Learning via Self-Distillation](https://arxiv.org/abs/2601.20802) | 2026 |
-| [Online Experiential Learning for Language Models](https://arxiv.org/abs/2603.16856) | 2026 |
-| [Self-Distillation Enables Continual Learning](https://arxiv.org/abs/2601.19897) | 2026 |
-| [HDPO: Hybrid Distillation Policy Optimization via Privileged Self-Distillation](https://arxiv.org/abs/2603.23871) | 2026 |
-| [Privileged Information Distillation for Language Models](https://arxiv.org/abs/2602.04942) | 2026 |
-| [Multi-Token Prediction via Self-Distillation](https://arxiv.org/abs/2602.06019) | 2026 |
-| [Why Does Self-Distillation (Sometimes) Degrade the Reasoning Capability of LLMs?](https://arxiv.org/abs/2603.24472) | 2026 |
-| [Distribution-Aligned Sequence Distillation for Superior Long-CoT Reasoning](https://arxiv.org/abs/2601.09088) | 2026 |
-| [Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models](https://arxiv.org/abs/2401.01335) | 2024 |
+| 🟢 [Self-Distilled Reasoner: On-Policy Self-Distillation for Large Language Models](https://arxiv.org/abs/2601.18734) | 2026 |
+| 🟢 [On-Policy Self-Distillation for Reasoning Compression](https://arxiv.org/abs/2603.05433) | 2026 |
+| 🟢 [GATES: Self-Distillation under Privileged Context with Consensus Gating](https://arxiv.org/abs/2602.20574) | 2026 |
+| 🟢 [Reinforcement Learning via Self-Distillation](https://arxiv.org/abs/2601.20802) | 2026 |
+| 🟢 [Online Experiential Learning for Language Models](https://arxiv.org/abs/2603.16856) | 2026 |
+| 🟢 [Self-Distillation Enables Continual Learning](https://arxiv.org/abs/2601.19897) | 2026 |
+| 🟢 [HDPO: Hybrid Distillation Policy Optimization via Privileged Self-Distillation](https://arxiv.org/abs/2603.23871) | 2026 |
+| 🟢 [Privileged Information Distillation for Language Models](https://arxiv.org/abs/2602.04942) | 2026 |
+| 🟢 [Multi-Token Prediction via Self-Distillation](https://arxiv.org/abs/2602.06019) | 2026 |
+| 🟢 [Why Does Self-Distillation (Sometimes) Degrade the Reasoning Capability of LLMs?](https://arxiv.org/abs/2603.24472) | 2026 |
+| 🟢 [Distribution-Aligned Sequence Distillation for Superior Long-CoT Reasoning](https://arxiv.org/abs/2601.09088) | 2026 |
+| 🟢 [Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models](https://arxiv.org/abs/2401.01335) | 2024 |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -182,10 +189,17 @@ On-Policy Distillation
 
 | Paper | Date |
 |-------|:----:|
-| [On-Policy Context Distillation for Language Models](https://arxiv.org/abs/2602.12275) | 2026 |
-| [From Correction to Mastery: Reinforced Distillation of Large Language Model Agents](https://arxiv.org/abs/2509.14257) | 2025 |
-| [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) | 2025 |
-| [Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes](https://arxiv.org/abs/2305.02301) | 2023 |
+| 🟡 [HEAL: Hindsight Entropy-Assisted Learning for Reasoning Distillation](https://arxiv.org/abs/2603.10359) | 2026 |
+| 🟡 [Outcome-Conditioned Reasoning Distillation for Resolving Software Issues](https://arxiv.org/abs/2601.23257) | 2026 |
+| 🟡 [Thinking Broad, Acting Fast: Latent Reasoning Distillation from Multi-Perspective Thinking](https://arxiv.org/abs/2601.21611) | 2026 |
+| 🟡 [Reasoning Distillation for Lightweight Automated Program Repair](https://arxiv.org/abs/2601.10987) | 2026 |
+| 🟡 [Skill-Aware Data Selection and Fine-Tuning for Data-Efficient Reasoning Distillation](https://arxiv.org/abs/2601.10109) | 2026 |
+| 🟡 [Long-Chain Reasoning Distillation via Adaptive Prefix Alignment](https://arxiv.org/abs/2601.10064) | 2026 |
+| 🟡 [Hán Dān Xué Bù (Mimicry) or Qīng Chū Yú Lán (Mastery)? A Cognitive Perspective on Reasoning Distillation](https://arxiv.org/abs/2601.05019) | 2026 |
+| 🟢 [On-Policy Context Distillation for Language Models](https://arxiv.org/abs/2602.12275) | 2026 |
+| 🟢 [From Correction to Mastery: Reinforced Distillation of Large Language Model Agents](https://arxiv.org/abs/2509.14257) | 2025 |
+| 🟢 [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) | 2025 |
+| 🟢 [Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes](https://arxiv.org/abs/2305.02301) | 2023 |
 
 ---
 
@@ -193,14 +207,15 @@ On-Policy Distillation
 
 | Paper | Date |
 |-------|:----:|
-| [KEPO: Knowledge-Enhanced Preference Optimization for Reinforcement Learning with Reasoning](https://arxiv.org/abs/2602.00400) | 2026 |
-| [Learning beyond Teacher: Generalized On-Policy Distillation with Reward Extrapolation](https://arxiv.org/abs/2602.12125) | 2026 |
-| [Reinforcement-aware Knowledge Distillation for LLM Reasoning](https://arxiv.org/abs/2602.22495) | 2026 |
-| [RLKD: Distilling LLMs' Reasoning via Reinforcement Learning](https://arxiv.org/abs/2505.16142) | 2025 |
-| [AlignDistil: Token-Level Language Model Alignment as Adaptive Policy Distillation](https://arxiv.org/abs/2503.02832) | 2025 |
-| [KDRL: Post-Training Reasoning LLMs via Unified Knowledge Distillation and Reinforcement Learning](https://arxiv.org/abs/2506.02208) | 2025 |
-| [A Note on Hybrid Online Reinforcement and Imitation Learning for LLMs: Formulations and Algorithms](https://arxiv.org/abs/2512.23097) | 2025 |
-| [VOLD: Reasoning Transfer from LLMs to Vision-Language Models via On-Policy Distillation](https://arxiv.org/abs/2510.23497) | 2025 |
+| 🟡 [Federated Reasoning Distillation Framework with Model Learnability-Aware Data Allocation](https://arxiv.org/abs/2602.18749) | 2026 |
+| 🟢 [KEPO: Knowledge-Enhanced Preference Optimization for Reinforcement Learning with Reasoning](https://arxiv.org/abs/2602.00400) | 2026 |
+| 🟢 [Learning beyond Teacher: Generalized On-Policy Distillation with Reward Extrapolation](https://arxiv.org/abs/2602.12125) | 2026 |
+| 🟢 [Reinforcement-aware Knowledge Distillation for LLM Reasoning](https://arxiv.org/abs/2602.22495) | 2026 |
+| 🟢 [RLKD: Distilling LLMs' Reasoning via Reinforcement Learning](https://arxiv.org/abs/2505.16142) | 2025 |
+| 🟢 [AlignDistil: Token-Level Language Model Alignment as Adaptive Policy Distillation](https://arxiv.org/abs/2503.02832) | 2025 |
+| 🟢 [KDRL: Post-Training Reasoning LLMs via Unified Knowledge Distillation and Reinforcement Learning](https://arxiv.org/abs/2506.02208) | 2025 |
+| 🟢 [A Note on Hybrid Online Reinforcement and Imitation Learning for LLMs: Formulations and Algorithms](https://arxiv.org/abs/2512.23097) | 2025 |
+| 🟢 [VOLD: Reasoning Transfer from LLMs to Vision-Language Models via On-Policy Distillation](https://arxiv.org/abs/2510.23497) | 2025 |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -210,16 +225,17 @@ On-Policy Distillation
 
 | Paper | Date |
 |-------|:----:|
-| [Nemotron-Cascade 2: Post-Training LLMs with Cascade RL and Multi-Domain On-Policy Distillation](https://arxiv.org/abs/2603.19220) | 2026 |
-| [MiMo-V2-Flash Technical Report](https://arxiv.org/abs/2601.02780) | 2026 |
-| [OVD: On-policy Verbal Distillation](https://arxiv.org/abs/2601.21968) | 2026 |
-| [Video-OPD: Efficient Post-Training of Multimodal Large Language Models for Temporal Video Grounding via On-Policy Distillation](https://arxiv.org/abs/2602.02994) | 2026 |
-| [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) | 2025 |
-| [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) | 2025 |
-| [Retaining by Doing: The Role of On-Policy Data in Mitigating Forgetting](https://arxiv.org/abs/2510.18874) | 2025 |
-| [Distillation Scaling Laws](https://arxiv.org/abs/2502.08606) | 2025 |
-| [Why Knowledge Distillation Works in Generative Models: A Minimal Working Explanation](https://arxiv.org/abs/2505.13111) | 2025 |
-| [Speculative Knowledge Distillation: Bridging the Teacher-Student Gap Through Interleaved Sampling](https://arxiv.org/abs/2410.11325) | 2024 |
+| 🟡 [VLA-OPD: Bridging Offline SFT and Online RL for Vision-Language-Action Models via On-Policy Distillation](https://arxiv.org/abs/2603.26666) | 2026 |
+| 🟢 [Nemotron-Cascade 2: Post-Training LLMs with Cascade RL and Multi-Domain On-Policy Distillation](https://arxiv.org/abs/2603.19220) | 2026 |
+| 🟢 [MiMo-V2-Flash Technical Report](https://arxiv.org/abs/2601.02780) | 2026 |
+| 🟢 [OVD: On-policy Verbal Distillation](https://arxiv.org/abs/2601.21968) | 2026 |
+| 🟢 [Video-OPD: Efficient Post-Training of Multimodal Large Language Models for Temporal Video Grounding via On-Policy Distillation](https://arxiv.org/abs/2602.02994) | 2026 |
+| 🟢 [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) | 2025 |
+| 🟢 [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) | 2025 |
+| 🟢 [Retaining by Doing: The Role of On-Policy Data in Mitigating Forgetting](https://arxiv.org/abs/2510.18874) | 2025 |
+| 🟢 [Distillation Scaling Laws](https://arxiv.org/abs/2502.08606) | 2025 |
+| 🟢 [Why Knowledge Distillation Works in Generative Models: A Minimal Working Explanation](https://arxiv.org/abs/2505.13111) | 2025 |
+| 🟢 [Speculative Knowledge Distillation: Bridging the Teacher-Student Gap Through Interleaved Sampling](https://arxiv.org/abs/2410.11325) | 2024 |
 
 ---
 
@@ -227,10 +243,10 @@ On-Policy Distillation
 
 | Paper | Date |
 |-------|:----:|
-| [Revisiting On-Policy Distillation: Empirical Failure Modes and Simple Fixes](https://arxiv.org/abs/2603.25562) | 2026 |
-| [Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?](https://arxiv.org/abs/2504.13837) | 2025 |
-| [Towards Cross-Tokenizer Distillation: the Universal Logit Distillation Loss for LLMs](https://arxiv.org/abs/2402.12030) | 2025 |
-| [A Survey on Knowledge Distillation of Large Language Models](https://arxiv.org/abs/2402.13116) | 2024 |
+| 🟢 [Revisiting On-Policy Distillation: Empirical Failure Modes and Simple Fixes](https://arxiv.org/abs/2603.25562) | 2026 |
+| 🟢 [Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?](https://arxiv.org/abs/2504.13837) | 2025 |
+| 🟢 [Towards Cross-Tokenizer Distillation: the Universal Logit Distillation Loss for LLMs](https://arxiv.org/abs/2402.12030) | 2025 |
+| 🟢 [A Survey on Knowledge Distillation of Large Language Models](https://arxiv.org/abs/2402.13116) | 2024 |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -240,15 +256,15 @@ On-Policy Distillation
 
 | Paper | Date |
 |-------|:----:|
-| [DistillSpec: Improving Speculative Decoding via Knowledge Distillation](https://arxiv.org/abs/2310.08461) | 2023 |
-| [Delta Knowledge Distillation for Large Language Models](https://arxiv.org/abs/2509.14526) | 2025 |
-| [Distillation of Large Language Models via Concrete Score Matching](https://arxiv.org/abs/2509.25837) | 2025 |
-| [ORPO-Distill: Mixed-Policy Preference Optimization for Cross-Architecture LLM Distillation](https://arxiv.org/abs/2509.25100) | 2025 |
-| [TAID: Temporally Adaptive Interpolated Distillation for Efficient Knowledge Transfer in Language Models](https://arxiv.org/abs/2501.16937) | 2025 |
-| [MiniPLM: Knowledge Distillation for Pre-Training Language Models](https://arxiv.org/abs/2410.17215) | 2024 |
-| [PromptKD: Distilling Student-Friendly Knowledge for Generative Language Models via Prompt Tuning](https://arxiv.org/abs/2402.12842) | 2024 |
-| [Compact Language Models via Pruning and Knowledge Distillation](https://arxiv.org/abs/2407.14679) | 2024 |
-| [Gemma 2: Improving Open Language Models at a Practical Size](https://arxiv.org/abs/2408.00118) | 2024 |
+| 🟢 [DistillSpec: Improving Speculative Decoding via Knowledge Distillation](https://arxiv.org/abs/2310.08461) | 2023 |
+| 🟢 [Delta Knowledge Distillation for Large Language Models](https://arxiv.org/abs/2509.14526) | 2025 |
+| 🟢 [Distillation of Large Language Models via Concrete Score Matching](https://arxiv.org/abs/2509.25837) | 2025 |
+| 🟢 [ORPO-Distill: Mixed-Policy Preference Optimization for Cross-Architecture LLM Distillation](https://arxiv.org/abs/2509.25100) | 2025 |
+| 🟢 [TAID: Temporally Adaptive Interpolated Distillation for Efficient Knowledge Transfer in Language Models](https://arxiv.org/abs/2501.16937) | 2025 |
+| 🟢 [MiniPLM: Knowledge Distillation for Pre-Training Language Models](https://arxiv.org/abs/2410.17215) | 2024 |
+| 🟢 [PromptKD: Distilling Student-Friendly Knowledge for Generative Language Models via Prompt Tuning](https://arxiv.org/abs/2402.12842) | 2024 |
+| 🟢 [Compact Language Models via Pruning and Knowledge Distillation](https://arxiv.org/abs/2407.14679) | 2024 |
+| 🟢 [Gemma 2: Improving Open Language Models at a Practical Size](https://arxiv.org/abs/2408.00118) | 2024 |
 
 ---
 
