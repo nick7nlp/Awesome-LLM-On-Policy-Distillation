@@ -171,6 +171,7 @@ On-Policy Distillation
 
 | Paper | Date |
 |-------|:----:|
+| 🟡 [Self-Distilled RLVR](https://arxiv.org/abs/2604.03128) | 2026 |
 | 🟢 [Self-Distilled Reasoner: On-Policy Self-Distillation for Large Language Models](https://arxiv.org/abs/2601.18734) | 2026 |
 | 🟡 [OpenClaw-RL: Train Any Agent Simply by Talking](https://arxiv.org/abs/2603.10165) | 2026 |
 | 🟢 [On-Policy Self-Distillation for Reasoning Compression](https://arxiv.org/abs/2603.05433) | 2026 |
