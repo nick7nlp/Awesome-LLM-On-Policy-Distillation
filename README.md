@@ -107,7 +107,7 @@ On-Policy Distillation
 
 | Paper | Date |
 |-------|:----:|
-| 🟡 [Differentially Private On-Policy Distillation for Language Models (DP-OPD)](https://arxiv.org/abs/2604.04461) | 2026 |
+| 🟡 [Differentially Private On-Policy Distillation for Language Models](https://arxiv.org/abs/2604.04461) | 2026 |
 | 🟢 [Entropy-Aware On-Policy Distillation of Language Models](https://arxiv.org/abs/2603.07079) | 2026 |
 | 🟡 [VLA-OPD: Bridging Offline SFT and Online RL for Vision-Language-Action Models via On-Policy Distillation](https://arxiv.org/abs/2603.26666) | 2026 |
 | 🟢 [PACED: Distillation and Self-Distillation at the Frontier of Student Competence](https://arxiv.org/abs/2603.11178) | 2026 |
