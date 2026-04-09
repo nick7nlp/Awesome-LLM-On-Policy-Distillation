@@ -227,10 +227,10 @@ On-Policy Distillation
 
 | Paper | Date | Resources |
 |-------|:----:|:---:|
-| 🟢 [Nemotron-Cascade 2: Post-Training LLMs with Cascade RL and Multi-Domain On-Policy Distillation](https://arxiv.org/abs/2603.19220) | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/NVIDIA-NeMo/Gym) |
+| 🟢 [Nemotron-Cascade 2: Post-Training LLMs with Cascade RL and Multi-Domain On-Policy Distillation](https://arxiv.org/abs/2603.19220) | 2026 |  |
 | 🟡 [KAT-Coder-V2 Technical Report](https://arxiv.org/abs/2603.27703) | 2026 |  |
 | 🟡 [KDFlow: A User-Friendly and Efficient Knowledge Distillation Framework for Large Language Models](https://arxiv.org/abs/2603.01875) | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/songmzhang/KDFlow) |
-| 🟢 [MiMo-V2-Flash Technical Report](https://arxiv.org/abs/2601.02780) | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/XiaomiMiMo/MiMo-V2-Flash) [![Model](https://img.shields.io/badge/Model-🤗-yellow)](https://huggingface.co/XiaomiMiMo/MiMo-7B-RL) |
+| 🟢 [MiMo-V2-Flash Technical Report](https://arxiv.org/abs/2601.02780) | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/XiaomiMiMo/MiMo-V2-Flash) [![Model](https://img.shields.io/badge/Model-🤗-yellow)](https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash) |
 | 🟢 [OVD: On-policy Verbal Distillation](https://arxiv.org/abs/2601.21968) | 2026 |  |
 | 🟢 [Video-OPD: Efficient Post-Training of Multimodal Large Language Models for Temporal Video Grounding via On-Policy Distillation](https://arxiv.org/abs/2602.02994) | 2026 |  |
 | 🟢 [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) | 2025 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/deepseek-ai/DeepSeek-R1) [![Model](https://img.shields.io/badge/Model-🤗-yellow)](https://huggingface.co/deepseek-ai/DeepSeek-R1) |
