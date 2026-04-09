@@ -197,6 +197,8 @@ On-Policy Distillation
 
 ## 🧠 Reasoning Distillation
 
+> Distilling chain-of-thought and step-by-step reasoning capabilities from stronger to weaker models.
+
 | Paper | Date | Resources |
 |-------|:----:|:---:|
 | 🟢 [On-Policy Context Distillation for Language Models](https://arxiv.org/abs/2602.12275) | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/ZijunSong/On-Policy-Context-Distillation) |
@@ -207,6 +209,8 @@ On-Policy Distillation
 ---
 
 ## 🎯 Reward-Guided On-Policy Distillation
+
+> Combining on-policy generation with reward models or RL objectives to guide distillation.
 
 | Paper | Date | Resources |
 |-------|:----:|:---:|
@@ -224,6 +228,8 @@ On-Policy Distillation
 ---
 
 ## 🏭 Industrial Systems & Scaling
+
+> Large-scale deployments and system-level applications of on-policy distillation.
 
 | Paper | Date | Resources |
 |-------|:----:|:---:|
@@ -244,6 +250,8 @@ On-Policy Distillation
 
 ## 📊 Evaluation & Analysis
 
+> Empirical studies, theoretical analysis, and benchmarks for understanding distillation.
+
 | Paper | Date | Resources |
 |-------|:----:|:---:|
 | 🟢 [Revisiting On-Policy Distillation: Empirical Failure Modes and Simple Fixes](https://arxiv.org/abs/2603.25562) | 2026 |  |
@@ -256,6 +264,8 @@ On-Policy Distillation
 ---
 
 ## 🔗 Related Topics
+
+> Off-policy, cross-tokenizer, speculative decoding, and other related distillation methods.
 
 | Paper | Date | Resources |
 |-------|:----:|:---:|
