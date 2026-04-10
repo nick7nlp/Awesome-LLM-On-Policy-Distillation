@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-93-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-95-blue" alt="Papers">
   <img src="https://img.shields.io/badge/Last%20Updated-April%202026-green" alt="Last Updated">
 </p>
 
@@ -107,6 +107,8 @@ On-Policy Distillation
 
 | Paper | Date | Resources |
 |-------|:----:|:---:|
+| 🟡 [Stable-OPD: Length Inflation and Stabilization Strategies for Large Language Models](https://arxiv.org/abs/2604.08527) | 2026 |  |
+| 🟡 [On-Policy Distillation of Language Models for Autonomous Vehicle Motion Planning](https://arxiv.org/abs/2604.07944) | 2026 |  |
 | 🟡 [DP-OPD: Differentially Private On-Policy Distillation for Language Models](https://arxiv.org/abs/2604.04461) | 2026 |  |
 | 🟡 [VLA-OPD: Bridging Offline SFT and Online RL for Vision-Language-Action Models via On-Policy Distillation](https://arxiv.org/abs/2603.26666) | 2026 |  |
 | 🟢 [Explain in Your Own Words: Improving Reasoning via Token-Selective Dual Knowledge Distillation](https://arxiv.org/abs/2603.13260) | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/kmswin1/TSD-KD) |
