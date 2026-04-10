@@ -108,6 +108,7 @@ On-Policy Distillation
 | Paper | Date | Resources |
 |-------|:----:|:---:|
 | 🟡 [Stable-OPD: Length Inflation and Stabilization Strategies for Large Language Models](https://arxiv.org/abs/2604.08527) | 2026 |  |
+| 🟡 [HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents](https://arxiv.org/abs/2604.07430) | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/Tencent-Hunyuan/HY-Embodied) |
 | 🟡 [On-Policy Distillation of Language Models for Autonomous Vehicle Motion Planning](https://arxiv.org/abs/2604.07944) | 2026 |  |
 | 🟡 [DP-OPD: Differentially Private On-Policy Distillation for Language Models](https://arxiv.org/abs/2604.04461) | 2026 |  |
 | 🟡 [VLA-OPD: Bridging Offline SFT and Online RL for Vision-Language-Action Models via On-Policy Distillation](https://arxiv.org/abs/2603.26666) | 2026 |  |
@@ -235,6 +236,7 @@ On-Policy Distillation
 
 | Paper | Date | Resources |
 |-------|:----:|:---:|
+| 🟡 [HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents](https://arxiv.org/abs/2604.07430) | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/Tencent-Hunyuan/HY-Embodied) |
 | 🟡 [KAT-Coder-V2 Technical Report](https://arxiv.org/abs/2603.27703) | 2026 |  |
 | 🟢 [Nemotron-Cascade 2: Post-Training LLMs with Cascade RL and Multi-Domain On-Policy Distillation](https://arxiv.org/abs/2603.19220) | 2026 |  |
 | 🟡 [KDFlow: A User-Friendly and Efficient Knowledge Distillation Framework for Large Language Models](https://arxiv.org/abs/2603.01875) | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/songmzhang/KDFlow) |
