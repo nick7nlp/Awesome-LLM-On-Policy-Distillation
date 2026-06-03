@@ -34,11 +34,11 @@
 * **2026.05**: 🚀 Survey **V3** released, expanded to 62+ pages with the new §3 *Method Landscape & Selection* chapter and §7.4 *On-Policy vs Off-Policy Decision Framework*. Read on [arXiv](https://arxiv.org/abs/2604.00626).
 * **2026.04**: 📝 Initial release of the survey on [arXiv](https://arxiv.org/abs/2604.00626) with the first systematic taxonomy of OPD methods covering objective design, signal source, and training stabilization.
 
+## 🤔 Why On-Policy? — The Core Problem
+
 <p align="center">
   <img src="assets/opd-overview.png" alt="On-Policy Distillation: Teacher-Student Loop" width="640">
 </p>
-
-## 🤔 Why On-Policy? — The Core Problem
 
 Traditional off-policy distillation (e.g., SFT on teacher demonstrations) suffers from **exposure bias** and **train-test mismatch**: the student learns to predict the next token given perfect teacher prefixes, but during inference, it must condition on its own flawed generations. Errors compound rapidly.
 
