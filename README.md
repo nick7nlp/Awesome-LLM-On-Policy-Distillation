@@ -793,23 +793,6 @@ On-Policy Distillation (Survey V3 Structure)
 | Post | Author / Org | Year | Why Read It |
 |------|-------------|:---:|---|
 | [**On-Policy Distillation**](https://www.thinkingmachines.ai/blog/on-policy-distillation/) ([cited in §4](https://arxiv.org/abs/2604.00626)) | Kevin Lu / [Thinking Machines Lab](https://thinkingmachines.ai/) | 2025 | The most accessible OPD explainer written to date. Proposes per-token reverse KL using RL infrastructure (one-line change from KL-regularized RL), publishes a reference implementation in the [Tinker cookbook](https://github.com/thinking-machines-lab/tinker-cookbook), and matches Qwen3's RL result at a fraction of the GPU hours. Popularized the *"grandmaster grades each of your moves"* chess analogy that now anchors every OPD intro talk. |
-| 🟡 [Are Full Rollouts Necessary for On-Policy Distillation?](https://arxiv.org/abs/2605.31490) | §6.3 | Core contribution is a compute-efficiency technique (horizon control) for on-policy distillation, fa |
-| 🟡 [Your Teacher Can't Help You Here: Combating Supervision Fidelity Decay in On-Policy Distillation](https://arxiv.org/abs/2605.30833) | §4.2 | Core contribution is an adaptive supervision signal (lookahead confidence reward) that addresses deg |
-| 🟡 [Same Evidence, Different Answers: Canonical-Context On-Policy Distillation for Multi-Turn Language Models](https://arxiv.org/abs/2605.30251) | §5.3.2 | Core contribution is self-distillation where the same backbone serves as both frozen FULL-context te |
-| 🟡 [RAFT: Data Refinement and Adaptive Distillation for Domain Fine-Tuning with Alleviated Forgetting](https://arxiv.org/abs/2606.00147) | §4.2 | The core contribution is an adaptive on-policy distillation objective with answer-conditioned teache |
-| 🟡 [Bridging Reasoning Trajectories in On-Policy Distillation via Near-Future Guidance](https://arxiv.org/abs/2606.00305) | §4.1 | Core contribution is a new trajectory-aware objective (OT-based loss) that augments the standard rev |
-| 🟡 [Decomposed On-Policy Distillation for Vision-Language Reasoning: Steering Gradients for Visual Grounding](https://arxiv.org/abs/2606.00564) | §4.1 | The core contribution is a new decomposed loss formulation for on-policy distillation that separates |
-| 🟡 [OPD+: Rethinking the Advantage Design for On-Policy Distillation](https://arxiv.org/abs/2606.01039) | §4.1 | Core contribution is a new corrected objective/divergence formulation for on-policy distillation, de |
-| 🟡 [Trust Region On-Policy Distillation](https://arxiv.org/abs/2606.01249) | §4.2 | Core contribution is an adaptive trust-region divergence objective that selectively applies RKL in r |
-| 🟡 [OmniOPD: Logit-Free On-Policy Distillation via Speculative Verification](https://arxiv.org/abs/2606.01476) | §5.2 | Core contribution is enabling on-policy distillation from black-box teachers without logit access, u |
-| 🟡 [COMAP: Co-Evolving World Models and Agent Policies for LLM Agents](https://arxiv.org/abs/2606.02372) | §5.3.2 | The core contribution is on-policy self-distillation of the world model using the student's own roll |
-| 🟡 [SafeSteer: Localized On-Policy Distillation for Efficient Safety Alignment](https://arxiv.org/abs/2606.02530) | §6.1 | Core contribution is token-level weighting (restricting KL to safety tokens) within on-policy distil |
-| 🟡 [Weak Critics Make Strong Learners: On-Policy Critique Distillation for Scalable Oversight](https://arxiv.org/abs/2606.00424) | §5.3.1 | Core contribution is on-policy self-distillation where the teacher is the same strong model conditio |
-| 🟡 [Trust-Region Behavior Blending for On-Policy Distillation](https://arxiv.org/abs/2605.31159) | §6.2 | Core contribution is a curriculum/warmup technique (annealed trust-region behavior blending) that im |
-| 🟡 [Trust-Region Adaptive Policy Optimization](https://arxiv.org/abs/2512.17636) | §4.1 | Core contribution is a new trust-region objective (TrSFT) that modifies forward KL for stable on-pol |
-| 🟡 [Lion: Adversarial Distillation of Proprietary Large Language Models](https://arxiv.org/abs/2305.12870) | §6.2 | The core contribution is an adversarial curriculum that iteratively identifies hard instructions bas |
-| 🟡 [Lightning OPD: Efficient Post-Training for Large Reasoning Models with Offline On-Policy Distillation](https://arxiv.org/abs/2604.13010) | §6.3 | Core contribution is making OPD computationally efficient by eliminating live teacher server through |
-| 🟡 [SuperCorrect: Advancing Small LLM Reasoning with Thought Template Distillation and Self-Correction](https://arxiv.org/abs/2410.09008) | §5.1 | Core contribution is distilling teacher correction traces into student via DPO on student-generated  |
 
 ## ❓ FAQ
 
