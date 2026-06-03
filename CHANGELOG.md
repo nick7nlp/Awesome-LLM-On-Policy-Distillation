@@ -2,6 +2,18 @@
 
 All notable additions to this collection are documented here.
 
+## [2026-06-03]
+### Added
+- **TRB** (2605.31159) — *Trust-Region Behavior Blending for On-Policy Distillation* — added to §6.2 (Training Efficiency and Stabilization, curriculum/warmup) and Pending Papers. Trust-region warmup curriculum: behavior policy under student-centered KL constraint stabilizes early-stage OPD; standard reverse-KL distill loss unchanged. Pairs: Qwen3-1.7B-Base ← Qwen3-8B / Qwen3-0.6B-Base ← Qwen3-4B. Surfaced via community PR (#2 by @Myashka, closed in favour of in-pipeline insertion with corrected pair direction and base-variant tags).
+- **TRAPO** (2512.17636) — *Trust-Region Adaptive Policy Optimization* — added to §4.1 (Objective Functions, Forward-KL family) and Pending Papers. TrSFT: dynamic trust-region forward-KL on expert prefixes, interleaved with RL on student completions; adaptive prefix selection by utility. Pairs: Qwen2.5-Math-7B / Qwen2.5-7B-Instruct ← DeepSeek-R1.
+- Paper count badge: 188 → 190.
+
+### Removed
+- 14 papers reclassified out of scope after audit found `is_opd=yes` but `student_rollout_in_training=no` (v3 reasoning text contradicted the tag, all are offline KD or pure self-distillation without rollout): Lion (2305.12870, ⭐ HoF), AKL (2404.02657, ⭐ HoF), MiniPLM (2410.17215), TAID (2501.16937), SuperCorrect (2410.09008), ToDi (2505.16297), AdaKD (2510.11615), Delta-KD (2509.14526), Cross-Tokenizer Distillation (2402.12030), Lightning OPD (2604.13010), Self-Distilled Trajectory-Aware Boltzmann (2605.11854), Embarrassingly Simple Self-Distillation (2604.01193), SSB (2512.05105), Didactic-to-Constructive (2602.02405). Per scope rule (Awesome list = OPD methods + analysis-of-OPD only); these remain referenced in the survey LaTeX as background.
+
+### Changed
+- Model-pair fields corrected for 9 papers where v3 deep-read pairs disagreed with prior README entries (AOPD 2605.06387 / TGPO 2605.13230 / Long-Context OPD 2605.12227 / Best-of-N Teacher 2605.09725 / CoPD 2604.27083 / Speculative-KD 2410.11325 / TCOD 2604.24005 / VLA-OPD 2603.26666 / DAgger 2605.12913).
+
 ## [2026-05-30]
 ### Added
 - **SOD** (2605.07725) added to Hall of Fame **🚀 Frontier (2025–2026)** subsection alongside OPSD / AlignDistil / Rethinking-OPD / SCOPE / SDZero. Step-level divergence reweighting for tool-integrated reasoning agents, surfacing the step-granularity unit that sits between token-level (TIP / SCOPE) and trajectory-level (TCOD) weighting.
