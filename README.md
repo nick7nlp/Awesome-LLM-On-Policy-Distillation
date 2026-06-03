@@ -31,7 +31,7 @@
 ## 🔥 News
 
 * **2026.06.02**: 🎉🎉🎉 We launched **[OPDHub](https://nick7nlp.github.io/OPDHub/)**, a companion website with a searchable paper atlas, one-click filters across section / loss class / year, and a copy-ready BibTeX block. Browse the literature at [nick7nlp.github.io/OPDHub](https://nick7nlp.github.io/OPDHub/).
-* **2026.05.18**: 🚀 Survey **V3** released, adding the §3 *Method Landscape & Selection* chapter and §7.4 *On-Policy vs Off-Policy Decision Framework*. Read on [arXiv](https://arxiv.org/abs/2604.00626).
+* **2026.05.18**: 🚀 Survey **V3** released, adding the §3 *Landscape and Method Selection* chapter and §7.4 *On-Policy vs Off-Policy Decision Framework*. Read on [arXiv](https://arxiv.org/abs/2604.00626).
 * **2026.05.12**: 🛠️ Survey **V2** released, adding the Hall of Fame, recommended reading orders by background, the Mermaid evolution timeline and taxonomy mindmap. Read on [arXiv](https://arxiv.org/abs/2604.00626).
 * **2026.05.08**: 📄 [SOD](https://arxiv.org/abs/2605.07725) introduces step-wise on-policy distillation for agentic tasks, attenuating teacher signal at high-divergence steps to curb error cascades in tool-integrated reasoning. [SimCT](https://arxiv.org/abs/2605.07711) recovers supervision lost at vocabulary boundaries through multi-token continuation units, enabling cross-tokenizer OPD. [ROPD](https://arxiv.org/abs/2605.07396) replaces teacher logits with structured semantic rubrics, achieving 10× sample efficiency on instruction-following benchmarks.
 * **2026.04.02**: 📄 [SRPO](https://arxiv.org/abs/2604.02288) unifies group-relative policy optimization and self-distillation via per-sample routing, directing each rollout to either RL or OPD objective based on teacher agreement.
@@ -155,7 +155,7 @@ With the rise of reasoning models (System 2 thinking) in 2024–2026, long chain
 
 ### 💡 Choosing a Method
 
-For a top-down four-factor selection guide (teacher access, task characteristics, compute budget, stability requirements), see **§3.4 *Method Selection Considerations*** of the [survey paper](https://arxiv.org/abs/2604.00626).
+For a top-down four-factor selection guide (teacher access, task characteristics, compute budget, stability requirements), see **§3.3 *Method Selection Considerations*** of the [survey paper](https://arxiv.org/abs/2604.00626).
 
 
 ## 🔥 Trends & Highlights (2025–2026)
@@ -223,8 +223,8 @@ gantt
 | Version      |    Date    | Key Changes                                                            |
 |:------------:|:----------:|------------------------------------------------------------------------|
 | V1           | 2026-04-01 | Initial arXiv release with the first systematic OPD taxonomy.          |
-| V2           | 2026-05-09 | Coverage expansion; new §6 *Training Efficiency* and §8.2 *Emerging Domains*. |
-| V3 (current) | 2026-05-23 | New §3 *Method Landscape & Selection* and §7.4 *On-Policy vs Off-Policy*. |
+| V2           | 2026-05-12 | Coverage expansion; new §6 *Training Efficiency* and §8.2 *Emerging Domains*. |
+| V3 (current) | 2026-05-18 | New §3 *Landscape and Method Selection* and §7.4 *On-Policy vs Off-Policy*. |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -357,7 +357,12 @@ On-Policy Distillation (Survey V3 Structure)
 │                 (SDPO, SD-ZERO, SRPO, RLTF, RLSD, CoPD, CREDIT, OGLS-SD, π-Play, PAINT, Semantic Soft Bootstrapping)
 │
 ├── §6 Training Efficiency & Stabilization
-│         (token / sample weighting, curriculum, stability, compute-optimal OPD, EffOPD, Prune-OPD, EGRSD, MOPD, GEAR)
+│   ├── §6.1 Token and Sample Weighting
+│   │         (TIP, SCOPE, SelecTKD, AdaSwitch, SOD, MOPD, GEAR, EGRSD)
+│   ├── §6.2 Curriculum and Difficulty Adaptation
+│   │         (PACED, Uni-OPD, TCOD, Stable-OPD, Trust-Region Behavior Blending, off-policy cold start)
+│   └── §6.3 Compute Optimization
+│             (NPD, Prune-OPD, FOPD, Lightning-OPD, SKD, R-OPD, EffOPD)
 │
 ├── §7 Understanding OPD
 │         (theory, success conditions, failure modes, calibration)
@@ -579,7 +584,7 @@ On-Policy Distillation (Survey V3 Structure)
 
 ## ⚙️ §6 Training Efficiency and Stabilization
 
-> 📦 Methods targeting the training process itself: token/sample reweighting, curriculum scheduling, stability fixes, and compute-optimal OPD recipes.
+> 📦 Methods targeting the training process itself: token/sample weighting, curriculum and difficulty adaptation, and compute-optimal OPD recipes.
 
 | Paper | Date | Resources |
 |-------|:----:|:---:|
