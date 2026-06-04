@@ -167,51 +167,6 @@ For a top-down four-factor selection guide (teacher access, task characteristics
 5. 🏭 **Industrial Adoption**: The latest frontier models (DeepSeek-V4, Qwen3, Nemotron, Gemma-2, and MiMo) have fully integrated OPD into their post-training pipelines.
 6. ⚠️ **Diversity Collapse**: A critical finding from SCOPE shows that while OPD drastically improves Pass@1, it severely harms Pass@k due to diversity collapse, prompting new hybrid objective designs.
 
-### ⏳ Evolution Timeline
-
-<p align="center">
-  <img src="assets/evolution-timeline.png" alt="Evolution Timeline of On-Policy Distillation (2015 - 2026)" width="900">
-</p>
-
-<details>
-<summary>📊 <b>Interactive Mermaid Timeline (click to expand)</b></summary>
-
-```mermaid
-gantt
-    title On-Policy Distillation: Key Milestones (2015–2026)
-    dateFormat  YYYY-MM
-    axisFormat  %Y
-
-    section Foundations
-    Hinton KD (off-policy baseline)        :done, 2015-03, 2015-06
-    Seq-KD (Kim & Rush)                    :done, 2016-06, 2016-09
-
-    section On-Policy Genesis
-    GKD (Agarwal et al.)                   :done, 2023-06, 2023-09
-    MiniLLM (Gu et al.)                    :done, 2023-06, 2023-09
-    f-Divergence KD                        :done, 2023-07, 2023-10
-    Lion (adversarial OPD)                 :done, 2023-05, 2023-08
-
-    section Adaptive Era
-    SPIN (self-play)                       :done, 2024-01, 2024-04
-    DistiLLM (skew-KL)                     :done, 2024-02, 2024-05
-    AKL (adaptive divergence)              :done, 2024-04, 2024-07
-    Speculative KD                         :done, 2024-10, 2025-01
-
-    section Self-Distillation Boom
-    OPSD (privileged info)                 :done, 2026-01, 2026-04
-    AlignDistil (RLHF bridge)              :done, 2025-03, 2025-06
-    SCOPE (diversity collapse fix)         :active, 2026-04, 2026-07
-    SDZero (binary→dense)                  :active, 2026-04, 2026-07
-    Rethinking OPD (field guide)           :active, 2026-04, 2026-07
-
-    section Industrial Adoption
-    DeepSeek-V4 (multi-domain OPD)         :active, 2026-05, 2026-08
-    Qwen3 / Gemma-2 / MiMo                :active, 2026-01, 2026-06
-```
-
-</details>
-
 ---
 
 ## 📋 Survey Version History
