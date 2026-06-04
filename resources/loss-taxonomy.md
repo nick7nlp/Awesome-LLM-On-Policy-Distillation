@@ -6,6 +6,8 @@ Each of the **157** OPD papers in this collection is assigned exactly one of sev
 
 ![Loss Distribution](../assets/loss-distribution.png)
 
+> **Chart scope.** The distribution chart shows only the **132 white-box (KL-family) papers** (FKL / RKL / Symmetric / f-Divergence / KL+RL); the 25 black-box / bespoke methods (Preference, Other) are omitted because their loss form is constrained by teacher access (preference / reward / discriminator / NLL-on-samples) rather than chosen as a divergence design. Per-paper assignments below cover all 157 classified papers regardless of class.
+
 ## Class definitions (compact)
 
 ### FKL — Forward KL  ·  **33** papers (21.0%)
