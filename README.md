@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-169-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-170-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V3-orange" alt="Survey V3">
 </p>
@@ -489,6 +489,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [Rubric-based On-policy Distillation](https://arxiv.org/abs/2605.07396) <br><sub>📐 GPT-5.2 / Qwen3-30B-A3B → Qwen3-4B / Gemma3-4B; structured semantic rubrics replace teacher logits; 10× sample efficiency</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/Peregrine123/ROPD_official) |
 | 🟢 [Black-Box On-Policy Distillation of Large Language Models](https://arxiv.org/abs/2511.10643) <br><sub>📐 Llama-3.1-8B / Qwen2.5-3B–14B → GPT-5-Chat (black-box)</sub> | 2025 |  |
 | 🟡 [OmniOPD: Logit-Free On-Policy Distillation via Speculative Verification](https://arxiv.org/abs/2606.01476) <br><sub>📐 Qwen3-32B → Qwen3-1.7B; Logit-free on-policy distillation using chunk-level Monte Carlo semantic verification from black-box teachers</sub> | 2026 |  |
+| 🟡 [ORPO-Distill: Mixed-Policy Preference Optimization for Cross-Architecture LLM Distillation](https://arxiv.org/abs/2509.25100) <br><sub>📐 TinyLlama-1.1B-Instruct / InternLM2.5-1.8B-Chat → InternLM2.5-7B-Chat; ORPO-Distill: black-box cross-architecture distillation via ORPO (SFT + log-odds margin); teacher CoT y_P sampled K=8 times offline, on-policy student y_N per outer-iter (mixed policy fraction phi)</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -761,6 +762,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Filter, Then Reweight: Rethinking Optimization Granularity in On-Policy Distillation](https://arxiv.org/abs/2606.02684) | §6.1 | Core contribution is a token-level and trajectory-level weighting/filtering scheme for on-policy dis |
 | 🟡 [World Models Meet Language Models: On the Complementarity of Concrete and Abstract Reasoning](https://arxiv.org/abs/2606.03603) | §5.3.1 | The core contribution is on-policy self-distillation using privileged information (ground-truth futu |
 | 🟡 [Preference-Based Self-Distillation: Beyond KL Matching via Reward Regularization](https://arxiv.org/abs/2605.05040) | §5.3.1 | 同基模型（same Qwen3 with context c）作为教师，学生在线采样，无外部 reward/verifier，属于 self 信号来源的在线自蒸馏（§5.3.2）。 |
+| 🟡 [ORPO-Distill: Mixed-Policy Preference Optimization for Cross-Architecture LLM Distillation](https://arxiv.org/abs/2509.25100) | §5.2 | 学生在训练循环内实时滚出轨迹（mixed-policy：ϕ=0.5混合base和最新checkpoint），用GT标签过滤正/负例（PI(GT)），属于有外部教师模型监督的on-policy蒸馏，主s |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
