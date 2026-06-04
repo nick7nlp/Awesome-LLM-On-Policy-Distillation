@@ -185,7 +185,7 @@ For a top-down four-factor selection guide (teacher access, task characteristics
 
 ## 🔍 Teacher–Student Model Atlas
 
-> 🎯 "I have model X — what can I distill, and from whom?" This atlas maps the OPD ecosystem's model choices across 168 papers.
+> 🎯 "I have model X — what can I distill, and from whom?" This atlas maps the OPD ecosystem's model choices across 170 papers (94 unique models, 887 teacher–student pairs).
 
 <p align="center">
   <img src="assets/model-atlas-heatmap.png" alt="Teacher × Student Pair Matrix: Y-axis = teacher models, X-axis = student models, grouped by family. ①-⑤ marks frequency rank." width="960">
@@ -195,11 +195,11 @@ For a top-down four-factor selection guide (teacher access, task characteristics
 
 ### 💡 Key Takeaways
 
-- 👑 **Qwen3-8B is king** — most used teacher (119 pairs) and #2 student (90 pairs)
-- 💪 **Self-distillation dominates** — 325 pairs (40%) use the model as its own teacher
-- 🎯 **Student sweet spot = 1.7B–8B** — Qwen3-4B (101), Qwen3-8B (90), Qwen3-1.7B (85)
-- 🏭 **Teacher sweet spot = 4B–32B** — Qwen3-8B (119), Qwen3-4B (88), Qwen2.5-7B (26)
-- 🌍 **Qwen-family hegemony** — appears in 73% of teacher-student pairs (Qwen3 alone: 52%)
+- 👑 **Qwen3-8B is king** — most used teacher (119 pairs) and #2 student (94 pairs)
+- 💪 **Self-distillation dominates** — 341 pairs (38%) use the model as its own teacher
+- 🎯 **Student sweet spot = 1.7B–8B** — Qwen3-4B (116), Qwen3-8B (94), Qwen3-1.7B (86)
+- 🏭 **Teacher sweet spot = 4B–30B** — Qwen3-8B (119), Qwen3-4B (93), Qwen3-30B (36)
+- 🌍 **Qwen-family hegemony** — appears in 71% of teacher-student pairs (Qwen3 alone: 51%)
 - 🔄 **Clear cascade** — 235B → 32B → 8B → 4B → 1.7B → 0.6B
 - 📚 **GPT-2 / T5 / Llama** persist as academic benchmarks
 
@@ -214,10 +214,10 @@ For a top-down four-factor selection guide (teacher access, task characteristics
 
 ## 📐 Loss-Objective Distribution
 
-> 🎯 "Which loss does each OPD paper actually train with?" Every paper is assigned exactly one of seven mutually-exclusive loss classes by an LLM auditor that reads its `loss_formulation` (LaTeX) end-to-end. Full per-paper assignments and evidence live in [`resources/loss-taxonomy.md`](resources/loss-taxonomy.md).
+> 🎯 "Which loss does each OPD paper actually train with?" Every paper is assigned exactly one of seven mutually-exclusive loss classes by an LLM auditor that reads its `loss_formulation` (LaTeX) end-to-end. The chart below shows only the five **white-box (KL-family)** classes; black-box / bespoke methods (Preference, Other) are omitted because their loss form is dictated by teacher-access constraints rather than chosen as a divergence design. Full per-paper assignments and evidence live in [`resources/loss-taxonomy.md`](resources/loss-taxonomy.md).
 
 <p align="center">
-  <img src="assets/loss-distribution.png" alt="Loss-objective distribution across 152 OPD-method papers: bar chart of FKL / RKL / Symmetric / f-Divergence / KL+RL / Preference / Other." width="900">
+  <img src="assets/loss-distribution.png" alt="Loss-objective distribution across 132 white-box (KL-family) papers: horizontal bars for FKL / RKL / Symmetric / f-Divergence / KL+RL." width="900">
 </p>
 
 <p align="center">
@@ -568,7 +568,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Are Full Rollouts Necessary for On-Policy Distillation?](https://arxiv.org/abs/2605.31490) <br><sub>📐 JustRL-R1-1.5B → R1-Distill-1.5B; Horizon-control strategies (POPD, TOPD) improve OPD efficiency by truncating rollouts</sub> | 2026 |  |
 | 🟡 [SafeSteer: Localized On-Policy Distillation for Efficient Safety Alignment](https://arxiv.org/abs/2606.02530) <br><sub>📐 Qwen3-4B-Instruct → Self; Localized on-policy distillation confined to safety tokens via activation steering teacher</sub> | 2026 |  |
 | 🟡 [Trust-Region Behavior Blending for On-Policy Distillation](https://arxiv.org/abs/2605.31159) <br><sub>📐 Qwen3-1.7B-Base / Qwen3-0.6B-Base → Qwen3-8B / Qwen3-4B; Trust-region warmup curriculum: behavior policy under student-centered KL constraint stabilizes early-stage OPD; standard reverse-KL distill loss unchanged</sub> | 2026 |  |
-| 🟡 [Lion: Adversarial Distillation of Proprietary Large Language Models](https://arxiv.org/abs/2305.12870) <br><sub>📐 Lion-7B / Lion-13B (LLaMA) → ChatGPT (gpt-3.5-turbo, black-box API); Adversarial black-box distillation: imitation-discrimination-generation loop iteratively identifies hard instructions via student-teacher gap; 黑盒 OPD 早期代表 (HoF-tier)</sub> | 2026 |  |
+| 🟡 [Lion: Adversarial Distillation of Proprietary Large Language Models](https://arxiv.org/abs/2305.12870) <br><sub>📐 Lion-7B / Lion-13B (LLaMA) → ChatGPT (gpt-3.5-turbo, black-box API); Adversarial black-box distillation: imitation-discrimination-generation loop iteratively identifies hard instructions via student-teacher gap; early-era black-box OPD canonical reference (HoF-tier)</sub> | 2026 |  |
 | 🟡 [Lightning OPD: Efficient Post-Training for Large Reasoning Models with Offline On-Policy Distillation](https://arxiv.org/abs/2604.13010) <br><sub>📐 Qwen3-4B-Base / Qwen3-8B-Base → Qwen3-8B / Qwen3-32B / QwQ-32B; Lightning-OPD: offline precomputed teacher logprobs eliminate live teacher server; theoretical equivalence to online OPD under teacher consistency</sub> | 2026 |  |
 | 🟡 [Filter, Then Reweight: Rethinking Optimization Granularity in On-Policy Distillation](https://arxiv.org/abs/2606.02684) <br><sub>📐 Qwen3-4B-Non-Thinking → Qwen3-30B-A3B-Instruct; FiRe-OPD: trajectory filtering by teacher log-prob + soft token reweighting; PPO-clipped weighted loss for OPD</sub> | 2026 |  |
 
@@ -714,10 +714,10 @@ On-Policy Distillation (Survey V3 Structure)
 | [DeltaPrompts: Escaping the Zero-Delta Trap in Multimodal Distillation](https://arxiv.org/abs/2605.15532) | §6.2 | Prompt synthesis for OPD; answer-divergence-guided curriculum (NVIDIA, NeurIPS 2025) |
 | [Trust-Region Behavior Blending for On-Policy Distillation](https://arxiv.org/abs/2605.31159) | §6.2 | Trust-region warmup curriculum; teacher-guided behavior policy under student-centered KL constraint stabilizes early-stage OPD |
 | [Trust-Region Adaptive Policy Optimization](https://arxiv.org/abs/2512.17636) | §4.1 | TrSFT: dynamic trust-region forward-KL on expert prefixes interleaved with RL completions; adaptive prefix selection |
-| 🟡 [Filter, Then Reweight: Rethinking Optimization Granularity in On-Policy Distillation](https://arxiv.org/abs/2606.02684) | §6.1 | Core contribution is a token-level and trajectory-level weighting/filtering scheme for on-policy dis |
-| 🟡 [World Models Meet Language Models: On the Complementarity of Concrete and Abstract Reasoning](https://arxiv.org/abs/2606.03603) | §5.3.1 | The core contribution is on-policy self-distillation using privileged information (ground-truth futu |
-| 🟡 [Preference-Based Self-Distillation: Beyond KL Matching via Reward Regularization](https://arxiv.org/abs/2605.05040) | §5.3.1 | 同基模型（same Qwen3 with context c）作为教师，学生在线采样，无外部 reward/verifier，属于 self 信号来源的在线自蒸馏（§5.3.2）。 |
-| 🟡 [ORPO-Distill: Mixed-Policy Preference Optimization for Cross-Architecture LLM Distillation](https://arxiv.org/abs/2509.25100) | §5.2 | 学生在训练循环内实时滚出轨迹（mixed-policy：ϕ=0.5混合base和最新checkpoint），用GT标签过滤正/负例（PI(GT)），属于有外部教师模型监督的on-policy蒸馏，主s |
+| [Filter, Then Reweight: Rethinking Optimization Granularity in On-Policy Distillation](https://arxiv.org/abs/2606.02684) | §6.1 | FiRe-OPD: trajectory filtering by teacher log-prob + soft token reweighting via PPO-clipped weighted advantage |
+| [World Models Meet Language Models: On the Complementarity of Concrete and Abstract Reasoning](https://arxiv.org/abs/2606.03603) | §5.3.1 | Privileged-info self-distillation: future videos + GT answers as privileged context teach MLLMs when to invoke / verify world-model rollouts |
+| [Preference-Based Self-Distillation: Beyond KL Matching via Reward Regularization](https://arxiv.org/abs/2605.05040) | §5.3.1 | PBSD: black-box OPD via DPO with privileged-context self-teacher y⁺ and on-policy student y⁻; per-step rollouts |
+| [ORPO-Distill: Mixed-Policy Preference Optimization for Cross-Architecture LLM Distillation](https://arxiv.org/abs/2509.25100) | §5.2 | ORPO-Distill: black-box cross-architecture OPD via SFT + log-odds margin; teacher CoT y_P offline, student y_N per outer-iter (mixed policy φ) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
