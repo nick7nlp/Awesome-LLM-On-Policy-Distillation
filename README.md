@@ -30,7 +30,7 @@
 
 ## 🔥 News
 
-* **2026.06.02**: 🎉🎉🎉 We launched **[OPDHub](https://nick7nlp.github.io/OPDHub/)**, a companion website with a searchable paper atlas, one-click filters across section / loss class / year, and a copy-ready BibTeX block. Browse the literature at [nick7nlp.github.io/OPDHub](https://nick7nlp.github.io/OPDHub/).
+* **2026.06.02**: 🌐 [OPDHub](https://nick7nlp.github.io/OPDHub/) launched, a companion site with a searchable paper atlas, filters by section / loss class / year, and a copy-ready BibTeX block.
 * **2026.05.18**: 🚀 Survey **V3** released, adding the §3 *Landscape and Method Selection* chapter and §7.4 *On-Policy vs Off-Policy Decision Framework*. Read on [arXiv](https://arxiv.org/abs/2604.00626).
 * **2026.05.12**: 🛠️ Survey **V2** released, adding the Hall of Fame, recommended reading orders by background, the Mermaid evolution timeline and taxonomy mindmap. Read on [arXiv](https://arxiv.org/abs/2604.00626).
 * **2026.04.01**: 📝 Initial release of the survey on [arXiv](https://arxiv.org/abs/2604.00626) with the first systematic taxonomy of OPD methods covering objective design, signal source, and training stabilization.
