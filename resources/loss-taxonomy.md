@@ -2,25 +2,25 @@
 
 _Last updated: 2026-06-04. Auto-generated from `data/loss_classification.json`. Re-run `scripts/generate_loss_taxonomy.py` to refresh._
 
-Each of the **155** OPD papers in this collection is assigned exactly one of seven mutually-exclusive loss classes. Classification is performed by an LLM auditor that reads each paper's `loss_formulation` (LaTeX), training-loop description, and key components, then picks the dominant objective per the rules in `data/loss_taxonomy_schema.json`.
+Each of the **157** OPD papers in this collection is assigned exactly one of seven mutually-exclusive loss classes. Classification is performed by an LLM auditor that reads each paper's `loss_formulation` (LaTeX), training-loop description, and key components, then picks the dominant objective per the rules in `data/loss_taxonomy_schema.json`.
 
 ![Loss Distribution](../assets/loss-distribution.png)
 
 ## Class definitions (compact)
 
-### FKL — Forward KL  ·  **33** papers (21.3%)
+### FKL — Forward KL  ·  **33** papers (21.0%)
 
 `D_KL( \pi_T(\cdot|x) \| \pi_\theta(\cdot|x) )`
 
 _Match rule._ Loss is dominated by forward KL where the teacher distribution is the first argument (mode-covering). Includes classical KD with KL(teacher || student), CE-on-teacher-soft-targets when explicitly equivalent.
 
-### RKL — Reverse KL  ·  **41** papers (26.5%)
+### RKL — Reverse KL  ·  **41** papers (26.1%)
 
 `D_KL( \pi_\theta(\cdot|x) \| \pi_T(\cdot|x) )`
 
 _Match rule._ Loss is dominated by reverse KL where the student distribution is the first argument (mode-seeking). MiniLLM-style policy-gradient interpretations also fall here when the underlying objective is RKL to a teacher.
 
-### Symmetric — Symmetric / Skewed KL / JSD / GKL  ·  **18** papers (11.6%)
+### Symmetric — Symmetric / Skewed KL / JSD / GKL  ·  **18** papers (11.5%)
 
 `D_JSD, D_skew-KL_\alpha, D_GKL, or any symmetrized KL combination`
 
@@ -32,19 +32,19 @@ _Match rule._ Jensen-Shannon divergence; skewed forward/reverse KL with mixture 
 
 _Match rule._ Adaptive KL family that interpolates a parameter between FKL and RKL via alpha-divergence (AKL / TAID-style). Renyi divergence. Chi-squared. Tsallis.
 
-### KL+RL — Hybrid KL distill + RL reward  ·  **39** papers (25.2%)
+### KL+RL — Hybrid KL distill + RL reward  ·  **39** papers (24.8%)
 
 `L = D_KL(teacher, student) + \lambda \cdot R(x,a) (or GRPO/PPO surrogate with teacher KL)`
 
 _Match rule._ Loss explicitly mixes a teacher-KL distillation term with a verifiable reward / advantage / GRPO / PPO surrogate signal. Both terms must be load-bearing (removing either breaks the contribution).
 
-### Preference — Preference / Pairwise / DPO-style  ·  **0** papers (0.0%)
+### Preference — Preference / Pairwise / DPO-style  ·  **2** papers (1.3%)
 
 `DPO-style log-ratio margin between chosen and rejected responses, optionally with a KL-to-teacher hinge`
 
 _Match rule._ Preference-pair loss is the primary distillation signal: DPO, IPO, SimPO, or preference-gap KL where teacher provides the chosen response and student avoids rejected.
 
-### Other — Other / Bespoke (NLL, MSE, Contrastive, special)  ·  **23** papers (14.8%)
+### Other — Other / Bespoke (NLL, MSE, Contrastive, special)  ·  **23** papers (14.6%)
 
 `any objective that does not fit the six classes above`
 
@@ -54,16 +54,16 @@ _Match rule._ MSE on hidden states, contrastive InfoNCE between teacher/student 
 
 | Class | Papers | Share |
 |---|---:|---:|
-| FKL | 33 | 21.3% |
-| RKL | 41 | 26.5% |
-| Symmetric | 18 | 11.6% |
+| FKL | 33 | 21.0% |
+| RKL | 41 | 26.1% |
+| Symmetric | 18 | 11.5% |
 | f-Divergence | 1 | 0.6% |
-| KL+RL | 39 | 25.2% |
-| Preference | 0 | 0.0% |
-| Other | 23 | 14.8% |
-| **Total** | **155** | 100% |
+| KL+RL | 39 | 24.8% |
+| Preference | 2 | 1.3% |
+| Other | 23 | 14.6% |
+| **Total** | **157** | 100% |
 
-_Confidence breakdown: high=101, medium=53, low=1._
+_Confidence breakdown: high=103, medium=53, low=1._
 
 ![Loss Evolution Over Time](../assets/loss-evolution.png)
 
@@ -225,6 +225,13 @@ _Confidence breakdown: high=101, medium=53, low=1._
 | [2510.23497](https://arxiv.org/abs/2510.23497) | VOLD: Reasoning Transfer from LLMs to Vision-Language Models via On-Policy Distillation | high | L_VOLD = L_GRPO + β·E[(1-r(τ))·KL(π_φ\|\|π_θ)], combining GRPO reward surrogate with teacher-to-student FKL distillation. |
 | [2509.22921](https://arxiv.org/abs/2509.22921) | Rethinking Large Language Model Distillation: A Constrained Markov Decision Process Per... | high | Loss combines binary task reward R with KL constraint (cumulative KL to teacher as budget), both load-bearing in CMDP formulation. |
 | [2506.02208](https://arxiv.org/abs/2506.02208) | KDRL: Post-Training Reasoning LLMs via Unified Knowledge Distillation and Reinforcement... | high | J_KDRL = J_GRPO − β·D^{k2}_KL(π_θ‖π_T) explicitly combines GRPO RL surrogate with teacher KL distillation term. |
+
+### Preference (2)
+
+| arXiv | Title | Conf | Evidence |
+|---|---|---|---|
+| [2605.05040](https://arxiv.org/abs/2605.05040) | Preference-Based Self-Distillation: Beyond KL Matching via Reward Regularization | high | DPO-style log-ratio margin: -log σ(β · [log π_θ/π_teach(y+) − log π_θ/π_teach(y-)]). y+ from privileged-context self-teacher (p... |
+| [2509.25100](https://arxiv.org/abs/2509.25100) | ORPO-Distill: Mixed-Policy Preference Optimization for Cross-Architecture LLM Distillation | high | ORPO loss L_ORPO = L_SFT + λ·L_OR, where L_OR = -log σ(log[odds_qθ(y_P)/odds_qθ(y_N)]). Teacher CoT y_P sampled K=8 times offli... |
 
 ### Other (23)
 

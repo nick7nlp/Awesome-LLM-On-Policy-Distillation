@@ -2,6 +2,19 @@
 
 All notable additions to this collection are documented here.
 
+## [2026-06-04, later edit]
+### Restored (audit correction)
+After re-deriving the OPD inclusion principle ("**student rollout in training loop** is the hard line; loss form is dictated by teacher access — black-box methods physically cannot use `D_KL(π_θ ‖ π_T)` and must fall back to reward / discriminator / preference signals"), two papers removed earlier today / on 2026-06-03 were re-audited and restored. The original removal criterion ("no teacher-distribution KL term") was too strict and conflated black-box constraint with non-OPD.
+- **PBSD** (2605.05040) → §5.3.1. Algorithm 1 line *"Generate student response y_i^- ~ π_θ(·|x_i)"* sits inside the gradient loop; per-step on-policy student rollouts paired with privileged-context self-teacher y⁺ via DPO log-ratio margin. Same inclusion criterion as ROPD (2605.07396, rubric reward) and PRISM (2604.28123, MoE discriminator) — three black-box OPD patterns differing only in teacher-signal form (preference vs reward vs discriminator).
+- **ORPO-Distill** (2509.25100) → §5.2. External teacher model `p` (separate from student `q_θ`); positive traces y_P sampled K=8 times offline at init (fixed-teacher equivalent of PBSD's per-step refresh from a frozen teacher); negative traces y_N sampled per outer-iter from current student q_{θ_{t-1}} with prob ϕ. ORPO loss = L_SFT + λ·log-odds margin. Original 6/03 removal note ("same family as SPIN") was wrong — SPIN's positives come from a previous student snapshot, while ORPO-Distill's come from a separate teacher model.
+
+Net effect: paper count 168 → 170; loss taxonomy 155 → 157; Preference class becomes 2 (PBSD + ORPO-Distill); Other class drops back to 23 (still includes PRISM).
+
+### Standing removed (re-audit confirms)
+- **SuperCorrect** (2410.09008): `rollout_frequency = once-before-training` is a structural R1 fail. Black-box constraint excuses preference loss form, not batch-precomputed rollouts.
+- **On-Policy SFT** (2602.13407): no teacher of any kind, signal=PI(GT) + verifier-only, NLL on student rollouts filtered by ground-truth check. Pure STaR/RFT/ReST.
+- **Retaining by Doing** (2510.18874): KL is to π_θ_0 (initial-policy snapshot, ref-policy regularization) — **not** a teacher distribution. Pure RL.
+
 ## [2026-06-04]
 ### Removed (Preference-class audit)
 - Preference-class re-audit prompted by the question *"is the Preference category really OPD?"* — three papers were classified as `Preference` by the loss-taxonomy auditor; on inspection, two are pure DPO/Bradley-Terry frameworks with no teacher-distribution distill term, same family as SPIN / IRIS / ORPO-Distill that were removed on 2026-06-03. They are removed from the Awesome List; the third is reclassified.
