@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-168-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-169-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V3-orange" alt="Survey V3">
 </p>
@@ -525,6 +525,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Skill-Conditioned Gated Self-Distillation for LLM Reasoning](https://arxiv.org/abs/2605.28791) <br><sub>📐 Qwen3-1.7B/4B/8B → Self (skill-conditioned); Skill-conditioned multi-teacher pool with outcome-validated teacher polarity; bounded gated distillation objective.</sub> | 2026 |  |
 | 🟡 [Weak Critics Make Strong Learners: On-Policy Critique Distillation for Scalable Oversight](https://arxiv.org/abs/2606.00424) <br><sub>📐 Qwen3-4B-base → Self; On-policy critique distillation using weak model critiques to improve strong models</sub> | 2026 |  |
 | 🟡 [World Models Meet Language Models: On the Complementarity of Concrete and Abstract Reasoning](https://arxiv.org/abs/2606.03603) <br><sub>📐 Qwen3.5-9B → Qwen3.6-27B (privileged-info teacher) / Gemini-3.1-Pro; Privileged-info self-distillation: future videos + ground-truth answers as privileged context teach MLLM when to invoke / verify / rely on world-model rollouts; D_KL teacher term</sub> | 2026 |  |
+| 🟡 [Preference-Based Self-Distillation: Beyond KL Matching via Reward Regularization](https://arxiv.org/abs/2605.05040) <br><sub>📐 Qwen3-1.7B/4B/8B → Self (context-augmented); PBSD: black-box OPD via DPO with privileged-context self-teacher y+ vs on-policy student y-; per-step rollouts; reward-regularized preference gap (no logits available, hence DPO not KL)</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -759,6 +760,7 @@ On-Policy Distillation (Survey V3 Structure)
 | [Trust-Region Adaptive Policy Optimization](https://arxiv.org/abs/2512.17636) | §4.1 | TrSFT: dynamic trust-region forward-KL on expert prefixes interleaved with RL completions; adaptive prefix selection |
 | 🟡 [Filter, Then Reweight: Rethinking Optimization Granularity in On-Policy Distillation](https://arxiv.org/abs/2606.02684) | §6.1 | Core contribution is a token-level and trajectory-level weighting/filtering scheme for on-policy dis |
 | 🟡 [World Models Meet Language Models: On the Complementarity of Concrete and Abstract Reasoning](https://arxiv.org/abs/2606.03603) | §5.3.1 | The core contribution is on-policy self-distillation using privileged information (ground-truth futu |
+| 🟡 [Preference-Based Self-Distillation: Beyond KL Matching via Reward Regularization](https://arxiv.org/abs/2605.05040) | §5.3.1 | 同基模型（same Qwen3 with context c）作为教师，学生在线采样，无外部 reward/verifier，属于 self 信号来源的在线自蒸馏（§5.3.2）。 |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
