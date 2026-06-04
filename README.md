@@ -160,7 +160,7 @@ For a top-down four-factor selection guide (teacher access, task characteristics
 
 > 💡 Six shifts defining the OPD landscape right now.
 
-1. 🎯 **From RKL to Adaptive**: The field initially defaulted to Reverse-KL (mode-seeking). Recent work shifted toward adaptive switching (AKL, token-level gates, entropy-weighted objectives) to balance exploration and guidance.
+1. 🎯 **From RKL to Adaptive**: The field initially defaulted to Reverse-KL (mode-seeking). Recent work shifted toward adaptive switching (token-level entropy gates, direction-adaptive divergences, trust-region clipping) to balance exploration and guidance.
 2. 💥 **The Self-Distillation Boom**: Teacher-free on-policy methods (SDPO, SDZero, SRPO) are dominating, relying on rule-based verifiers or reward models rather than white-box teacher models.
 3. ✂️ **Token Importance**: Papers like TIP, SCOPE, and SelecTKD revealed that applying KD loss to 100% of tokens is inefficient. Selecting the top 20-50% high-entropy/divergence tokens achieves parity.
 4. 🤖 **Agentic OPD**: Methods like SOD and Skill-SD address the massive compounding errors in tool-integrated reasoning and long-horizon agents through step-level divergence reweighting and skill-level decomposition.
@@ -267,11 +267,11 @@ For a top-down four-factor selection guide (teacher access, task characteristics
 <details>
 <summary>📖 <b>Recommended Reading Order for Different Backgrounds</b></summary>
 
-- **ML Researcher (theory-first):** f-Divergence KD → GKD → MiniLLM → AKL → Rethinking OPD
+- **ML Researcher (theory-first):** f-Divergence KD → GKD → MiniLLM → EAOD → Rethinking OPD
 - **Practitioner (methods-first):** GKD → DistiLLM → Speculative KD → OPSD → AlignDistil
-- **Newcomer:** GKD → MiniLLM → SPIN → OPSD → Rethinking OPD
-- **Self-distillation focus:** SPIN → OPSD → SDZero → AlignDistil → SCOPE
-- **Divergence / objective theory:** f-Divergence KD → MiniLLM → AKL → DistiLLM
+- **Newcomer:** GKD → MiniLLM → OPSD → Rethinking OPD → SCOPE
+- **Self-distillation focus:** OPSD → SDZero → SDPO → UniSD → SCOPE
+- **Divergence / objective theory:** f-Divergence KD → MiniLLM → DistiLLM → EAOD → DASD
 
 > Large-scale industrial reports that *use* OPD in production (DeepSeek-V4, Gemma-2, Qwen3, Nemotron-Cascade, MiMo-V2) are collected separately under **[§8.1 Industrial Deployment](#81-industrial-deployment)** since they are system papers rather than OPD method contributions. The off-policy baseline DeepSeek-R1 is discussed in **§7.4** as the counter-example that motivates OPD.
 
@@ -292,7 +292,7 @@ On-Policy Distillation (Survey V3 Structure)
 │   ├── §4.1 Fixed Divergence Objectives
 │   │         (KL/reverse-KL, JSD, skew-KL, concrete score matching)
 │   ├── §4.2 Adaptive Divergence Objectives
-│   │         (AKL, ToDi, DDT, DASD, EDGE, relaxed / stable targets)
+│   │         (EAOD, DASD, AOPD, Stable-OPD, Relaxed-OPD, Trust-Region OPD, MOTAB, RAFT)
 │   └── §4.3 RL-Augmented Objectives
 │             (KL-constrained RL, G-OPD, KDRL, RLAD, AlignDistil, MAD-OPD, Beyond-GRPO, dGRPO, CoDistill-GRPO, TGPO)
 │
@@ -305,7 +305,7 @@ On-Policy Distillation (Survey V3 Structure)
 │       ├── §5.3.1 Privileged Information
 │       │         (OPSD, GATES, OPCD, OPSDL, GUI-SD, PAINT, TT-OPD, MSD, VISD, π-Distill, OEL, HDPO, ATESD, COPSD, OPHSD, TRACE)
 │       ├── §5.3.2 Pure Self-Distillation
-│       │         (SPIN, IRIS, RLRT, MTP-SD, SSD, SDFT, OPSFT, UniSD, TABOM, TAD)
+│       │         (RLRT, MTP-SD, SSD, SDFT, OPSFT, UniSD, TABOM, TAD)
 │       └── §5.3.3 External Feedback
 │                 (SDPO, SD-ZERO, SRPO, RLTF, RLSD, CoPD, CREDIT, OGLS-SD, π-Play, PAINT, Semantic Soft Bootstrapping)
 │
@@ -783,7 +783,7 @@ OPD is typically 3-10x more sample-efficient than RLVR because every token gets 
 - **Reverse-KL** (default): Best for math/code where you want the student to commit to one solution path (mode-seeking)
 - **Forward-KL**: Better for open-ended generation where diversity matters (mode-covering)
 - **JSD**: A safe middle ground with bounded gradients and symmetric behavior
-- **Adaptive (AKL/HPD)**: Lets the model switch per-token based on entropy. Best overall if you have the engineering budget
+- **Adaptive (EAOD/DASD/Trust-Region OPD)**: Lets the model switch per-token based on entropy or position. Best overall if you have the engineering budget
 </details>
 
 <details>

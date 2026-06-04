@@ -6,7 +6,7 @@
 3. **DeepSeek-V4** (Tech Report) — See how OPD works at industrial scale.
 
 ## 🔬 Level 2: Core Techniques
-4. **AKL** (2404.02657) — Why RKL isn't always better; adaptive switching.
+4. **Entropy-Aware OPD** (2603.07079) — Adaptive RKL on low-entropy tokens + FKL on high-entropy; clean illustration of why a single direction isn't always best.
 5. **DistiLLM** (2402.03898) — Skewed KL + streaming computation.
 6. **OPSD** (2601.18734) — Self-distillation without external teacher.
 7. **TIP** (2604.14084) — Only 20% of tokens matter.

@@ -7,7 +7,6 @@ Ready-to-run implementations for on-policy distillation research, extracted from
 | Method | Description | Link |
 |--------|-------------|------|
 | **MiniLLM** | Foundation for RKL formulation & policy gradient | [microsoft/LMOps (minillm)](https://github.com/microsoft/LMOps/tree/main/minillm) |
-| **AKL** | Adaptive Kullback-Leibler Divergence | [wutaiqiang/LLM_KD_AKL](https://github.com/wutaiqiang/LLM_KD_AKL) |
 | **CSD** | Concrete Score Matching | [aailab-kaist/CSD](https://github.com/aailab-kaist/CSD) |
 | **AdaKD** | LLM-Oriented Token-Adaptive KD | [SassyRong/AdaKD](https://github.com/SassyRong/AdaKD) |
 | **ATKD** | Adaptive Token Teaching | [WHU-ZQH/ATKD](https://github.com/WHU-ZQH/ATKD) |
@@ -34,7 +33,6 @@ Ready-to-run implementations for on-policy distillation research, extracted from
 | **G-OPD** | Generalized OPD with reward extrapolation | [RUCBM/G-OPD](https://github.com/RUCBM/G-OPD) |
 | **Uni-OPD** | Dual-perspective recipe unifying exploration and reliability | [WenjinHou/Uni-OPD](https://github.com/WenjinHou/Uni-OPD) |
 | **BRTS** | Best-of-N Teacher Rollout Selection (correctness-first OPD) | [BWGZK-keke/BRTS](https://github.com/BWGZK-keke/BRTS) |
-| **TAID** | Temporally Adaptive Interpolated Distillation | [SakanaAI/TAID](https://github.com/SakanaAI/TAID) |
 | **MiniPLM** | KD for Pre-Training LMs (difference sampling, divergence-aware) | [thu-coai/MiniPLM](https://github.com/thu-coai/MiniPLM) |
 | **PromptKD** | Prompt Tuning for KD | [gmkim-ai/PromptKD](https://github.com/gmkim-ai/PromptKD) |
 | **Lion** | Adversarial Distillation | [YJiangcm/Lion](https://github.com/YJiangcm/Lion) |
@@ -55,7 +53,6 @@ Ready-to-run implementations for on-policy distillation research, extracted from
 | **OPSD** | On-Policy Self-Distillation | [siyan-zhao/OPSD](https://github.com/siyan-zhao/OPSD) |
 | **OPCD** | On-Policy Context Distillation | [ZijunSong/On-Policy-Context-Distillation](https://github.com/ZijunSong/On-Policy-Context-Distillation) |
 | **OPSD (Compression)** | On-Policy Self-Distillation for Reasoning Compression | [HJSang/OPSD_Reasoning_Compression](https://github.com/HJSang/OPSD_Reasoning_Compression) |
-| **SPIN** | Self-Play Fine-Tuning | [uclaml/SPIN](https://github.com/uclaml/SPIN) |
 | **On-Policy-SFT** | On-Policy SFT for Efficient Reasoning | [EIT-NLP/On-Policy-SFT](https://github.com/EIT-NLP/On-Policy-SFT) |
 | **SSD** | Simple Self-Distillation for Code Generation | [apple/ml-ssd](https://github.com/apple/ml-ssd) |
 | **SDPO** | RL via Self-Distillation | [lasgroup/SDPO](https://github.com/lasgroup/SDPO) |

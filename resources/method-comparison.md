@@ -9,11 +9,11 @@ At-a-glance comparison of key OPD methods. Use this to pick the right method for
 | **GKD** | RKL/FKL/JSD | All tokens | 1× | General purpose | On-policy sampling + configurable divergence |
 | **MiniLLM** | RKL | All tokens | 1× | Math/Code | Policy gradient interpretation of RKL |
 | **DistiLLM** | Skewed KL | All tokens | 1.5× | Stability | Streaming + adaptive skew prevents collapse |
-| **AKL** | Adaptive FKL↔RKL | All tokens | 1× | Mixed tasks | Token-level divergence switching |
+| **EAOD** | Adaptive FKL↔RKL | Entropy-gated | 1× | Mixed tasks | Token-level entropy gates direction switching |
+| **DASD** | Distribution-aligned | All tokens | 1× | Long reasoning | Sequence-level distribution alignment |
 | **TIP** | RKL | Top 20-50% | 2× | Compute-limited | Only high-entropy tokens need KD |
 | **SCOPE** | Dual-path (RKL+FKL) | Adaptive | 1× | Pass@k matters | Fixes diversity collapse |
-| **Lightning OPD** | RKL | All tokens | **4×** | Speed priority | Offline — no live teacher needed |
-| **TAID** | Adaptive | Curriculum | 1× | Large gap | Progressive capacity-aware scheduling |
+| **Lightning OPD** | RKL | All tokens | **4×** | Speed priority | Offline, no live teacher needed |
 
 ## Self-Distillation Methods (§5.3)
 
@@ -22,8 +22,8 @@ At-a-glance comparison of key OPD methods. Use this to pick the right method for
 | **OPSD** | Privileged context | ❌ | Math reasoning | Student's own oracle as teacher |
 | **SDZero** | Binary reward → dense | ❌ | No reward model | Converts pass/fail into token-level signal |
 | **SDPO** | Text feedback | ❌ | Multi-step | Tokenized feedback as distillation target |
-| **SPIN** | Self vs human | ❌ | Alignment | Iterative self-play against human references |
-| **On-Policy SFT** | Self-filter | ❌ | Quick setup | Simple: generate, filter correct, retrain |
+| **OPCD** | Self-context | ❌ | Long context | Student attends to its own context as teacher |
+| **UniSD** | EMA + multi-teacher | ❌ | Stability | EMA snapshots arbitrate among internal teachers |
 
 ## Decision Quick-Reference
 
@@ -31,10 +31,10 @@ At-a-glance comparison of key OPD methods. Use this to pick the right method for
 What's your bottleneck?
 │
 ├── Compute → Lightning OPD (offline, 4x faster) or TIP (20% tokens)
-├── No teacher → OPSD / SDZero / On-Policy SFT
-├── Diversity matters → SCOPE (dual-path) or AKL (adaptive)
+├── No teacher → OPSD / SDZero / OPCD
+├── Diversity matters → SCOPE (dual-path) or EAOD / DASD (adaptive)
 ├── Multi-turn / Agent → SOD (step-level divergence reweighting)
-├── Cross-architecture → ULD / DSKD (representation alignment)
+├── Cross-architecture → DSKDv2 (representation alignment)
 └── Production at scale → Follow DeepSeek-V4 recipe (RKL + multi-domain)
 ```
 

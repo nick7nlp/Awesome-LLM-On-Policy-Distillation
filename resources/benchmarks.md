@@ -5,9 +5,9 @@
 ### Mathematical Reasoning
 | Benchmark | Description | Common in |
 |-----------|-------------|-----------|
-| MATH-500 | Competition-level math (500 problems from MATH) | OPSD, SCOPE, TIP, AKL, G-OPD, RLKD |
+| MATH-500 | Competition-level math (500 problems from MATH) | OPSD, SCOPE, TIP, EAOD, G-OPD, RLKD |
 | AIME 2024/2025 | AMC/AIME competition problems | SCOPE, Lightning OPD, RLKD, TRACE |
-| GSM8K | Grade school math (8.5K problems) | GKD, MiniLLM, DistiLLM, AKL |
+| GSM8K | Grade school math (8.5K problems) | GKD, MiniLLM, DistiLLM, EAOD |
 | HMMT 2025 | Harvard-MIT Math Tournament | TRACE |
 
 ### Code Generation
@@ -33,14 +33,14 @@
 - TIP reports **47% memory reduction** with comparable accuracy
 - SCOPE shows that standard OPD **degrades Pass@k** significantly (diversity collapse), while dual-path design preserves diversity
 
-### Self-Distillation (OPSD, SPIN, SDZero)
+### Self-Distillation (OPSD, SDZero, OPCD)
 - OPSD: Oracle answer as privileged context yields +5-8% on MATH-500 over SFT baseline (Qwen3-4B/8B)
-- SPIN: Self-play iterations converge after 3-4 rounds on most benchmarks
+- OPCD: Student-as-teacher with own context produces stable gains on long-context reasoning
 - SDZero: Self-revision with binary reward signal matches teacher-dependent methods on math tasks
 
-### Adaptive Divergence (AKL, ToDi, EDGE)
-- AKL: Adaptive mixing of F-KL and R-KL outperforms either fixed divergence alone
-- ToDi: Fine-grained per-token divergence control improves over uniform KL
+### Adaptive Divergence (EAOD, DASD)
+- EAOD: Entropy-gated mixing of FKL and RKL outperforms either fixed direction alone on mixed-task suites
+- DASD: Sequence-level distribution alignment improves over uniform KL on long reasoning traces
 
 ### RL-Augmented (G-OPD, AlignDistil, RLKD)
 - G-OPD: Reward extrapolation enables student to exceed teacher on in-distribution tasks
