@@ -2,6 +2,15 @@
 
 All notable additions to this collection are documented here.
 
+## [2026-06-04]
+### Removed (Preference-class audit)
+- Preference-class re-audit prompted by the question *"is the Preference category really OPD?"* — three papers were classified as `Preference` by the loss-taxonomy auditor; on inspection, two are pure DPO/Bradley-Terry frameworks with no teacher-distribution distill term, same family as SPIN / IRIS / ORPO-Distill that were removed on 2026-06-03. They are removed from the Awesome List; the third is reclassified.
+  - **PBSD** (2605.05040) — *Preference-Based Self-Distillation: Beyond KL Matching via Reward Regularization*. Loss is `-log σ(β · [log π_θ/π_teach(y⁺) − log π_θ/π_teach(y⁻)])`, i.e. DPO with the teacher as the reference policy. `signal_source = self`, no `D_KL(π_θ ‖ π_T)`. Hits R3 (RL-only / DPO-style with no teacher distribution distill term).
+  - **SuperCorrect** (2410.09008) — *Thought Template Distillation and Self-Correction*. Loss is `L_Cross-DPO`, but `rollout_frequency = once-before-training` (batch precomputed), which hits R1 (off-policy / self-play, no rollout in the loss loop). The 2026-06-03 re-confirmation that restored this paper was a misjudgment.
+- **Reclassified, not removed:** PRISM (2604.28123) was tagged `Preference` because its loss carries a Bradley-Terry shape, but the actual mechanism is GAN-style adversarial alignment with an MoE discriminator, KL=0 disabled. Same family as Lion (2305.12870) and Black-Box OPD (2511.10643), both of which the auditor classifies as `Other`. PRISM moved from `Preference` to `Other` for consistency.
+
+Net effect: paper count badge **170 → 168**; loss taxonomy total 157 → 155; the `Preference` class becomes empty (n=0) and is auto-hidden from the distribution chart.
+
 ## [2026-06-03]
 ### Added
 - **TRB** (2605.31159) — *Trust-Region Behavior Blending for On-Policy Distillation* — added to §6.2 (Training Efficiency and Stabilization, curriculum/warmup) and Pending Papers. Trust-region warmup curriculum: behavior policy under student-centered KL constraint stabilizes early-stage OPD; standard reverse-KL distill loss unchanged. Pairs: Qwen3-1.7B-Base ← Qwen3-8B / Qwen3-0.6B-Base ← Qwen3-4B. Surfaced via community PR (#2 by @Myashka, closed in favour of in-pipeline insertion with corrected pair direction and base-variant tags).
