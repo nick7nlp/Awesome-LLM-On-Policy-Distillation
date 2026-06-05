@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-178-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-177-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V3-orange" alt="Survey V3">
 </p>
@@ -351,7 +351,6 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Bridging Reasoning Trajectories in On-Policy Distillation via Near-Future Guidance](https://arxiv.org/abs/2606.00305) <br><sub>📐 Qwen3-30B-A3B-Instruct-2507 → Qwen3-4B-Instruct-2507; Trajectory-aware OPD using OT-based near-future guidance to fix token-level reasoning correction failures</sub> | 2026 |  |
 | 🟡 [Decomposed On-Policy Distillation for Vision-Language Reasoning: Steering Gradients for Visual Grounding](https://arxiv.org/abs/2606.00564) <br><sub>📐 Qwen3-VL-8B-Instruct → Qwen3-VL-2B-Instruct; Decomposes VLM on-policy distillation into language prior and visual grounding, steering gradients toward visual subspace</sub> | 2026 |  |
 | 🟡 [OPD+: Rethinking the Advantage Design for On-Policy Distillation](https://arxiv.org/abs/2606.01039) <br><sub>📐 Qwen3-8B → Qwen3-8B-Base; Corrects advantage estimation in on-policy distillation via f-divergence gradient analysis</sub> | 2026 |  |
-| 🟡 [Trust-Region Adaptive Policy Optimization](https://arxiv.org/abs/2512.17636) <br><sub>📐 Qwen2.5-Math-7B / Qwen2.5-7B-Instruct → DeepSeek-R1; TRAPO: Trust-Region SFT (TrSFT) modifies forward-KL with dynamic trust region; interleaves prefix-conditioned SFT with RL on completions; adaptive prefix selection by utility</sub> | 2026 |  |
 | 🟡 [Reinforcement Learning from Rich Feedback with Distributional DAgger](https://arxiv.org/abs/2606.05152) <br><sub>📐 Qwen3-8B → Self; Distributional DAgger via forward cross-entropy: monotonic-improvement objective with future-aware credit assignment, an OPD analogue of RL distributional bootstrapping.</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -721,7 +720,6 @@ On-Policy Distillation (Survey V3 Structure)
 | [Reducing the Safety Tax in LLM Safety Alignment with On-Policy Self-Distillation](https://arxiv.org/abs/2605.15239) | §8.1 | Safety alignment application of on-policy self-distillation; teacher flip rate metric |
 | [DeltaPrompts: Escaping the Zero-Delta Trap in Multimodal Distillation](https://arxiv.org/abs/2605.15532) | §6.2 | Prompt synthesis for OPD; answer-divergence-guided curriculum (NVIDIA, NeurIPS 2025) |
 | [Trust-Region Behavior Blending for On-Policy Distillation](https://arxiv.org/abs/2605.31159) | §6.2 | Trust-region warmup curriculum; teacher-guided behavior policy under student-centered KL constraint stabilizes early-stage OPD |
-| [Trust-Region Adaptive Policy Optimization](https://arxiv.org/abs/2512.17636) | §4.1 | TrSFT: dynamic trust-region forward-KL on expert prefixes interleaved with RL completions; adaptive prefix selection |
 | [Filter, Then Reweight: Rethinking Optimization Granularity in On-Policy Distillation](https://arxiv.org/abs/2606.02684) | §6.1 | FiRe-OPD: trajectory filtering by teacher log-prob + soft token reweighting via PPO-clipped weighted advantage |
 | [World Models Meet Language Models: On the Complementarity of Concrete and Abstract Reasoning](https://arxiv.org/abs/2606.03603) | §5.3.1 | Privileged-info self-distillation: future videos + GT answers as privileged context teach MLLMs when to invoke / verify world-model rollouts |
 | [Preference-Based Self-Distillation: Beyond KL Matching via Reward Regularization](https://arxiv.org/abs/2605.05040) | §5.3.1 | PBSD: black-box OPD via DPO with privileged-context self-teacher y⁺ and on-policy student y⁻; per-step rollouts |

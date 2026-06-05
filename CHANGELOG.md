@@ -2,6 +2,10 @@
 
 All notable additions to this collection are documented here.
 
+## [2026-06-05, manual deep-read audit]
+### Removed (mis-classified as OPD)
+- **TRAPO** (2512.17636) — *Trust-Region Adaptive Policy Optimization* — removed from §4.1 + Pending Papers. After PDF deep-read prompted by user challenge: authors explicitly frame the method as "hybrid SFT + RL", never as on-policy distillation. The TrSFT loss applies to **offline expert prefix tokens** (DeepSeek-R1 demonstrations), not to student-rollout positions. The student does generate the suffix completion, but receives only GRPO + verifier reward there — no teacher-distribution distill term anywhere on student-generated tokens. Same hybrid-imitation+RL pattern as 2602.13407 (On-Policy SFT for Efficient Reasoning), which was removed on 2026-06-03 for identical reasons. The auto-pipeline's v3 LLM mis-classified this paper as is_opd=yes; manual audit overrides. Paper count 178 → 177.
+
 ## [2026-06-04, later edit]
 ### Restored (audit correction)
 After re-deriving the OPD inclusion principle ("**student rollout in training loop** is the hard line; loss form is dictated by teacher access — black-box methods physically cannot use `D_KL(π_θ ‖ π_T)` and must fall back to reward / discriminator / preference signals"), two papers removed earlier today / on 2026-06-03 were re-audited and restored. The original removal criterion ("no teacher-distribution KL term") was too strict and conflated black-box constraint with non-OPD.
