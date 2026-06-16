@@ -23,7 +23,7 @@ At-a-glance comparison of key OPD methods. Use this to pick the right method for
 | **SDZero** | Binary reward → dense | ❌ | No reward model | Converts pass/fail into token-level signal |
 | **SDPO** | Text feedback | ❌ | Multi-step | Tokenized feedback as distillation target |
 | **OPCD** | Self-context | ❌ | Long context | Student attends to its own context as teacher |
-| **UniSD** | EMA + multi-teacher | ❌ | Stability | EMA snapshots arbitrate among internal teachers |
+| **UniSD** | EMA + multi-teacher | ❌ | Stability | EMA snapshots arbitrate among the model's own past snapshots |
 
 ## Decision Quick-Reference
 

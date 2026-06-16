@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-187-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-196-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V3-orange" alt="Survey V3">
 </p>
@@ -217,7 +217,7 @@ For a top-down four-factor selection guide (teacher access, task characteristics
 > 🎯 "Which loss does each OPD paper actually train with?" Every paper is assigned exactly one of seven mutually-exclusive loss classes by an LLM auditor that reads its `loss_formulation` (LaTeX) end-to-end. The chart below shows only the five **white-box (KL-family)** classes; black-box / bespoke methods (Preference, Other) are omitted because their loss form is dictated by teacher-access constraints rather than chosen as a divergence design. Full per-paper assignments and evidence live in [`resources/loss-taxonomy.md`](resources/loss-taxonomy.md).
 
 <p align="center">
-  <img src="assets/loss-distribution.png" alt="Loss-objective distribution across 132 white-box (KL-family) papers: horizontal bars for FKL / RKL / Symmetric / f-Divergence / KL+RL." width="900">
+  <img src="assets/loss-distribution.png" alt="Loss-objective distribution across 138 white-box (KL-family) papers: horizontal bars for FKL / RKL / Symmetric / f-Divergence / KL+RL." width="900">
 </p>
 
 <p align="center">
@@ -677,7 +677,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [X-OPD: Cross-Modal On-Policy Distillation for Capability Alignment in Speech LLMs](https://arxiv.org/abs/2603.24596) <br><sub>📐 Qwen3-Omni-A3B → Qwen3-A3B-Instruct (text teacher)</sub> | 2026 |  |
 | 🟢 [VLA-OPD: Bridging Offline SFT and Online RL for Vision-Language-Action Models via On-Policy Distillation](https://arxiv.org/abs/2603.26666) <br><sub>📐 OpenVLA-OFT → SimpleVLA-RL (frozen expert teacher); dense token-level RKL on student-generated trajectories for robot manipulation (LIBERO / RoboTwin2.0)</sub> | 2026 |  |
 | 🟢 [DP-OPD: Differentially Private On-Policy Distillation for Language Models](https://arxiv.org/abs/2604.04461) <br><sub>📐 DistilGPT-2 82M → GPT-2 Large 774M (+ DP-SGD)</sub> | 2026 |  |
-| 🟢 [HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents](https://arxiv.org/abs/2604.07430) <br><sub>📐 HY-Embodied-0.5 (small) → HY-Embodied (large, internal)</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/Tencent-Hunyuan/HY-Embodied) |
+| 🟢 [HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents](https://arxiv.org/abs/2604.07430) <br><sub>📐 HY-Embodied-0.5 MoE-A32B (large) → HY-Embodied-0.5 MoT-2B (small)</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/Tencent-Hunyuan/HY-Embodied) |
 | 🟢 [On-Policy Distillation of Language Models for Autonomous Vehicle Motion Planning](https://arxiv.org/abs/2604.07944) <br><sub>📐 Qwen3-1.7B → Qwen3-8B</sub> | 2026 |  |
 | 🟢 [Skill-SD: Skill-Conditioned Self-Distillation for Multi-turn LLM Agents](https://arxiv.org/abs/2604.10674) <br><sub>📐 Qwen3-4B-Instruct → Self (Skill-SDL)</sub> | 2026 |  |
 | 🟢 [HyperEyes: Dual-Grained Efficiency-Aware Reinforcement Learning for Parallel Multimodal Search Agents](https://arxiv.org/abs/2605.07177) <br><sub>📐 External teacher → HyperEyes-30B (Qwen3-VL-30B); micro-level OPD provides dense token-level supervision on failed rollouts</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/DeepExperience/HyperEyes) |

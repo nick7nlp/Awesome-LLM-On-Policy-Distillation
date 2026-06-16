@@ -2,6 +2,22 @@
 
 All notable additions to this collection are documented here.
 
+## [2026-06-16, interactive deep-read triage]
+### Added (geometry / analysis of OPD, §7.1)
+- **On the Geometry of On-Policy Distillation** (2606.07082) — parameter-space analysis: OPD updates enter a narrow off-principal "subspace locking" regime, distinct from SFT and RLVR. Analysis-only (no new training method).
+- **Dense Supervision, Sparse Updates** (2606.13657) — OPD updates are coordinate-sparse, FFN-heavy, and off-principal across several LM/VLM pairs; training the discovered subnetwork nearly recovers full performance. Analysis-only.
+
+### Removed (mis-classified as OPD)
+- **RASFT** (2606.07006) — *Rollout-Adaptive Supervised Fine-Tuning* — removed from §4.2. PDF deep-read: the supervision target is the offline expert demonstration (SFT loss + frozen-reference clipped inverse-ratio regularizer); on-policy rollouts only estimate problem-level solvability to gate expert guidance, never carrying a teacher-distribution distill term on student-generated tokens. Policy-aware adaptive SFT, not OPD.
+- **Stage-1 Controls the Entropy Regime, Not the Outcome** (2606.09059) — removed from §7.1. Analysis-only paper that uses OPD merely as one of several Stage-1 warm-start options; single-model small-data study whose own conclusion states it is "not evidence that OPD is a better RL warm-start."
+
+### Housekeeping
+- Removed `resources/excluded-papers.md` from the public list.
+- Re-aligned counts: badge → 196, loss caption white-box papers 132 → 138 (matches loss-taxonomy.md), heatmap regenerated (94 models / 906 pairs).
+- Corrected HY-Embodied (2604.07430) pair annotation to public model names (MoE-A32B → MoT-2B), dropping the inaccurate "internal" label.
+
+Paper count: 177 → 196.
+
 ## [2026-06-05, manual deep-read audit]
 ### Removed (mis-classified as OPD)
 - **TRAPO** (2512.17636) — *Trust-Region Adaptive Policy Optimization* — removed from §4.1 + Pending Papers. After PDF deep-read prompted by user challenge: authors explicitly frame the method as "hybrid SFT + RL", never as on-policy distillation. The TrSFT loss applies to **offline expert prefix tokens** (DeepSeek-R1 demonstrations), not to student-rollout positions. The student does generate the suffix completion, but receives only GRPO + verifier reward there — no teacher-distribution distill term anywhere on student-generated tokens. Same hybrid-imitation+RL pattern as 2602.13407 (On-Policy SFT for Efficient Reasoning), which was removed on 2026-06-03 for identical reasons. The auto-pipeline's v3 LLM mis-classified this paper as is_opd=yes; manual audit overrides. Paper count 178 → 177.

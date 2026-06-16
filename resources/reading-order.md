@@ -16,9 +16,10 @@
 9. **CaOPD** (2604.16830) — The calibration problem nobody talks about.
 10. **SCOPE** (2604.10688) — Diversity collapse (Pass@k degradation).
 11. **Revisiting OPD** (2603.25562) — Three failure modes and simple fixes.
+12. **Geometry of OPD** (2606.07082) — Parameter-space view: OPD updates lock into a narrow off-principal subspace, distinct from SFT and RLVR. Pairs with **Dense Supervision, Sparse Updates** (2606.13657) on the sparsity and FFN-locality of those updates.
 
 ## 🚀 Level 4: Frontier Methods
-12. **Lightning OPD** (2604.13010) — Offline OPD, 4x faster.
-13. **SDZero** (2604.12002) — No teacher needed, binary reward → dense signal.
-14. **Uni-OPD** (2605.03677) — Unified dual-perspective recipe.
-15. **SOD** (2605.07725) — Step-level divergence reweighting for tool-integrated reasoning agents.
+13. **Lightning OPD** (2604.13010) — Offline OPD, 4x faster.
+14. **SDZero** (2604.12002) — No teacher needed, binary reward → dense signal.
+15. **Uni-OPD** (2605.03677) — Unified dual-perspective recipe.
+16. **SOD** (2605.07725) — Step-level divergence reweighting for tool-integrated reasoning agents.
