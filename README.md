@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-196-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-197-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V3-orange" alt="Survey V3">
 </p>
@@ -527,6 +527,8 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Same Evidence, Different Answers: Canonical-Context On-Policy Distillation for Multi-Turn Language Models](https://arxiv.org/abs/2605.30251) <br><sub>📐 Qwen3-8B → Self; On-policy self-distillation aligning RAW-SHARDED multi-turn answers with FULL-context teacher behavior</sub> | 2026 |  |
 | 🟡 [COMAP: Co-Evolving World Models and Agent Policies for LLM Agents](https://arxiv.org/abs/2606.02372) <br><sub>📐 Qwen3-4B → Self; Co-evolving textual world models and agent policies via on-policy self-distillation and future-aware reflection</sub> | 2026 |  |
 | 🟡 [Data-Efficient Autoregressive-to-Diffusion Language Models via On-Policy Distillation](https://arxiv.org/abs/2606.06712) <br><sub>📐 AR-LM (frozen) → Diffusion-LM; OPDLM: self-distillation converts AR LM to diffusion LM on-policy; 15x-7000x fewer training tokens</sub> | 2026 |  |
+| 🟡 [Be My Tutor: On-Policy Co-Distillation for Mutual LLM Improvement via Peer Feedback](https://arxiv.org/abs/2606.14368) <br><sub>📐 Qwen3-8B ↔ Qwen3-8B (peer); OPCoD: two coupled on-policy self-distillation loops, each self-teacher conditioned on own correct rollout + peer NL feedback; cognizance gating + feedback anchoring; cross-domain mutual Pareto improvement</sub> | 2026 |  |
+| 🟡 [Be My Tutor: On-Policy Co-Distillation for Mutual LLM Improvement via Peer Feedback](https://arxiv.org/abs/2606.14368) <br><sub>📐 Qwen3-8B ↔ Qwen3-8B (peer); OPCoD: two coupled on-policy self-distillation loops, each self-teacher conditioned on own correct rollout + peer NL feedback; cognizance gating + feedback anchoring; cross-domain mutual Pareto improvement</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -752,6 +754,7 @@ On-Policy Distillation (Survey V3 Structure)
 | [Self-Evaluation Is Already There: Eliciting Latent Judge Calibration in Base LLMs with Minimal Data](https://arxiv.org/abs/2606.05122) | §4.3 | The core method is on-policy distillation of an external judge's scores into the model's self-evaluation tokens on the model's own… |
 | [Reinforcement Learning from Rich Feedback with Distributional DAgger](https://arxiv.org/abs/2606.05152) | §4.1 | Core contribution is a new forward cross-entropy divergence objective for on-policy self-distillation with monotonic improvement… |
 | [Data-Efficient Autoregressive-to-Diffusion Language Models via On-Policy Distillation](https://arxiv.org/abs/2606.06712) | §5.3.2 | Student (diffusion LM) generates on-policy trajectories; frozen original AR model acts as self-teacher… |
+| [Be My Tutor: On-Policy Co-Distillation for Mutual LLM Improvement via Peer Feedback](https://arxiv.org/abs/2606.14368) | §5.3.2 | On-policy self-distillation with self-teacher conditioned on own correct rollout + peer feedback; coupled co-distillation of two cross-domain specialists… |
 | [On the Geometry of On-Policy Distillation](https://arxiv.org/abs/2606.07082) | §7.1 | Empirical geometry analysis of OPD parameter-space dynamics; no new training method… |
 | [SG-OPD: Sign-Gated On-Policy Distillation via Sign-Consistency Gating and Phased Teacher Sampling](https://arxiv.org/abs/2606.09304) | §5.3.3 | Binary verifier provides external feedback to gate teacher trust in OPD; fits §5.3.3 (verifier-guided distillation)… |
 | [PBSD: Privileged Bayesian Self-Distillation for Long-Horizon Credit Assignment](https://arxiv.org/abs/2606.09348) | §5.3.1 | Self-distillation where privileged info (GT answer) conditions the teacher distribution… |

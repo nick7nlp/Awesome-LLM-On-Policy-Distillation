@@ -7,16 +7,19 @@ All notable additions to this collection are documented here.
 - **On the Geometry of On-Policy Distillation** (2606.07082) — parameter-space analysis: OPD updates enter a narrow off-principal "subspace locking" regime, distinct from SFT and RLVR. Analysis-only (no new training method).
 - **Dense Supervision, Sparse Updates** (2606.13657) — OPD updates are coordinate-sparse, FFN-heavy, and off-principal across several LM/VLM pairs; training the discovered subnetwork nearly recovers full performance. Analysis-only.
 
+### Added (co-distillation, §5.3.2)
+- **Be My Tutor: On-Policy Co-Distillation** (2606.14368) — OPCoD: two cross-domain specialist models tutor each other through coupled on-policy self-distillation, with each self-teacher conditioned on its own correct rollout plus natural-language feedback from its peer; cognizance-based gating + feedback anchoring deliver mutual Pareto improvement (Qwen3-8B, science Q&A).
+
 ### Removed (mis-classified as OPD)
 - **RASFT** (2606.07006) — *Rollout-Adaptive Supervised Fine-Tuning* — removed from §4.2. PDF deep-read: the supervision target is the offline expert demonstration (SFT loss + frozen-reference clipped inverse-ratio regularizer); on-policy rollouts only estimate problem-level solvability to gate expert guidance, never carrying a teacher-distribution distill term on student-generated tokens. Policy-aware adaptive SFT, not OPD.
 - **Stage-1 Controls the Entropy Regime, Not the Outcome** (2606.09059) — removed from §7.1. Analysis-only paper that uses OPD merely as one of several Stage-1 warm-start options; single-model small-data study whose own conclusion states it is "not evidence that OPD is a better RL warm-start."
 
 ### Housekeeping
 - Removed `resources/excluded-papers.md` from the public list.
-- Re-aligned counts: badge → 196, loss caption white-box papers 132 → 138 (matches loss-taxonomy.md), heatmap regenerated (94 models / 906 pairs).
+- Re-aligned counts: badge → 197, loss caption white-box papers 132 → 138 (matches loss-taxonomy.md), heatmap regenerated.
 - Corrected HY-Embodied (2604.07430) pair annotation to public model names (MoE-A32B → MoT-2B), dropping the inaccurate "internal" label.
 
-Paper count: 177 → 196.
+Paper count: 177 → 197.
 
 ## [2026-06-05, manual deep-read audit]
 ### Removed (mis-classified as OPD)
