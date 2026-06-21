@@ -36,6 +36,7 @@ Ready-to-run implementations for on-policy distillation research, extracted from
 | **MiniPLM** | KD for Pre-Training LMs (difference sampling, divergence-aware) | [thu-coai/MiniPLM](https://github.com/thu-coai/MiniPLM) |
 | **PromptKD** | Prompt Tuning for KD | [gmkim-ai/PromptKD](https://github.com/gmkim-ai/PromptKD) |
 | **Lion** | Adversarial Distillation | [YJiangcm/Lion](https://github.com/YJiangcm/Lion) |
+| **DuDi** | Dual-Signal Distillation with Cross-Lingual Verbalizer | [dudi-llm/DuDi](https://github.com/dudi-llm/DuDi) |
 
 ### §5.2 Black-Box and API-Constrained
 
@@ -65,6 +66,7 @@ Ready-to-run implementations for on-policy distillation research, extracted from
 | **AVSD** | Adaptive-View Self-Distillation (multi-view consensus + privileged signals) | [duykhuongnguyen/AVSD](https://github.com/duykhuongnguyen/AVSD) |
 | **π-Play** | Multi-Agent Self-Play via Privileged Self-Distillation | [zhyaoch/pi-play](https://github.com/zhyaoch/pi-play) |
 | **OPHSD** | On-Policy Harness Self-Distillation (draft-verify / plan-solve harnesses) | [zzy1127/OPHSD-On-Policy-Harness-Self-Distillation](https://github.com/zzy1127/OPHSD-On-Policy-Harness-Self-Distillation) |
+| **ROSD** | Reflective On-Policy Self-Distillation for Reasoning across Domains | [ZiqiZhao1/ROSD](https://github.com/ZiqiZhao1/ROSD) |
 
 ## §6 Training Efficiency and Stabilization
 
