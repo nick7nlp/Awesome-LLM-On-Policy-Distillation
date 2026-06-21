@@ -2,6 +2,15 @@
 
 All notable additions to this collection are documented here.
 
+## [2026-06-21, V4 full update]
+### Survey V4 Released
+- Survey V4 published on [arXiv](https://arxiv.org/abs/2604.00626): 72 new OPD papers added, full-text review and AI-trace audit completed, taxonomy tree and method tables updated.
+- All 36 previously pending (🟡) papers upgraded to 🟢 — no pending papers remain.
+- Awesome list: 197 🟢 papers, 94 unique models, 914 teacher-student pairs.
+- Badge updated: Survey V3 → V4.
+- News section, Version History table, and Recently Added (June 2026) section updated.
+- SPIN (2401.01335), SuperCorrect (2410.09008), IRIS (2604.20933) confirmed as non-OPD; `is_opd=no` in paper_notes.json, sections corrected (SPIN/IRIS → §9, SuperCorrect → §4.3).
+
 ## [2026-06-16, interactive deep-read triage]
 ### Added (geometry / analysis of OPD, §7.1)
 - **On the Geometry of On-Policy Distillation** (2606.07082) — parameter-space analysis: OPD updates enter a narrow off-principal "subspace locking" regime, distinct from SFT and RLVR. Analysis-only (no new training method).

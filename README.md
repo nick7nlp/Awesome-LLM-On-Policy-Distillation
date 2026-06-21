@@ -19,7 +19,7 @@
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/badge/Papers-197-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
-  <img src="https://img.shields.io/badge/Survey-V3-orange" alt="Survey V3">
+  <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
 
 <p align="center">
@@ -30,6 +30,7 @@
 
 ## 🔥 News
 
+* **2026.06.21**: 📊 Survey **V4** released with 72 new OPD papers, full-text review and AI-trace audit, updated taxonomy tree and method tables. Awesome list upgraded to 197 🟢 papers (94 models, 914 pairs). Read on [arXiv](https://arxiv.org/abs/2604.00626).
 * **2026.06.02**: 🌐 [OPDHub](https://nick7nlp.github.io/OPDHub/) launched, a companion site with full-text search and multi-axis filters (section, loss, domain, signal source, rollout frequency, student size, year), plus a copy-ready BibTeX block.
 * **2026.05.18**: 🚀 Survey **V3** released, adding the §3 *Landscape and Method Selection* chapter and §7.4 *On-Policy vs Off-Policy Decision Framework*. Read on [arXiv](https://arxiv.org/abs/2604.00626).
 * **2026.05.12**: 🛠️ Survey **V2** released, adding the Hall of Fame, recommended reading orders by background, the Mermaid evolution timeline and taxonomy mindmap. Read on [arXiv](https://arxiv.org/abs/2604.00626).
@@ -52,7 +53,7 @@ With the rise of reasoning models (System 2 thinking) in 2024–2026, long chain
 </p>
 
 <p align="center">
-  🟢 = Covered in our <a href="https://arxiv.org/abs/2604.00626">survey paper</a> &nbsp;|&nbsp; 🟡 = Indexed here, pending inclusion in the next survey revision
+  🟢 = Covered in our <a href="https://arxiv.org/abs/2604.00626">survey paper</a> (V4)
 </p>
 
 ---
@@ -116,7 +117,54 @@ With the rise of reasoning models (System 2 thinking) in 2024–2026, long chain
 ---
 
 <details>
-<summary>🆕 <b>Recently Added (May 2026)</b></summary>
+<summary>🆕 <b>Recently Added (June 2026)</b> — 39 new papers</summary>
+
+| Paper | Section | Key Idea |
+|-------|:-------:|----------|
+| [OPD+: Rethinking the Advantage Design for On-Policy Distillation](https://arxiv.org/abs/2606.01039) | §4.1 | Advantage redesign for on-policy distillation objectives |
+| [Bridging Reasoning Trajectories via Near-Future Prediction](https://arxiv.org/abs/2606.00305) | §4.1 | Near-future prediction bridges reasoning gaps in OPD |
+| [Decomposed OPD for Vision-Language Reasoning](https://arxiv.org/abs/2606.00564) | §4.1 | Decomposed divergence for VL on-policy distillation |
+| [Distributional DAgger](https://arxiv.org/abs/2606.05152) | §4.1 | Forward cross-entropy divergence with monotonic improvement |
+| [RAFT: Adaptive Distillation for Domain Fine-Tuning](https://arxiv.org/abs/2606.00147) | §4.2 | Data refinement + adaptive divergence for domain OPD |
+| [Trust Region On-Policy Distillation](https://arxiv.org/abs/2606.01249) | §4.2 | Trust-region constrained adaptive divergence |
+| [Stabilizing OPD for MLLM Reasoning with Global Normalization](https://arxiv.org/abs/2606.09091) | §4.2 | Batch-relative KL normalization for MLLM reasoning |
+| [RLCSD: Contrastive On-Policy Self-Distillation](https://arxiv.org/abs/2606.11709) | §4.3 | Contrastive RKL in GRPO with correct/wrong-hint teacher |
+| [Self-Evaluation via Latent Judge Calibration](https://arxiv.org/abs/2606.05122) | §4.3 | Distilling external judge scores into self-evaluation tokens |
+| [OPRD: On-Policy Representation Distillation](https://arxiv.org/abs/2606.06021) | §5.1 | Hidden-state representation alignment; reduced MC-KL variance |
+| [Breaking the Tokenizer Barrier](https://arxiv.org/abs/2606.09456) | §5.1 | Cross-tokenizer white-box OPD across model families |
+| [DuDi: Dual-Signal Distillation with Cross-Lingual Verbalizer](https://arxiv.org/abs/2606.04694) | §5.1 | Cross-lingual verbalizer enhances white-box logit transfer |
+| [OmniOPD: Logit-Free OPD via Speculative Verification](https://arxiv.org/abs/2606.01476) | §5.2 | Black-box OPD without teacher logits |
+| [Weak Critics Make Strong Learners](https://arxiv.org/abs/2606.00424) | §5.3.1 | On-policy critique distillation from weak critics |
+| [Constitutional On-Policy Safe Distillation](https://arxiv.org/abs/2606.03089) | §5.3.1 | Safety constitution as privileged teacher signal |
+| [Self-Distilled Policy Gradient](https://arxiv.org/abs/2606.04036) | §5.3.1 | Privileged-info self-distillation as policy gradient |
+| [PBSD: Privileged Bayesian Self-Distillation](https://arxiv.org/abs/2606.09348) | §5.3.1 | GT-conditioned teacher for long-horizon credit assignment |
+| [Beyond Absolute Imitation: Anchored Residual Guidance](https://arxiv.org/abs/2606.10385) | §5.3.1 | Addresses hindsight leakage in privileged OPD |
+| [HERO: Hindsight-Enhanced Reflection for Agents](https://arxiv.org/abs/2606.11559) | §5.3.1 | Future env observations as privileged context |
+| [Rubric-Guided Self-Distillation](https://arxiv.org/abs/2606.12507) | §5.3.1 | Rubric-conditioned same-model teacher via JSD |
+| [Teaching the Way, Not the Answer](https://arxiv.org/abs/2606.07000) | §5.3.1 | Privileged structured hints without answer leakage |
+| [Thinking Without Images](https://arxiv.org/abs/2606.08719) | §5.3.1 | Privileged cropped-image teacher internalizes zoom-in reasoning |
+| [Self-Distillation via Visual Feedback](https://arxiv.org/abs/2606.10334) | §5.3.1 | Rendered visual artifacts as privileged teacher feedback |
+| [When Context Returns](https://arxiv.org/abs/2606.11627) | §5.3.1 | FKL anchoring prevents context-induced degradation in privileged OPD |
+| [World Models Meet Language Models](https://arxiv.org/abs/2606.03603) | §5.3.1 | Future videos + GT answers as privileged context for MLLMs |
+| [Visual Spatial Planning via Symbolic State](https://arxiv.org/abs/2606.06076) | §5.3.1 | Symbolic game state as privileged context |
+| [COMAP: Co-Evolving World Models and Agent Policies](https://arxiv.org/abs/2606.02372) | §5.3.2 | Co-evolution of world models and policies for LLM agents |
+| [AR-to-Diffusion LM via On-Policy Distillation](https://arxiv.org/abs/2606.06712) | §5.3.2 | On-policy distillation from AR to diffusion language models |
+| [Be My Tutor: On-Policy Co-Distillation](https://arxiv.org/abs/2606.14368) | §5.3.2 | Peer feedback co-distillation of cross-domain specialists |
+| [SG-OPD: Sign-Gated On-Policy Distillation](https://arxiv.org/abs/2606.09304) | §5.3.3 | Binary verifier gates teacher trust via sign-consistency |
+| [Escaping the KL Agreement Trap](https://arxiv.org/abs/2606.09471) | §6 | Online rollout truncation at KL agreement trap regions |
+| [SafeSteer: Localized OPD for Safety Alignment](https://arxiv.org/abs/2606.02530) | §6.1 | Localized token-level OPD for efficient safety steering |
+| [FiRe-OPD: Filter, Then Reweight](https://arxiv.org/abs/2606.02684) | §6.1 | Trajectory filtering + soft token reweighting |
+| [Physics-Guided Policy Optimization](https://arxiv.org/abs/2606.03620) | §6.1 | Adaptive step-size modulation for physics self-distillation |
+| [When Should the Teacher Move?](https://arxiv.org/abs/2606.03532) | §6.2 | Adaptive teacher refresh scheduling (CGTR) |
+| [Trajectory-Refined Distillation](https://arxiv.org/abs/2606.08432) | §6.2 | Trajectory-level correction for training stabilization |
+| [Rethinking Continual Experience Internalization](https://arxiv.org/abs/2606.04703) | §6.2 | On-policy vs off-policy curriculum for self-evolving agents |
+| [On the Geometry of On-Policy Distillation](https://arxiv.org/abs/2606.07082) | §7.1 | Empirical geometry analysis of OPD parameter-space dynamics |
+| [Dense Supervision, Sparse Updates](https://arxiv.org/abs/2606.13657) | §7.1 | OPD updates are coordinate-sparse, FFN-heavy, off-principal |
+
+</details>
+
+<details>
+<summary>🆕 <b>Previously Added (May 2026)</b> — 16 papers</summary>
 
 | Paper | Section | Key Idea |
 |-------|:-------:|----------|
@@ -177,7 +225,8 @@ For a top-down four-factor selection guide (teacher access, task characteristics
 |:------------:|:----------:|------------------------------------------------------------------------|
 | V1           | 2026-04-01 | Initial arXiv release with the first systematic OPD taxonomy.          |
 | V2           | 2026-05-12 | Coverage expansion; new §6 *Training Efficiency* and §8.2 *Emerging Domains*. |
-| V3 (current) | 2026-05-18 | New §3 *Landscape and Method Selection* and §7.4 *On-Policy vs Off-Policy*. |
+| V3           | 2026-05-18 | New §3 *Landscape and Method Selection* and §7.4 *On-Policy vs Off-Policy*. |
+| V4 (current) | 2026-06-21 | 72 new papers, full-text review, AI-trace audit, updated taxonomy and tables. |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -734,44 +783,7 @@ On-Policy Distillation (Survey V3 Structure)
 
 > Papers indexed in this list but not yet included in the survey paper. They will be evaluated for the next revision.
 
-| Paper | Section | Why Pending |
-|-------|:-------:|-------------|
-| [Efficient LLM Reasoning via Variational Posterior Guidance with Efficiency Awareness](https://arxiv.org/abs/2605.11019) | §5.3.2 | Dual-stream self-distillation (posterior/prior streams) with advantage-gated forward KL |
-| [Reducing the Safety Tax in LLM Safety Alignment with On-Policy Self-Distillation](https://arxiv.org/abs/2605.15239) | §8.1 | Safety alignment application of on-policy self-distillation; teacher flip rate metric |
-| [DeltaPrompts: Escaping the Zero-Delta Trap in Multimodal Distillation](https://arxiv.org/abs/2605.15532) | §6.2 | Prompt synthesis for OPD; answer-divergence-guided curriculum (NVIDIA, NeurIPS 2025) |
-| [Trust-Region Behavior Blending for On-Policy Distillation](https://arxiv.org/abs/2605.31159) | §6.2 | Trust-region warmup curriculum; teacher-guided behavior policy under student-centered KL constraint stabilizes early-stage OPD |
-| [Filter, Then Reweight: Rethinking Optimization Granularity in On-Policy Distillation](https://arxiv.org/abs/2606.02684) | §6.1 | FiRe-OPD: trajectory filtering by teacher log-prob + soft token reweighting via PPO-clipped weighted advantage |
-| [World Models Meet Language Models: On the Complementarity of Concrete and Abstract Reasoning](https://arxiv.org/abs/2606.03603) | §5.3.1 | Privileged-info self-distillation: future videos + GT answers as privileged context teach MLLMs when to invoke / verify world-model rollouts |
-| [Preference-Based Self-Distillation: Beyond KL Matching via Reward Regularization](https://arxiv.org/abs/2605.05040) | §5.3.1 | PBSD: black-box OPD via DPO with privileged-context self-teacher y⁺ and on-policy student y⁻; per-step rollouts |
-| [ORPO-Distill: Mixed-Policy Preference Optimization for Cross-Architecture LLM Distillation](https://arxiv.org/abs/2509.25100) | §5.2 | ORPO-Distill: black-box cross-architecture OPD via SFT + log-odds margin; teacher CoT y_P offline, student y_N per outer-iter (mixed policy φ) |
-| [Constitutional On-Policy Safe Distillation](https://arxiv.org/abs/2606.03089) | §5.3.1 | Core contribution is on-policy self-distillation with privileged information (safety constitution) as the teacher signal source… |
-| [When Should the Teacher Move? Temporal Coupling and Stability in Self On-Policy Distillation](https://arxiv.org/abs/2606.03532) | §6.2 | Core contribution is a curriculum/scheduling mechanism (CGTR) that adaptively controls when the self-teacher refreshes during on-policy… |
-| [Physics-Guided Policy Optimization with Self-Distillation](https://arxiv.org/abs/2606.03620) | §6.1 | Core contribution is a per-batch token/information weighting mechanism (adaptive step-size modulation) for on-policy self-distillation… |
-| [Self-Distilled Policy Gradient](https://arxiv.org/abs/2606.04036) | §5.3.1 | Core contribution is on-policy self-distillation where the teacher is the same model conditioned on privileged information (PI from… |
-| [DuDi: Dual-Signal Distillation with Cross-Lingual Verbalizer](https://arxiv.org/abs/2606.04694) | §5.1 | Core contribution is on-policy knowledge distillation with a cross-lingual verbalizer enhancing white-box teacher logit transfer to student… |
-| [Rethinking Continual Experience Internalization for Self-Evolving LLM Agents](https://arxiv.org/abs/2606.04703) | §6.2 | Core contribution is a curriculum/recipe for stable multi-iteration context-distillation comparing on-policy vs off-policy regimes… |
-| [Self-Evaluation Is Already There: Eliciting Latent Judge Calibration in Base LLMs with Minimal Data](https://arxiv.org/abs/2606.05122) | §4.3 | The core method is on-policy distillation of an external judge's scores into the model's self-evaluation tokens on the model's own… |
-| [Reinforcement Learning from Rich Feedback with Distributional DAgger](https://arxiv.org/abs/2606.05152) | §4.1 | Core contribution is a new forward cross-entropy divergence objective for on-policy self-distillation with monotonic improvement… |
-| [Data-Efficient Autoregressive-to-Diffusion Language Models via On-Policy Distillation](https://arxiv.org/abs/2606.06712) | §5.3.2 | Student (diffusion LM) generates on-policy trajectories; frozen original AR model acts as self-teacher… |
-| [Be My Tutor: On-Policy Co-Distillation for Mutual LLM Improvement via Peer Feedback](https://arxiv.org/abs/2606.14368) | §5.3.2 | On-policy self-distillation with self-teacher conditioned on own correct rollout + peer feedback; coupled co-distillation of two cross-domain specialists… |
-| [On the Geometry of On-Policy Distillation](https://arxiv.org/abs/2606.07082) | §7.1 | Empirical geometry analysis of OPD parameter-space dynamics; no new training method… |
-| [SG-OPD: Sign-Gated On-Policy Distillation via Sign-Consistency Gating and Phased Teacher Sampling](https://arxiv.org/abs/2606.09304) | §5.3.3 | Binary verifier provides external feedback to gate teacher trust in OPD; fits §5.3.3 (verifier-guided distillation)… |
-| [PBSD: Privileged Bayesian Self-Distillation for Long-Horizon Credit Assignment](https://arxiv.org/abs/2606.09348) | §5.3.1 | Self-distillation where privileged info (GT answer) conditions the teacher distribution… |
-| [Beyond Absolute Imitation: Anchored Residual Guidance for Privileged On-Policy Distillation](https://arxiv.org/abs/2606.10385) | §5.3.1 | Addresses hindsight leakage in privileged on-policy distillation; oracle/GT info is the privileged teacher signal… |
-| [Teaching the Way, Not the Answer: Privileged Tutoring Distillation for Multimodal Policy Optimization](https://arxiv.org/abs/2606.07000) | §5.3.1 | Privileged teacher provides structured hints (spatial attention + reasoning steps) without answer leakage… |
-| [Trajectory-Refined Distillation](https://arxiv.org/abs/2606.08432) | §6.2 | Trajectory-level correction is a training stabilization/efficiency technique for OPD… |
-| [Stabilizing On-Policy Distillation for MLLM Reasoning with Global Normalization](https://arxiv.org/abs/2606.09091) | §4.2 | Normalization of KL signal to batch-relative advantages is an adaptive modification of the distillation divergence (§4.2)… |
-| [Breaking the Tokenizer Barrier: On-Policy Distillation across Model Families](https://arxiv.org/abs/2606.09456) | §5.1 | White-box teacher logit supervision across different tokenizer families; cross-tokenizer token-mapping is the technical contribution… |
-| [RLCSD: Reinforcement Learning with Contrastive On-Policy Self-Distillation](https://arxiv.org/abs/2606.11709) | §4.3 | Contrastive RKL in GRPO: two-path loss toward correct-hint and away from wrong-hint teacher |
-| [OPRD: On-Policy Representation Distillation](https://arxiv.org/abs/2606.06021) | §5.1 | Extends OPD to hidden-state representation alignment; reduces Monte Carlo KL variance |
-| [Learning Visual Spatial Planning from Symbolic State via Modality-Gap-Aware Self-Distillation](https://arxiv.org/abs/2606.06076) | §5.3.1 | Symbolic game state as privileged context bridges perception-reasoning modality gap |
-| [Thinking Without Images: Internalizing Visual Manipulation with On-Policy Self-Distillation](https://arxiv.org/abs/2606.08719) | §5.3.1 | Privileged cropped-image self-teacher internalizes zoom-in reasoning without crops at inference |
-| [Self-Distillation Policy Optimization via Visual Feedback](https://arxiv.org/abs/2606.10334) | §5.3.1 | Rendered visual artifacts as privileged teacher feedback; statement-weighted KL + GRPO |
-| [HERO: Hindsight-Enhanced Reflection from Environment Observations for Agentic Self-Distillation](https://arxiv.org/abs/2606.11559) | §5.3.1 | Future environment observations as privileged context for multi-turn agent self-distillation |
-| [When Context Returns: Toward Robust Internalization in On-Policy Distillation](https://arxiv.org/abs/2606.11627) | §5.3.1 | FKL anchoring prevents context-induced degradation in privileged OPD |
-| [Rubric-Guided Self-Distillation: Post-Training Without Rubric Verifiers](https://arxiv.org/abs/2606.12507) | §5.3.1 | Rubric-conditioned same-model teacher via JSD; eliminates external LLM verifier |
-| [Escaping the KL Agreement Trap in On-Policy Distillation](https://arxiv.org/abs/2606.09471) | §6 | Online rollout truncation at KL agreement trap regions; restores useful supervision |
-| [Dense Supervision, Sparse Updates: On the Sparsity and Geometry of On-Policy Distillation](https://arxiv.org/abs/2606.13657) | §7.1 | OPD updates are coordinate-sparse, FFN-heavy, off-principal — mechanistic geometry analysis |
+*No pending papers — all indexed papers are covered in the current survey (V4).*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
