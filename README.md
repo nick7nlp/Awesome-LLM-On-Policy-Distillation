@@ -30,7 +30,7 @@
 
 ## 🔥 News
 
-* **2026.06.21**: 📊 Survey **V4** released with 72 new OPD papers, full-text review and AI-trace audit, updated taxonomy tree and method tables. Awesome list upgraded to 197 🟢 papers (94 models, 914 pairs). Read on [arXiv](https://arxiv.org/abs/2604.00626).
+* **2026.06.18**: 📊 Survey **V4** released with 72 new OPD papers, full-text review and AI-trace audit, updated taxonomy tree and method tables. Awesome list upgraded to 197 🟢 papers (94 models, 914 pairs). Read on [arXiv](https://arxiv.org/abs/2604.00626).
 * **2026.06.02**: 🌐 [OPDHub](https://nick7nlp.github.io/OPDHub/) launched, a companion site with full-text search and multi-axis filters (section, loss, domain, signal source, rollout frequency, student size, year), plus a copy-ready BibTeX block.
 * **2026.05.18**: 🚀 Survey **V3** released, adding the §3 *Landscape and Method Selection* chapter and §7.4 *On-Policy vs Off-Policy Decision Framework*. Read on [arXiv](https://arxiv.org/abs/2604.00626).
 * **2026.05.12**: 🛠️ Survey **V2** released, adding the Hall of Fame, recommended reading orders by background, the Mermaid evolution timeline and taxonomy mindmap. Read on [arXiv](https://arxiv.org/abs/2604.00626).
@@ -226,7 +226,7 @@ For a top-down four-factor selection guide (teacher access, task characteristics
 | V1           | 2026-04-01 | Initial arXiv release with the first systematic OPD taxonomy.          |
 | V2           | 2026-05-12 | Coverage expansion; new §6 *Training Efficiency* and §8.2 *Emerging Domains*. |
 | V3           | 2026-05-18 | New §3 *Landscape and Method Selection* and §7.4 *On-Policy vs Off-Policy*. |
-| V4 (current) | 2026-06-21 | 72 new papers, full-text review, AI-trace audit, updated taxonomy and tables. |
+| V4 (current) | 2026-06-18 | 72 new papers, full-text review, AI-trace audit, updated taxonomy and tables. |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

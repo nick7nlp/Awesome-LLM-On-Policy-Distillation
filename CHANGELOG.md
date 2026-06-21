@@ -2,7 +2,7 @@
 
 All notable additions to this collection are documented here.
 
-## [2026-06-21, V4 full update]
+## [2026-06-18, V4 full update]
 ### Survey V4 Released
 - Survey V4 published on [arXiv](https://arxiv.org/abs/2604.00626): 72 new OPD papers added, full-text review and AI-trace audit completed, taxonomy tree and method tables updated.
 - All 36 previously pending (🟡) papers upgraded to 🟢 — no pending papers remain.
