@@ -164,7 +164,7 @@ With the rise of reasoning models (System 2 thinking) in 2024–2026, long chain
 </details>
 
 <details>
-<summary>🆕 <b>Previously Added (May 2026)</b> — 16 papers</summary>
+<summary>🆕 <b>Previously Added (May 2026)</b> — 15 papers</summary>
 
 | Paper | Section | Key Idea |
 |-------|:-------:|----------|
@@ -637,7 +637,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [Are Full Rollouts Necessary for On-Policy Distillation?](https://arxiv.org/abs/2605.31490) <br><sub>📐 JustRL-R1-1.5B → R1-Distill-1.5B; Horizon-control strategies (POPD, TOPD) improve OPD efficiency by truncating rollouts</sub> | 2026 |  |
 | 🟢 [SafeSteer: Localized On-Policy Distillation for Efficient Safety Alignment](https://arxiv.org/abs/2606.02530) <br><sub>📐 Qwen3-4B-Instruct → Self; Localized on-policy distillation confined to safety tokens via activation steering teacher</sub> | 2026 |  |
 | 🟢 [Trust-Region Behavior Blending for On-Policy Distillation](https://arxiv.org/abs/2605.31159) <br><sub>📐 Qwen3-1.7B-Base / Qwen3-0.6B-Base → Qwen3-8B / Qwen3-4B; Trust-region warmup curriculum: behavior policy under student-centered KL constraint stabilizes early-stage OPD; standard reverse-KL distill loss unchanged</sub> | 2026 |  |
-| 🟢 [Lion: Adversarial Distillation of Proprietary Large Language Models](https://arxiv.org/abs/2305.12870) <br><sub>📐 Lion-7B / Lion-13B (LLaMA) → ChatGPT (gpt-3.5-turbo, black-box API); Adversarial black-box distillation: imitation-discrimination-generation loop iteratively identifies hard instructions via student-teacher gap; early-era black-box OPD canonical reference (HoF-tier)</sub> | 2026 |  |
+| 🟢 [Lion: Adversarial Distillation of Proprietary Large Language Models](https://arxiv.org/abs/2305.12870) <br><sub>📐 Lion-7B / Lion-13B (LLaMA) → ChatGPT (gpt-3.5-turbo, black-box API); Adversarial black-box distillation: imitation-discrimination-generation loop iteratively identifies hard instructions via student-teacher gap; early-era black-box OPD canonical reference (HoF-tier)</sub> | 2023 |  |
 | 🟢 [Lightning OPD: Efficient Post-Training for Large Reasoning Models with Offline On-Policy Distillation](https://arxiv.org/abs/2604.13010) <br><sub>📐 Qwen3-4B-Base / Qwen3-8B-Base → Qwen3-8B / Qwen3-32B / QwQ-32B; Lightning-OPD: offline precomputed teacher logprobs eliminate live teacher server; theoretical equivalence to online OPD under teacher consistency</sub> | 2026 |  |
 | 🟢 [Filter, Then Reweight: Rethinking Optimization Granularity in On-Policy Distillation](https://arxiv.org/abs/2606.02684) <br><sub>📐 Qwen3-4B-Non-Thinking → Qwen3-30B-A3B-Instruct; FiRe-OPD: trajectory filtering by teacher log-prob + soft token reweighting; PPO-clipped weighted loss for OPD</sub> | 2026 |  |
 | 🟢 [When Should the Teacher Move? Temporal Coupling and Stability in Self On-Policy Distillation](https://arxiv.org/abs/2606.03532) <br><sub>📐 Qwen3-8B → Self; Studies when the self-teacher should refresh in self-OPD; introduces isolation gate (minimum freeze) + reward-ratchet gate to prevent unstable bootstrapping.</sub> | 2026 |  |
