@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-200-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-197-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V3-orange" alt="Survey V3">
 </p>
@@ -185,7 +185,7 @@ For a top-down four-factor selection guide (teacher access, task characteristics
 
 ## 🔍 Teacher–Student Model Atlas
 
-> 🎯 "I have model X — what can I distill, and from whom?" This atlas maps the OPD ecosystem's model choices across 200 papers (94 unique models, 914 teacher–student pairs).
+> 🎯 "I have model X — what can I distill, and from whom?" This atlas maps the OPD ecosystem's model choices across 197 papers (94 unique models, 914 teacher–student pairs).
 
 <p align="center">
   <img src="assets/model-atlas-heatmap.png" alt="Teacher × Student Pair Matrix: Y-axis = teacher models, X-axis = student models, grouped by family. ①-⑤ marks frequency rank." width="960">
@@ -434,7 +434,6 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [DuDi: Dual-Signal Distillation with Cross-Lingual Verbalizer](https://arxiv.org/abs/2606.04694) <br><sub>📐 Qwen2.5-3B-Instruct → Qwen2.5-0.5B; Dual-signal distillation: online sequence-level SPIN objective combined with off-policy + on-policy token-level KD via a cross-lingual verbalizer.</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/dudi-llm/DuDi) |
 | 🟢 [Breaking the Tokenizer Barrier: On-Policy Distillation across Model Families](https://arxiv.org/abs/2606.09456) <br><sub>📐 Cross-family Teacher → Cross-family Student; Token-mapping enables on-policy distillation across model families with different tokenizers</sub> | 2026 |  |
 | 🟢 [OPRD: On-Policy Representation Distillation](https://arxiv.org/abs/2606.06021) <br><sub>📐 External Teacher → Student; Extends OPD from logit space to hidden-state representation alignment, reducing Monte Carlo KL variance over large vocabularies</sub> | 2026 |  |
-| 🟢 [SuperCorrect: Advancing Small LLM Reasoning with Thought Template Distillation and Self-Correction](https://arxiv.org/abs/2410.09008) <br><sub>📐 o1-mini → Qwen2.5-Math-7B / Llama-3.1-8B / DeepSeekMath-7B; hierarchical thought template distillation + cross-model self-correction for math reasoning</sub> | 2025 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -529,8 +528,6 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [COMAP: Co-Evolving World Models and Agent Policies for LLM Agents](https://arxiv.org/abs/2606.02372) <br><sub>📐 Qwen3-4B → Self; Co-evolving textual world models and agent policies via on-policy self-distillation and future-aware reflection</sub> | 2026 |  |
 | 🟢 [Data-Efficient Autoregressive-to-Diffusion Language Models via On-Policy Distillation](https://arxiv.org/abs/2606.06712) <br><sub>📐 AR-LM (frozen) → Diffusion-LM; OPDLM: self-distillation converts AR LM to diffusion LM on-policy; 15x-7000x fewer training tokens</sub> | 2026 |  |
 | 🟢 [Be My Tutor: On-Policy Co-Distillation for Mutual LLM Improvement via Peer Feedback](https://arxiv.org/abs/2606.14368) <br><sub>📐 Qwen3-8B ↔ Qwen3-8B (peer); OPCoD: two coupled on-policy self-distillation loops, each self-teacher conditioned on own correct rollout + peer NL feedback; cognizance gating + feedback anchoring; cross-domain mutual Pareto improvement</sub> | 2026 |  |
-| 🟢 [Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models](https://arxiv.org/abs/2401.01335) <br><sub>📐 Zephyr-7B-SFT (prev iter) → Self; SPIN: iterative self-play where LLM generates training data and distinguishes own outputs from human; converges in 3 iterations</sub> | 2024 |  |
-| 🟢 [IRIS: Interpolative Rényi Iterative Self-play for Large Language Model Fine-Tuning](https://arxiv.org/abs/2604.20933) <br><sub>📐 Zephyr-7B-SFT / Qwen2.5-3B-Inst → Self; interpolative Rényi divergence generalizes SPIN's reverse-KL to α-Rényi family for self-play</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
