@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-213-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-216-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -559,6 +559,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [Rubric-Guided Self-Distillation: Post-Training Without Rubric Verifiers](https://arxiv.org/abs/2606.12507) <br><sub>📐 Self (w/ rubric) → Self; Rubric as privileged context for same-model teacher; JSD distillation eliminates external LLM verifier from open-ended post-training</sub> | 2026 |  |
 | 🟡 [PathRouter: Aligning Rewards with Retrieval Quality in Agentic Graph Retrieval-Augmented Generation](https://arxiv.org/abs/2606.16409) <br><sub>📐 Qwen2.5-7B-Instruct (frozen reference) → Qwen2.5-7B-Instruct; Path-aware training framework for agentic GraphRAG with route-conditioned GRPO and selective teacher KL</sub> | 2026 |  |
 | 🟡 [Rethinking Reward Supervision: Rubric-Conditioned Self-Distillation](https://arxiv.org/abs/2606.19327) <br><sub>📐 Qwen3-8B (rubric-conditioned) → Qwen3-8B; Rubric-conditioned on-policy self-distillation using criterion-level privileged teacher supervision</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/carriegu0818/RCSD) |
+| 🟡 [PolicyAlign: Direct Policy-Based Safety Alignment for Large Language Models](https://arxiv.org/abs/2606.25442) <br><sub>📐 LLaMA-3.2-3B-Instruct (policy-conditioned) → LLaMA-3.2-3B-Instruct; On-policy self-distillation from policy-conditioned teacher for LLM safety alignment</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/Qwen-Applications/PolicyAlign) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -589,6 +590,8 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [Data-Efficient Autoregressive-to-Diffusion Language Models via On-Policy Distillation](https://arxiv.org/abs/2606.06712) <br><sub>📐 AR-LM (frozen) → Diffusion-LM; OPDLM: self-distillation converts AR LM to diffusion LM on-policy; 15x-7000x fewer training tokens</sub> | 2026 |  |
 | 🟢 [Be My Tutor: On-Policy Co-Distillation for Mutual LLM Improvement via Peer Feedback](https://arxiv.org/abs/2606.14368) <br><sub>📐 Qwen3-8B ↔ Qwen3-8B (peer); OPCoD: two coupled on-policy self-distillation loops, each self-teacher conditioned on own correct rollout + peer NL feedback; cognizance gating + feedback anchoring; cross-domain mutual Pareto improvement</sub> | 2026 |  |
 | 🟡 [Beyond the Golden Teacher: Enhancing Graph Learning through LLM-GNN Co-teaching](https://arxiv.org/abs/2606.11583) <br><sub>📐 GCN (2-layer, 64-d) → Llama-3-8B-Instruct; Bidirectional LLM-GNN co-teaching with trajectory-mined DPO preference pairs for few-shot graph learning</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/llmgnncoteaching/LLM-GNN-Coteaching) |
+| 🟡 [ROAD-VLA: Robust Online Adaptation via Self-Distillation for Vision-Language-Action Models](https://arxiv.org/abs/2606.25800) <br><sub>📐 OpenVLA-7B (advantage-perturbed) → OpenVLA-7B; Advantage-guided self-distillation converting sparse rewards to dense token-level VLA supervision</sub> | 2026 |  |
+| 🟡 [WinDOM: Self-Family Distillation for Small-Model GUI Grounding](https://arxiv.org/abs/2606.25964) <br><sub>📐 Qwen3.5-4B → Qwen3.5-2B; Self-Family Distillation cold-start + early-init GRPO for 2B GUI grounding agents</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -810,6 +813,9 @@ On-Policy Distillation (Survey V3 Structure)
 | [Beyond Trajectory Imitation: Strategy-Guided Policy Optimization for LLM Reasoning](https://arxiv.org/abs/2606.24064) | §4.2 | The core contribution is an adaptive forward-KL distillation objective between the student's own guided and unguided distributions, with… |
 | [DynaWM: Dynamics-Aware Distillation with World Model and Momentum Targets for Smooth Locomotion over Continuous Stairs](https://arxiv.org/abs/2606.24089) | §5.1 | Core contribution is a teacher-student distillation framework with white-box teacher (world model regularized encoder providing latent… |
 | [AsyncOPD: How Stale Can On-Policy Distillation Be?](https://arxiv.org/abs/2606.24143) | §6.3 | Core contribution is compute-efficiency via async pipeline and multi-sample MC estimator design for on-policy distillation under staleness… |
+| [PolicyAlign: Direct Policy-Based Safety Alignment for Large Language Models](https://arxiv.org/abs/2606.25442) | §5.3.1 | Core contribution is on-policy self-distillation where teacher is policy-conditioned version of same model (privileged information… |
+| [ROAD-VLA: Robust Online Adaptation via Self-Distillation for Vision-Language-Action Models](https://arxiv.org/abs/2606.25800) | §5.3.2 | Core contribution is self-distillation where the teacher is constructed from the student's own logits perturbed by advantage estimates… |
+| [WinDOM: Self-Family Distillation for Small-Model GUI Grounding](https://arxiv.org/abs/2606.25964) | §5.3.2 | The core contribution is Self-Family Distillation where the teacher is either an EMA of the student (pure self-distillation) or a frozen… |
 
 > Papers indexed in this list but not yet included in the survey paper. They will be evaluated for the next revision.
 
