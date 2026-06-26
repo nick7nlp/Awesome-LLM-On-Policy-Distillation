@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-216-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-213-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -487,11 +487,9 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [DuDi: Dual-Signal Distillation with Cross-Lingual Verbalizer](https://arxiv.org/abs/2606.04694) <br><sub>📐 Qwen2.5-3B-Instruct → Qwen2.5-0.5B; Dual-signal distillation: online sequence-level SPIN objective combined with off-policy + on-policy token-level KD via a cross-lingual verbalizer.</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/dudi-llm/DuDi) |
 | 🟢 [Breaking the Tokenizer Barrier: On-Policy Distillation across Model Families](https://arxiv.org/abs/2606.09456) <br><sub>📐 Cross-family Teacher → Cross-family Student; Token-mapping enables on-policy distillation across model families with different tokenizers</sub> | 2026 |  |
 | 🟢 [OPRD: On-Policy Representation Distillation](https://arxiv.org/abs/2606.06021) <br><sub>📐 External Teacher → Student; Extends OPD from logit space to hidden-state representation alignment, reducing Monte Carlo KL variance over large vocabularies</sub> | 2026 |  |
-| 🟡 [Doc-to-Atom: Learning to Compile and Compose Memory Atoms](https://arxiv.org/abs/2606.12400) <br><sub>📐 Gemma-2-2B-It (full context) → Gemma-2-2B-It (with assembled LoRA); Compositional parametric memory via semantic atom decomposition and query-conditioned LoRA assembly</sub> | 2026 |  |
 | 🟡 [RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation](https://arxiv.org/abs/2606.14010) <br><sub>📐 SimLingo → RT-VLA; Multi-level distillation of VLA driving model for real-time inference with on-policy language fine-tuning</sub> | 2025 |  |
 | 🟡 [Nemotron 3 Ultra: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning](https://arxiv.org/abs/2606.15007) <br><sub>📐 Specialized Teachers (10+ domain experts) → Nemotron 3 Ultra 550B-A55B; 550B MoE hybrid Mamba-Attention LLM with multi-teacher on-policy distillation for agentic reasoning</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/NVIDIA-NeMo/Nemotron) |
 | 🟡 [Seeing Before Reasoning: Decoupling Perception and Reasoning for Shortcut-Resilient Multimodal On-Policy Self-Distillation](https://arxiv.org/abs/2606.19120) <br><sub>📐 Qwen2.5-VL-3B-Instruct (frozen) → Qwen2.5-VL-3B-Instruct; Decouples perception and reasoning supervision in multimodal on-policy self-distillation to prevent answer-driven shortc</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://oedosoldier.github.io/ViGOS/) |
-| 🟡 [DynaWM: Dynamics-Aware Distillation with World Model and Momentum Targets for Smooth Locomotion over Continuous Stairs](https://arxiv.org/abs/2606.24089) <br><sub>📐 DynaWM Teacher Encoder → DynaWM Student Encoder; World model regularizer + momentum target encoder for dynamics-aware teacher-student distillation in bipedal-wheeled rob</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -589,7 +587,6 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [COMAP: Co-Evolving World Models and Agent Policies for LLM Agents](https://arxiv.org/abs/2606.02372) <br><sub>📐 Qwen3-4B → Self; Co-evolving textual world models and agent policies via on-policy self-distillation and future-aware reflection</sub> | 2026 |  |
 | 🟢 [Data-Efficient Autoregressive-to-Diffusion Language Models via On-Policy Distillation](https://arxiv.org/abs/2606.06712) <br><sub>📐 AR-LM (frozen) → Diffusion-LM; OPDLM: self-distillation converts AR LM to diffusion LM on-policy; 15x-7000x fewer training tokens</sub> | 2026 |  |
 | 🟢 [Be My Tutor: On-Policy Co-Distillation for Mutual LLM Improvement via Peer Feedback](https://arxiv.org/abs/2606.14368) <br><sub>📐 Qwen3-8B ↔ Qwen3-8B (peer); OPCoD: two coupled on-policy self-distillation loops, each self-teacher conditioned on own correct rollout + peer NL feedback; cognizance gating + feedback anchoring; cross-domain mutual Pareto improvement</sub> | 2026 |  |
-| 🟡 [Beyond the Golden Teacher: Enhancing Graph Learning through LLM-GNN Co-teaching](https://arxiv.org/abs/2606.11583) <br><sub>📐 GCN (2-layer, 64-d) → Llama-3-8B-Instruct; Bidirectional LLM-GNN co-teaching with trajectory-mined DPO preference pairs for few-shot graph learning</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/llmgnncoteaching/LLM-GNN-Coteaching) |
 | 🟡 [ROAD-VLA: Robust Online Adaptation via Self-Distillation for Vision-Language-Action Models](https://arxiv.org/abs/2606.25800) <br><sub>📐 OpenVLA-7B (advantage-perturbed) → OpenVLA-7B; Advantage-guided self-distillation converting sparse rewards to dense token-level VLA supervision</sub> | 2026 |  |
 | 🟡 [WinDOM: Self-Family Distillation for Small-Model GUI Grounding](https://arxiv.org/abs/2606.25964) <br><sub>📐 Qwen3.5-4B → Qwen3.5-2B; Self-Family Distillation cold-start + early-init GRPO for 2B GUI grounding agents</sub> | 2026 |  |
 
@@ -799,8 +796,6 @@ On-Policy Distillation (Survey V3 Structure)
 
 ## 📋 Pending Papers (🟡)
 | [PADD: Path-Aligned Decompression Distillation for Non-Router Teacher to Guide MoE Student Learning](https://arxiv.org/abs/2606.10369) | §4.2 | The core contribution is an adaptive online distillation mechanism that dynamically adjusts teacher temperature based on student on-policy… |
-| [Beyond the Golden Teacher: Enhancing Graph Learning through LLM-GNN Co-teaching](https://arxiv.org/abs/2606.11583) | §5.3.2 | The core contribution is a self-supervised co-teaching framework where both models generate their own pseudo-labels each round and mine… |
-| [Doc-to-Atom: Learning to Compile and Compose Memory Atoms](https://arxiv.org/abs/2606.12400) | §5.1 | Core contribution is a white-box context distillation framework where student generates outputs through assembled LoRA and is trained via… |
 | [RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation](https://arxiv.org/abs/2606.14010) | §5.1 | The core contribution is a multi-level knowledge distillation framework from a white-box teacher (SimLingo with accessible features and… |
 | [Nemotron 3 Ultra: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning](https://arxiv.org/abs/2606.15007) | §5.1 | Core contribution is multi-teacher on-policy distillation using white-box teacher logits on student-generated trajectories with PPO-style… |
 | [PACT: Privileged Trace Co-Training for Multi-Turn Tool-Use Agents](https://arxiv.org/abs/2606.16215) | §4.3 | Core contribution is an RL-augmented distillation framework that uses expert traces as privileged optimization context with component-aware… |
@@ -811,7 +806,6 @@ On-Policy Distillation (Survey V3 Structure)
 | [Rethinking Reward Supervision: Rubric-Conditioned Self-Distillation](https://arxiv.org/abs/2606.19327) | §5.3.1 | Core contribution is a new privileged information interface (rubrics) for on-policy self-distillation, where teacher and student share the… |
 | [Blockwise Policy-Drift Gating for On-Policy Distillation](https://arxiv.org/abs/2606.24084) | §6.1 | Core contribution is a token-weighting mechanism (blockwise drift gating) that reweights OPD position losses based on old-current student… |
 | [Beyond Trajectory Imitation: Strategy-Guided Policy Optimization for LLM Reasoning](https://arxiv.org/abs/2606.24064) | §4.2 | The core contribution is an adaptive forward-KL distillation objective between the student's own guided and unguided distributions, with… |
-| [DynaWM: Dynamics-Aware Distillation with World Model and Momentum Targets for Smooth Locomotion over Continuous Stairs](https://arxiv.org/abs/2606.24089) | §5.1 | Core contribution is a teacher-student distillation framework with white-box teacher (world model regularized encoder providing latent… |
 | [AsyncOPD: How Stale Can On-Policy Distillation Be?](https://arxiv.org/abs/2606.24143) | §6.3 | Core contribution is compute-efficiency via async pipeline and multi-sample MC estimator design for on-policy distillation under staleness… |
 | [PolicyAlign: Direct Policy-Based Safety Alignment for Large Language Models](https://arxiv.org/abs/2606.25442) | §5.3.1 | Core contribution is on-policy self-distillation where teacher is policy-conditioned version of same model (privileged information… |
 | [ROAD-VLA: Robust Online Adaptation via Self-Distillation for Vision-Language-Action Models](https://arxiv.org/abs/2606.25800) | §5.3.2 | Core contribution is self-distillation where the teacher is constructed from the student's own logits perturbed by advantage estimates… |
