@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-213-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-211-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -461,7 +461,6 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [AMR-SD: Asymmetric Meta-Reflective Self-Distillation for Token-Level Credit Assignment](https://arxiv.org/abs/2605.18529) <br><sub>📐 Qwen2.5-7B / Qwen3-8B → Self; CIG (pointwise KL) modulates PPO advantage; meta-reflective teacher conditions on privileged info</sub> | 2026 |  |
 | 🟢 [Self-Evaluation Is Already There: Eliciting Latent Judge Calibration in Base LLMs with Minimal Data](https://arxiv.org/abs/2606.05122) <br><sub>📐 GPT-5.4 → Qwen3-4B-Base; Calibration-coupled GRPO + masked judge distillation: external judge scores distilled into self-evaluation tokens only, leaving the answer untouched.</sub> | 2026 |  |
 | 🟢 [RLCSD: Reinforcement Learning with Contrastive On-Policy Self-Distillation](https://arxiv.org/abs/2606.11709) <br><sub>📐 Self (correct-hint) + Self (wrong-hint) → Student; Contrastive RKL inside GRPO: two-path loss pulls student toward correct-hint teacher and away from wrong-hint teacher simultaneously</sub> | 2026 |  |
-| 🟡 [PACT: Privileged Trace Co-Training for Multi-Turn Tool-Use Agents](https://arxiv.org/abs/2606.16215) <br><sub>📐 Qwen3-235B → Qwen3-1.7B; Privileged trace co-training uses expert traces only during optimization, not rollout, for multi-turn tool-use agents</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://zhenbangdu.github.io/pact-project-page) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -588,7 +587,6 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [Data-Efficient Autoregressive-to-Diffusion Language Models via On-Policy Distillation](https://arxiv.org/abs/2606.06712) <br><sub>📐 AR-LM (frozen) → Diffusion-LM; OPDLM: self-distillation converts AR LM to diffusion LM on-policy; 15x-7000x fewer training tokens</sub> | 2026 |  |
 | 🟢 [Be My Tutor: On-Policy Co-Distillation for Mutual LLM Improvement via Peer Feedback](https://arxiv.org/abs/2606.14368) <br><sub>📐 Qwen3-8B ↔ Qwen3-8B (peer); OPCoD: two coupled on-policy self-distillation loops, each self-teacher conditioned on own correct rollout + peer NL feedback; cognizance gating + feedback anchoring; cross-domain mutual Pareto improvement</sub> | 2026 |  |
 | 🟡 [ROAD-VLA: Robust Online Adaptation via Self-Distillation for Vision-Language-Action Models](https://arxiv.org/abs/2606.25800) <br><sub>📐 OpenVLA-7B (advantage-perturbed) → OpenVLA-7B; Advantage-guided self-distillation converting sparse rewards to dense token-level VLA supervision</sub> | 2026 |  |
-| 🟡 [WinDOM: Self-Family Distillation for Small-Model GUI Grounding](https://arxiv.org/abs/2606.25964) <br><sub>📐 Qwen3.5-4B → Qwen3.5-2B; Self-Family Distillation cold-start + early-init GRPO for 2B GUI grounding agents</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -798,7 +796,6 @@ On-Policy Distillation (Survey V3 Structure)
 | [PADD: Path-Aligned Decompression Distillation for Non-Router Teacher to Guide MoE Student Learning](https://arxiv.org/abs/2606.10369) | §4.2 | The core contribution is an adaptive online distillation mechanism that dynamically adjusts teacher temperature based on student on-policy… |
 | [RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation](https://arxiv.org/abs/2606.14010) | §5.1 | The core contribution is a multi-level knowledge distillation framework from a white-box teacher (SimLingo with accessible features and… |
 | [Nemotron 3 Ultra: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning](https://arxiv.org/abs/2606.15007) | §5.1 | Core contribution is multi-teacher on-policy distillation using white-box teacher logits on student-generated trajectories with PPO-style… |
-| [PACT: Privileged Trace Co-Training for Multi-Turn Tool-Use Agents](https://arxiv.org/abs/2606.16215) | §4.3 | Core contribution is an RL-augmented distillation framework that uses expert traces as privileged optimization context with component-aware… |
 | [PathRouter: Aligning Rewards with Retrieval Quality in Agentic Graph Retrieval-Augmented Generation](https://arxiv.org/abs/2606.16409) | §5.3.1 | Core contribution is a privileged-information teacher (frozen reference model conditioned on gold evidence) providing token-level KL on… |
 | [PowerOPD: Stabilizing On-Policy Distillation with Bounded Power Transformation](https://arxiv.org/abs/2606.17199) | §4.1 | Core contribution is a new bounded reward function (divergence/objective) for on-policy distillation replacing the unbounded log-ratio… |
 | [Trust the Right Teacher: Quality-Aware Self-Distillation for GUI Grounding](https://arxiv.org/abs/2606.18101) | §6.1 | Core contribution is token-level weighting of distillation loss based on spatial verifiability (correctness-aware gating) and teacher… |
@@ -809,7 +806,6 @@ On-Policy Distillation (Survey V3 Structure)
 | [AsyncOPD: How Stale Can On-Policy Distillation Be?](https://arxiv.org/abs/2606.24143) | §6.3 | Core contribution is compute-efficiency via async pipeline and multi-sample MC estimator design for on-policy distillation under staleness… |
 | [PolicyAlign: Direct Policy-Based Safety Alignment for Large Language Models](https://arxiv.org/abs/2606.25442) | §5.3.1 | Core contribution is on-policy self-distillation where teacher is policy-conditioned version of same model (privileged information… |
 | [ROAD-VLA: Robust Online Adaptation via Self-Distillation for Vision-Language-Action Models](https://arxiv.org/abs/2606.25800) | §5.3.2 | Core contribution is self-distillation where the teacher is constructed from the student's own logits perturbed by advantage estimates… |
-| [WinDOM: Self-Family Distillation for Small-Model GUI Grounding](https://arxiv.org/abs/2606.25964) | §5.3.2 | The core contribution is Self-Family Distillation where the teacher is either an EMA of the student (pure self-distillation) or a frozen… |
 
 > Papers indexed in this list but not yet included in the survey paper. They will be evaluated for the next revision.
 
