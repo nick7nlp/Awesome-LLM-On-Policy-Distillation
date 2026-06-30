@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-204-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-205-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -460,6 +460,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [AMR-SD: Asymmetric Meta-Reflective Self-Distillation for Token-Level Credit Assignment](https://arxiv.org/abs/2605.18529) <br><sub>📐 Qwen2.5-7B / Qwen3-8B → Self; CIG (pointwise KL) modulates PPO advantage; meta-reflective teacher conditions on privileged info</sub> | 2026 |  |
 | 🟢 [Self-Evaluation Is Already There: Eliciting Latent Judge Calibration in Base LLMs with Minimal Data](https://arxiv.org/abs/2606.05122) <br><sub>📐 GPT-5.4 → Qwen3-4B-Base; Calibration-coupled GRPO + masked judge distillation: external judge scores distilled into self-evaluation tokens only, leaving the answer untouched.</sub> | 2026 |  |
 | 🟢 [RLCSD: Reinforcement Learning with Contrastive On-Policy Self-Distillation](https://arxiv.org/abs/2606.11709) <br><sub>📐 Self (correct-hint) + Self (wrong-hint) → Student; Contrastive RKL inside GRPO: two-path loss pulls student toward correct-hint teacher and away from wrong-hint teacher simultaneously</sub> | 2026 |  |
+| 🟡 [ATOD: Annealed Turn-aware On-policy Distillation for Multi-turn Autonomous Agents](https://arxiv.org/abs/2606.27814) <br><sub>📐 Qwen3-4B GRPO → Qwen3-0.6B; Hybrid annealed OPD-RL schedule with turn-level disagreement-uncertainty reweighting for multi-turn agents</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -792,6 +793,7 @@ On-Policy Distillation (Survey V3 Structure)
 | [Rethinking Reward Supervision: Rubric-Conditioned Self-Distillation](https://arxiv.org/abs/2606.19327) | §5.3.1 | Core contribution is a new privileged information interface (rubrics) for on-policy self-distillation, where teacher and student share the… |
 | [Blockwise Policy-Drift Gating for On-Policy Distillation](https://arxiv.org/abs/2606.24084) | §6.1 | Core contribution is a token-weighting mechanism (blockwise drift gating) that reweights OPD position losses based on old-current student… |
 | [AsyncOPD: How Stale Can On-Policy Distillation Be?](https://arxiv.org/abs/2606.24143) | §6.3 | Core contribution is compute-efficiency via async pipeline and multi-sample MC estimator design for on-policy distillation under staleness… |
+| [ATOD: Annealed Turn-aware On-policy Distillation for Multi-turn Autonomous Agents](https://arxiv.org/abs/2606.27814) | §4.3 | ATOD combines on-policy distillation with RL through an annealed schedule (RL-augmented OPD objective §4.3), with T-DUR providing… |
 
 > Papers indexed in this list but not yet included in the survey paper. They will be evaluated for the next revision.
 
