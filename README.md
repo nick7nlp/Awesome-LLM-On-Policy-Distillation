@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-205-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-210-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -402,6 +402,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [OPD+: Rethinking the Advantage Design for On-Policy Distillation](https://arxiv.org/abs/2606.01039) <br><sub>📐 Qwen3-8B → Qwen3-8B-Base; Corrects advantage estimation in on-policy distillation via f-divergence gradient analysis</sub> | 2026 |  |
 | 🟢 [Reinforcement Learning from Rich Feedback with Distributional DAgger](https://arxiv.org/abs/2606.05152) <br><sub>📐 Qwen3-8B → Self; Distributional DAgger via forward cross-entropy: monotonic-improvement objective with future-aware credit assignment, an OPD analogue of RL distributional bootstrapping.</sub> | 2026 |  |
 | 🟡 [PowerOPD: Stabilizing On-Policy Distillation with Bounded Power Transformation](https://arxiv.org/abs/2606.17199) <br><sub>📐 Qwen3-4B → Qwen3-0.6B-Base; Bounded power-transformed rewards for on-policy distillation replacing unbounded log-ratio</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/EIT-NLP/PowerOPD) |
+| 🟡 [Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent](https://arxiv.org/abs/2606.30616) <br><sub>📐 Search-enhanced Teacher (SFT+RL) → Agents-A1; 35B MoE agent matching 1T models via multi-teacher domain-routed on-policy distillation with salient vocabulary alignmen</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -427,6 +428,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [Trust Region On-Policy Distillation](https://arxiv.org/abs/2606.01249) <br><sub>📐 Skywork-OR1-Math-7B → DeepSeek-R1-Distill-Qwen-1.5B; Trust-region OPD with outlier estimation and off-policy guidance for stable reasoning distillation</sub> | 2026 |  |
 | 🟢 [Stabilizing On-Policy Distillation for MLLM Reasoning with Global Normalization](https://arxiv.org/abs/2606.09091) <br><sub>📐 Teacher → MLLM; GNDPO: global KL normalization to batch-relative advantages stabilizes on-policy distillation for MLLMs</sub> | 2026 |  |
 | 🟡 [PADD: Path-Aligned Decompression Distillation for Non-Router Teacher to Guide MoE Student Learning](https://arxiv.org/abs/2606.10369) <br><sub>📐 Qwen2.5-Math-7B → Qwen3-30B-A3B; Dense-to-MoE distillation via neuron clustering, online adaptive KD, path-refined GRPO, and reward-augmented load balanc</sub> | 2026 |  |
+| 🟡 [Building Multi-Task Agentic LLMs via Two-Phase Distillation](https://arxiv.org/abs/2606.30044) <br><sub>📐 Qwen3-8B (single-task RL expert) → Qwen3-8B; Two-phase distillation (off-policy then on-policy) for multi-task agentic LLMs</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -487,6 +489,8 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [Breaking the Tokenizer Barrier: On-Policy Distillation across Model Families](https://arxiv.org/abs/2606.09456) <br><sub>📐 Cross-family Teacher → Cross-family Student; Token-mapping enables on-policy distillation across model families with different tokenizers</sub> | 2026 |  |
 | 🟢 [OPRD: On-Policy Representation Distillation](https://arxiv.org/abs/2606.06021) <br><sub>📐 External Teacher → Student; Extends OPD from logit space to hidden-state representation alignment, reducing Monte Carlo KL variance over large vocabularies</sub> | 2026 |  |
 | 🟡 [Seeing Before Reasoning: Decoupling Perception and Reasoning for Shortcut-Resilient Multimodal On-Policy Self-Distillation](https://arxiv.org/abs/2606.19120) <br><sub>📐 Qwen2.5-VL-3B-Instruct (frozen) → Qwen2.5-VL-3B-Instruct; Decouples perception and reasoning supervision in multimodal on-policy self-distillation to prevent answer-driven shortc</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://oedosoldier.github.io/ViGOS/) |
+| 🟡 [MOPD: Multi-Teacher On-Policy Distillation for Capability Integration in LLM Post-Training](https://arxiv.org/abs/2606.30406) <br><sub>📐 Qwen3-30B-A3B Math RL Teacher → Qwen3-30B-A3B (SFT init); Multi-teacher on-policy distillation for integrating multiple RL domain experts into one LLM</sub> | 2026 |  |
+| 🟡 [Regime-Aware Peer Specialization for Robust RAG under Heterogeneous Knowledge Conflicts](https://arxiv.org/abs/2606.30518) <br><sub>📐 Qwen2.5-7B-Instruct (Grounding specialist) → Qwen2.5-7B-Instruct; Regime-aware peer specialization framework for robust RAG under knowledge conflicts</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -652,6 +656,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [Escaping the KL Agreement Trap in On-Policy Distillation](https://arxiv.org/abs/2606.09471) <br><sub>📐 Teacher → Student; KAT: online rollout truncation at KL agreement trap regions (degraded prefixes teacher locally accepts) restores useful supervision and improves training efficiency</sub> | 2026 |  |
 | 🟡 [Blockwise Policy-Drift Gating for On-Policy Distillation](https://arxiv.org/abs/2606.24084) <br><sub>📐 Qwen3-4B-Base-GRPO → Qwen3-1.7B-Base; Blockwise old-current student drift gating to reweight OPD position losses under rollout reuse</sub> | 2026 |  |
 | 🟡 [AsyncOPD: How Stale Can On-Policy Distillation Be?](https://arxiv.org/abs/2606.24143) <br><sub>📐 Qwen3-30B-A3B-Instruct-2507 → Qwen3-4B-Base; Systematic study of staleness in asynchronous on-policy distillation with multi-sample MC estimator</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/furiosa-ai/async-opd) |
+| 🟡 [SEAD: Competence-Aware On-Policy Distillation via Entropy-Guided Supervision](https://arxiv.org/abs/2606.28562) <br><sub>📐 OLMo-32B-Instruct → OLMo-7B-Instruct; Entropy-guided token/temporal/prompt-level adaptive supervision for on-policy distillation</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -794,6 +799,11 @@ On-Policy Distillation (Survey V3 Structure)
 | [Blockwise Policy-Drift Gating for On-Policy Distillation](https://arxiv.org/abs/2606.24084) | §6.1 | Core contribution is a token-weighting mechanism (blockwise drift gating) that reweights OPD position losses based on old-current student… |
 | [AsyncOPD: How Stale Can On-Policy Distillation Be?](https://arxiv.org/abs/2606.24143) | §6.3 | Core contribution is compute-efficiency via async pipeline and multi-sample MC estimator design for on-policy distillation under staleness… |
 | [ATOD: Annealed Turn-aware On-policy Distillation for Multi-turn Autonomous Agents](https://arxiv.org/abs/2606.27814) | §4.3 | ATOD combines on-policy distillation with RL through an annealed schedule (RL-augmented OPD objective §4.3), with T-DUR providing… |
+| [SEAD: Competence-Aware On-Policy Distillation via Entropy-Guided Supervision](https://arxiv.org/abs/2606.28562) | §6.1 | SEAD's core contribution is token-level selection (zone partitioning skipping ~50% tokens) combined with adaptive divergence and… |
+| [Building Multi-Task Agentic LLMs via Two-Phase Distillation](https://arxiv.org/abs/2606.30044) | §4.2 | The paper proposes an adaptive two-phase distillation strategy combining off-policy (forward KL) and on-policy (reverse KL) objectives… |
+| [MOPD: Multi-Teacher On-Policy Distillation for Capability Integration in LLM Post-Training](https://arxiv.org/abs/2606.30406) | §5.1 | MOPD performs on-policy distillation with multiple white-box domain teachers providing logit-level supervision on student-generated… |
+| [Regime-Aware Peer Specialization for Robust RAG under Heterogeneous Knowledge Conflicts](https://arxiv.org/abs/2606.30518) | §5.1 | The method uses multiple same-scale white-box peer teachers providing logit-level reverse-KL supervision on student-generated rollouts… |
+| [Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent](https://arxiv.org/abs/2606.30616) | §4.1 | The paper proposes a novel OPD objective (SVA with domain-routed normalization) that replaces the standard sampled-token KL with a… |
 
 > Papers indexed in this list but not yet included in the survey paper. They will be evaluated for the next revision.
 
