@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-211-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-215-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -429,6 +429,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [Stabilizing On-Policy Distillation for MLLM Reasoning with Global Normalization](https://arxiv.org/abs/2606.09091) <br><sub>📐 Teacher → MLLM; GNDPO: global KL normalization to batch-relative advantages stabilizes on-policy distillation for MLLMs</sub> | 2026 |  |
 | 🟡 [PADD: Path-Aligned Decompression Distillation for Non-Router Teacher to Guide MoE Student Learning](https://arxiv.org/abs/2606.10369) <br><sub>📐 Qwen2.5-Math-7B → Qwen3-30B-A3B; Dense-to-MoE distillation via neuron clustering, online adaptive KD, path-refined GRPO, and reward-augmented load balanc</sub> | 2026 |  |
 | 🟡 [Building Multi-Task Agentic LLMs via Two-Phase Distillation](https://arxiv.org/abs/2606.30044) <br><sub>📐 Qwen3-8B (single-task RL expert) → Qwen3-8B; Two-phase distillation (off-policy then on-policy) for multi-task agentic LLMs</sub> | 2026 |  |
+| 🟡 [KbSD: Knowledge Boundary aware Self-Distillation for Behavioral Calibration in Agentic Search](https://arxiv.org/abs/2606.29863) <br><sub>📐 Qwen2.5-3B → Self; Information-asymmetric self-distillation where architecturally identical teacher receives boundary hints (parametric cer</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -463,6 +464,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [Self-Evaluation Is Already There: Eliciting Latent Judge Calibration in Base LLMs with Minimal Data](https://arxiv.org/abs/2606.05122) <br><sub>📐 GPT-5.4 → Qwen3-4B-Base; Calibration-coupled GRPO + masked judge distillation: external judge scores distilled into self-evaluation tokens only, leaving the answer untouched.</sub> | 2026 |  |
 | 🟢 [RLCSD: Reinforcement Learning with Contrastive On-Policy Self-Distillation](https://arxiv.org/abs/2606.11709) <br><sub>📐 Self (correct-hint) + Self (wrong-hint) → Student; Contrastive RKL inside GRPO: two-path loss pulls student toward correct-hint teacher and away from wrong-hint teacher simultaneously</sub> | 2026 |  |
 | 🟡 [ATOD: Annealed Turn-aware On-policy Distillation for Multi-turn Autonomous Agents](https://arxiv.org/abs/2606.27814) <br><sub>📐 Qwen3-4B GRPO → Qwen3-0.6B; Hybrid annealed OPD-RL schedule with turn-level disagreement-uncertainty reweighting for multi-turn agents</sub> | 2026 |  |
+| 🟡 [CRAFT: Counterfactual Credit Assignment from Free Sibling Rollouts for Self-Distilled Agentic Reinforcement Learning](https://arxiv.org/abs/2606.29476) <br><sub>📐 Qwen3-1.7B → Self; Replaces the single retrospective gate in SDAR with a counterfactual signed per-token credit estimated via importance-we</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -557,6 +559,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [When Context Returns: Toward Robust Internalization in On-Policy Distillation](https://arxiv.org/abs/2606.11627) <br><sub>📐 Self (w/ privileged context) → Self; FKL no-context anchoring regularizer prevents context-induced degradation when privileged context is re-introduced at inference</sub> | 2026 |  |
 | 🟢 [Rubric-Guided Self-Distillation: Post-Training Without Rubric Verifiers](https://arxiv.org/abs/2606.12507) <br><sub>📐 Self (w/ rubric) → Self; Rubric as privileged context for same-model teacher; JSD distillation eliminates external LLM verifier from open-ended post-training</sub> | 2026 |  |
 | 🟡 [Rethinking Reward Supervision: Rubric-Conditioned Self-Distillation](https://arxiv.org/abs/2606.19327) <br><sub>📐 Qwen3-8B (rubric-conditioned) → Qwen3-8B; Rubric-conditioned on-policy self-distillation using criterion-level privileged teacher supervision</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/carriegu0818/RCSD) |
+| 🟡 [GAPD: Gold-Action Policy Distillation for Agentic Reinforcement Learning in Knowledge Base Question Answering](https://arxiv.org/abs/2605.29584) <br><sub>📐 Llama-3.1-8B-Instruct → Self; Uses entity-anchor matching to align on-policy student states with gold execution states, then conditions the current po</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -586,6 +589,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [COMAP: Co-Evolving World Models and Agent Policies for LLM Agents](https://arxiv.org/abs/2606.02372) <br><sub>📐 Qwen3-4B → Self; Co-evolving textual world models and agent policies via on-policy self-distillation and future-aware reflection</sub> | 2026 |  |
 | 🟢 [Data-Efficient Autoregressive-to-Diffusion Language Models via On-Policy Distillation](https://arxiv.org/abs/2606.06712) <br><sub>📐 AR-LM (frozen) → Diffusion-LM; OPDLM: self-distillation converts AR LM to diffusion LM on-policy; 15x-7000x fewer training tokens</sub> | 2026 |  |
 | 🟢 [Be My Tutor: On-Policy Co-Distillation for Mutual LLM Improvement via Peer Feedback](https://arxiv.org/abs/2606.14368) <br><sub>📐 Qwen3-8B ↔ Qwen3-8B (peer); OPCoD: two coupled on-policy self-distillation loops, each self-teacher conditioned on own correct rollout + peer NL feedback; cognizance gating + feedback anchoring; cross-domain mutual Pareto improvement</sub> | 2026 |  |
+| 🟡 [UCOB: Learning to Utilize and Evolve Agentic Skills via Credit-Aware On-Policy Bidirectional Self-Distillation](https://arxiv.org/abs/2606.29502) <br><sub>📐 Qwen3-1.7B → Self; Replaces fixed skill-to-no-skill teacher direction with bidirectional self-distillation where the higher-return context </sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -806,6 +810,10 @@ On-Policy Distillation (Survey V3 Structure)
 | [Regime-Aware Peer Specialization for Robust RAG under Heterogeneous Knowledge Conflicts](https://arxiv.org/abs/2606.30518) | §5.1 | The method uses multiple same-scale white-box peer teachers providing logit-level reverse-KL supervision on student-generated rollouts… |
 | [Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent](https://arxiv.org/abs/2606.30616) | §4.1 | The paper proposes a novel OPD objective (SVA with domain-routed normalization) that replaces the standard sampled-token KL with a… |
 | [Diffusion-GR2: Diffusion Generative Reasoning Re-ranker](https://arxiv.org/abs/2607.01170) | §8.1 | The paper applies on-policy distillation (student generates rollouts, teacher provides logit-level KL supervision) as a core stage in a… |
+| [GAPD: Gold-Action Policy Distillation for Agentic Reinforcement Learning in Knowledge Base Question Answering](https://arxiv.org/abs/2605.29584) | §5.3.1 | The self-teacher is the current policy conditioned on gold-action information (PI of ground truth), providing token-level distributional… |
+| [CRAFT: Counterfactual Credit Assignment from Free Sibling Rollouts for Self-Distilled Agentic Reinforcement Learning](https://arxiv.org/abs/2606.29476) | §4.3 | The method uses student-generated on-policy rollouts (C1), the same policy conditioned on privileged context provides logit-level… |
+| [UCOB: Learning to Utilize and Evolve Agentic Skills via Credit-Aware On-Policy Bidirectional Self-Distillation](https://arxiv.org/abs/2606.29502) | §5.3.2 | Self-distillation where student generates rollouts under two context views (same model), higher-return view provides logit-level KL… |
+| [KbSD: Knowledge Boundary aware Self-Distillation for Behavioral Calibration in Agentic Search](https://arxiv.org/abs/2606.29863) | §4.2 | Proposes quadrant-adaptive divergence selection (reverse/forward/Pareto KL) as an adaptive distillation objective, with self-distillation… |
 
 > Papers indexed in this list but not yet included in the survey paper. They will be evaluated for the next revision.
 
