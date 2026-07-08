@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-224-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-226-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -432,6 +432,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [KbSD: Knowledge Boundary aware Self-Distillation for Behavioral Calibration in Agentic Search](https://arxiv.org/abs/2606.29863) <br><sub>📐 Qwen2.5-3B → Self; Information-asymmetric self-distillation where architecturally identical teacher receives boundary hints (parametric cer</sub> | 2026 |  |
 | 🟡 [DOPD: Dual On-policy Distillation](https://arxiv.org/abs/2606.30626) <br><sub>📐 Qwen3-8B → Qwen3-1.7B; Identifies 'privilege illusion' failure mode and proposes token-level advantage-aware routing that dynamically selects s</sub> | 2026 |  |
 | 🟡 [Multi-Turn On-Policy Distillation with Prefix Replay](https://arxiv.org/abs/2607.04763) <br><sub>📐 Qwen3-4B-Instruct-2507 → Self; Introduces replayed-prefix OPD that reuses offline teacher trajectories instead of live environment interaction, identif</sub> | 2026 |  |
+| 🟡 [Trust Region Policy Distillation](https://arxiv.org/abs/2607.04751) <br><sub>📐 Qwen3-30B-A3B-Instruct-2507 → Qwen3-8B-Base; Stabilizes on-policy distillation via proximal teacher interpolation and trust region iterations</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -470,6 +471,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [GR2 Technical Report](https://arxiv.org/abs/2606.31984) <br><sub>📐 Qwen3-32B → Qwen3-1.7B; Introduces OPD as scalable alternative to SFT for recommendation re-ranking: GRPO-style student rollouts with per-token </sub> | 2026 |  |
 | 🟡 [Distill Where the Student Goes: Teacher-Regularized RL for English-Evidence Cross-Lingual RAG](https://arxiv.org/abs/2607.02966) <br><sub>📐 Llama-3.3-70B-Instruct → Llama-3.2-3B-Instruct; Combines sequence-level task rewards with on-policy distillation via dense prefix-wise reverse-KL anchor on student-visi</sub> | 2026 |  |
 | 🟡 [Weak-to-Strong Generalization via Direct On-Policy Distillation](https://arxiv.org/abs/2607.05394) <br><sub>📐 JustRL-1.5B → R1-Distill-7B; Instead of imitating the weak teacher's final policy, Direct-OPD transfers only the RL-induced policy shift (log-ratio b</sub> | 2026 |  |
+| 🟡 [Reward-Gated On-Policy Distillation](https://arxiv.org/abs/2607.04037) <br><sub>📐 Qwen2.5-14B-Instruct → Qwen2.5-1.5B-Instruct; Reward-gated on-policy distillation filtering teacher logits by verifier-reward alignment</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/UoC-tail/RG-OPD) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -832,6 +834,8 @@ On-Policy Distillation (Survey V3 Structure)
 | [dOPSD: On-Policy Self-Distillation for Diffusion Language Models](https://arxiv.org/abs/2607.04428) | §5.3.1 | The teacher is the same model with privileged information (later trajectory states), making it a PI-based self-distillation method with a… |
 | [Multi-Turn On-Policy Distillation with Prefix Replay](https://arxiv.org/abs/2607.04763) | §4.2 | ReOPD proposes an adaptive reliability-aware step-decay schedule for weighting/sampling prefix positions in on-policy distillation… |
 | [Weak-to-Strong Generalization via Direct On-Policy Distillation](https://arxiv.org/abs/2607.05394) | §4.3 | Direct-OPD uses student on-policy rollouts with teacher logit-level supervision (log-ratio of two teacher checkpoints evaluated on student… |
+| [Reward-Gated On-Policy Distillation](https://arxiv.org/abs/2607.04037) | §4.3 | RG-OPD augments on-policy reverse-KL distillation with a reward-based trajectory gate, combining RL verifier signals with dense teacher… |
+| [Trust Region Policy Distillation](https://arxiv.org/abs/2607.04751) | §4.2 | TOP-D proposes an adaptive proximal teacher objective that bounds gradient variance (§4.1/4.2) and incorporates token-level advantage… |
 
 > Papers indexed in this list but not yet included in the survey paper. They will be evaluated for the next revision.
 
