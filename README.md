@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-226-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-227-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -671,6 +671,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Blockwise Policy-Drift Gating for On-Policy Distillation](https://arxiv.org/abs/2606.24084) <br><sub>📐 Qwen3-4B-Base-GRPO → Qwen3-1.7B-Base; Blockwise old-current student drift gating to reweight OPD position losses under rollout reuse</sub> | 2026 |  |
 | 🟡 [AsyncOPD: How Stale Can On-Policy Distillation Be?](https://arxiv.org/abs/2606.24143) <br><sub>📐 Qwen3-30B-A3B-Instruct-2507 → Qwen3-4B-Base; Systematic study of staleness in asynchronous on-policy distillation with multi-sample MC estimator</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/furiosa-ai/async-opd) |
 | 🟡 [SEAD: Competence-Aware On-Policy Distillation via Entropy-Guided Supervision](https://arxiv.org/abs/2606.28562) <br><sub>📐 OLMo-32B-Instruct → OLMo-7B-Instruct; Entropy-guided token/temporal/prompt-level adaptive supervision for on-policy distillation</sub> | 2026 |  |
+| 🟡 [TurnOPD: Making On-Policy Distillation Turn-Aware for Efficient Long-Horizon Agent Training](https://arxiv.org/abs/2607.05804) <br><sub>📐 Qwen3-8B-GRPO → Qwen3-1.7B; Turn-level budgeting strategy for efficient on-policy distillation of long-horizon agents</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -836,6 +837,7 @@ On-Policy Distillation (Survey V3 Structure)
 | [Weak-to-Strong Generalization via Direct On-Policy Distillation](https://arxiv.org/abs/2607.05394) | §4.3 | Direct-OPD uses student on-policy rollouts with teacher logit-level supervision (log-ratio of two teacher checkpoints evaluated on student… |
 | [Reward-Gated On-Policy Distillation](https://arxiv.org/abs/2607.04037) | §4.3 | RG-OPD augments on-policy reverse-KL distillation with a reward-based trajectory gate, combining RL verifier signals with dense teacher… |
 | [Trust Region Policy Distillation](https://arxiv.org/abs/2607.04751) | §4.2 | TOP-D proposes an adaptive proximal teacher objective that bounds gradient variance (§4.1/4.2) and incorporates token-level advantage… |
+| [TurnOPD: Making On-Policy Distillation Turn-Aware for Efficient Long-Horizon Agent Training](https://arxiv.org/abs/2607.05804) | §6.2 | The paper proposes a curriculum/scheduling strategy (adaptive rollout depth + progressive loss normalization) for on-policy distillation of… |
 
 > Papers indexed in this list but not yet included in the survey paper. They will be evaluated for the next revision.
 
