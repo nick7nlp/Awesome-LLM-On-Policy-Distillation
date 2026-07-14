@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-228-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-229-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -501,6 +501,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [MOPD: Multi-Teacher On-Policy Distillation for Capability Integration in LLM Post-Training](https://arxiv.org/abs/2606.30406) <br><sub>📐 Qwen3-30B-A3B Math RL Teacher → Qwen3-30B-A3B (SFT init); Multi-teacher on-policy distillation for integrating multiple RL domain experts into one LLM</sub> | 2026 |  |
 | 🟡 [Regime-Aware Peer Specialization for Robust RAG under Heterogeneous Knowledge Conflicts](https://arxiv.org/abs/2606.30518) <br><sub>📐 Qwen2.5-7B-Instruct (Grounding specialist) → Qwen2.5-7B-Instruct; Regime-aware peer specialization framework for robust RAG under knowledge conflicts</sub> | 2026 |  |
 | 🟡 [UI-MOPD: Multi-Platform On-Policy Distillation for Continual GUI Agent Learning](https://arxiv.org/abs/2607.04425) <br><sub>📐 Qwen3-VL-32B-Thinking → Qwen3-VL-8B-Thinking; First application of multi-teacher on-policy distillation to GUI agents with platform-conditioned routing that selects p</sub> | 2026 |  |
+| 🟡 [Mach-Mind-4-Flash Technical Report](https://arxiv.org/abs/2607.09375) <br><sub>📐 Reasoning RL Expert (Qwen3.5-35B-A3B) → Mach-Mind-4-Flash (Qwen3.5-35B-A3B); 35B MoE model with 3B active params using multi-teacher on-policy distillation for expert fusion</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -840,6 +841,7 @@ On-Policy Distillation (Survey V3 Structure)
 | [Trust Region Policy Distillation](https://arxiv.org/abs/2607.04751) | §4.2 | TOP-D proposes an adaptive proximal teacher objective that bounds gradient variance (§4.1/4.2) and incorporates token-level advantage… |
 | [TurnOPD: Making On-Policy Distillation Turn-Aware for Efficient Long-Horizon Agent Training](https://arxiv.org/abs/2607.05804) | §6.2 | The paper proposes a curriculum/scheduling strategy (adaptive rollout depth + progressive loss normalization) for on-policy distillation of… |
 | [Behavior Leverage Imbalance in Multi-Teacher On-Policy Distillation](https://arxiv.org/abs/2607.07050) | §6.1 | SoftClamp is a per-token divergence calibration/weighting method that compresses extreme token-level JSD signals in multi-teacher on-policy… |
+| [Mach-Mind-4-Flash Technical Report](https://arxiv.org/abs/2607.09375) | §5.1 | MOPD uses multiple frozen teacher models providing token-level reverse-KL supervision on student-generated rollouts with routed… |
 
 > Papers indexed in this list but not yet included in the survey paper. They will be evaluated for the next revision.
 
