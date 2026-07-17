@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-229-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-230-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -674,6 +674,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [SEAD: Competence-Aware On-Policy Distillation via Entropy-Guided Supervision](https://arxiv.org/abs/2606.28562) <br><sub>📐 OLMo-32B-Instruct → OLMo-7B-Instruct; Entropy-guided token/temporal/prompt-level adaptive supervision for on-policy distillation</sub> | 2026 |  |
 | 🟡 [TurnOPD: Making On-Policy Distillation Turn-Aware for Efficient Long-Horizon Agent Training](https://arxiv.org/abs/2607.05804) <br><sub>📐 Qwen3-8B-GRPO → Qwen3-1.7B; Turn-level budgeting strategy for efficient on-policy distillation of long-horizon agents</sub> | 2026 |  |
 | 🟡 [Behavior Leverage Imbalance in Multi-Teacher On-Policy Distillation](https://arxiv.org/abs/2607.07050) <br><sub>📐 Qwen3.5-9B (tool-call teacher) → Qwen3.5-9B (student); Identifies behavior leverage imbalance in multi-teacher OPD and proposes SoftClamp calibration</sub> | 2026 |  |
+| 🟡 [ShortOPD: Recovering Pruned LLMs with Short-to-Long On-Policy Distillation](https://arxiv.org/abs/2607.13124) <br><sub>📐 Qwen3-4B-Instruct-2507 → Qwen3-4B-Instruct-2507 (25% pruned); Short-to-long on-policy distillation recovers generation quality of structurally pruned LLMs</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/icip-cas/ShortX) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -842,6 +843,7 @@ On-Policy Distillation (Survey V3 Structure)
 | [TurnOPD: Making On-Policy Distillation Turn-Aware for Efficient Long-Horizon Agent Training](https://arxiv.org/abs/2607.05804) | §6.2 | The paper proposes a curriculum/scheduling strategy (adaptive rollout depth + progressive loss normalization) for on-policy distillation of… |
 | [Behavior Leverage Imbalance in Multi-Teacher On-Policy Distillation](https://arxiv.org/abs/2607.07050) | §6.1 | SoftClamp is a per-token divergence calibration/weighting method that compresses extreme token-level JSD signals in multi-teacher on-policy… |
 | [Mach-Mind-4-Flash Technical Report](https://arxiv.org/abs/2607.09375) | §5.1 | MOPD uses multiple frozen teacher models providing token-level reverse-KL supervision on student-generated rollouts with routed… |
+| [ShortOPD: Recovering Pruned LLMs with Short-to-Long On-Policy Distillation](https://arxiv.org/abs/2607.13124) | §6.2 | The core novelty is a curriculum/scheduling mechanism (short-to-long budget control) that adapts rollout horizon during on-policy… |
 
 > Papers indexed in this list but not yet included in the survey paper. They will be evaluated for the next revision.
 
