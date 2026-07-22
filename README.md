@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-231-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-233-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -404,6 +404,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [Reinforcement Learning from Rich Feedback with Distributional DAgger](https://arxiv.org/abs/2606.05152) <br><sub>📐 Qwen3-8B → Self; Distributional DAgger via forward cross-entropy: monotonic-improvement objective with future-aware credit assignment, an OPD analogue of RL distributional bootstrapping.</sub> | 2026 |  |
 | 🟡 [PowerOPD: Stabilizing On-Policy Distillation with Bounded Power Transformation](https://arxiv.org/abs/2606.17199) <br><sub>📐 Qwen3-4B → Qwen3-0.6B-Base; Bounded power-transformed rewards for on-policy distillation replacing unbounded log-ratio</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/EIT-NLP/PowerOPD) |
 | 🟡 [Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent](https://arxiv.org/abs/2606.30616) <br><sub>📐 Search-enhanced Teacher (SFT+RL) → Agents-A1; 35B MoE agent matching 1T models via multi-teacher domain-routed on-policy distillation with salient vocabulary alignmen</sub> | 2026 |  |
+| 🟡 [Trace-Based On-Policy Distillation for Masked Diffusion Language Models](https://arxiv.org/abs/2607.16872) <br><sub>📐 TraDo-8B-Instruct → SDAR-4B-Chat; On-policy distillation for diffusion LLMs using trace-aligned denoising trajectories with Reverse-KL</sub> | 2025 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -434,6 +435,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [DOPD: Dual On-policy Distillation](https://arxiv.org/abs/2606.30626) <br><sub>📐 Qwen3-8B → Qwen3-1.7B; Identifies 'privilege illusion' failure mode and proposes token-level advantage-aware routing that dynamically selects s</sub> | 2026 |  |
 | 🟡 [Multi-Turn On-Policy Distillation with Prefix Replay](https://arxiv.org/abs/2607.04763) <br><sub>📐 Qwen3-4B-Instruct-2507 → Self; Introduces replayed-prefix OPD that reuses offline teacher trajectories instead of live environment interaction, identif</sub> | 2026 |  |
 | 🟡 [Trust Region Policy Distillation](https://arxiv.org/abs/2607.04751) <br><sub>📐 Qwen3-30B-A3B-Instruct-2507 → Qwen3-8B-Base; Stabilizes on-policy distillation via proximal teacher interpolation and trust region iterations</sub> | 2026 |  |
+| 🟡 [CADENCE: Closing the Reasoning Gap via Coverage-Adaptive On-Policy Distillation](https://arxiv.org/abs/2607.16955) <br><sub>📐 Qwen2.5-Math-1.5B-Instruct → Qwen2.5-0.5B-Instruct; Unified on-policy distillation framework with coverage-adaptive KL scheduling and dense reward</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -847,6 +849,8 @@ On-Policy Distillation (Survey V3 Structure)
 | [Mach-Mind-4-Flash Technical Report](https://arxiv.org/abs/2607.09375) | §5.1 | MOPD uses multiple frozen teacher models providing token-level reverse-KL supervision on student-generated rollouts with routed… |
 | [ShortOPD: Recovering Pruned LLMs with Short-to-Long On-Policy Distillation](https://arxiv.org/abs/2607.13124) | §6.2 | The core novelty is a curriculum/scheduling mechanism (short-to-long budget control) that adapts rollout horizon during on-policy… |
 | [Looped Latent Attention: Cross-Loop KV Compression for Looped Transformers](https://arxiv.org/abs/2607.15456) | §6.3 | The paper introduces an on-policy distillation stage where the student (compressed codec) generates its own rollouts and the frozen teacher… |
+| [Trace-Based On-Policy Distillation for Masked Diffusion Language Models](https://arxiv.org/abs/2607.16872) | §4.1 | TOPD proposes a novel Reverse-KL objective applied to trace-aligned decisions from student's own diffusion rollouts with teacher logit… |
+| [CADENCE: Closing the Reasoning Gap via Coverage-Adaptive On-Policy Distillation](https://arxiv.org/abs/2607.16955) | §4.2 | CADENCE proposes a coverage-adaptive (state-dependent) divergence scheduling mechanism (COVA) that dynamically interpolates forward/reverse… |
 
 > Papers indexed in this list but not yet included in the survey paper. They will be evaluated for the next revision.
 
