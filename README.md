@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-234-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-244-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -406,6 +406,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent](https://arxiv.org/abs/2606.30616) <br><sub>📐 Search-enhanced Teacher (SFT+RL) → Agents-A1; 35B MoE agent matching 1T models via multi-teacher domain-routed on-policy distillation with salient vocabulary alignmen</sub> | 2026 |  |
 | 🟡 [Trace-Based On-Policy Distillation for Masked Diffusion Language Models](https://arxiv.org/abs/2607.16872) <br><sub>📐 TraDo-8B-Instruct → SDAR-4B-Chat; On-policy distillation for diffusion LLMs using trace-aligned denoising trajectories with Reverse-KL</sub> | 2025 |  |
 | 🟡 [Cross-Tokenizer On-Policy Distillation via Byte-Prefix Marginalization](https://arxiv.org/abs/2607.22334) <br><sub>📐 Qwen3-32B → Qwen3.5-2B; Byte-Prefix Marginalization enables full-vocabulary on-policy distillation across different tokenizers</sub> | 2026 |  |
+| 🟡 [Geometric Self-Distillation for Reasoning Generalization](https://arxiv.org/abs/2607.06855) <br><sub>📐 Qwen3-8B (privileged context) → Qwen3-8B; Geometry-aware on-policy self-distillation using Hellinger loss and Fisher-Rao proximal drift control for OOD reasoning</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -437,6 +438,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Multi-Turn On-Policy Distillation with Prefix Replay](https://arxiv.org/abs/2607.04763) <br><sub>📐 Qwen3-4B-Instruct-2507 → Self; Introduces replayed-prefix OPD that reuses offline teacher trajectories instead of live environment interaction, identif</sub> | 2026 |  |
 | 🟡 [Trust Region Policy Distillation](https://arxiv.org/abs/2607.04751) <br><sub>📐 Qwen3-30B-A3B-Instruct-2507 → Qwen3-8B-Base; Stabilizes on-policy distillation via proximal teacher interpolation and trust region iterations</sub> | 2026 |  |
 | 🟡 [CADENCE: Closing the Reasoning Gap via Coverage-Adaptive On-Policy Distillation](https://arxiv.org/abs/2607.16955) <br><sub>📐 Qwen2.5-Math-1.5B-Instruct → Qwen2.5-0.5B-Instruct; Unified on-policy distillation framework with coverage-adaptive KL scheduling and dense reward</sub> | 2026 |  |
+| 🟡 [Diagnosing and Mitigating Thinking Collapse in On-Policy Self-Distillation](https://arxiv.org/abs/2607.10805) <br><sub>📐 Qwen3-1.7B (frozen, GT-conditioned) → Qwen3-1.7B; Diagnoses thinking collapse in reasoning OPSD and proposes AD-OPSD with adaptive pointwise divergence gating</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -476,6 +478,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Distill Where the Student Goes: Teacher-Regularized RL for English-Evidence Cross-Lingual RAG](https://arxiv.org/abs/2607.02966) <br><sub>📐 Llama-3.3-70B-Instruct → Llama-3.2-3B-Instruct; Combines sequence-level task rewards with on-policy distillation via dense prefix-wise reverse-KL anchor on student-visi</sub> | 2026 |  |
 | 🟡 [Weak-to-Strong Generalization via Direct On-Policy Distillation](https://arxiv.org/abs/2607.05394) <br><sub>📐 JustRL-1.5B → R1-Distill-7B; Instead of imitating the weak teacher's final policy, Direct-OPD transfers only the RL-induced policy shift (log-ratio b</sub> | 2026 |  |
 | 🟡 [Reward-Gated On-Policy Distillation](https://arxiv.org/abs/2607.04037) <br><sub>📐 Qwen2.5-14B-Instruct → Qwen2.5-1.5B-Instruct; Reward-gated on-policy distillation filtering teacher logits by verifier-reward alignment</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/UoC-tail/RG-OPD) |
+| 🟡 [Enhancing Rubric-based RL via Self-Distillation](https://arxiv.org/abs/2607.18082) <br><sub>📐 Qwen3-1.7B (self-teacher) → Qwen3-1.7B; On-policy self-distillation to fix unexplored and suppressed criteria in rubric-based RL</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -506,6 +509,10 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Regime-Aware Peer Specialization for Robust RAG under Heterogeneous Knowledge Conflicts](https://arxiv.org/abs/2606.30518) <br><sub>📐 Qwen2.5-7B-Instruct (Grounding specialist) → Qwen2.5-7B-Instruct; Regime-aware peer specialization framework for robust RAG under knowledge conflicts</sub> | 2026 |  |
 | 🟡 [UI-MOPD: Multi-Platform On-Policy Distillation for Continual GUI Agent Learning](https://arxiv.org/abs/2607.04425) <br><sub>📐 Qwen3-VL-32B-Thinking → Qwen3-VL-8B-Thinking; First application of multi-teacher on-policy distillation to GUI agents with platform-conditioned routing that selects p</sub> | 2026 |  |
 | 🟡 [Mach-Mind-4-Flash Technical Report](https://arxiv.org/abs/2607.09375) <br><sub>📐 Reasoning RL Expert (Qwen3.5-35B-A3B) → Mach-Mind-4-Flash (Qwen3.5-35B-A3B); 35B MoE model with 3B active params using multi-teacher on-policy distillation for expert fusion</sub> | 2026 |  |
+| 🟡 [KAT-Coder-V2.5 Technical Report](https://arxiv.org/abs/2607.05471) <br><sub>📐 SWE Expert → KAT-Coder-V2.5; End-to-end agentic post-training framework for coding agents with multi-teacher on-policy distillation</sub> | 2026 |  |
+| 🟡 [OvisOCR2 Technical Report](https://arxiv.org/abs/2607.13639) <br><sub>📐 Qwen3.5-4B (RL-trained) → Qwen3.5-0.8B; 0.8B end-to-end document parser via SFT, RL on 4B branch, on-policy distillation, and model fusion</sub> | 2026 |  |
+| 🟡 [Solar Open 2 Technical Report](https://arxiv.org/abs/2607.20062) <br><sub>📐 Solar Open 2 domain specialist (×12) → Solar Open 2 (consolidated); 250B-A15B MoE model with hybrid attention, 1M context, and multi-teacher on-policy distillation</sub> | 2026 |  |
+| 🟡 [DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence](https://arxiv.org/abs/deepseekv4) <br><sub>📐 10+ domain experts (1.6T each) → DeepSeek-V4-Pro; DeepSeek-V4用纯multi-teacher on-policy distillation替代混合RL阶段进行模型合并，将10+领域专家模型（数学/代码/Agent/指令遵循等）统一蒸馏到单一1.6T MoE模型中，采用full-v</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -605,6 +612,8 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [Be My Tutor: On-Policy Co-Distillation for Mutual LLM Improvement via Peer Feedback](https://arxiv.org/abs/2606.14368) <br><sub>📐 Qwen3-8B ↔ Qwen3-8B (peer); OPCoD: two coupled on-policy self-distillation loops, each self-teacher conditioned on own correct rollout + peer NL feedback; cognizance gating + feedback anchoring; cross-domain mutual Pareto improvement</sub> | 2026 |  |
 | 🟡 [UCOB: Learning to Utilize and Evolve Agentic Skills via Credit-Aware On-Policy Bidirectional Self-Distillation](https://arxiv.org/abs/2606.29502) <br><sub>📐 Qwen3-1.7B → Self; Replaces fixed skill-to-no-skill teacher direction with bidirectional self-distillation where the higher-return context </sub> | 2026 |  |
 | 🟡 [DRIFT: Difficulty Routing Self-Distillation with Rhythm-Gated Exploration and Success Buffer Training](https://arxiv.org/abs/2606.30345) <br><sub>📐 Qwen3-8B → Self; Introduces problem-level difficulty routing using EMA pass rates to dynamically allocate self-distillation vs RL signals</sub> | 2026 |  |
+| 🟡 [Consensus as Privileged Context for Label-Free Self-Distillation](https://arxiv.org/abs/2607.13643) <br><sub>📐 Qwen3-4B-Instruct-2507 (frozen snapshot) → Qwen3-4B-Instruct-2507; Self-distillation using model's own consensus as privileged context for dense token-level supervision</sub> | 2026 |  |
+| 🟡 [Better Starts, Better Ends: Bootstrapped Iterative Self-Reasoning Distillation for Compressed Reasoning](https://arxiv.org/abs/2607.15736) <br><sub>📐 Qwen3-1.7B (concise self-teacher) → Qwen3-1.7B; Two-stage self-distillation: SFT bootstrap then on-policy reverse-KL for reasoning compression</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/KawhiC/BIRD) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -628,6 +637,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [Learning from Language Feedback via Variational Policy Distillation](https://arxiv.org/abs/2605.15113) <br><sub>📐 LLM → Self (co-evolved); Variational EM co-optimizes teacher+student; adaptive trust-region teacher update from language feedback; outperforms RLVR+SDPO on code/science reasoning (Salesforce)</sub> | 2026 |  |
 | 🟢 [On-Policy Consistency Training Improves LLM Safety with Minimal Capability Degradation](https://arxiv.org/abs/2605.21834) <br><sub>📐 Llama-3.1-8B / Qwen2.5-7B / Qwen3-8B → Self; Per-token reverse KL on contrastive prompt pairs for safety alignment (anti-sycophancy, jailbreak defense)</sub> | 2026 |  |
 | 🟢 [SG-OPD: Sign-Gated On-Policy Distillation via Sign-Consistency Gating and Phased Teacher Sampling](https://arxiv.org/abs/2606.09304) <br><sub>📐 Teacher → Student; SG-OPD: sign-consistency gating + phased teacher sampling for verifier-guided OPD; +1.98/+7.50 on math</sub> | 2026 |  |
+| 🟡 [LLM-as-a-Coach: Experiential Learning for Non-Verifiable Tasks](https://arxiv.org/abs/2607.18110) <br><sub>📐 Qwen3-8B (frozen checkpoint) → Qwen3-8B; Experiential Learning repurposes LLM-as-a-Judge into LLM-as-a-Coach for on-policy context distillation</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://aka.ms/el-code) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -853,6 +863,16 @@ On-Policy Distillation (Survey V3 Structure)
 | [Trace-Based On-Policy Distillation for Masked Diffusion Language Models](https://arxiv.org/abs/2607.16872) | §4.1 | TOPD proposes a novel Reverse-KL objective applied to trace-aligned decisions from student's own diffusion rollouts with teacher logit… |
 | [CADENCE: Closing the Reasoning Gap via Coverage-Adaptive On-Policy Distillation](https://arxiv.org/abs/2607.16955) | §4.2 | CADENCE proposes a coverage-adaptive (state-dependent) divergence scheduling mechanism (COVA) that dynamically interpolates forward/reverse… |
 | [Cross-Tokenizer On-Policy Distillation via Byte-Prefix Marginalization](https://arxiv.org/abs/2607.22334) | §4.1 | BPM introduces a new objective/target construction for cross-tokenizer on-policy distillation with full-vocabulary KL-based loss, fitting… |
+| [KAT-Coder-V2.5 Technical Report](https://arxiv.org/abs/2607.05471) | §5.1 | MOPD is a white-box multi-teacher on-policy distillation method with reverse KL on student rollouts, with stabilization via drift-aware… |
+| [Geometric Self-Distillation for Reasoning Generalization](https://arxiv.org/abs/2607.06855) | §4.1 | Proposes a new distillation objective (Hellinger + Fisher-Rao proximal) that modulates per-token teacher influence based on overlap… |
+| [Diagnosing and Mitigating Thinking Collapse in On-Policy Self-Distillation](https://arxiv.org/abs/2607.10805) | §4.2 | AD-OPSD proposes an adaptive gating mechanism (pointwise KL sigmoid gate) that dynamically modulates teacher influence per-token, fitting… |
+| [OvisOCR2 Technical Report](https://arxiv.org/abs/2607.13639) | §5.1 | The method uses a white-box 4B teacher providing logit-level supervision on student-generated rollouts with a top-k reverse KL objective… |
+| [Consensus as Privileged Context for Label-Free Self-Distillation](https://arxiv.org/abs/2607.13643) | §5.3.2 | Self-distillation where the teacher is the model's own frozen snapshot conditioned on its own consensus (pure self-distillation with… |
+| [Better Starts, Better Ends: Bootstrapped Iterative Self-Reasoning Distillation for Compressed Reasoning](https://arxiv.org/abs/2607.15736) | §5.3.2 | Self-distillation where teacher is a stop-gradient copy of student conditioned on conciseness instruction… |
+| [Enhancing Rubric-based RL via Self-Distillation](https://arxiv.org/abs/2607.18082) | §4.3 | CriPO augments RL (GRPO) with an on-policy self-distillation forward-KL loss as auxiliary objective, combining RL reward optimization with… |
+| [LLM-as-a-Coach: Experiential Learning for Non-Verifiable Tasks](https://arxiv.org/abs/2607.18110) | §5.3.3 | The method uses external feedback (LLM-as-a-Coach) to generate experiential knowledge that conditions a teacher for on-policy context… |
+| [Solar Open 2 Technical Report](https://arxiv.org/abs/2607.20062) | §5.1 | MOPD uses student-generated rollouts with full-vocabulary reverse KL from multiple white-box teacher specialists, meeting all three OPD… |
+| [DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence](https://arxiv.org/abs/deepseekv4) | §5.1 | 工业级multi-teacher on-policy distillation应用，student实时生成rollouts，full-vocab KL优化 |
 
 > Papers indexed in this list but not yet included in the survey paper. They will be evaluated for the next revision.
 
