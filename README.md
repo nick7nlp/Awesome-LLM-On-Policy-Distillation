@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-233-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-234-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -405,6 +405,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [PowerOPD: Stabilizing On-Policy Distillation with Bounded Power Transformation](https://arxiv.org/abs/2606.17199) <br><sub>📐 Qwen3-4B → Qwen3-0.6B-Base; Bounded power-transformed rewards for on-policy distillation replacing unbounded log-ratio</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/EIT-NLP/PowerOPD) |
 | 🟡 [Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent](https://arxiv.org/abs/2606.30616) <br><sub>📐 Search-enhanced Teacher (SFT+RL) → Agents-A1; 35B MoE agent matching 1T models via multi-teacher domain-routed on-policy distillation with salient vocabulary alignmen</sub> | 2026 |  |
 | 🟡 [Trace-Based On-Policy Distillation for Masked Diffusion Language Models](https://arxiv.org/abs/2607.16872) <br><sub>📐 TraDo-8B-Instruct → SDAR-4B-Chat; On-policy distillation for diffusion LLMs using trace-aligned denoising trajectories with Reverse-KL</sub> | 2025 |  |
+| 🟡 [Cross-Tokenizer On-Policy Distillation via Byte-Prefix Marginalization](https://arxiv.org/abs/2607.22334) <br><sub>📐 Qwen3-32B → Qwen3.5-2B; Byte-Prefix Marginalization enables full-vocabulary on-policy distillation across different tokenizers</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -851,6 +852,7 @@ On-Policy Distillation (Survey V3 Structure)
 | [Looped Latent Attention: Cross-Loop KV Compression for Looped Transformers](https://arxiv.org/abs/2607.15456) | §6.3 | The paper introduces an on-policy distillation stage where the student (compressed codec) generates its own rollouts and the frozen teacher… |
 | [Trace-Based On-Policy Distillation for Masked Diffusion Language Models](https://arxiv.org/abs/2607.16872) | §4.1 | TOPD proposes a novel Reverse-KL objective applied to trace-aligned decisions from student's own diffusion rollouts with teacher logit… |
 | [CADENCE: Closing the Reasoning Gap via Coverage-Adaptive On-Policy Distillation](https://arxiv.org/abs/2607.16955) | §4.2 | CADENCE proposes a coverage-adaptive (state-dependent) divergence scheduling mechanism (COVA) that dynamically interpolates forward/reverse… |
+| [Cross-Tokenizer On-Policy Distillation via Byte-Prefix Marginalization](https://arxiv.org/abs/2607.22334) | §4.1 | BPM introduces a new objective/target construction for cross-tokenizer on-policy distillation with full-vocabulary KL-based loss, fitting… |
 
 > Papers indexed in this list but not yet included in the survey paper. They will be evaluated for the next revision.
 
