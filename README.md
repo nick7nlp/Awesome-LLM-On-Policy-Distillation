@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-246-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-250-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -407,6 +407,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Trace-Based On-Policy Distillation for Masked Diffusion Language Models](https://arxiv.org/abs/2607.16872) <br><sub>📐 TraDo-8B-Instruct → SDAR-4B-Chat; On-policy distillation for diffusion LLMs using trace-aligned denoising trajectories with Reverse-KL</sub> | 2025 |  |
 | 🟡 [Cross-Tokenizer On-Policy Distillation via Byte-Prefix Marginalization](https://arxiv.org/abs/2607.22334) <br><sub>📐 Qwen3-32B → Qwen3.5-2B; Byte-Prefix Marginalization enables full-vocabulary on-policy distillation across different tokenizers</sub> | 2026 |  |
 | 🟡 [Geometric Self-Distillation for Reasoning Generalization](https://arxiv.org/abs/2607.06855) <br><sub>📐 Qwen3-8B (privileged context) → Qwen3-8B; Geometry-aware on-policy self-distillation using Hellinger loss and Fisher-Rao proximal drift control for OOD reasoning</sub> | 2026 |  |
+| 🟡 [FlowCTS: On-Policy Continuous Trajectory Supervision of Flow Models](https://arxiv.org/abs/2607.24522) <br><sub>📐 Flow-GRPO (GenEval expert) → SD3.5-Medium; On-policy distillation for flow models via continuous trajectory supervision</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -583,6 +584,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Rethinking Reward Supervision: Rubric-Conditioned Self-Distillation](https://arxiv.org/abs/2606.19327) <br><sub>📐 Qwen3-8B (rubric-conditioned) → Qwen3-8B; Rubric-conditioned on-policy self-distillation using criterion-level privileged teacher supervision</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/carriegu0818/RCSD) |
 | 🟡 [GAPD: Gold-Action Policy Distillation for Agentic Reinforcement Learning in Knowledge Base Question Answering](https://arxiv.org/abs/2605.29584) <br><sub>📐 Llama-3.1-8B-Instruct → Self; Uses entity-anchor matching to align on-policy student states with gold execution states, then conditions the current po</sub> | 2026 |  |
 | 🟡 [dOPSD: On-Policy Self-Distillation for Diffusion Language Models](https://arxiv.org/abs/2607.04428) <br><sub>📐 Dream-7B-Instruct → Self; Sources the teacher's privileged information from the student's own denoising trajectory (later, more-decoded steps) rat</sub> | 2026 |  |
+| 🟡 [Kimi K3: Open Frontier Intelligence](https://arxiv.org/abs/2607.24653) <br><sub>📐 Kimi K3 domain/effort RL expert (9 experts) → Kimi K3 (unified); 2.8T MoE model with KDA, AttnRes, and multi-teacher on-policy distillation for unified post-training</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://huggingface.co/moonshotai/Kimi-K3) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -616,6 +618,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [DRIFT: Difficulty Routing Self-Distillation with Rhythm-Gated Exploration and Success Buffer Training](https://arxiv.org/abs/2606.30345) <br><sub>📐 Qwen3-8B → Self; Introduces problem-level difficulty routing using EMA pass rates to dynamically allocate self-distillation vs RL signals</sub> | 2026 |  |
 | 🟡 [Consensus as Privileged Context for Label-Free Self-Distillation](https://arxiv.org/abs/2607.13643) <br><sub>📐 Qwen3-4B-Instruct-2507 (frozen snapshot) → Qwen3-4B-Instruct-2507; Self-distillation using model's own consensus as privileged context for dense token-level supervision</sub> | 2026 |  |
 | 🟡 [Better Starts, Better Ends: Bootstrapped Iterative Self-Reasoning Distillation for Compressed Reasoning](https://arxiv.org/abs/2607.15736) <br><sub>📐 Qwen3-1.7B (concise self-teacher) → Qwen3-1.7B; Two-stage self-distillation: SFT bootstrap then on-policy reverse-KL for reasoning compression</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/KawhiC/BIRD) |
+| 🟡 [Self-Boosting Vision-Language Models with Noisy Student On-Policy Self-Distillation](https://arxiv.org/abs/2607.23125) <br><sub>📐 Qwen2.5-VL-7B (clean input) → Qwen2.5-VL-7B (corrupted input); Self-distillation for VLMs using corrupted image inputs with clean-input predictions as teacher signal</sub> | 2025 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -758,6 +761,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) <br><sub>📐 Qwen3 series → Qwen3 (larger, on-policy logit KD)</sub> | 2025 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/QwenLM/Qwen3) [![Model](https://img.shields.io/badge/Model-🤗-yellow)](https://huggingface.co/collections/Qwen/qwen3-67dd247413f0e2e4f653967f) |
 | 🟢 [Reducing the Safety Tax in LLM Safety Alignment with On-Policy Self-Distillation](https://arxiv.org/abs/2605.15239) <br><sub>📐 R1-Distill-1.5B / Qwen3-0.6B–8B → Self (OPSA); frozen teacher = same model + safety privileged context; per-token KL on student rollouts; teacher flip rate for context search</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/FYYFU/OPSA) |
 | 🟡 [Diffusion-GR2: Diffusion Generative Reasoning Re-ranker](https://arxiv.org/abs/2607.01170) <br><sub>📐 AR GR2 (Qwen3-8B) → Diffusion-GR2 (Qwen3-8B block-diffusion); Converts AR reasoning re-ranker to block-diffusion via CFT, OPD, and RL</sub> | 2026 |  |
+| 🟡 [Zing (知境) Technical Report: Social Mind for LLMs](https://arxiv.org/abs/2607.23740) <br><sub>📐 DeepSeek-Reasoner → Zing-27B; Framework for measuring, internalizing, and grounding social intelligence in LLMs</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -877,6 +881,10 @@ On-Policy Distillation (Survey V3 Structure)
 | [DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence](https://arxiv.org/abs/deepseekv4) | §5.1 | 工业级multi-teacher on-policy distillation应用，student实时生成rollouts，full-vocab KL优化 |
 | [Masked Distillation: Internalizing the Chain-of-Thought in Language Models](https://arxiv.org/abs/2607.22629) | §5.1 | The method uses on-policy student rollouts with teacher logit supervision via reverse-KL divergence, with the novel contribution being… |
 | [The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation](https://arxiv.org/abs/2607.24720) | §5.1 | The paper's core contribution is a systematic analysis of on-policy distillation (OPD) for multi-turn agentic planning, studying its… |
+| [Kimi K3: Open Frontier Intelligence](https://arxiv.org/abs/2607.24653) | §5.3.1 | MOPD uses student-generated rollouts with per-token teacher log-probability ratio as dense reward signal integrated into RL, combining… |
+| [FlowCTS: On-Policy Continuous Trajectory Supervision of Flow Models](https://arxiv.org/abs/2607.24522) | §4.1 | Proposes a novel trajectory-derived velocity-matching objective (new divergence/loss formulation) for on-policy distillation of flow models… |
+| [Zing (知境) Technical Report: Social Mind for LLMs](https://arxiv.org/abs/2607.23740) | §8.1 | The paper applies on-policy distillation as part of a staged training system for social intelligence, which is an application/system paper… |
+| [Self-Boosting Vision-Language Models with Noisy Student On-Policy Self-Distillation](https://arxiv.org/abs/2607.23125) | §5.3.2 | Pure self-distillation where the same model acts as both teacher and student with no external teacher, using on-policy rollouts and KL… |
 
 > Papers indexed in this list but not yet included in the survey paper. They will be evaluated for the next revision.
 
