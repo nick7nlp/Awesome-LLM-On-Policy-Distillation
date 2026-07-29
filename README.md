@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-244-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-246-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -513,6 +513,8 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [OvisOCR2 Technical Report](https://arxiv.org/abs/2607.13639) <br><sub>📐 Qwen3.5-4B (RL-trained) → Qwen3.5-0.8B; 0.8B end-to-end document parser via SFT, RL on 4B branch, on-policy distillation, and model fusion</sub> | 2026 |  |
 | 🟡 [Solar Open 2 Technical Report](https://arxiv.org/abs/2607.20062) <br><sub>📐 Solar Open 2 domain specialist (×12) → Solar Open 2 (consolidated); 250B-A15B MoE model with hybrid attention, 1M context, and multi-teacher on-policy distillation</sub> | 2026 |  |
 | 🟡 [DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence](https://arxiv.org/abs/deepseekv4) <br><sub>📐 10+ domain experts (1.6T each) → DeepSeek-V4-Pro; DeepSeek-V4用纯multi-teacher on-policy distillation替代混合RL阶段进行模型合并，将10+领域专家模型（数学/代码/Agent/指令遵循等）统一蒸馏到单一1.6T MoE模型中，采用full-v</sub> | 2026 |  |
+| 🟡 [Masked Distillation: Internalizing the Chain-of-Thought in Language Models](https://arxiv.org/abs/2607.22629) <br><sub>📐 Qwen3-1.7B (thinking mode) → Qwen3-1.7B (non-thinking mode); Knowledge distillation framework that internalizes CoT reasoning into student parameters via masked on-policy reverse-KL</sub> | 2025 |  |
+| 🟡 [The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation](https://arxiv.org/abs/2607.24720) <br><sub>📐 Domain Expert Teacher (Recipe A) → Student Model (Qwen2.5 architecture, randomly initialized); Systematic study of long-horizon planning across pre-training, OPD, and multi-teacher OPD stages</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/Quester-one/PlanPhysCode) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -873,6 +875,8 @@ On-Policy Distillation (Survey V3 Structure)
 | [LLM-as-a-Coach: Experiential Learning for Non-Verifiable Tasks](https://arxiv.org/abs/2607.18110) | §5.3.3 | The method uses external feedback (LLM-as-a-Coach) to generate experiential knowledge that conditions a teacher for on-policy context… |
 | [Solar Open 2 Technical Report](https://arxiv.org/abs/2607.20062) | §5.1 | MOPD uses student-generated rollouts with full-vocabulary reverse KL from multiple white-box teacher specialists, meeting all three OPD… |
 | [DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence](https://arxiv.org/abs/deepseekv4) | §5.1 | 工业级multi-teacher on-policy distillation应用，student实时生成rollouts，full-vocab KL优化 |
+| [Masked Distillation: Internalizing the Chain-of-Thought in Language Models](https://arxiv.org/abs/2607.22629) | §5.1 | The method uses on-policy student rollouts with teacher logit supervision via reverse-KL divergence, with the novel contribution being… |
+| [The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation](https://arxiv.org/abs/2607.24720) | §5.1 | The paper's core contribution is a systematic analysis of on-policy distillation (OPD) for multi-turn agentic planning, studying its… |
 
 > Papers indexed in this list but not yet included in the survey paper. They will be evaluated for the next revision.
 
