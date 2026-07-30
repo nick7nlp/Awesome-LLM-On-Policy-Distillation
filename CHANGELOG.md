@@ -2,6 +2,10 @@
 
 All notable additions to this collection are documented here.
 
+## [2026-07-29, community contribution]
+### Added (white-box teacher construction, §5.1)
+- **W2S-OPD** (2607.26246) — *Weak-to-Strong On-Policy Distillation* — synthesizes the distillation target instead of querying a real teacher: the logit difference of a contrast pair, both smaller than the student, is amplified and re-anchored onto the student's own base model, and the resulting distribution supplies top-K reverse-KL supervision on the student's own rollouts. Because the pair enters only as a difference, their shared limited ability cancels and only the direction separating them transfers, so the student is not bounded by the weak models' absolute level. The composition is an exponential tilt of the student's base, making the synthesized teacher the closed-form maximizer of a capability term minus a KL trust region centred on the student. Three interchangeable contrast sources: post-RL expert vs its pre-RL initialization, two off-the-shelf base models of different sizes, and one model conditioned on a correct vs a wrong hint; multiple deltas sum on the shared anchor for multi-teacher merging. Listed 🟡 (not covered in survey V4). Added via PR by the paper authors.
+
 ## [2026-06-18, V4 full update]
 ### Survey V4 Released
 - Survey V4 published on [arXiv](https://arxiv.org/abs/2604.00626): 72 new OPD papers added, full-text review and AI-trace audit completed, taxonomy tree and method tables updated.
