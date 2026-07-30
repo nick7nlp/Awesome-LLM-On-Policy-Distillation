@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-250-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-252-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -440,6 +440,8 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Trust Region Policy Distillation](https://arxiv.org/abs/2607.04751) <br><sub>📐 Qwen3-30B-A3B-Instruct-2507 → Qwen3-8B-Base; Stabilizes on-policy distillation via proximal teacher interpolation and trust region iterations</sub> | 2026 |  |
 | 🟡 [CADENCE: Closing the Reasoning Gap via Coverage-Adaptive On-Policy Distillation](https://arxiv.org/abs/2607.16955) <br><sub>📐 Qwen2.5-Math-1.5B-Instruct → Qwen2.5-0.5B-Instruct; Unified on-policy distillation framework with coverage-adaptive KL scheduling and dense reward</sub> | 2026 |  |
 | 🟡 [Diagnosing and Mitigating Thinking Collapse in On-Policy Self-Distillation](https://arxiv.org/abs/2607.10805) <br><sub>📐 Qwen3-1.7B (frozen, GT-conditioned) → Qwen3-1.7B; Diagnoses thinking collapse in reasoning OPSD and proposes AD-OPSD with adaptive pointwise divergence gating</sub> | 2026 |  |
+| 🟡 [RoCo-ACE: Rollout-Conditioned Online Distillation for Retention-Aware Knowledge Injection](https://arxiv.org/abs/2607.24771) <br><sub>📐 Qwen3-VL-8B (EMA) → Qwen3-VL-8B; Rollout-conditioned contrastive online distillation for knowledge injection with retention</sub> | 2026 |  |
+| 🟡 [Pass the Baton: Trajectory-Relayed On-Policy Distillation](https://arxiv.org/abs/2607.26057) <br><sub>📐 Qwen3-4B-Instruct-2507 → Qwen3-1.7B-Non-Thinking; Relay-OPD detects teacher-student reasoning divergence to trigger brief teacher takeovers during on-policy distillation</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/zju-real/Relay-OPD) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -885,6 +887,8 @@ On-Policy Distillation (Survey V3 Structure)
 | [FlowCTS: On-Policy Continuous Trajectory Supervision of Flow Models](https://arxiv.org/abs/2607.24522) | §4.1 | Proposes a novel trajectory-derived velocity-matching objective (new divergence/loss formulation) for on-policy distillation of flow models… |
 | [Zing (知境) Technical Report: Social Mind for LLMs](https://arxiv.org/abs/2607.23740) | §8.1 | The paper applies on-policy distillation as part of a staged training system for social intelligence, which is an application/system paper… |
 | [Self-Boosting Vision-Language Models with Noisy Student On-Policy Self-Distillation](https://arxiv.org/abs/2607.23125) | §5.3.2 | Pure self-distillation where the same model acts as both teacher and student with no external teacher, using on-policy rollouts and KL… |
+| [RoCo-ACE: Rollout-Conditioned Online Distillation for Retention-Aware Knowledge Injection](https://arxiv.org/abs/2607.24771) | §4.2 | The method uses adaptive token-level reweighting of KL distillation loss on student-generated rollouts via reference-conditioned likelihood… |
+| [Pass the Baton: Trajectory-Relayed On-Policy Distillation](https://arxiv.org/abs/2607.26057) | §4.2 | Relay-OPD is an adaptive on-policy distillation method that introduces state-driven teacher intervention during student rollouts, modifying… |
 
 > Papers indexed in this list but not yet included in the survey paper. They will be evaluated for the next revision.
 
