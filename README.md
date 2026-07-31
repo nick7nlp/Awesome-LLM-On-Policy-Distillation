@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-252-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-254-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -518,6 +518,8 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence](https://arxiv.org/abs/deepseekv4) <br><sub>📐 10+ domain experts (1.6T each) → DeepSeek-V4-Pro; DeepSeek-V4用纯multi-teacher on-policy distillation替代混合RL阶段进行模型合并，将10+领域专家模型（数学/代码/Agent/指令遵循等）统一蒸馏到单一1.6T MoE模型中，采用full-v</sub> | 2026 |  |
 | 🟡 [Masked Distillation: Internalizing the Chain-of-Thought in Language Models](https://arxiv.org/abs/2607.22629) <br><sub>📐 Qwen3-1.7B (thinking mode) → Qwen3-1.7B (non-thinking mode); Knowledge distillation framework that internalizes CoT reasoning into student parameters via masked on-policy reverse-KL</sub> | 2025 |  |
 | 🟡 [The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation](https://arxiv.org/abs/2607.24720) <br><sub>📐 Domain Expert Teacher (Recipe A) → Student Model (Qwen2.5 architecture, randomly initialized); Systematic study of long-horizon planning across pre-training, OPD, and multi-teacher OPD stages</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/Quester-one/PlanPhysCode) |
+| 🟡 [Weak-to-Strong On-Policy Distillation](https://arxiv.org/abs/2607.26246) <br><sub>📐 Proxy Teacher (Qwen3-4B-RL + Qwen3-4B + Qwen3-8B base) → Qwen3-8B; On-policy distillation from weak models via contrastive logit directions anchored on student base</sub> | 2025 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/Yu-Fangxu/W2S-OPD) |
+| 🟡 [On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment](https://arxiv.org/abs/2607.27081) <br><sub>📐 Llama-2-7B-Chat (aligned) → Llama-2-7B-Chat (misaligned, realigned); Dual-teacher on-policy distillation for template-robust safety realignment of fine-tuned LLMs</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -889,6 +891,8 @@ On-Policy Distillation (Survey V3 Structure)
 | [Self-Boosting Vision-Language Models with Noisy Student On-Policy Self-Distillation](https://arxiv.org/abs/2607.23125) | §5.3.2 | Pure self-distillation where the same model acts as both teacher and student with no external teacher, using on-policy rollouts and KL… |
 | [RoCo-ACE: Rollout-Conditioned Online Distillation for Retention-Aware Knowledge Injection](https://arxiv.org/abs/2607.24771) | §4.2 | The method uses adaptive token-level reweighting of KL distillation loss on student-generated rollouts via reference-conditioned likelihood… |
 | [Pass the Baton: Trajectory-Relayed On-Policy Distillation](https://arxiv.org/abs/2607.26057) | §4.2 | Relay-OPD is an adaptive on-policy distillation method that introduces state-driven teacher intervention during student rollouts, modifying… |
+| [Weak-to-Strong On-Policy Distillation](https://arxiv.org/abs/2607.26246) | §5.1 | White-box logit-level proxy teacher constructed from weak models; student generates own rollouts and minimizes reverse KL against teacher… |
+| [On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment](https://arxiv.org/abs/2607.27081) | §5.1 | ROPD uses two white-box frozen teachers providing logit-level KL supervision on student-generated tokens, routing by data source—a novel… |
 
 > Papers indexed in this list but not yet included in the survey paper. They will be evaluated for the next revision.
 
