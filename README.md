@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-254-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-258-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -482,6 +482,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Weak-to-Strong Generalization via Direct On-Policy Distillation](https://arxiv.org/abs/2607.05394) <br><sub>📐 JustRL-1.5B → R1-Distill-7B; Instead of imitating the weak teacher's final policy, Direct-OPD transfers only the RL-induced policy shift (log-ratio b</sub> | 2026 |  |
 | 🟡 [Reward-Gated On-Policy Distillation](https://arxiv.org/abs/2607.04037) <br><sub>📐 Qwen2.5-14B-Instruct → Qwen2.5-1.5B-Instruct; Reward-gated on-policy distillation filtering teacher logits by verifier-reward alignment</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/UoC-tail/RG-OPD) |
 | 🟡 [Enhancing Rubric-based RL via Self-Distillation](https://arxiv.org/abs/2607.18082) <br><sub>📐 Qwen3-1.7B (self-teacher) → Qwen3-1.7B; On-policy self-distillation to fix unexplored and suppressed criteria in rubric-based RL</sub> | 2026 |  |
+| 🟡 [SAF-OPD: Stable Advantage Fusion for On-Policy Distillation](https://arxiv.org/abs/2607.29209) <br><sub>📐 Qwen3-30B-A3B-Instruct-2507 → Qwen3-8B; Stable four-stage fusion of RLVR and OPD advantages via magnitude and temporal control</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -699,6 +700,9 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Behavior Leverage Imbalance in Multi-Teacher On-Policy Distillation](https://arxiv.org/abs/2607.07050) <br><sub>📐 Qwen3.5-9B (tool-call teacher) → Qwen3.5-9B (student); Identifies behavior leverage imbalance in multi-teacher OPD and proposes SoftClamp calibration</sub> | 2026 |  |
 | 🟡 [ShortOPD: Recovering Pruned LLMs with Short-to-Long On-Policy Distillation](https://arxiv.org/abs/2607.13124) <br><sub>📐 Qwen3-4B-Instruct-2507 → Qwen3-4B-Instruct-2507 (25% pruned); Short-to-long on-policy distillation recovers generation quality of structurally pruned LLMs</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/icip-cas/ShortX) |
 | 🟡 [Looped Latent Attention: Cross-Loop KV Compression for Looped Transformers](https://arxiv.org/abs/2607.15456) <br><sub>📐 Ouro-1.4B → Ouro-1.4B + LLA codec; Cross-loop KV cache codec for looped Transformers via low-rank latent compression</sub> | 2026 |  |
+| 🟡 [DASH-OPD: Discrepancy-Aware Switching with Hysteresis for On-Policy Distillation](https://arxiv.org/abs/2607.29078) <br><sub>📐 Qwen3-30B-A3B → Qwen3-1.7B; Adaptive bidirectional teacher-student switching for multi-turn agentic OPD via discrepancy evidence accumulation</sub> | 2026 |  |
+| 🟡 [MAGA: Multi-Platform Self-Fusion of GUI Agents via Structured Action Distillation](https://arxiv.org/abs/2607.29320) <br><sub>📐 Qwen3-VL-8B (domain-specific) → Qwen3-VL-8B (general student); Structured action distillation for unifying domain-specific GUI agents via conditional signal re-allocation</sub> | 2026 |  |
+| 🟡 [Adaptive FastOPD: Progress-Aware Rollout Horizon Expansion for Efficient On-Policy Distillation](https://arxiv.org/abs/2607.29494) <br><sub>📐 JustRL-DeepSeek-1.5B → DeepSeek-R1-Distill-Qwen-1.5B; Progress-aware rollout horizon expansion strategy for efficient on-policy distillation</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -893,6 +897,10 @@ On-Policy Distillation (Survey V3 Structure)
 | [Pass the Baton: Trajectory-Relayed On-Policy Distillation](https://arxiv.org/abs/2607.26057) | §4.2 | Relay-OPD is an adaptive on-policy distillation method that introduces state-driven teacher intervention during student rollouts, modifying… |
 | [Weak-to-Strong On-Policy Distillation](https://arxiv.org/abs/2607.26246) | §5.1 | White-box logit-level proxy teacher constructed from weak models; student generates own rollouts and minimizes reverse KL against teacher… |
 | [On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment](https://arxiv.org/abs/2607.27081) | §5.1 | ROPD uses two white-box frozen teachers providing logit-level KL supervision on student-generated tokens, routing by data source—a novel… |
+| [DASH-OPD: Discrepancy-Aware Switching with Hysteresis for On-Policy Distillation](https://arxiv.org/abs/2607.29078) | §6.2 | DASH-OPD is a curriculum/scheduling method for OPD that adaptively decides when teacher support is needed during student rollouts, making… |
+| [SAF-OPD: Stable Advantage Fusion for On-Policy Distillation](https://arxiv.org/abs/2607.29209) | §4.3 | The paper fuses OPD with RL (GRPO) via a controlled advantage fusion mechanism, making it an RL-augmented OPD method… |
+| [MAGA: Multi-Platform Self-Fusion of GUI Agents via Structured Action Distillation](https://arxiv.org/abs/2607.29320) | §6.1 | The core contribution is a token-weighting scheme that re-allocates distillation signal according to action structure on student-generated… |
+| [Adaptive FastOPD: Progress-Aware Rollout Horizon Expansion for Efficient On-Policy Distillation](https://arxiv.org/abs/2607.29494) | §6.2 | The paper proposes an adaptive curriculum for rollout horizon expansion in OPD, which is an efficiency/stability technique related to… |
 
 > Papers indexed in this list but not yet included in the survey paper. They will be evaluated for the next revision.
 
