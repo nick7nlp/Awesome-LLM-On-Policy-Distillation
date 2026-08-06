@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-262-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-266-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -443,6 +443,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [RoCo-ACE: Rollout-Conditioned Online Distillation for Retention-Aware Knowledge Injection](https://arxiv.org/abs/2607.24771) <br><sub>📐 Qwen3-VL-8B (EMA) → Qwen3-VL-8B; Rollout-conditioned contrastive online distillation for knowledge injection with retention</sub> | 2026 |  |
 | 🟡 [Pass the Baton: Trajectory-Relayed On-Policy Distillation](https://arxiv.org/abs/2607.26057) <br><sub>📐 Qwen3-4B-Instruct-2507 → Qwen3-1.7B-Non-Thinking; Relay-OPD detects teacher-student reasoning divergence to trigger brief teacher takeovers during on-policy distillation</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/zju-real/Relay-OPD) |
 | 🟡 [Distill Where You Fail: Recovering Learning Signals of Negative RL-Groups from Adaptive Teacher Guidance](https://arxiv.org/abs/2608.00782) <br><sub>📐 Qwen3-4B-Instruct-2507 → Qwen3-1.7B-Instruct; Selective on-policy distillation on negative zero-variance GRPO prompts with token selection and auxiliary SFT</sub> | 2026 |  |
+| 🟡 [OPTD: On-Policy Transition Distillation with Consistency-Guided Adaptive Compression for Few-Step Diffusion Language Models](https://arxiv.org/abs/2608.02942) <br><sub>📐 LLaDA-8B-Instruct (frozen TAD-S checkpoint) → LLaDA-8B-Instruct (TAD-S init + LoRA); On-policy transition distillation with adaptive compression for few-step diffusion LLMs</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -523,6 +524,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Weak-to-Strong On-Policy Distillation](https://arxiv.org/abs/2607.26246) <br><sub>📐 Proxy Teacher (Qwen3-4B-RL + Qwen3-4B + Qwen3-8B base) → Qwen3-8B; On-policy distillation from weak models via contrastive logit directions anchored on student base</sub> | 2025 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/Yu-Fangxu/W2S-OPD) |
 | 🟡 [On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment](https://arxiv.org/abs/2607.27081) <br><sub>📐 Llama-2-7B-Chat (aligned) → Llama-2-7B-Chat (misaligned, realigned); Dual-teacher on-policy distillation for template-robust safety realignment of fine-tuned LLMs</sub> | 2026 |  |
 | 🟡 [Is More Privileged Information Better? From Solution Traces to Problem-Solving Structure in Self-Distilled Reasoning](https://arxiv.org/abs/2608.01589) <br><sub>📐 Qwen3-1.7B (privileged view) → Qwen3-1.7B; Replaces complete solution in OPSD teacher context with structured problem-space guidance</sub> | 2026 |  |
+| 🟡 [SMOPD: Multi-Reward Reinforcement Learning via Specialize-and-Merge Online Policy Distillation](https://arxiv.org/abs/2608.03092) <br><sub>📐 Qwen2.5-1.5B-Instruct (Accuracy Teacher) → Qwen2.5-1.5B-Instruct (SMOPD Student); Two-stage multi-reward RL: specialize teachers per reward, merge via on-policy distillation</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -626,6 +628,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Better Starts, Better Ends: Bootstrapped Iterative Self-Reasoning Distillation for Compressed Reasoning](https://arxiv.org/abs/2607.15736) <br><sub>📐 Qwen3-1.7B (concise self-teacher) → Qwen3-1.7B; Two-stage self-distillation: SFT bootstrap then on-policy reverse-KL for reasoning compression</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/KawhiC/BIRD) |
 | 🟡 [Self-Boosting Vision-Language Models with Noisy Student On-Policy Self-Distillation](https://arxiv.org/abs/2607.23125) <br><sub>📐 Qwen2.5-VL-7B (clean input) → Qwen2.5-VL-7B (corrupted input); Self-distillation for VLMs using corrupted image inputs with clean-input predictions as teacher signal</sub> | 2025 |  |
 | 🟡 [Self-Improving Large Language Models via Progressive Experience Evolution](https://arxiv.org/abs/2608.02139) <br><sub>📐 qwen3-1.7b-base (experience-augmented) → qwen3-1.7b-base; Progressive experience evolution and on-policy self-distillation for LLM self-improvement</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/rrrsj/SPEE) |
+| 🟡 [Rubrics as Privileged Information for Open-Ended Generation](https://arxiv.org/abs/2608.02948) <br><sub>📐 Qwen2.5-7B-Instruct (EMA) → Qwen2.5-7B-Instruct; Extends on-policy self-distillation to open-ended generation using rubrics as soft privileged information</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -801,6 +804,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟢 [Reward-Weighted On-Policy Distillation with an Open Property-Equivalence Verifier for NL-to-SVA Generation](https://arxiv.org/abs/2605.13501) <br><sub>📐 Qwen2.5-Coder-7B → CodeV-SVA-14B; verifier-reward-weighted FKL on student rollouts; new SOTA on NL2SVA</sub> | 2026 |  |
 | 🟢 [Revisiting DAgger in the Era of LLM-Agents](https://arxiv.org/abs/2605.12913) <br><sub>📐 Qwen3-4B-Instruct-2507 / Qwen3-8B → Qwen3-Coder-30B-A3B-Instruct (DAgger); turn-level student-teacher interpolation for SWE agents; +3.9pp on SWE-bench Verified</sub> | 2026 |  |
 | 🟢 [VOLD: Reasoning Transfer from LLMs to Vision-Language Models via On-Policy Distillation](https://arxiv.org/abs/2510.23497) <br><sub>📐 Qwen2.5-VL-3B → Qwen3-8B (text reasoning teacher)</sub> | 2025 |  |
+| 🟡 [Language-Specialized Multi-Teacher On-Policy Distillation for Multilingual LLM-Based ASR](https://arxiv.org/abs/2608.03610) <br><sub>📐 Language-specialized RL teacher (Mandarin) → NIM4-ASR student; Multi-teacher on-policy distillation with language routing for multilingual LLM-based ASR</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -912,6 +916,10 @@ On-Policy Distillation (Survey V3 Structure)
 | [Look Ahead Before You Distill: Future Trajectory Validation of Teacher Guidance for Agentic On-Policy Distillation](https://arxiv.org/abs/2608.01953) | §6.1 | FTB selectively validates and retains teacher guidance via future trajectory signals, combining token-level weighting (teacher-preferred… |
 | [Cross-Domain Hybrid OPD for Generalizable Search Agents](https://arxiv.org/abs/2608.02101) | §8.1 | System/application paper that proposes a novel hybrid OPD framework combining cross-domain expert routing with on-policy reverse-KL… |
 | [Self-Improving Large Language Models via Progressive Experience Evolution](https://arxiv.org/abs/2608.02139) | §5.3.2 | Self-distillation where student generates rollouts and a privileged version of itself (same model with experience context) provides… |
+| [OPTD: On-Policy Transition Distillation with Consistency-Guided Adaptive Compression for Few-Step Diffusion Language Models](https://arxiv.org/abs/2608.02942) | §4.2 | The method performs on-policy distillation with an adaptive compression mechanism that selects state-dependent transition targets and uses… |
+| [Rubrics as Privileged Information for Open-Ended Generation](https://arxiv.org/abs/2608.02948) | §5.3.2 | Self-distillation where same model acts as both teacher (with rubric PI) and student (without PI), using on-policy rollouts and per-token… |
+| [SMOPD: Multi-Reward Reinforcement Learning via Specialize-and-Merge Online Policy Distillation](https://arxiv.org/abs/2608.03092) | §5.1 | The method uses multiple white-box teachers providing logit-level supervision on student-generated rollouts via forward KL, combining RL… |
+| [Language-Specialized Multi-Teacher On-Policy Distillation for Multilingual LLM-Based ASR](https://arxiv.org/abs/2608.03610) | §8.2 | Paper applies on-policy distillation with multiple language-specialized teachers to a new domain (ASR), with language routing and weighted… |
 
 > Papers indexed in this list but not yet included in the survey paper. They will be evaluated for the next revision.
 
