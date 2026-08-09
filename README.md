@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-267-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-268-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -519,7 +519,6 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [KAT-Coder-V2.5 Technical Report](https://arxiv.org/abs/2607.05471) <br><sub>📐 SWE Expert → KAT-Coder-V2.5; End-to-end agentic post-training framework for coding agents with multi-teacher on-policy distillation</sub> | 2026 |  |
 | 🟡 [OvisOCR2 Technical Report](https://arxiv.org/abs/2607.13639) <br><sub>📐 Qwen3.5-4B (RL-trained) → Qwen3.5-0.8B; 0.8B end-to-end document parser via SFT, RL on 4B branch, on-policy distillation, and model fusion</sub> | 2026 |  |
 | 🟡 [Solar Open 2 Technical Report](https://arxiv.org/abs/2607.20062) <br><sub>📐 Solar Open 2 domain specialist (×12) → Solar Open 2 (consolidated); 250B-A15B MoE model with hybrid attention, 1M context, and multi-teacher on-policy distillation</sub> | 2026 |  |
-| 🟡 [DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence](https://arxiv.org/abs/deepseekv4) <br><sub>📐 10+ domain experts (1.6T each) → DeepSeek-V4-Pro; DeepSeek-V4用纯multi-teacher on-policy distillation替代混合RL阶段进行模型合并，将10+领域专家模型（数学/代码/Agent/指令遵循等）统一蒸馏到单一1.6T MoE模型中，采用full-v</sub> | 2026 |  |
 | 🟡 [Masked Distillation: Internalizing the Chain-of-Thought in Language Models](https://arxiv.org/abs/2607.22629) <br><sub>📐 Qwen3-1.7B (thinking mode) → Qwen3-1.7B (non-thinking mode); Knowledge distillation framework that internalizes CoT reasoning into student parameters via masked on-policy reverse-KL</sub> | 2025 |  |
 | 🟡 [The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation](https://arxiv.org/abs/2607.24720) <br><sub>📐 Domain Expert Teacher (Recipe A) → Student Model (Qwen2.5 architecture, randomly initialized); Systematic study of long-horizon planning across pre-training, OPD, and multi-teacher OPD stages</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/Quester-one/PlanPhysCode) |
 | 🟡 [Weak-to-Strong On-Policy Distillation](https://arxiv.org/abs/2607.26246) <br><sub>📐 Proxy Teacher (Qwen3-4B-RL + Qwen3-4B + Qwen3-8B base) → Qwen3-8B; On-policy distillation from weak models via contrastive logit directions anchored on student base</sub> | 2025 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/Yu-Fangxu/W2S-OPD) |
@@ -852,6 +851,11 @@ On-Policy Distillation (Survey V3 Structure)
 ---
 
 ## 📋 Pending Papers (🟡)
+
+> Papers indexed in the tables above (🟡) but not yet integrated into the survey paper. They will be evaluated for the next revision.
+
+| Paper | Target Section | Reason Pending |
+|-------|:--------------:|----------------|
 | [PADD: Path-Aligned Decompression Distillation for Non-Router Teacher to Guide MoE Student Learning](https://arxiv.org/abs/2606.10369) | §4.2 | The core contribution is an adaptive online distillation mechanism that dynamically adjusts teacher temperature based on student on-policy… |
 | [PowerOPD: Stabilizing On-Policy Distillation with Bounded Power Transformation](https://arxiv.org/abs/2606.17199) | §4.1 | Core contribution is a new bounded reward function (divergence/objective) for on-policy distillation replacing the unbounded log-ratio… |
 | [Seeing Before Reasoning: Decoupling Perception and Reasoning for Shortcut-Resilient Multimodal On-Policy Self-Distillation](https://arxiv.org/abs/2606.19120) | §5.1 | Core contribution is a multimodal on-policy self-distillation method with segment-wise teacher contexts (white-box self-distillation with… |
@@ -897,7 +901,6 @@ On-Policy Distillation (Survey V3 Structure)
 | [Enhancing Rubric-based RL via Self-Distillation](https://arxiv.org/abs/2607.18082) | §4.3 | CriPO augments RL (GRPO) with an on-policy self-distillation forward-KL loss as auxiliary objective, combining RL reward optimization with… |
 | [LLM-as-a-Coach: Experiential Learning for Non-Verifiable Tasks](https://arxiv.org/abs/2607.18110) | §5.3.3 | The method uses external feedback (LLM-as-a-Coach) to generate experiential knowledge that conditions a teacher for on-policy context… |
 | [Solar Open 2 Technical Report](https://arxiv.org/abs/2607.20062) | §5.1 | MOPD uses student-generated rollouts with full-vocabulary reverse KL from multiple white-box teacher specialists, meeting all three OPD… |
-| [DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence](https://arxiv.org/abs/deepseekv4) | §5.1 | 工业级multi-teacher on-policy distillation应用，student实时生成rollouts，full-vocab KL优化 |
 | [Masked Distillation: Internalizing the Chain-of-Thought in Language Models](https://arxiv.org/abs/2607.22629) | §5.1 | The method uses on-policy student rollouts with teacher logit supervision via reverse-KL divergence, with the novel contribution being… |
 | [The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation](https://arxiv.org/abs/2607.24720) | §5.1 | The paper's core contribution is a systematic analysis of on-policy distillation (OPD) for multi-turn agentic planning, studying its… |
 | [Kimi K3: Open Frontier Intelligence](https://arxiv.org/abs/2607.24653) | §5.3.1 | MOPD uses student-generated rollouts with per-token teacher log-probability ratio as dense reward signal integrated into RL, combining… |
@@ -927,10 +930,6 @@ On-Policy Distillation (Survey V3 Structure)
 | [Not Every Divergence Should Be Suppressed: Counterfactual Recoverability in On-Policy Distillation](https://arxiv.org/abs/2608.04408) | §6.1 | The paper proposes a selective supervision mechanism that determines per-state whether to retain, rollback, or default to SOD based on… |
 | [SPOT: Sparse Probing and Outcome Calibration for On-Policy Distillation](https://arxiv.org/abs/2608.04419) | §4.3 | SPOT augments OPD with RL-style verifier signals to calibrate the teacher distribution target, combining token-level KL distillation with… |
 | [OPD-V: Visual On-Policy Self-Distillation with Modality Balance](https://arxiv.org/abs/2608.05131) | §5.3.2 | Self-distillation where the student generates rollouts, a detached copy (same model with EMA) provides logit-level supervision on… |
-
-> Papers indexed in this list but not yet included in the survey paper. They will be evaluated for the next revision.
-
-*No pending papers — all indexed papers are covered in the current survey (V4).*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
