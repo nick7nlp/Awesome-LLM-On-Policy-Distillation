@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-266-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-269-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -485,6 +485,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [SAF-OPD: Stable Advantage Fusion for On-Policy Distillation](https://arxiv.org/abs/2607.29209) <br><sub>📐 Qwen3-30B-A3B-Instruct-2507 → Qwen3-8B; Stable four-stage fusion of RLVR and OPD advantages via magnitude and temporal control</sub> | 2026 |  |
 | 🟡 [HindSearch: Trajectory-Level Hindsight Critique for Search-Augmented Reinforcement Learning](https://arxiv.org/abs/2608.01597) <br><sub>📐 Qwen2.5-3B-Instruct → Qwen2.5-3B-Instruct; Hindsight critique on failed search rollouts provides auxiliary OPD signal for GRPO</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://anonymous.4open.science/r/hindsearch-anon-EBDC) |
 | 🟡 [SPOT: Sparse Probing and Outcome Calibration for On-Policy Distillation](https://arxiv.org/abs/2608.04419) <br><sub>📐 Qwen3-8B → Qwen3-0.6B-Base; Outcome-calibrated targets for OPD via sparse probing and verifier-scored student continuations</sub> | 2026 |  |
+| 🟡 [MemOPD: On-Policy Distillation through Memory State Alignment for Long-Horizon Agents](https://arxiv.org/abs/2608.07068) <br><sub>📐 Qwen2.5-7B → Qwen2.5-3B; Memory-aligned on-policy distillation reconstructing invocation states for long-horizon agents</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/TPssp/MemOPD) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -628,6 +629,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Self-Improving Large Language Models via Progressive Experience Evolution](https://arxiv.org/abs/2608.02139) <br><sub>📐 qwen3-1.7b-base (experience-augmented) → qwen3-1.7b-base; Progressive experience evolution and on-policy self-distillation for LLM self-improvement</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/rrrsj/SPEE) |
 | 🟡 [Rubrics as Privileged Information for Open-Ended Generation](https://arxiv.org/abs/2608.02948) <br><sub>📐 Qwen2.5-7B-Instruct (EMA) → Qwen2.5-7B-Instruct; Extends on-policy self-distillation to open-ended generation using rubrics as soft privileged information</sub> | 2026 |  |
 | 🟡 [OPD-V: Visual On-Policy Self-Distillation with Modality Balance](https://arxiv.org/abs/2608.05131) <br><sub>📐 Qwen3.5-4B (EMA copy) → Qwen3.5-4B; Visual on-policy self-distillation using modality balance as privileged information via dual teachers</sub> | 2026 |  |
+| 🟡 [Trajectory-Relative Hindsight Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2608.07371) <br><sub>📐 Qwen3-1.7B (frozen hindsight-conditioned snapshot) → Qwen3-1.7B; Trajectory-relative hindsight distillation allocating turn-level supervision via normalized profile</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/Chihaya-Anon-chan/TRIAL) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -709,6 +711,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [PCSD: Persistent Consistency for Self-Distillation in Agentic Reinforcement Learning](https://arxiv.org/abs/2608.01837) <br><sub>📐 Qwen2.5-3B-Instruct (frozen, skill-augmented) → Qwen2.5-3B-Instruct; Token-level weighting for on-policy self-distillation based on persistent local teacher support signals</sub> | 2026 |  |
 | 🟡 [Look Ahead Before You Distill: Future Trajectory Validation of Teacher Guidance for Agentic On-Policy Distillation](https://arxiv.org/abs/2608.01953) <br><sub>📐 Qwen3-32B → Qwen3-1.7B; Future trajectory validation of teacher bridges for agentic on-policy distillation</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/ChenChiShui/FutureBridge-OPD) |
 | 🟡 [Not Every Divergence Should Be Suppressed: Counterfactual Recoverability in On-Policy Distillation](https://arxiv.org/abs/2608.04408) <br><sub>📐 Qwen3.5-27B → Qwen3.5-9B; Counterfactual recoverability labels guide selective supervision in on-policy distillation</sub> | 2026 |  |
+| 🟡 [Simple-OPD: Demystifying Warm-up for On-policy Distillation](https://arxiv.org/abs/2608.06802) <br><sub>📐 Qwen3-8B-Base (DAPO-trained) → Qwen3-1.7B-Base; Systematic study of warm-up for OPD showing LoRA on teacher CoT is optimal initialization</sub> | 2025 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/Utaotao/Simple-OPD) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -927,6 +930,9 @@ On-Policy Distillation (Survey V3 Structure)
 | [Not Every Divergence Should Be Suppressed: Counterfactual Recoverability in On-Policy Distillation](https://arxiv.org/abs/2608.04408) | §6.1 | The paper proposes a selective supervision mechanism that determines per-state whether to retain, rollback, or default to SOD based on… |
 | [SPOT: Sparse Probing and Outcome Calibration for On-Policy Distillation](https://arxiv.org/abs/2608.04419) | §4.3 | SPOT augments OPD with RL-style verifier signals to calibrate the teacher distribution target, combining token-level KL distillation with… |
 | [OPD-V: Visual On-Policy Self-Distillation with Modality Balance](https://arxiv.org/abs/2608.05131) | §5.3.2 | Self-distillation where the student generates rollouts, a detached copy (same model with EMA) provides logit-level supervision on… |
+| [Simple-OPD: Demystifying Warm-up for On-policy Distillation](https://arxiv.org/abs/2608.06802) | §6.2 | The paper's core contribution is a curriculum/initialization technique (LoRA warm-up) that improves OPD stability and performance, fitting… |
+| [MemOPD: On-Policy Distillation through Memory State Alignment for Long-Horizon Agents](https://arxiv.org/abs/2608.07068) | §4.3 | MemOPD combines on-policy distillation (reverse-KL from teacher on student rollouts) with PPO task reward, making the distillation… |
+| [Trajectory-Relative Hindsight Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2608.07371) | §5.3.2 | TRIAL uses on-policy self-distillation: the student generates rollouts, a frozen snapshot of the same model (hindsight-conditioned)… |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
