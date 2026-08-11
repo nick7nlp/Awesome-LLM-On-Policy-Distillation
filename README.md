@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-269-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-270-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -525,6 +525,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment](https://arxiv.org/abs/2607.27081) <br><sub>📐 Llama-2-7B-Chat (aligned) → Llama-2-7B-Chat (misaligned, realigned); Dual-teacher on-policy distillation for template-robust safety realignment of fine-tuned LLMs</sub> | 2026 |  |
 | 🟡 [Is More Privileged Information Better? From Solution Traces to Problem-Solving Structure in Self-Distilled Reasoning](https://arxiv.org/abs/2608.01589) <br><sub>📐 Qwen3-1.7B (privileged view) → Qwen3-1.7B; Replaces complete solution in OPSD teacher context with structured problem-space guidance</sub> | 2026 |  |
 | 🟡 [SMOPD: Multi-Reward Reinforcement Learning via Specialize-and-Merge Online Policy Distillation](https://arxiv.org/abs/2608.03092) <br><sub>📐 Qwen2.5-1.5B-Instruct (Accuracy Teacher) → Qwen2.5-1.5B-Instruct (SMOPD Student); Two-stage multi-reward RL: specialize teachers per reward, merge via on-policy distillation</sub> | 2026 |  |
+| 🟡 [Capek 0.5: An Execution-Centric Vision-Language Model for Embodied Intelligence](https://arxiv.org/abs/2608.06756) <br><sub>📐 Spatial Specialist (Qwen3.6-35B-A3B-based) → Capek 0.5-35B-A3B; Unified embodied VLM consolidating 4 capability specialists via TIES merging + routed MOPD</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -933,6 +934,7 @@ On-Policy Distillation (Survey V3 Structure)
 | [Simple-OPD: Demystifying Warm-up for On-policy Distillation](https://arxiv.org/abs/2608.06802) | §6.2 | The paper's core contribution is a curriculum/initialization technique (LoRA warm-up) that improves OPD stability and performance, fitting… |
 | [MemOPD: On-Policy Distillation through Memory State Alignment for Long-Horizon Agents](https://arxiv.org/abs/2608.07068) | §4.3 | MemOPD combines on-policy distillation (reverse-KL from teacher on student rollouts) with PPO task reward, making the distillation… |
 | [Trajectory-Relative Hindsight Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2608.07371) | §5.3.2 | TRIAL uses on-policy self-distillation: the student generates rollouts, a frozen snapshot of the same model (hindsight-conditioned)… |
+| [Capek 0.5: An Execution-Centric Vision-Language Model for Embodied Intelligence](https://arxiv.org/abs/2608.06756) | §5.1 | The paper's consolidation stage (MOPD) has student generate rollouts (C1), frozen specialist teachers provide log-probability supervision… |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
