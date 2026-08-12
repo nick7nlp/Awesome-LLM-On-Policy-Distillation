@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-270-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-280-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -409,6 +409,9 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Geometric Self-Distillation for Reasoning Generalization](https://arxiv.org/abs/2607.06855) <br><sub>📐 Qwen3-8B (privileged context) → Qwen3-8B; Geometry-aware on-policy self-distillation using Hellinger loss and Fisher-Rao proximal drift control for OOD reasoning</sub> | 2026 |  |
 | 🟡 [Distill What the Student Can See: Fisher-Projected On-Policy Distillation for Vision-Language Models](https://arxiv.org/abs/2608.01263) <br><sub>📐 Qwen3-VL-8B-Instruct → Qwen3-VL-2B-Instruct; Fisher-projected on-policy distillation projects teacher corrections onto student's visual tangent space</sub> | 2026 |  |
 | 🟡 [DAPD: Dual-Anchored Policy Distillation](https://arxiv.org/abs/2608.01735) <br><sub>📐 Qwen3-1.7B (Cross-conditioned) → Qwen3-1.7B; Dual-anchored policy distillation addressing privilege illusion in on-policy self-distillation via matched-information p</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/uanu2002/DAPD) |
+| 🟡 [WDL-OPD: Weak-Driven On-Policy Distillation via Mixture-Constrained Co-Training](https://arxiv.org/abs/2608.09447) <br><sub>📐 4B math teacher → Qwen3-4B; Mixture-constrained co-training of anchor+auxiliary policies matched to frozen teacher via reverse KL on geometric mixtu</sub> | 2026 |  |
+| 🟡 [SR-OPSD: Self-Referenced On-Policy Self-Distillation](https://arxiv.org/abs/2608.09745) <br><sub>📐 Qwen3-8B (EMA self-teacher) → Qwen3-8B; Reference-anchored Rényi projection for on-policy self-distillation in LLMs</sub> | 2026 |  |
+| 🟡 [Mismatch Matters: On-Policy Distillation Beyond Token Agreement](https://arxiv.org/abs/2608.09836) <br><sub>📐 Qwen3-8B → Qwen3-1.7B-Base; TIDE corrects OPD failures via bounded Hellinger suppression of student-excess tokens and analytic teacher top-K recover</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/yzc-666/TIDE) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -444,6 +447,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Pass the Baton: Trajectory-Relayed On-Policy Distillation](https://arxiv.org/abs/2607.26057) <br><sub>📐 Qwen3-4B-Instruct-2507 → Qwen3-1.7B-Non-Thinking; Relay-OPD detects teacher-student reasoning divergence to trigger brief teacher takeovers during on-policy distillation</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/zju-real/Relay-OPD) |
 | 🟡 [Distill Where You Fail: Recovering Learning Signals of Negative RL-Groups from Adaptive Teacher Guidance](https://arxiv.org/abs/2608.00782) <br><sub>📐 Qwen3-4B-Instruct-2507 → Qwen3-1.7B-Instruct; Selective on-policy distillation on negative zero-variance GRPO prompts with token selection and auxiliary SFT</sub> | 2026 |  |
 | 🟡 [OPTD: On-Policy Transition Distillation with Consistency-Guided Adaptive Compression for Few-Step Diffusion Language Models](https://arxiv.org/abs/2608.02942) <br><sub>📐 LLaDA-8B-Instruct (frozen TAD-S checkpoint) → LLaDA-8B-Instruct (TAD-S init + LoRA); On-policy transition distillation with adaptive compression for few-step diffusion LLMs</sub> | 2026 |  |
+| 🟡 [Adaptive Supervised Anchoring for On-Policy Self-Distillation](https://arxiv.org/abs/2608.07935) <br><sub>📐 Qwen3-1.7B (privileged) → Qwen3-1.7B; Context-separated anchoring for on-policy self-distillation with adaptive weighting</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -526,6 +530,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Is More Privileged Information Better? From Solution Traces to Problem-Solving Structure in Self-Distilled Reasoning](https://arxiv.org/abs/2608.01589) <br><sub>📐 Qwen3-1.7B (privileged view) → Qwen3-1.7B; Replaces complete solution in OPSD teacher context with structured problem-space guidance</sub> | 2026 |  |
 | 🟡 [SMOPD: Multi-Reward Reinforcement Learning via Specialize-and-Merge Online Policy Distillation](https://arxiv.org/abs/2608.03092) <br><sub>📐 Qwen2.5-1.5B-Instruct (Accuracy Teacher) → Qwen2.5-1.5B-Instruct (SMOPD Student); Two-stage multi-reward RL: specialize teachers per reward, merge via on-policy distillation</sub> | 2026 |  |
 | 🟡 [Capek 0.5: An Execution-Centric Vision-Language Model for Embodied Intelligence](https://arxiv.org/abs/2608.06756) <br><sub>📐 Spatial Specialist (Qwen3.6-35B-A3B-based) → Capek 0.5-35B-A3B; Unified embodied VLM consolidating 4 capability specialists via TIES merging + routed MOPD</sub> | 2026 |  |
+| 🟡 [PAST: Privileged Adaptation from Complete Student Trajectories for On-Policy Self-Distillation](https://arxiv.org/abs/2608.08726) <br><sub>📐 Qwen3-1.7B (privileged adapted teacher) → Qwen3-1.7B; Adapts privileged teacher from complete student trajectories before on-policy self-distillation</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -631,6 +636,9 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Rubrics as Privileged Information for Open-Ended Generation](https://arxiv.org/abs/2608.02948) <br><sub>📐 Qwen2.5-7B-Instruct (EMA) → Qwen2.5-7B-Instruct; Extends on-policy self-distillation to open-ended generation using rubrics as soft privileged information</sub> | 2026 |  |
 | 🟡 [OPD-V: Visual On-Policy Self-Distillation with Modality Balance](https://arxiv.org/abs/2608.05131) <br><sub>📐 Qwen3.5-4B (EMA copy) → Qwen3.5-4B; Visual on-policy self-distillation using modality balance as privileged information via dual teachers</sub> | 2026 |  |
 | 🟡 [Trajectory-Relative Hindsight Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2608.07371) <br><sub>📐 Qwen3-1.7B (frozen hindsight-conditioned snapshot) → Qwen3-1.7B; Trajectory-relative hindsight distillation allocating turn-level supervision via normalized profile</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/Chihaya-Anon-chan/TRIAL) |
+| 🟡 [Learning from Consensus and Disagreement: Unsupervised On-Policy Self-Distillation with Minority-Trajectory Contrast](https://arxiv.org/abs/2608.08764) <br><sub>📐 Qwen3-1.7B (frozen, consensus-conditioned) → Qwen3-1.7B; Unsupervised on-policy self-distillation using consensus as privileged context and minority calibration</sub> | 2026 |  |
+| 🟡 [Reading is not Reasoning: Bridging the Agentic Policy Gap in Vision–Text Compression](https://arxiv.org/abs/2608.08960) <br><sub>📐 Qwen2.5-VL-3B-Instruct (text-history policy) → Qwen2.5-VL-3B-Instruct (visual-history policy); Cross-modal self-distillation from text-history to visual-history agent policy</sub> | 2026 |  |
+| 🟡 [Distill Skills into Weights, Not Prompts: Abstract Skills as Privileged Signals for On-Policy Self-Distillation](https://arxiv.org/abs/2608.09826) <br><sub>📐 Qwen3-0.6B-Base (skill-conditioned) → Qwen3-0.6B-Base (question-only); On-policy self-distillation using skill-conditioned teacher context with annealed tilted cross-entropy</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -713,6 +721,8 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Look Ahead Before You Distill: Future Trajectory Validation of Teacher Guidance for Agentic On-Policy Distillation](https://arxiv.org/abs/2608.01953) <br><sub>📐 Qwen3-32B → Qwen3-1.7B; Future trajectory validation of teacher bridges for agentic on-policy distillation</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/ChenChiShui/FutureBridge-OPD) |
 | 🟡 [Not Every Divergence Should Be Suppressed: Counterfactual Recoverability in On-Policy Distillation](https://arxiv.org/abs/2608.04408) <br><sub>📐 Qwen3.5-27B → Qwen3.5-9B; Counterfactual recoverability labels guide selective supervision in on-policy distillation</sub> | 2026 |  |
 | 🟡 [Simple-OPD: Demystifying Warm-up for On-policy Distillation](https://arxiv.org/abs/2608.06802) <br><sub>📐 Qwen3-8B-Base (DAPO-trained) → Qwen3-1.7B-Base; Systematic study of warm-up for OPD showing LoRA on teacher CoT is optimal initialization</sub> | 2025 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/Utaotao/Simple-OPD) |
+| 🟡 [Long SKILL Compliance as Logical Reasoning: Closure-Grounded Detection with Scaling-Guided On-Policy Distillation](https://arxiv.org/abs/2608.08146) <br><sub>📐 Qwen3.5-9B → Qwen3.5-4B; Graph-based compliance detection with scaling-guided on-policy distillation for long SKILL documents</sub> | 2026 |  |
+| 🟡 [Matching Supervision to the Student's Learning Capacity: A Unified Framework for On-Policy Self-Distillation](https://arxiv.org/abs/2608.08176) <br><sub>📐 Qwen3-1.7B (privileged) → Qwen3-1.7B; Unified framework jointly optimizing token weighting and PI strength in on-policy self-distillation via single dual vari</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/lauvlalala/USD) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -935,6 +945,16 @@ On-Policy Distillation (Survey V3 Structure)
 | [MemOPD: On-Policy Distillation through Memory State Alignment for Long-Horizon Agents](https://arxiv.org/abs/2608.07068) | §4.3 | MemOPD combines on-policy distillation (reverse-KL from teacher on student rollouts) with PPO task reward, making the distillation… |
 | [Trajectory-Relative Hindsight Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2608.07371) | §5.3.2 | TRIAL uses on-policy self-distillation: the student generates rollouts, a frozen snapshot of the same model (hindsight-conditioned)… |
 | [Capek 0.5: An Execution-Centric Vision-Language Model for Embodied Intelligence](https://arxiv.org/abs/2608.06756) | §5.1 | The paper's consolidation stage (MOPD) has student generate rollouts (C1), frozen specialist teachers provide log-probability supervision… |
+| [Adaptive Supervised Anchoring for On-Policy Self-Distillation](https://arxiv.org/abs/2608.07935) | §4.2 | The paper proposes an adaptive objective that modulates anchoring weight based on rollout-target alignment, fitting adaptive… |
+| [Long SKILL Compliance as Logical Reasoning: Closure-Grounded Detection with Scaling-Guided On-Policy Distillation](https://arxiv.org/abs/2608.08146) | §6.2 | The paper uses scaling-derived complexity metrics to prioritize training samples for on-policy distillation, combining curriculum/sample… |
+| [Matching Supervision to the Student's Learning Capacity: A Unified Framework for On-Policy Self-Distillation](https://arxiv.org/abs/2608.08176) | §6.1 | The paper jointly optimizes token weighting (§6.1) and PI-level adaptation (§5.3.1) with an adaptive capacity budget, making token… |
+| [PAST: Privileged Adaptation from Complete Student Trajectories for On-Policy Self-Distillation](https://arxiv.org/abs/2608.08726) | §5.1 | Self-distillation where student generates rollouts, a privileged copy of the same model (adapted teacher) provides full-vocabulary logit… |
+| [Learning from Consensus and Disagreement: Unsupervised On-Policy Self-Distillation with Minority-Trajectory Contrast](https://arxiv.org/abs/2608.08764) | §5.3.2 | Self-distillation where the frozen self-teacher (same model with privileged consensus context) provides logit-level supervision on… |
+| [Reading is not Reasoning: Bridging the Agentic Policy Gap in Vision–Text Compression](https://arxiv.org/abs/2608.08960) | §5.3.2 | Self-distillation where the same model's stronger text-history policy (teacher) provides logit-level forward-KL supervision on student… |
+| [WDL-OPD: Weak-Driven On-Policy Distillation via Mixture-Constrained Co-Training](https://arxiv.org/abs/2608.09447) | §4.1 | Proposes a new divergence objective (reverse KL on geometric mixture of two trainable policies matched to teacher) for on-policy… |
+| [SR-OPSD: Self-Referenced On-Policy Self-Distillation](https://arxiv.org/abs/2608.09745) | §4.1 | Proposes a new divergence objective (Rényi) with adaptive reference-anchored target for on-policy self-distillation, where the teacher is a… |
+| [Distill Skills into Weights, Not Prompts: Abstract Skills as Privileged Signals for On-Policy Self-Distillation](https://arxiv.org/abs/2608.09826) | §5.3.2 | Self-distillation where student generates rollouts, same-weight teacher provides logit supervision under privileged context, with an… |
+| [Mismatch Matters: On-Policy Distillation Beyond Token Agreement](https://arxiv.org/abs/2608.09836) | §4.1 | TIDE introduces a novel divergence-based objective (Hellinger-shaped excess + forward-KL deficit) that replaces the standard reverse-KL in… |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
