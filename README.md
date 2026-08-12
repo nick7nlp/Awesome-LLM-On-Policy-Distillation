@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-280-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-282-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -531,6 +531,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [SMOPD: Multi-Reward Reinforcement Learning via Specialize-and-Merge Online Policy Distillation](https://arxiv.org/abs/2608.03092) <br><sub>📐 Qwen2.5-1.5B-Instruct (Accuracy Teacher) → Qwen2.5-1.5B-Instruct (SMOPD Student); Two-stage multi-reward RL: specialize teachers per reward, merge via on-policy distillation</sub> | 2026 |  |
 | 🟡 [Capek 0.5: An Execution-Centric Vision-Language Model for Embodied Intelligence](https://arxiv.org/abs/2608.06756) <br><sub>📐 Spatial Specialist (Qwen3.6-35B-A3B-based) → Capek 0.5-35B-A3B; Unified embodied VLM consolidating 4 capability specialists via TIES merging + routed MOPD</sub> | 2026 |  |
 | 🟡 [PAST: Privileged Adaptation from Complete Student Trajectories for On-Policy Self-Distillation](https://arxiv.org/abs/2608.08726) <br><sub>📐 Qwen3-1.7B (privileged adapted teacher) → Qwen3-1.7B; Adapts privileged teacher from complete student trajectories before on-policy self-distillation</sub> | 2026 |  |
+| 🟡 [Motif 3: Technical Report](https://arxiv.org/abs/2608.09119) <br><sub>📐 Motif 3 Agentic Tool-Use Teacher → Motif 3 (general SFT); 314B MoE LLM with GDLA attention and multi-teacher on-policy distillation post-training</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -639,6 +640,7 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [Learning from Consensus and Disagreement: Unsupervised On-Policy Self-Distillation with Minority-Trajectory Contrast](https://arxiv.org/abs/2608.08764) <br><sub>📐 Qwen3-1.7B (frozen, consensus-conditioned) → Qwen3-1.7B; Unsupervised on-policy self-distillation using consensus as privileged context and minority calibration</sub> | 2026 |  |
 | 🟡 [Reading is not Reasoning: Bridging the Agentic Policy Gap in Vision–Text Compression](https://arxiv.org/abs/2608.08960) <br><sub>📐 Qwen2.5-VL-3B-Instruct (text-history policy) → Qwen2.5-VL-3B-Instruct (visual-history policy); Cross-modal self-distillation from text-history to visual-history agent policy</sub> | 2026 |  |
 | 🟡 [Distill Skills into Weights, Not Prompts: Abstract Skills as Privileged Signals for On-Policy Self-Distillation](https://arxiv.org/abs/2608.09826) <br><sub>📐 Qwen3-0.6B-Base (skill-conditioned) → Qwen3-0.6B-Base (question-only); On-policy self-distillation using skill-conditioned teacher context with annealed tilted cross-entropy</sub> | 2026 |  |
+| 🟡 [Bidirectional Context Self-Distillation for Reinforcement Learning of Skill-Based LLM Agents](https://arxiv.org/abs/2608.09555) <br><sub>📐 Qwen2.5-7B-Instruct (augmented context) → Qwen2.5-7B-Instruct (base context); Bidirectional context self-distillation rescales GRPO advantage for skill-based LLM agents</sub> | 2026 |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -955,6 +957,8 @@ On-Policy Distillation (Survey V3 Structure)
 | [SR-OPSD: Self-Referenced On-Policy Self-Distillation](https://arxiv.org/abs/2608.09745) | §4.1 | Proposes a new divergence objective (Rényi) with adaptive reference-anchored target for on-policy self-distillation, where the teacher is a… |
 | [Distill Skills into Weights, Not Prompts: Abstract Skills as Privileged Signals for On-Policy Self-Distillation](https://arxiv.org/abs/2608.09826) | §5.3.2 | Self-distillation where student generates rollouts, same-weight teacher provides logit supervision under privileged context, with an… |
 | [Mismatch Matters: On-Policy Distillation Beyond Token Agreement](https://arxiv.org/abs/2608.09836) | §4.1 | TIDE introduces a novel divergence-based objective (Hellinger-shaped excess + forward-KL deficit) that replaces the standard reverse-KL in… |
+| [Motif 3: Technical Report](https://arxiv.org/abs/2608.09119) | §5.1 | MOPD generates student rollouts (C1), obtains teacher log-prob supervision on those rollouts (C2), and uses a log-probability-based… |
+| [Bidirectional Context Self-Distillation for Reinforcement Learning of Skill-Based LLM Agents](https://arxiv.org/abs/2608.09555) | §5.3.2 | Self-distillation where the same policy acts as teacher under different contexts on student-generated rollouts, with token-level KL-like… |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
