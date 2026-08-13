@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/Papers-266-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-265-blue" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/nick7nlp/Awesome-LLM-On-Policy-Distillation?label=Last%20Updated&color=green" alt="Last Updated">
   <img src="https://img.shields.io/badge/Survey-V4-orange" alt="Survey V4">
 </p>
@@ -712,7 +712,6 @@ On-Policy Distillation (Survey V3 Structure)
 | 🟡 [PCSD: Persistent Consistency for Self-Distillation in Agentic Reinforcement Learning](https://arxiv.org/abs/2608.01837) <br><sub>📐 Qwen2.5-3B-Instruct (frozen, skill-augmented) → Qwen2.5-3B-Instruct; Token-level weighting for on-policy self-distillation based on persistent local teacher support signals</sub> | 2026 |  |
 | 🟡 [Look Ahead Before You Distill: Future Trajectory Validation of Teacher Guidance for Agentic On-Policy Distillation](https://arxiv.org/abs/2608.01953) <br><sub>📐 Qwen3-32B → Qwen3-1.7B; Future trajectory validation of teacher bridges for agentic on-policy distillation</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/ChenChiShui/FutureBridge-OPD) |
 | 🟡 [Not Every Divergence Should Be Suppressed: Counterfactual Recoverability in On-Policy Distillation](https://arxiv.org/abs/2608.04408) <br><sub>📐 Qwen3.5-27B → Qwen3.5-9B; Counterfactual recoverability labels guide selective supervision in on-policy distillation</sub> | 2026 |  |
-| 🟡 [Simple-OPD: Demystifying Warm-up for On-policy Distillation](https://arxiv.org/abs/2608.06802) <br><sub>📐 Qwen3-8B-Base (DAPO-trained) → Qwen3-1.7B-Base; Systematic study of warm-up for OPD showing LoRA on teacher CoT is optimal initialization</sub> | 2025 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/Utaotao/Simple-OPD) |
 | 🟡 [Matching Supervision to the Student's Learning Capacity: A Unified Framework for On-Policy Self-Distillation](https://arxiv.org/abs/2608.08176) <br><sub>📐 Qwen3-1.7B (privileged) → Qwen3-1.7B; Unified framework jointly optimizing token weighting and PI strength in on-policy self-distillation via single dual vari</sub> | 2026 | [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/lauvlalala/USD) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -913,7 +912,6 @@ On-Policy Distillation (Survey V3 Structure)
 | [Not Every Divergence Should Be Suppressed: Counterfactual Recoverability in On-Policy Distillation](https://arxiv.org/abs/2608.04408) | §6.1 | The paper proposes a selective supervision mechanism that determines per-state whether to retain, rollback, or default to SOD based on… |
 | [SPOT: Sparse Probing and Outcome Calibration for On-Policy Distillation](https://arxiv.org/abs/2608.04419) | §4.3 | SPOT augments OPD with RL-style verifier signals to calibrate the teacher distribution target, combining token-level KL distillation with… |
 | [OPD-V: Visual On-Policy Self-Distillation with Modality Balance](https://arxiv.org/abs/2608.05131) | §5.3.2 | Self-distillation where the student generates rollouts, a detached copy (same model with EMA) provides logit-level supervision on… |
-| [Simple-OPD: Demystifying Warm-up for On-policy Distillation](https://arxiv.org/abs/2608.06802) | §6.2 | The paper's core contribution is a curriculum/initialization technique (LoRA warm-up) that improves OPD stability and performance, fitting… |
 | [MemOPD: On-Policy Distillation through Memory State Alignment for Long-Horizon Agents](https://arxiv.org/abs/2608.07068) | §4.3 | MemOPD combines on-policy distillation (reverse-KL from teacher on student rollouts) with PPO task reward, making the distillation… |
 | [Trajectory-Relative Hindsight Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2608.07371) | §5.3.2 | TRIAL uses on-policy self-distillation: the student generates rollouts, a frozen snapshot of the same model (hindsight-conditioned)… |
 | [Capek 0.5: An Execution-Centric Vision-Language Model for Embodied Intelligence](https://arxiv.org/abs/2608.06756) | §5.1 | The paper's consolidation stage (MOPD) has student generate rollouts (C1), frozen specialist teachers provide log-probability supervision… |
