@@ -1100,8 +1100,8 @@ If you find this collection helpful, please consider citing our survey:
 
 *Last updated: June 2026*
 
-<a href="https://star-history.com/#nick7nlp/Awesome-LLM-On-Policy-Distillation&Date">
-  <img src="https://api.star-history.com/svg?repos=nick7nlp/Awesome-LLM-On-Policy-Distillation&type=Date" width="600" alt="Star History Chart">
+<a href="https://star-history.dera.page/#nick7nlp/Awesome-LLM-On-Policy-Distillation&Date">
+  <img src="https://star-history.dera.page/svg?repos=nick7nlp/Awesome-LLM-On-Policy-Distillation&type=Date" width="600" alt="Star History Chart">
 </a>
 
 </div>
