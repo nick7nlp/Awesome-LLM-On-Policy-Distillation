@@ -2,6 +2,11 @@
 
 All notable additions to this collection are documented here.
 
+## [2026-09-09]
+
+### Added
+- **TaoLive HAT** (2608.15763) — Industrial deployment (§8.1): general-domain OPD from the pre-SFT Qwen3.6-35B-A3B base model to its HSA-SFT checkpoint, using student rollouts to recover instruction following before agentic RL.
+
 ## [2026-06-18, V4 full update]
 ### Survey V4 Released
 - Survey V4 published on [arXiv](https://arxiv.org/abs/2604.00626): 72 new OPD papers added, full-text review and AI-trace audit completed, taxonomy tree and method tables updated.
