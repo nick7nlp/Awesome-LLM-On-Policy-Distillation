@@ -2,6 +2,22 @@
 
 All notable additions to this collection are documented here.
 
+## 2026-10-05 — Catalog and companion-site refresh
+
+- Updated the curated catalog through September 2026: 297 method, analysis and application entries, plus 24 explicit background resources.
+- Removed rejected, deferred and previously excluded report entries from the active catalog and resource indexes; retained historical changelog entries below as history.
+- Added reviewed literature missing from the previous list, including recent objective, teacher-interface, multi-turn and lifecycle studies.
+- Checked titles, complete author lists, release dates and paper URLs against primary sources, and revised every catalog description against original-paper evidence.
+- Repaired repository moves and stale URLs, corrected paper-to-repository associations, and labeled the OPCD community reproduction as unofficial.
+- Added a public `resources/catalog.json` source and reproducible README/index generator. OPDHub now uses the same records for search, filters and complete-author BibTeX export.
+- Preserved the overview and statistical images; older model/loss figures are labeled as historical snapshots rather than current catalog counts.
+
+The public survey PDF remains arXiv v4 (June 18, 2026). This catalog includes later reviewed work; it does not claim that the unpublished manuscript revision has been released on arXiv.
+
+---
+
+Earlier entries below describe their original snapshots and can mention papers no longer included in the active catalog.
+
 ## [2026-06-18, V4 full update]
 ### Survey V4 Released
 - Survey V4 published on [arXiv](https://arxiv.org/abs/2604.00626): 72 new OPD papers added, full-text review and AI-trace audit completed, taxonomy tree and method tables updated.

@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Thanks for suggesting a paper! Please fill in the details below.
-        Make sure the paper meets our [inclusion criteria](../../README.md#-inclusion-criteria).
+        Make sure the paper meets the [inclusion criteria](https://github.com/nick7nlp/Awesome-LLM-On-Policy-Distillation/blob/master/CONTRIBUTING.md#inclusion).
 
   - type: input
     id: title
@@ -42,21 +42,13 @@ body:
       label: Category
       description: "Which section does this paper best fit in?"
       options:
-        - "§4.1 Fixed Divergence Objectives"
-        - "§4.2 Adaptive Divergence Objectives"
-        - "§4.3 RL-Augmented Objectives"
-        - "§5.1 White-Box Logit Supervision"
-        - "§5.2 Black-Box & API-Constrained"
-        - "§5.3.1 Privileged Information"
-        - "§5.3.2 Pure Self-Distillation"
-        - "§5.3.3 External Feedback"
-        - "§6 Training Efficiency & Stabilization"
-        - "§7.1 Success Conditions"
-        - "§7.2 Failure Modes & Diagnostics"
-        - "§7.3 Unified Theory"
-        - "§8.1 Industrial Deployment"
-        - "§8.2 Emerging Domains"
-        - "§8.3 System-Level Integration"
+        - "§4 Objectives and update rules"
+        - "§5 Teacher and supervision construction"
+        - "§6 Data and training dynamics"
+        - "§7 Agentic and multi-turn distillation"
+        - "§8 Mechanisms, failures, and evaluation"
+        - "§9 Applications and systems"
+        - "Foundations or related background"
     validations:
       required: true
 
@@ -65,7 +57,7 @@ body:
     attributes:
       label: Key Contribution
       description: "One-line description of the paper's main contribution to OPD"
-      placeholder: "Proposes adaptive KL divergence that switches between forward and reverse KL based on token entropy"
+      placeholder: "Describe the actual state source, teacher signal and update, with the relevant source location."
     validations:
       required: true
 
@@ -73,7 +65,7 @@ body:
     id: models
     attributes:
       label: "Teacher → Student"
-      description: "Model pair used in experiments"
+      description: "Model pair used in experiments, or N/A for theoretical/background work"
       placeholder: "e.g., Qwen3-32B → Qwen3-4B"
     validations:
       required: true
