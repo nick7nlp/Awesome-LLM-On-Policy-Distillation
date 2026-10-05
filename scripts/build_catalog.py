@@ -19,7 +19,7 @@ SECTIONS=[('4','Objectives and update rules'),('5','Teacher and supervision cons
           ('6','Data and training dynamics'),('7','Agentic and multi-turn distillation'),
           ('8','Mechanisms, failures, and evaluation'),('9','Applications and systems'),
           ('background','Foundations and related background')]
-ROLES={'direct_opd':'Direct OPD','hybrid_opd':'Mixed / replayed distillation',
+ROLES={'direct_opd':'Direct OPD','hybrid_opd':'Hybrid OPD',
        'teacher_mediated_rl':'Teacher-mediated RL','interactive_imitation':'Interactive imitation',
        'offline_distillation':'Offline comparator','analysis':'Analysis',
        'application':'Application / system report','background':'Background'}
@@ -60,7 +60,7 @@ def render():
     parts += ['',
            '## Scope and how to use the list', '',
            'The central topic is teacher-derived learning on states visited by an evolving language-model student. '
-           'Direct distribution matching, mixed or replayed training, teacher-mediated rewards, analysis, and '
+           'Direct distribution matching, hybrid OPD, teacher-mediated rewards, analysis, and '
            'deployment reports are labeled by their actual role. Necessary off-policy comparators are identified explicitly. '
            'The collection focuses on contributions that help readers compare these mechanisms and their evidence.', '',
            'Dates below denote first public release. Each entry links to its source paper; repository links '

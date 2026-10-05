@@ -22,7 +22,6 @@ Compare methods by the states they supervise, the information used to construct 
 | [OPSD](https://arxiv.org/abs/2601.18734) | Ground-truth answer conditions a self-teacher on the student's prefixes | A useful answer-conditioned distribution; sharing weights does not remove the teacher–student information gap. |
 | [SD-ZERO](https://arxiv.org/abs/2604.12002) | A learned reviser uses generator outputs and binary correctness feedback | Verifiable outcomes, reviser learning, and the cost of constructing revisions. |
 | [SDPO](https://arxiv.org/abs/2601.20802) | Errors, tests, or judge feedback condition a self-teacher | Feedback that the self-teacher can use; text feedback is context for constructing a distribution, not automatically the distillation target itself. |
-| [OPCD](https://arxiv.org/abs/2602.12275) | Historical solution traces and optimized system prompts | Informative demonstrations or procedures to internalize; it is not an information-free learning loop. |
 | [UniSD](https://arxiv.org/abs/2605.06597) | Teacher-view agreement alongside contrastive and representation supervision, EMA stabilization, and divergence clipping | Multiple teacher evaluations and validation of the combined mechanisms; agreement is not external verification. |
 
 ## Selection, reuse, and multi-turn learning
@@ -44,7 +43,6 @@ Compare methods by the states they supervise, the information used to construct 
 | [DSKD](https://arxiv.org/abs/2504.11426) | Projects representations into teacher and student spaces to construct comparable outputs | Projection and exact token alignment solve different problems; cross-tokenizer supervision is restricted to aligned positions. |
 | [SimCT](https://arxiv.org/abs/2605.07711) | Compares short continuation units realizable by both tokenizers | The continuation interface must be defined before applying a divergence. |
 | [GAD](https://arxiv.org/abs/2511.10643) | Uses teacher responses to train a discriminator that supplies a scalar reward | This is teacher-mediated optimization with a learned evaluator, rather than direct teacher-logit matching. |
-| [DASD](https://arxiv.org/abs/2601.09088) | Temperature-scheduled teacher-data training followed by teacher completions of truncated student prefixes | Sequence and mixed-policy transfer; it should not be listed as a white-box adaptive-KL algorithm. |
 | [Qwen3](https://arxiv.org/abs/2505.09388) | Off-policy initialization followed by on-policy refinement | Reported student-stage costs do not include the whole teacher-preparation pipeline. |
 | [DeepSeek-V4](https://arxiv.org/abs/2606.19348) | Specialist consolidation through full-vocabulary multi-teacher OPD | A deployment recipe with additional engineering and teacher preparation; overall scores do not isolate OPD's effect. |
 
@@ -53,7 +51,7 @@ Compare methods by the states they supervise, the information used to construct 
 | Available information or bottleneck | Candidate comparison | What the comparison must include |
 |---|---|---|
 | Compatible teacher logits | GKD or MiniLLM, then an objective or estimator variant | The same initial student, prefix source, support, and evaluation budget. |
-| Teacher text but no compatible logits | GAD or DASD, plus a teacher-trace baseline | Demonstration acquisition, evaluator or completion costs, and the actual training-state distribution. |
+| Teacher text but no compatible logits | GAD, plus a teacher-trace baseline | Demonstration acquisition, evaluator costs, and the actual training-state distribution. |
 | No separate stronger teacher | OPSD, SDPO, or SD-ZERO | The source of answers, feedback, or revisions and a control without that information. |
 | Teacher scoring is expensive | DistiLLM, Lightning-OPD, or CLOOPD | Cached-data acquisition, score reuse, current-student computation, and loss from stale or restricted state coverage. |
 | Dense supervision exceeds memory | TIP or a supported sparse estimator | Peak memory and end-to-end time at matched quality; retained positions alone are not a compute measurement. |

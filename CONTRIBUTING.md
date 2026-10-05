@@ -16,9 +16,19 @@ and verified repository links. Use official paper or publisher metadata.
 ## Inclusion
 
 The focus is teacher-derived learning on states visited by an evolving language-model
-student. Direct OPD, mixed/replayed distillation, teacher-mediated RL, analyses,
+student. Direct OPD, hybrid OPD, teacher-mediated RL, analyses,
 and applications have distinct roles. Necessary foundations and off-policy
 comparators belong in background. An OPD title is not sufficient for inclusion.
+
+Hybrid OPD includes a substantive learner-state distillation component combined
+with other objectives, teacher interventions, or trajectory reuse. A supervised
+warm start or an adaptive teacher alone does not make a method hybrid. Ordinary
+offline distillation and evaluator training are not admitted through this label.
+
+For an application, system report, or neighboring analysis, identify the specific
+OPD question, independent supporting evidence, and useful insight that the
+collection would lose without it. Adoption of OPD in a product pipeline and an
+overall benchmark gain do not establish the contribution of that stage.
 
 Evaluate relevance, support for the proposed contribution, information value and
 checkability separately. Brief entries meet the same reliability bar. Reputation,

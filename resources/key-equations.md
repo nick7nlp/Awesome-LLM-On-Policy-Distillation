@@ -88,7 +88,6 @@ The constant score term vanishes in expectation. The future terms assign credit 
 
 There is no single “adaptive KL” equation covering every routing or reweighting method. [EOPD](https://arxiv.org/abs/2603.07079) retains reverse KL and adds teacher-top-*K* forward KL above a teacher-entropy threshold. [AOPD](https://arxiv.org/abs/2605.06387) instead routes positive and non-positive teacher advantages to different update branches. A convex mixture of two named losses would omit these support and estimator choices.
 
-Likewise, [DASD](https://arxiv.org/abs/2601.09088) changes teacher-data temperature and uses teacher completions of truncated student prefixes. Its sequence-level training should not be substituted into a generic tokenwise KL-mixture formula.
 
 ## TIP token selection
 

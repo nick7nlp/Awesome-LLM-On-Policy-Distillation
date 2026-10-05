@@ -38,8 +38,7 @@ For a short introduction, read GKD, MiniLLM, and **[Rethinking OPD](https://arxi
 ## 5. Deployment and useful comparators
 
 18. **[Qwen3](https://arxiv.org/abs/2505.09388)** describes off-policy initialization followed by on-policy refinement of smaller students. **[DeepSeek-V4](https://arxiv.org/abs/2606.19348)** describes multi-teacher consolidation with full-vocabulary supervision. These reports show how OPD fits into larger training pipelines; their overall scores are not isolated OPD effects.
-19. **[DASD](https://arxiv.org/abs/2601.09088)** combines temperature-scheduled teacher-data training with teacher continuations of truncated student prefixes. Compare its sequence and mixed-policy supervision with direct distribution matching.
-20. **[DeepSeek-R1](https://arxiv.org/abs/2501.12948)** and **[Gemma 2](https://arxiv.org/abs/2408.00118)** provide off-policy comparators: teacher-trace transfer and distillation during pretraining, respectively. They help test whether a proposed on-policy stage adds value over a suitable fixed-data baseline.
+19. **[DeepSeek-R1](https://arxiv.org/abs/2501.12948)** and **[Gemma 2](https://arxiv.org/abs/2408.00118)** provide off-policy comparators: teacher-trace transfer and distillation during pretraining, respectively. They help test whether a proposed on-policy stage adds value over a suitable fixed-data baseline.
 
 ## Paths by research question
 
