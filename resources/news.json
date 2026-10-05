@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "date": "2026-10-05",
+      "text": "The reading catalog now covers literature through September 2026. OPDHub offers updated search, reading sections, and citation export.",
+      "label": "Explore OPDHub",
+      "url": "https://nick7nlp.github.io/OPDHub/"
+    },
+    {
+      "date": "2026-06-18",
+      "text": "Survey v4 is available on arXiv, expanding the literature coverage and discussions of on-policy distillation.",
+      "label": "Read survey v4",
+      "url": "https://arxiv.org/abs/2604.00626v4"
+    },
+    {
+      "date": "2026-05-18",
+      "text": "Survey v3 is available on arXiv.",
+      "label": "Read survey v3",
+      "url": "https://arxiv.org/abs/2604.00626v3"
+    },
+    {
+      "date": "2026-05-12",
+      "text": "Survey v2 is available on arXiv.",
+      "label": "Read survey v2",
+      "url": "https://arxiv.org/abs/2604.00626v2"
+    },
+    {
+      "date": "2026-04-01",
+      "text": "The first version of A Survey of On-Policy Distillation for Large Language Models is available on arXiv.",
+      "label": "Read survey v1",
+      "url": "https://arxiv.org/abs/2604.00626v1"
+    }
+  ]
+}

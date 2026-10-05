@@ -33,7 +33,7 @@ Negative findings and simple methods can qualify. Identify unresolved evidence.
 - Avoid universal speedups, correctness guarantees and cross-paper performance rankings.
 - A working code URL must also be associated with the paper. Prefer the canonical repository after a move.
 - Keep code links empty when no paper-specific repository has been verified.
-- Keep internal reviews, credentials and operational logs out of public records.
+- Contributions should contain paper descriptions, source citations and public resource links.
 
 ## Reading sections
 

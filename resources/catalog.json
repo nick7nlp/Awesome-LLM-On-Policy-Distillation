@@ -1,7 +1,7 @@
 {
   "updated_on": "2026-10-05",
   "coverage_through": "2026-09",
-  "description": "Curated methods, analyses, applications and necessary background; inclusion does not imply all are direct OPD.",
+  "description": "A reading collection of language-model distillation methods, analyses, applications, and related foundations.",
   "papers": [
     {
       "paper_id": "1011.0686",
@@ -20,11 +20,8 @@
       "mechanism": "background",
       "home": "background",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 2 Nov 2010 ( v1 ), last revised 16 Mar 2011 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 2 Nov 2010 ( v1 ), last revised 16 Mar 2011 (this version, v3)]"
     },
     {
       "paper_id": "1503.02531",
@@ -43,11 +40,8 @@
       "mechanism": "background",
       "home": "background",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 9 Mar 2015]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 9 Mar 2015]"
     },
     {
       "paper_id": "1606.07947",
@@ -69,10 +63,7 @@
         "https://github.com/harvardnlp/seq2seq-attn"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 25 Jun 2016 ( v1 ), last revised 22 Sep 2016 (this version, v4)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 25 Jun 2016 ( v1 ), last revised 22 Sep 2016 (this version, v4)]"
     },
     {
       "paper_id": "1612.00796",
@@ -102,11 +93,8 @@
       "mechanism": "background",
       "home": "background",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 2 Dec 2016 ( v1 ), last revised 25 Jan 2017 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 2 Dec 2016 ( v1 ), last revised 25 Jan 2017 (this version, v2)]"
     },
     {
       "paper_id": "2001.08361",
@@ -132,11 +120,8 @@
       "mechanism": "background",
       "home": "background",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 23 Jan 2020]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 23 Jan 2020]"
     },
     {
       "paper_id": "2203.15556",
@@ -174,11 +159,8 @@
       "mechanism": "background",
       "home": "background",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 29 Mar 2022]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 29 Mar 2022]"
     },
     {
       "paper_id": "2211.09110",
@@ -247,10 +229,7 @@
         "https://github.com/stanford-crfm/helm"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 16 Nov 2022 ( v1 ), last revised 1 Oct 2023 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 16 Nov 2022 ( v1 ), last revised 1 Oct 2023 (this version, v2)]"
     },
     {
       "paper_id": "2305.02301",
@@ -278,10 +257,7 @@
         "https://github.com/google-research/distilling-step-by-step"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 3 May 2023 ( v1 ), last revised 5 Jul 2023 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 3 May 2023 ( v1 ), last revised 5 Jul 2023 (this version, v2)]"
     },
     {
       "paper_id": "2305.15717",
@@ -305,11 +281,8 @@
       "mechanism": "background",
       "home": "background",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 25 May 2023]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 25 May 2023]"
     },
     {
       "paper_id": "2305.20050",
@@ -335,11 +308,8 @@
       "mechanism": "background",
       "home": "background",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 31 May 2023]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 31 May 2023]"
     },
     {
       "paper_id": "2306.08543",
@@ -362,10 +332,7 @@
         "https://github.com/microsoft/LMOps"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 14 Jun 2023 ( v1 ), last revised 31 Jan 2026 (this version, v6)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 14 Jun 2023 ( v1 ), last revised 31 Jan 2026 (this version, v6)]"
     },
     {
       "paper_id": "2306.13649",
@@ -388,11 +355,8 @@
       "mechanism": "direct_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 23 Jun 2023 ( v1 ), last revised 17 Jan 2024 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 23 Jun 2023 ( v1 ), last revised 17 Jan 2024 (this version, v3)]"
     },
     {
       "paper_id": "2307.15190",
@@ -412,11 +376,8 @@
       "mechanism": "hybrid_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 27 Jul 2023]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 27 Jul 2023]"
     },
     {
       "paper_id": "2309.06180",
@@ -444,10 +405,7 @@
         "https://github.com/vllm-project/vllm"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 12 Sep 2023]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 12 Sep 2023]"
     },
     {
       "paper_id": "2310.08461",
@@ -471,11 +429,8 @@
       "mechanism": "application",
       "home": "9",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 12 Oct 2023 ( v1 ), last revised 31 Mar 2024 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 12 Oct 2023 ( v1 ), last revised 31 Mar 2024 (this version, v2)]"
     },
     {
       "paper_id": "2401.01335",
@@ -499,10 +454,7 @@
         "https://github.com/uclaml/SPIN"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 2 Jan 2024 ( v1 ), last revised 14 Jun 2024 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 2 Jan 2024 ( v1 ), last revised 14 Jun 2024 (this version, v3)]"
     },
     {
       "paper_id": "2402.03898",
@@ -525,10 +477,7 @@
         "https://github.com/jongwooko/distillm"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 6 Feb 2024 ( v1 ), last revised 3 Jul 2024 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 6 Feb 2024 ( v1 ), last revised 3 Jul 2024 (this version, v2)]"
     },
     {
       "paper_id": "2402.11890",
@@ -550,11 +499,8 @@
       "mechanism": "background",
       "home": "background",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 19 Feb 2024 ( v1 ), last revised 17 Jun 2024 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 19 Feb 2024 ( v1 ), last revised 17 Jun 2024 (this version, v2)]"
     },
     {
       "paper_id": "2402.12842",
@@ -576,10 +522,7 @@
         "https://github.com/gmkim-ai/PromptKD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 20 Feb 2024 ( v1 ), last revised 27 Sep 2024 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 20 Feb 2024 ( v1 ), last revised 27 Sep 2024 (this version, v3)]"
     },
     {
       "paper_id": "2402.13116",
@@ -607,10 +550,7 @@
         "https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 20 Feb 2024 ( v1 ), last revised 21 Oct 2024 (this version, v4)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 20 Feb 2024 ( v1 ), last revised 21 Oct 2024 (this version, v4)]"
     },
     {
       "paper_id": "2404.02657",
@@ -635,10 +575,7 @@
         "https://github.com/wutaiqiang/LLM_KD_AKL"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 3 Apr 2024 ( v1 ), last revised 8 Dec 2024 (this version, v4)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 3 Apr 2024 ( v1 ), last revised 8 Dec 2024 (this version, v4)]"
     },
     {
       "paper_id": "2405.11143",
@@ -672,10 +609,7 @@
         "https://github.com/OpenRLHF/OpenRLHF"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 20 May 2024 ( v1 ), last revised 9 Oct 2025 (this version, v6)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 20 May 2024 ( v1 ), last revised 9 Oct 2025 (this version, v6)]"
     },
     {
       "paper_id": "2408.00118",
@@ -889,11 +823,8 @@
       "mechanism": "background",
       "home": "background",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 31 Jul 2024 ( v1 ), last revised 2 Oct 2024 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 31 Jul 2024 ( v1 ), last revised 2 Oct 2024 (this version, v3)]"
     },
     {
       "paper_id": "2409.19256",
@@ -921,10 +852,7 @@
         "https://github.com/verl-project/verl"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 28 Sep 2024 ( v1 ), last revised 2 Oct 2024 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 28 Sep 2024 ( v1 ), last revised 2 Oct 2024 (this version, v2)]"
     },
     {
       "paper_id": "2410.09008",
@@ -950,10 +878,7 @@
         "https://github.com/YangLing0818/SuperCorrect-llm"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 11 Oct 2024 ( v1 ), last revised 26 Feb 2025 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 11 Oct 2024 ( v1 ), last revised 26 Feb 2025 (this version, v3)]"
     },
     {
       "paper_id": "2410.11325",
@@ -979,11 +904,8 @@
       "mechanism": "hybrid_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified paper-specific repository link",
-      "source_version": "[Submitted on 15 Oct 2024 ( v1 ), last revised 27 Apr 2025 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 15 Oct 2024 ( v1 ), last revised 27 Apr 2025 (this version, v3)]"
     },
     {
       "paper_id": "2410.17215",
@@ -1007,10 +929,7 @@
         "https://github.com/thu-coai/MiniPLM"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 22 Oct 2024 ( v1 ), last revised 19 Mar 2025 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 22 Oct 2024 ( v1 ), last revised 19 Mar 2025 (this version, v3)]"
     },
     {
       "paper_id": "2501.12948",
@@ -1226,11 +1145,8 @@
       "mechanism": "background",
       "home": "background",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 22 Jan 2025 ( v1 ), last revised 4 Jan 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 22 Jan 2025 ( v1 ), last revised 4 Jan 2026 (this version, v2)]"
     },
     {
       "paper_id": "2502.08606",
@@ -1252,11 +1168,8 @@
       "mechanism": "background",
       "home": "background",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 12 Feb 2025 ( v1 ), last revised 25 Jul 2025 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 12 Feb 2025 ( v1 ), last revised 25 Jul 2025 (this version, v2)]"
     },
     {
       "paper_id": "2503.02832",
@@ -1281,10 +1194,7 @@
         "https://github.com/songmzhang/AlignDistil"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 4 Mar 2025 ( v1 ), last revised 23 Jul 2025 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 4 Mar 2025 ( v1 ), last revised 23 Jul 2025 (this version, v3)]"
     },
     {
       "paper_id": "2503.07067",
@@ -1310,10 +1220,7 @@
         "https://github.com/jongwooko/distillm-2"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 10 Mar 2025 ( v1 ), last revised 30 May 2025 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 10 Mar 2025 ( v1 ), last revised 30 May 2025 (this version, v2)]"
     },
     {
       "paper_id": "2504.11426",
@@ -1339,10 +1246,7 @@
         "https://github.com/songmzhang/DSKDv2"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 15 Apr 2025]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 15 Apr 2025]"
     },
     {
       "paper_id": "2504.14945",
@@ -1369,10 +1273,7 @@
         "https://github.com/Simplified-Reasoning/LUFFY"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 21 Apr 2025 ( v1 ), last revised 22 Jun 2025 (this version, v5)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 21 Apr 2025 ( v1 ), last revised 22 Jun 2025 (this version, v5)]"
     },
     {
       "paper_id": "2504.19024",
@@ -1392,11 +1293,8 @@
       "mechanism": "teacher_mediated_rl",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 26 Apr 2025]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 26 Apr 2025]"
     },
     {
       "paper_id": "2505.09388",
@@ -1468,17 +1366,14 @@
       "submitted": "2025-05-14",
       "paper_url": "https://arxiv.org/abs/2505.09388",
       "description": "The report describes a small-model compression pipeline that uses off-policy transfer from stronger models before on-policy distillation with teacher-logit guidance. It also describes separate supervised and reinforcement-learning stages for preparing larger models; its student-stage comparison does not account for preparing the stronger teacher.",
-      "objective": "Off-policy knowledge transfer followed by on-policy teacher-logit distillation for smaller models; the supplied excerpts do not specify the exact logit-matching loss.",
+      "objective": "Off-policy knowledge transfer followed by on-policy teacher-logit distillation for smaller models.",
       "mechanism": "application",
       "home": "9",
       "code_urls": [
         "https://github.com/QwenLM/Qwen3"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 14 May 2025]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 14 May 2025]"
     },
     {
       "paper_id": "2505.13111",
@@ -1499,10 +1394,7 @@
         "https://github.com/csm9493/kd-minimal-explanation"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 19 May 2025 ( v1 ), last revised 14 Jan 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 19 May 2025 ( v1 ), last revised 14 Jan 2026 (this version, v3)]"
     },
     {
       "paper_id": "2505.16142",
@@ -1530,10 +1422,7 @@
         "https://github.com/xsc1234/RLKD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 22 May 2025 ( v1 ), last revised 31 Jan 2026 (this version, v4)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 22 May 2025 ( v1 ), last revised 31 Jan 2026 (this version, v4)]"
     },
     {
       "paper_id": "2506.02208",
@@ -1558,11 +1447,8 @@
       "mechanism": "hybrid_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 2 Jun 2025]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 2 Jun 2025]"
     },
     {
       "paper_id": "2509.25100",
@@ -1581,11 +1467,8 @@
       "mechanism": "hybrid_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 29 Sep 2025]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 29 Sep 2025]"
     },
     {
       "paper_id": "2509.25837",
@@ -1609,10 +1492,7 @@
         "https://github.com/aailab-kaist/CSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 30 Sep 2025 ( v1 ), last revised 30 May 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 30 Sep 2025 ( v1 ), last revised 30 May 2026 (this version, v3)]"
     },
     {
       "paper_id": "2510.07842",
@@ -1636,11 +1516,8 @@
       "mechanism": "hybrid_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 9 Oct 2025 ( v1 ), last revised 19 Mar 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 9 Oct 2025 ( v1 ), last revised 19 Mar 2026 (this version, v3)]"
     },
     {
       "paper_id": "2510.23497",
@@ -1659,11 +1536,8 @@
       "mechanism": "hybrid_opd",
       "home": "9",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 27 Oct 2025 ( v1 ), last revised 3 Jun 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 27 Oct 2025 ( v1 ), last revised 3 Jun 2026 (this version, v3)]"
     },
     {
       "paper_id": "2510.24021",
@@ -1683,11 +1557,8 @@
       "mechanism": "hybrid_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 28 Oct 2025 ( v1 ), last revised 16 Nov 2025 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 28 Oct 2025 ( v1 ), last revised 16 Nov 2025 (this version, v2)]"
     },
     {
       "paper_id": "2511.10643",
@@ -1709,11 +1580,8 @@
       "mechanism": "teacher_mediated_rl",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 13 Nov 2025 ( v1 ), last revised 8 Jan 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 13 Nov 2025 ( v1 ), last revised 8 Jan 2026 (this version, v3)]"
     },
     {
       "paper_id": "2512.23097",
@@ -1732,11 +1600,8 @@
       "mechanism": "analysis",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 28 Dec 2025]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 28 Dec 2025]"
     },
     {
       "paper_id": "2601.02780",
@@ -1874,17 +1739,14 @@
       "submitted": "2026-01-06",
       "paper_url": "https://arxiv.org/abs/2601.02780",
       "description": "The report uses multi-teacher on-policy distillation to consolidate domain-specialist capabilities, combining dense token-level teacher rewards with verifiable outcome rewards. This is one stage of a broader post-training pipeline, so the final model’s capabilities cannot be attributed to distillation alone.",
-      "objective": "Dense token-level rewards from specialized teachers combined with verifiable outcome-based rewards; the supplied excerpt does not specify the update formula.",
+      "objective": "Dense token-level rewards from specialized teachers combined with verifiable outcome-based rewards.",
       "mechanism": "hybrid_opd",
       "home": "9",
       "code_urls": [
         "https://github.com/XiaomiMiMo/MiMo-V2-Flash"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 6 Jan 2026 ( v1 ), last revised 8 Jan 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 6 Jan 2026 ( v1 ), last revised 8 Jan 2026 (this version, v2)]"
     },
     {
       "paper_id": "2601.07155",
@@ -1908,10 +1770,7 @@
         "https://github.com/jjun-0824/Veto"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 12 Jan 2026 ( v1 ), last revised 11 Jul 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 12 Jan 2026 ( v1 ), last revised 11 Jul 2026 (this version, v3)]"
     },
     {
       "paper_id": "2601.08310",
@@ -1935,11 +1794,8 @@
       "mechanism": "hybrid_opd",
       "home": "9",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 13 Jan 2026 ( v1 ), last revised 16 Apr 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 13 Jan 2026 ( v1 ), last revised 16 Apr 2026 (this version, v2)]"
     },
     {
       "paper_id": "2601.09088",
@@ -1967,10 +1823,7 @@
         "https://github.com/D2I-ai/dasd-thinking"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 14 Jan 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 14 Jan 2026]"
     },
     {
       "paper_id": "2601.16547",
@@ -1998,11 +1851,8 @@
       "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 23 Jan 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 23 Jan 2026]"
     },
     {
       "paper_id": "2601.18734",
@@ -2028,10 +1878,7 @@
         "https://github.com/siyan-zhao/OPSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 26 Jan 2026 ( v1 ), last revised 20 Mar 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 26 Jan 2026 ( v1 ), last revised 20 Mar 2026 (this version, v3)]"
     },
     {
       "paper_id": "2601.19897",
@@ -2051,11 +1898,8 @@
       "mechanism": "direct_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 27 Jan 2026 ( v1 ), last revised 7 Aug 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 27 Jan 2026 ( v1 ), last revised 7 Aug 2026 (this version, v2)]"
     },
     {
       "paper_id": "2601.20802",
@@ -2085,10 +1929,7 @@
         "https://github.com/lasgroup/SDPO"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 28 Jan 2026 ( v1 ), last revised 16 Feb 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 28 Jan 2026 ( v1 ), last revised 16 Feb 2026 (this version, v2)]"
     },
     {
       "paper_id": "2602.02482",
@@ -2112,11 +1953,8 @@
       "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 2 Feb 2026 ( v1 ), last revised 11 Feb 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 2 Feb 2026 ( v1 ), last revised 11 Feb 2026 (this version, v2)]"
     },
     {
       "paper_id": "2602.02994",
@@ -2141,11 +1979,8 @@
       "mechanism": "direct_opd",
       "home": "9",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 3 Feb 2026 ( v1 ), last revised 2 Jun 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 3 Feb 2026 ( v1 ), last revised 2 Jun 2026 (this version, v3)]"
     },
     {
       "paper_id": "2602.04942",
@@ -2167,11 +2002,8 @@
       "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 4 Feb 2026 ( v1 ), last revised 16 Feb 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 4 Feb 2026 ( v1 ), last revised 16 Feb 2026 (this version, v3)]"
     },
     {
       "paper_id": "2602.06019",
@@ -2196,10 +2028,7 @@
         "https://github.com/jwkirchenbauer/mtp-lm"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 5 Feb 2026 ( v1 ), last revised 23 Apr 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 5 Feb 2026 ( v1 ), last revised 23 Apr 2026 (this version, v2)]"
     },
     {
       "paper_id": "2602.12125",
@@ -2224,10 +2053,7 @@
         "https://github.com/RUCBM/G-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 12 Feb 2026 ( v1 ), last revised 26 Feb 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 12 Feb 2026 ( v1 ), last revised 26 Feb 2026 (this version, v2)]"
     },
     {
       "paper_id": "2602.12275",
@@ -2251,10 +2077,7 @@
         "https://github.com/ZijunSong/On-Policy-Context-Distillation"
       ],
       "code_status": "Unofficial reproduction; repository self-identifies as a personal implementation",
-      "source_version": "[Submitted on 12 Feb 2026 ( v1 ), last revised 23 Mar 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 12 Feb 2026 ( v1 ), last revised 23 Mar 2026 (this version, v2)]"
     },
     {
       "paper_id": "2602.15260",
@@ -2279,11 +2102,8 @@
       "mechanism": "direct_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 16 Feb 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 16 Feb 2026]"
     },
     {
       "paper_id": "2602.20574",
@@ -2302,11 +2122,8 @@
       "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 24 Feb 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 24 Feb 2026]"
     },
     {
       "paper_id": "2602.22495",
@@ -2327,15 +2144,12 @@
       "submitted": "2026-02-26",
       "paper_url": "https://arxiv.org/abs/2602.22495",
       "description": "RL-aware distillation incorporates teacher guidance into an advantage-weighted, clipped likelihood-ratio update on student rollouts, using a teacher–old-student anchor. It replaces a separate teacher KL penalty within reward-based reasoning training; its guidance therefore depends on the policy update’s advantage signal.",
-      "objective": "Maximize an advantage-weighted clipped policy objective on old-student rollouts; the checked v1 geometrically combines student/old-student and student/teacher likelihood ratios. A separate reference-policy KL remains in Eq. (4).",
+      "objective": "Maximize an advantage-weighted clipped policy objective on old-student rollouts; version 1 geometrically combines student/old-student and student/teacher likelihood ratios. A separate reference-policy KL remains in Eq. (4).",
       "mechanism": "hybrid_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 26 Feb 2026 ( v1 ), last revised 17 Jun 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 26 Feb 2026 ( v1 ), last revised 17 Jun 2026 (this version, v3)]"
     },
     {
       "paper_id": "2603.01683",
@@ -2356,10 +2170,7 @@
         "https://github.com/Visual-AI/SPoT"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 2 Mar 2026 ( v1 ), last revised 15 May 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 2 Mar 2026 ( v1 ), last revised 15 May 2026 (this version, v2)]"
     },
     {
       "paper_id": "2603.05433",
@@ -2384,10 +2195,7 @@
         "https://github.com/HJSang/CRISP_Reasoning_Compression"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 5 Mar 2026 ( v1 ), last revised 3 Jul 2026 (this version, v7)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 5 Mar 2026 ( v1 ), last revised 3 Jul 2026 (this version, v7)]"
     },
     {
       "paper_id": "2603.07079",
@@ -2411,11 +2219,8 @@
       "mechanism": "direct_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 7 Mar 2026 ( v1 ), last revised 12 Jun 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 7 Mar 2026 ( v1 ), last revised 12 Jun 2026 (this version, v3)]"
     },
     {
       "paper_id": "2603.10165",
@@ -2439,10 +2244,7 @@
         "https://github.com/Gen-Verse/OpenClaw-RL"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 10 Mar 2026 ( v1 ), last revised 11 May 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 10 Mar 2026 ( v1 ), last revised 11 May 2026 (this version, v2)]"
     },
     {
       "paper_id": "2603.11137",
@@ -2463,11 +2265,8 @@
       "mechanism": "direct_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 11 Mar 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 11 Mar 2026]"
     },
     {
       "paper_id": "2603.11178",
@@ -2488,11 +2287,8 @@
       "mechanism": "hybrid_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 11 Mar 2026 ( v1 ), last revised 9 Apr 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 11 Mar 2026 ( v1 ), last revised 9 Apr 2026 (this version, v3)]"
     },
     {
       "paper_id": "2603.13260",
@@ -2513,10 +2309,7 @@
         "https://github.com/kmswin1/TSD-KD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 25 Feb 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 25 Feb 2026]"
     },
     {
       "paper_id": "2603.16856",
@@ -2538,11 +2331,8 @@
       "mechanism": "direct_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 17 Mar 2026 ( v1 ), last revised 29 Jun 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 17 Mar 2026 ( v1 ), last revised 29 Jun 2026 (this version, v2)]"
     },
     {
       "paper_id": "2603.19220",
@@ -2575,11 +2365,8 @@
       "mechanism": "hybrid_opd",
       "home": "9",
       "code_urls": [],
-      "code_status": "No verified paper-specific repository link",
-      "source_version": "[Submitted on 19 Mar 2026 ( v1 ), last revised 22 Mar 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 19 Mar 2026 ( v1 ), last revised 22 Mar 2026 (this version, v2)]"
     },
     {
       "paper_id": "2603.24472",
@@ -2606,10 +2393,7 @@
         "https://github.com/beanie00/self-distillation-analysis"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 25 Mar 2026 ( v1 ), last revised 18 Aug 2026 (this version, v4)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 25 Mar 2026 ( v1 ), last revised 18 Aug 2026 (this version, v4)]"
     },
     {
       "paper_id": "2603.24596",
@@ -2631,11 +2415,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 6 Mar 2026 ( v1 ), last revised 12 Jun 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 6 Mar 2026 ( v1 ), last revised 12 Jun 2026 (this version, v3)]"
     },
     {
       "paper_id": "2603.25562",
@@ -2658,11 +2439,8 @@
       "mechanism": "direct_opd",
       "home": "8",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 26 Mar 2026 ( v1 ), last revised 27 Apr 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 26 Mar 2026 ( v1 ), last revised 27 Apr 2026 (this version, v2)]"
     },
     {
       "paper_id": "2603.27703",
@@ -2724,11 +2502,8 @@
       "mechanism": "application",
       "home": "9",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 29 Mar 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 29 Mar 2026]"
     },
     {
       "paper_id": "2604.02288",
@@ -2753,11 +2528,8 @@
       "mechanism": "hybrid_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 2 Apr 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 2 Apr 2026]"
     },
     {
       "paper_id": "2604.04461",
@@ -2777,11 +2549,8 @@
       "mechanism": "application",
       "home": "9",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 6 Apr 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 6 Apr 2026]"
     },
     {
       "paper_id": "2604.07430",
@@ -2823,10 +2592,7 @@
         "https://github.com/Tencent-Hunyuan/HY-Embodied"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 8 Apr 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 8 Apr 2026]"
     },
     {
       "paper_id": "2604.08527",
@@ -2849,11 +2615,8 @@
       "mechanism": "hybrid_opd",
       "home": "8",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 9 Apr 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 9 Apr 2026]"
     },
     {
       "paper_id": "2604.10674",
@@ -2880,11 +2643,8 @@
       "mechanism": "hybrid_opd",
       "home": "7",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 12 Apr 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 12 Apr 2026]"
     },
     {
       "paper_id": "2604.10688",
@@ -2912,10 +2672,7 @@
         "https://github.com/machine981/SCOPE"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 12 Apr 2026 ( v1 ), last revised 30 May 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 12 Apr 2026 ( v1 ), last revised 30 May 2026 (this version, v2)]"
     },
     {
       "paper_id": "2604.12002",
@@ -2944,10 +2701,7 @@
         "https://github.com/princeton-pli/Self-Distillation-Zero"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 13 Apr 2026 ( v1 ), last revised 11 Jun 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 13 Apr 2026 ( v1 ), last revised 11 Jun 2026 (this version, v2)]"
     },
     {
       "paper_id": "2604.13010",
@@ -2969,10 +2723,7 @@
         "https://github.com/jet-ai-projects/Lightning-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 14 Apr 2026 ( v1 ), last revised 26 Sep 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 14 Apr 2026 ( v1 ), last revised 26 Sep 2026 (this version, v3)]"
     },
     {
       "paper_id": "2604.13016",
@@ -3002,10 +2753,7 @@
         "https://github.com/Thinking-Space/Rethinking-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 14 Apr 2026 ( v1 ), last revised 15 Apr 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 14 Apr 2026 ( v1 ), last revised 15 Apr 2026 (this version, v2)]"
     },
     {
       "paper_id": "2604.14054",
@@ -3034,10 +2782,7 @@
         "https://github.com/zhyaoch/pi-play"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 15 Apr 2026 ( v1 ), last revised 25 May 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 15 Apr 2026 ( v1 ), last revised 25 May 2026 (this version, v2)]"
     },
     {
       "paper_id": "2604.14084",
@@ -3062,10 +2807,7 @@
         "https://github.com/HJSang/OPSD_OnPolicyDistillation"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 15 Apr 2026 ( v1 ), last revised 21 May 2026 (this version, v4)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 15 Apr 2026 ( v1 ), last revised 21 May 2026 (this version, v4)]"
     },
     {
       "paper_id": "2604.16830",
@@ -3090,10 +2832,7 @@
         "https://github.com/SalesforceAIResearch/CaOPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 18 Apr 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 18 Apr 2026]"
     },
     {
       "paper_id": "2604.17535",
@@ -3116,11 +2855,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 19 Apr 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 19 Apr 2026]"
     },
     {
       "paper_id": "2604.24005",
@@ -3144,10 +2880,7 @@
         "https://github.com/kokolerk/TCOD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 27 Apr 2026 ( v1 ), last revised 29 Apr 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 27 Apr 2026 ( v1 ), last revised 29 Apr 2026 (this version, v3)]"
     },
     {
       "paper_id": "2604.26573",
@@ -3165,11 +2898,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 29 Apr 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 29 Apr 2026]"
     },
     {
       "paper_id": "2604.27083",
@@ -3195,11 +2925,8 @@
       "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 29 Apr 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 29 Apr 2026]"
     },
     {
       "paper_id": "2605.00642",
@@ -3220,11 +2947,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 1 May 2026 ( v1 ), last revised 10 May 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 1 May 2026 ( v1 ), last revised 10 May 2026 (this version, v3)]"
     },
     {
       "paper_id": "2605.01347",
@@ -3253,10 +2977,7 @@
         "https://github.com/chiefovoavicii/MAD-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 2 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 2 May 2026]"
     },
     {
       "paper_id": "2605.02971",
@@ -3278,11 +2999,8 @@
       "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 3 May 2026 ( v1 ), last revised 7 May 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 3 May 2026 ( v1 ), last revised 7 May 2026 (this version, v2)]"
     },
     {
       "paper_id": "2605.03677",
@@ -3317,10 +3035,7 @@
         "https://github.com/WenjinHou/Uni-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 5 May 2026 ( v1 ), last revised 6 Jul 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 5 May 2026 ( v1 ), last revised 6 Jul 2026 (this version, v2)]"
     },
     {
       "paper_id": "2605.05040",
@@ -3342,11 +3057,8 @@
       "mechanism": "hybrid_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 6 May 2026 ( v1 ), last revised 21 Aug 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 6 May 2026 ( v1 ), last revised 21 Aug 2026 (this version, v2)]"
     },
     {
       "paper_id": "2605.05940",
@@ -3371,11 +3083,8 @@
       "mechanism": "hybrid_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 7 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 7 May 2026]"
     },
     {
       "paper_id": "2605.06094",
@@ -3399,11 +3108,8 @@
       "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 7 May 2026 ( v1 ), last revised 20 Aug 2026 (this version, v5)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 7 May 2026 ( v1 ), last revised 20 Aug 2026 (this version, v5)]"
     },
     {
       "paper_id": "2605.06188",
@@ -3421,11 +3127,8 @@
       "mechanism": "analysis",
       "home": "8",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 7 May 2026 ( v1 ), last revised 26 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 7 May 2026 ( v1 ), last revised 26 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2605.06387",
@@ -3450,11 +3153,8 @@
       "mechanism": "direct_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 7 May 2026 ( v1 ), last revised 30 Aug 2026 (this version, v4)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 7 May 2026 ( v1 ), last revised 30 Aug 2026 (this version, v4)]"
     },
     {
       "paper_id": "2605.06597",
@@ -3483,10 +3183,7 @@
         "https://github.com/Ahren09/UniSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 7 May 2026 ( v1 ), last revised 21 May 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 7 May 2026 ( v1 ), last revised 21 May 2026 (this version, v2)]"
     },
     {
       "paper_id": "2605.07177",
@@ -3510,10 +3207,7 @@
         "https://github.com/DeepExperience/HyperEyes"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 8 May 2026 ( v1 ), last revised 11 May 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 8 May 2026 ( v1 ), last revised 11 May 2026 (this version, v2)]"
     },
     {
       "paper_id": "2605.07505",
@@ -3536,11 +3230,8 @@
       "mechanism": "hybrid_opd",
       "home": "9",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 8 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 8 May 2026]"
     },
     {
       "paper_id": "2605.07711",
@@ -3568,10 +3259,7 @@
         "https://github.com/sunjie279/SimCT-"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 8 May 2026 ( v1 ), last revised 21 May 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 8 May 2026 ( v1 ), last revised 21 May 2026 (this version, v2)]"
     },
     {
       "paper_id": "2605.07725",
@@ -3598,10 +3286,7 @@
         "https://github.com/YoungZ365/SOD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 8 May 2026 ( v1 ), last revised 18 Aug 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 8 May 2026 ( v1 ), last revised 18 Aug 2026 (this version, v3)]"
     },
     {
       "paper_id": "2605.07804",
@@ -3625,11 +3310,8 @@
       "mechanism": "direct_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 8 May 2026 ( v1 ), last revised 1 Jun 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 8 May 2026 ( v1 ), last revised 1 Jun 2026 (this version, v3)]"
     },
     {
       "paper_id": "2605.07865",
@@ -3653,10 +3335,7 @@
         "https://github.com/holi-lab/vOPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 8 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 8 May 2026]"
     },
     {
       "paper_id": "2605.08737",
@@ -3677,11 +3356,8 @@
       "mechanism": "analysis",
       "home": "8",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 9 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 9 May 2026]"
     },
     {
       "paper_id": "2605.08741",
@@ -3703,10 +3379,7 @@
         "https://github.com/zzy1127/OPHSD-On-Policy-Harness-Self-Distillation"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 9 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 9 May 2026]"
     },
     {
       "paper_id": "2605.08776",
@@ -3729,11 +3402,8 @@
       "mechanism": "hybrid_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 9 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 9 May 2026]"
     },
     {
       "paper_id": "2605.08873",
@@ -3754,11 +3424,8 @@
       "mechanism": "teacher_mediated_rl",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 9 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 9 May 2026]"
     },
     {
       "paper_id": "2605.09329",
@@ -3777,11 +3444,8 @@
       "mechanism": "application",
       "home": "9",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 10 May 2026 ( v1 ), last revised 19 May 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 10 May 2026 ( v1 ), last revised 19 May 2026 (this version, v2)]"
     },
     {
       "paper_id": "2605.09548",
@@ -3804,10 +3468,7 @@
         "https://github.com/cisnlp/COPSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 10 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 10 May 2026]"
     },
     {
       "paper_id": "2605.09725",
@@ -3833,10 +3494,7 @@
         "https://github.com/BWGZK-keke/BRTS"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 10 May 2026 ( v1 ), last revised 11 Aug 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 10 May 2026 ( v1 ), last revised 11 Aug 2026 (this version, v3)]"
     },
     {
       "paper_id": "2605.10194",
@@ -3857,11 +3515,8 @@
       "mechanism": "hybrid_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 11 May 2026 ( v1 ), last revised 30 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 11 May 2026 ( v1 ), last revised 30 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2605.10781",
@@ -3881,11 +3536,8 @@
       "mechanism": "teacher_mediated_rl",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified paper-specific repository link",
-      "source_version": "[Submitted on 11 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 11 May 2026]"
     },
     {
       "paper_id": "2605.11182",
@@ -3906,11 +3558,8 @@
       "mechanism": "analysis",
       "home": "8",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 11 May 2026 ( v1 ), last revised 24 May 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 11 May 2026 ( v1 ), last revised 24 May 2026 (this version, v2)]"
     },
     {
       "paper_id": "2605.11458",
@@ -3930,11 +3579,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 9 Jun 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 9 Jun 2026 (this version, v3)]"
     },
     {
       "paper_id": "2605.11609",
@@ -3960,10 +3606,7 @@
         "https://github.com/FloyedShen/AntiSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 12 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 12 May 2026]"
     },
     {
       "paper_id": "2605.11613",
@@ -3986,11 +3629,8 @@
       "mechanism": "direct_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 12 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 12 May 2026]"
     },
     {
       "paper_id": "2605.11739",
@@ -4014,17 +3654,14 @@
       "submitted": "2026-05-12",
       "paper_url": "https://arxiv.org/abs/2605.11739",
       "description": "This parameter-dynamics study compares where on-policy distillation and reinforcement learning place updates and how early update subspaces align with final directions. An accompanying accelerator validates extrapolations of recent parameter displacements; its studied distillation typically uses a separate stronger teacher, not necessarily a self-teacher.",
-      "objective": "Analysis of module-level update allocation and directional alignment, with validation-selected parameter extrapolation as an accompanying acceleration update; the underlying distillation loss is unspecified in the supplied excerpts.",
+      "objective": "Analysis of module-level update allocation and directional alignment, with validation-selected parameter extrapolation as an accompanying acceleration update.",
       "mechanism": "analysis",
       "home": "8",
       "code_urls": [
         "https://github.com/caiyuchen-ustc/EffOPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 21 May 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 21 May 2026 (this version, v3)]"
     },
     {
       "paper_id": "2605.11853",
@@ -4050,11 +3687,8 @@
       "mechanism": "teacher_mediated_rl",
       "home": "7",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 14 May 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 14 May 2026 (this version, v2)]"
     },
     {
       "paper_id": "2605.12227",
@@ -4073,11 +3707,8 @@
       "mechanism": "hybrid_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 10 Sep 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 10 Sep 2026 (this version, v3)]"
     },
     {
       "paper_id": "2605.12400",
@@ -4096,11 +3727,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 29 May 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 29 May 2026 (this version, v2)]"
     },
     {
       "paper_id": "2605.12483",
@@ -4122,11 +3750,8 @@
       "mechanism": "direct_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 20 May 2026 (this version, v4)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 20 May 2026 (this version, v4)]"
     },
     {
       "paper_id": "2605.12652",
@@ -4156,10 +3781,7 @@
         "https://github.com/viviable/mopd_code"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 1 Jun 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 1 Jun 2026 (this version, v2)]"
     },
     {
       "paper_id": "2605.12741",
@@ -4190,10 +3812,7 @@
         "https://github.com/horizon-llm/RESD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 12 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 12 May 2026]"
     },
     {
       "paper_id": "2605.12913",
@@ -4216,11 +3835,8 @@
       "mechanism": "interactive_imitation",
       "home": "7",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 13 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 13 May 2026]"
     },
     {
       "paper_id": "2605.13255",
@@ -4241,11 +3857,8 @@
       "mechanism": "hybrid_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 13 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 13 May 2026]"
     },
     {
       "paper_id": "2605.13501",
@@ -4266,11 +3879,8 @@
       "mechanism": "direct_opd",
       "home": "9",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 13 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 13 May 2026]"
     },
     {
       "paper_id": "2605.13643",
@@ -4292,11 +3902,8 @@
       "mechanism": "direct_opd",
       "home": "8",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 13 May 2026 ( v1 ), last revised 25 May 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 13 May 2026 ( v1 ), last revised 25 May 2026 (this version, v2)]"
     },
     {
       "paper_id": "2605.15113",
@@ -4316,11 +3923,8 @@
       "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 14 May 2026 ( v1 ), last revised 18 May 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 14 May 2026 ( v1 ), last revised 18 May 2026 (this version, v2)]"
     },
     {
       "paper_id": "2605.15155",
@@ -4350,10 +3954,7 @@
         "https://github.com/ZJU-REAL/SDAR"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 14 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 14 May 2026]"
     },
     {
       "paper_id": "2605.15239",
@@ -4379,10 +3980,7 @@
         "https://github.com/FYYFU/OPSA"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 14 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 14 May 2026]"
     },
     {
       "paper_id": "2605.15532",
@@ -4405,11 +4003,8 @@
       "mechanism": "application",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 15 May 2026 ( v1 ), last revised 8 Aug 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 15 May 2026 ( v1 ), last revised 8 Aug 2026 (this version, v3)]"
     },
     {
       "paper_id": "2605.16826",
@@ -4431,11 +4026,8 @@
       "mechanism": "analysis",
       "home": "8",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 16 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 16 May 2026]"
     },
     {
       "paper_id": "2605.17497",
@@ -4453,11 +4045,8 @@
       "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 17 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 17 May 2026]"
     },
     {
       "paper_id": "2605.17862",
@@ -4472,15 +4061,12 @@
       "submitted": "2026-05-18",
       "paper_url": "https://arxiv.org/abs/2605.17862",
       "description": "Analyzes how asynchronous on-policy distillation departs from current-policy training through stale student rollouts and, when teacher context changes, stale supervision. It scores buffered samples for freshness, gates their distillation loss, refreshes the buffer, and penalizes drift from rollout policies; the score is a surrogate, not a guarantee.",
-      "objective": "Freshness-gated teacher–student distribution matching on buffered prefixes, plus a freshness-gated KL penalty between the current student and the rollout policy; the supplied excerpts do not specify the base matching divergence.",
+      "objective": "Freshness-gated teacher–student distribution matching on buffered prefixes, plus a freshness-gated KL penalty between the current student and the rollout policy.",
       "mechanism": "direct_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 18 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 18 May 2026]"
     },
     {
       "paper_id": "2605.17873",
@@ -4503,10 +4089,7 @@
         "https://github.com/wgcyeo/HINT-SD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 18 May 2026 ( v1 ), last revised 2 Oct 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 18 May 2026 ( v1 ), last revised 2 Oct 2026 (this version, v3)]"
     },
     {
       "paper_id": "2605.18299",
@@ -4531,11 +4114,8 @@
       "mechanism": "hybrid_opd",
       "home": "7",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 18 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 18 May 2026]"
     },
     {
       "paper_id": "2605.18529",
@@ -4560,11 +4140,8 @@
       "mechanism": "teacher_mediated_rl",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 18 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 18 May 2026]"
     },
     {
       "paper_id": "2605.18740",
@@ -4590,10 +4167,7 @@
         "https://github.com/VisionOPD/Vision-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 18 May 2026 ( v1 ), last revised 2 Jun 2026 (this version, v4)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 18 May 2026 ( v1 ), last revised 2 Jun 2026 (this version, v4)]"
     },
     {
       "paper_id": "2605.20258",
@@ -4621,10 +4195,7 @@
         "https://github.com/sw-programmer/SelfCI"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 18 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 18 May 2026]"
     },
     {
       "paper_id": "2605.20643",
@@ -4653,10 +4224,7 @@
         "https://github.com/duykhuongnguyen/AVSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 20 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 20 May 2026]"
     },
     {
       "paper_id": "2605.21606",
@@ -4680,10 +4248,7 @@
         "https://github.com/SaFo-Lab/PW-OPSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 20 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 20 May 2026]"
     },
     {
       "paper_id": "2605.21834",
@@ -4707,11 +4272,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 20 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 20 May 2026]"
     },
     {
       "paper_id": "2605.21924",
@@ -4738,11 +4300,8 @@
       "mechanism": "direct_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 21 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 21 May 2026]"
     },
     {
       "paper_id": "2605.22240",
@@ -4768,11 +4327,8 @@
       "mechanism": "hybrid_opd",
       "home": "7",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 21 May 2026 ( v1 ), last revised 3 Jun 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 21 May 2026 ( v1 ), last revised 3 Jun 2026 (this version, v2)]"
     },
     {
       "paper_id": "2605.22263",
@@ -4795,11 +4351,8 @@
       "mechanism": "hybrid_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 21 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 21 May 2026]"
     },
     {
       "paper_id": "2605.26844",
@@ -4827,10 +4380,7 @@
         "https://github.com/wyy-code/TA-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 26 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 26 May 2026]"
     },
     {
       "paper_id": "2605.27028",
@@ -4851,11 +4401,8 @@
       "mechanism": "direct_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 26 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 26 May 2026]"
     },
     {
       "paper_id": "2605.27115",
@@ -4877,11 +4424,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 26 May 2026 ( v1 ), last revised 14 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 26 May 2026 ( v1 ), last revised 14 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2605.27186",
@@ -4905,11 +4449,8 @@
       "mechanism": "direct_opd",
       "home": "7",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 26 May 2026 ( v1 ), last revised 30 Aug 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 26 May 2026 ( v1 ), last revised 30 Aug 2026 (this version, v2)]"
     },
     {
       "paper_id": "2605.27255",
@@ -4933,11 +4474,8 @@
       "mechanism": "application",
       "home": "9",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 26 May 2026 ( v1 ), last revised 29 May 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 26 May 2026 ( v1 ), last revised 29 May 2026 (this version, v2)]"
     },
     {
       "paper_id": "2605.28014",
@@ -4965,10 +4503,7 @@
         "https://github.com/ZiqiZhao1/ROSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 27 May 2026 ( v1 ), last revised 28 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 27 May 2026 ( v1 ), last revised 28 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2605.28791",
@@ -4993,10 +4528,7 @@
         "https://github.com/walawalagoose/SGSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 27 May 2026 ( v1 ), last revised 3 Sep 2026 (this version, v4)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 27 May 2026 ( v1 ), last revised 3 Sep 2026 (this version, v4)]"
     },
     {
       "paper_id": "2605.29584",
@@ -5021,11 +4553,8 @@
       "mechanism": "hybrid_opd",
       "home": "7",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 28 May 2026 ( v1 ), last revised 3 Jun 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 28 May 2026 ( v1 ), last revised 3 Jun 2026 (this version, v2)]"
     },
     {
       "paper_id": "2605.30251",
@@ -5050,11 +4579,8 @@
       "mechanism": "direct_opd",
       "home": "7",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 28 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 28 May 2026]"
     },
     {
       "paper_id": "2605.30833",
@@ -5083,10 +4609,7 @@
         "https://github.com/zui-jiang/LGR"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 29 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 29 May 2026]"
     },
     {
       "paper_id": "2605.31159",
@@ -5109,11 +4632,8 @@
       "mechanism": "hybrid_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 29 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 29 May 2026]"
     },
     {
       "paper_id": "2605.31490",
@@ -5139,11 +4659,8 @@
       "mechanism": "direct_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 29 May 2026 ( v1 ), last revised 1 Jun 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 29 May 2026 ( v1 ), last revised 1 Jun 2026 (this version, v2)]"
     },
     {
       "paper_id": "2606.00147",
@@ -5164,11 +4681,8 @@
       "mechanism": "hybrid_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 29 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 29 May 2026]"
     },
     {
       "paper_id": "2606.00305",
@@ -5186,11 +4700,8 @@
       "mechanism": "direct_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 29 May 2026 ( v1 ), last revised 29 Jun 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 29 May 2026 ( v1 ), last revised 29 Jun 2026 (this version, v2)]"
     },
     {
       "paper_id": "2606.00424",
@@ -5211,11 +4722,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 29 May 2026 ( v1 ), last revised 21 Aug 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 29 May 2026 ( v1 ), last revised 21 Aug 2026 (this version, v2)]"
     },
     {
       "paper_id": "2606.00564",
@@ -5243,10 +4751,7 @@
         "https://github.com/hee-suk-yoon/Decomposed_OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 30 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 30 May 2026]"
     },
     {
       "paper_id": "2606.01039",
@@ -5268,11 +4773,8 @@
       "mechanism": "direct_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 31 May 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 31 May 2026]"
     },
     {
       "paper_id": "2606.01249",
@@ -5293,11 +4795,8 @@
       "mechanism": "hybrid_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 31 May 2026 ( v1 ), last revised 17 Jun 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 31 May 2026 ( v1 ), last revised 17 Jun 2026 (this version, v3)]"
     },
     {
       "paper_id": "2606.02372",
@@ -5320,10 +4819,7 @@
         "https://github.com/loyiv/CoMAP"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 1 Jun 2026 ( v1 ), last revised 3 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 1 Jun 2026 ( v1 ), last revised 3 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2606.02530",
@@ -5350,11 +4846,8 @@
       "mechanism": "direct_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 1 Jun 2026 ( v1 ), last revised 21 Aug 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 1 Jun 2026 ( v1 ), last revised 21 Aug 2026 (this version, v2)]"
     },
     {
       "paper_id": "2606.02684",
@@ -5382,10 +4875,7 @@
         "https://github.com/YuYingLi0/FiRe-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 1 Jun 2026 ( v1 ), last revised 4 Jun 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 1 Jun 2026 ( v1 ), last revised 4 Jun 2026 (this version, v2)]"
     },
     {
       "paper_id": "2606.03089",
@@ -5412,11 +4902,8 @@
       "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 2 Jun 2026 ( v1 ), last revised 13 Aug 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 2 Jun 2026 ( v1 ), last revised 13 Aug 2026 (this version, v3)]"
     },
     {
       "paper_id": "2606.03532",
@@ -5437,11 +4924,8 @@
       "mechanism": "hybrid_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 2 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 2 Jun 2026]"
     },
     {
       "paper_id": "2606.03603",
@@ -5464,10 +4948,7 @@
         "https://github.com/yczhou001/PF-OPSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 2 Jun 2026 ( v1 ), last revised 31 Aug 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 2 Jun 2026 ( v1 ), last revised 31 Aug 2026 (this version, v2)]"
     },
     {
       "paper_id": "2606.04036",
@@ -5490,10 +4971,7 @@
         "https://github.com/lauyikfung/SDPG"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 2 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 2 Jun 2026]"
     },
     {
       "paper_id": "2606.04694",
@@ -5515,11 +4993,8 @@
       "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 3 Jun 2026 ( v1 ), last revised 10 Jun 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 3 Jun 2026 ( v1 ), last revised 10 Jun 2026 (this version, v2)]"
     },
     {
       "paper_id": "2606.04703",
@@ -5548,10 +5023,7 @@
         "https://github.com/RUCBM/ExpInternalization"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 3 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 3 Jun 2026]"
     },
     {
       "paper_id": "2606.05122",
@@ -5574,10 +5046,7 @@
         "https://github.com/YiShan05/SEE_official"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 3 Jun 2026 ( v1 ), last revised 28 Aug 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 3 Jun 2026 ( v1 ), last revised 28 Aug 2026 (this version, v2)]"
     },
     {
       "paper_id": "2606.05152",
@@ -5599,10 +5068,7 @@
         "https://github.com/rishabh-1086/distIL"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 3 Jun 2026 ( v1 ), last revised 5 Jun 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 3 Jun 2026 ( v1 ), last revised 5 Jun 2026 (this version, v2)]"
     },
     {
       "paper_id": "2606.06712",
@@ -5630,10 +5096,7 @@
         "https://github.com/divelab/OPDLM"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 4 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 4 Jun 2026]"
     },
     {
       "paper_id": "2606.07000",
@@ -5659,10 +5122,7 @@
         "https://github.com/XszNeverSleep/PTD-PO"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 5 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 5 Jun 2026]"
     },
     {
       "paper_id": "2606.07082",
@@ -5687,11 +5147,8 @@
       "mechanism": "analysis",
       "home": "8",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 5 Jun 2026 ( v1 ), last revised 14 Jun 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 5 Jun 2026 ( v1 ), last revised 14 Jun 2026 (this version, v3)]"
     },
     {
       "paper_id": "2606.08432",
@@ -5714,10 +5171,7 @@
         "https://github.com/louieworth/trd"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 7 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 7 Jun 2026]"
     },
     {
       "paper_id": "2606.08719",
@@ -5745,11 +5199,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 7 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 7 Jun 2026]"
     },
     {
       "paper_id": "2606.09348",
@@ -5773,11 +5224,8 @@
       "mechanism": "teacher_mediated_rl",
       "home": "7",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 8 Jun 2026 ( v1 ), last revised 6 Jul 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 8 Jun 2026 ( v1 ), last revised 6 Jul 2026 (this version, v2)]"
     },
     {
       "paper_id": "2606.09456",
@@ -5803,10 +5251,7 @@
         "https://github.com/ivanniu/On-Policy-Distill"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 8 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 8 Jun 2026]"
     },
     {
       "paper_id": "2606.09471",
@@ -5828,11 +5273,8 @@
       "mechanism": "direct_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 8 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 8 Jun 2026]"
     },
     {
       "paper_id": "2606.10334",
@@ -5849,11 +5291,8 @@
       "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 9 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 9 Jun 2026]"
     },
     {
       "paper_id": "2606.10385",
@@ -5870,11 +5309,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 9 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 9 Jun 2026]"
     },
     {
       "paper_id": "2606.11559",
@@ -5895,11 +5331,8 @@
       "mechanism": "direct_opd",
       "home": "7",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 10 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 10 Jun 2026]"
     },
     {
       "paper_id": "2606.11627",
@@ -5920,11 +5353,8 @@
       "mechanism": "direct_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 10 Jun 2026 ( v1 ), last revised 4 Aug 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 10 Jun 2026 ( v1 ), last revised 4 Aug 2026 (this version, v2)]"
     },
     {
       "paper_id": "2606.11709",
@@ -5951,10 +5381,7 @@
         "https://github.com/THU-BPM/RLCSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 10 Jun 2026 ( v1 ), last revised 14 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 10 Jun 2026 ( v1 ), last revised 14 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2606.12507",
@@ -5979,11 +5406,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 10 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 10 Jun 2026]"
     },
     {
       "paper_id": "2606.13657",
@@ -6008,10 +5432,7 @@
         "https://github.com/SydCS/OPD-Param-Analysis"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 11 Jun 2026 ( v1 ), last revised 30 Jul 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 11 Jun 2026 ( v1 ), last revised 30 Jul 2026 (this version, v3)]"
     },
     {
       "paper_id": "2606.14368",
@@ -6031,11 +5452,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 12 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 12 Jun 2026]"
     },
     {
       "paper_id": "2606.17199",
@@ -6060,10 +5478,7 @@
         "https://github.com/EIT-NLP/PowerOPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 15 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 15 Jun 2026]"
     },
     {
       "paper_id": "2606.19327",
@@ -6087,10 +5502,7 @@
         "https://github.com/carriegu0818/RCSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 17 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 17 Jun 2026]"
     },
     {
       "paper_id": "2606.24143",
@@ -6121,10 +5533,7 @@
         "https://github.com/furiosa-ai/async-opd"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 23 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 23 Jun 2026]"
     },
     {
       "paper_id": "2606.26091",
@@ -6143,11 +5552,8 @@
       "mechanism": "analysis",
       "home": "8",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 24 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 24 Jun 2026]"
     },
     {
       "paper_id": "2606.27814",
@@ -6169,11 +5575,8 @@
       "mechanism": "teacher_mediated_rl",
       "home": "7",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 26 Jun 2026 ( v1 ), last revised 10 Aug 2026 (this version, v6)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 26 Jun 2026 ( v1 ), last revised 10 Aug 2026 (this version, v6)]"
     },
     {
       "paper_id": "2606.28562",
@@ -6196,11 +5599,8 @@
       "mechanism": "direct_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 26 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 26 Jun 2026]"
     },
     {
       "paper_id": "2606.29502",
@@ -6228,10 +5628,7 @@
         "https://github.com/TU2021/UCOB"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 28 Jun 2026 ( v1 ), last revised 17 Jul 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 28 Jun 2026 ( v1 ), last revised 17 Jul 2026 (this version, v2)]"
     },
     {
       "paper_id": "2606.29863",
@@ -6250,11 +5647,8 @@
       "mechanism": "hybrid_opd",
       "home": "7",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 29 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 29 Jun 2026]"
     },
     {
       "paper_id": "2606.30044",
@@ -6274,11 +5668,8 @@
       "mechanism": "hybrid_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 29 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 29 Jun 2026]"
     },
     {
       "paper_id": "2606.30345",
@@ -6310,11 +5701,8 @@
       "mechanism": "hybrid_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 29 Jun 2026 ( v1 ), last revised 10 Aug 2026 (this version, v4)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 29 Jun 2026 ( v1 ), last revised 10 Aug 2026 (this version, v4)]"
     },
     {
       "paper_id": "2606.30406",
@@ -6343,11 +5731,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 29 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 29 Jun 2026]"
     },
     {
       "paper_id": "2606.30518",
@@ -6371,11 +5756,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 29 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 29 Jun 2026]"
     },
     {
       "paper_id": "2606.30626",
@@ -6407,11 +5789,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 29 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 29 Jun 2026]"
     },
     {
       "paper_id": "2606.30923",
@@ -6434,10 +5813,7 @@
         "https://github.com/plau666/NAIL"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 29 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 29 Jun 2026]"
     },
     {
       "paper_id": "2607.04037",
@@ -6459,11 +5835,8 @@
       "mechanism": "direct_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 4 Jul 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 4 Jul 2026]"
     },
     {
       "paper_id": "2607.04425",
@@ -6490,11 +5863,8 @@
       "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 5 Jul 2026 ( v1 ), last revised 10 Aug 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 5 Jul 2026 ( v1 ), last revised 10 Aug 2026 (this version, v2)]"
     },
     {
       "paper_id": "2607.04428",
@@ -6516,10 +5886,7 @@
         "https://github.com/tuandattt/dOPSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 5 Jul 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 5 Jul 2026]"
     },
     {
       "paper_id": "2607.04751",
@@ -6539,11 +5906,8 @@
       "mechanism": "hybrid_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 6 Jul 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 6 Jul 2026]"
     },
     {
       "paper_id": "2607.04763",
@@ -6565,11 +5929,8 @@
       "mechanism": "hybrid_opd",
       "home": "7",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 6 Jul 2026 ( v1 ), last revised 26 Jul 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 6 Jul 2026 ( v1 ), last revised 26 Jul 2026 (this version, v3)]"
     },
     {
       "paper_id": "2607.05394",
@@ -6595,11 +5956,8 @@
       "mechanism": "teacher_mediated_rl",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 6 Jul 2026 ( v1 ), last revised 8 Jul 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 6 Jul 2026 ( v1 ), last revised 8 Jul 2026 (this version, v2)]"
     },
     {
       "paper_id": "2607.05804",
@@ -6621,11 +5979,8 @@
       "mechanism": "direct_opd",
       "home": "7",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 7 Jul 2026 ( v1 ), last revised 28 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 7 Jul 2026 ( v1 ), last revised 28 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2607.06855",
@@ -6643,11 +5998,8 @@
       "mechanism": "direct_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 7 Jul 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 7 Jul 2026]"
     },
     {
       "paper_id": "2607.07050",
@@ -6669,10 +6021,7 @@
         "https://github.com/shen-jiabin/decision-support-opd"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 8 Jul 2026 ( v1 ), last revised 5 Sep 2026 (this version, v6)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 8 Jul 2026 ( v1 ), last revised 5 Sep 2026 (this version, v6)]"
     },
     {
       "paper_id": "2607.10805",
@@ -6693,11 +6042,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 12 Jul 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 12 Jul 2026]"
     },
     {
       "paper_id": "2607.13124",
@@ -6725,10 +6071,7 @@
         "https://github.com/icip-cas/ShortX"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 14 Jul 2026 ( v1 ), last revised 14 Aug 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 14 Jul 2026 ( v1 ), last revised 14 Aug 2026 (this version, v2)]"
     },
     {
       "paper_id": "2607.13399",
@@ -6751,11 +6094,8 @@
       "mechanism": "analysis",
       "home": "8",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 15 Jul 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 15 Jul 2026]"
     },
     {
       "paper_id": "2607.15736",
@@ -6781,10 +6121,7 @@
         "https://github.com/KawhiC/BIRD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 17 Jul 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 17 Jul 2026]"
     },
     {
       "paper_id": "2607.16872",
@@ -6805,11 +6142,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 18 Jul 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 18 Jul 2026]"
     },
     {
       "paper_id": "2607.18082",
@@ -6835,11 +6169,8 @@
       "mechanism": "hybrid_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 20 Jul 2026 ( v1 ), last revised 27 Sep 2026 (this version, v4)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 20 Jul 2026 ( v1 ), last revised 27 Sep 2026 (this version, v4)]"
     },
     {
       "paper_id": "2607.18110",
@@ -6862,11 +6193,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 20 Jul 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 20 Jul 2026]"
     },
     {
       "paper_id": "2607.22334",
@@ -6889,11 +6217,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 24 Jul 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 24 Jul 2026]"
     },
     {
       "paper_id": "2607.22629",
@@ -6913,11 +6238,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 18 Jun 2026 ( v1 ), last revised 30 Sep 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 18 Jun 2026 ( v1 ), last revised 30 Sep 2026 (this version, v3)]"
     },
     {
       "paper_id": "2607.23125",
@@ -6938,11 +6260,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 25 Jul 2026 ( v1 ), last revised 31 Jul 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 25 Jul 2026 ( v1 ), last revised 31 Jul 2026 (this version, v2)]"
     },
     {
       "paper_id": "2607.23731",
@@ -6959,11 +6278,8 @@
       "mechanism": "analysis",
       "home": "8",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 26 Jul 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 26 Jul 2026]"
     },
     {
       "paper_id": "2607.24720",
@@ -6986,10 +6302,7 @@
         "https://github.com/Quester-one/PlanPhysCode"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 27 Jul 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 27 Jul 2026]"
     },
     {
       "paper_id": "2607.24771",
@@ -7014,11 +6327,8 @@
       "mechanism": "hybrid_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 10 Jun 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 10 Jun 2026]"
     },
     {
       "paper_id": "2607.26057",
@@ -7045,10 +6355,7 @@
         "https://github.com/zju-real/Relay-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 28 Jul 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 28 Jul 2026]"
     },
     {
       "paper_id": "2607.26246",
@@ -7072,10 +6379,7 @@
         "https://github.com/Yu-Fangxu/W2S-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 28 Jul 2026 ( v1 ), last revised 3 Aug 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 28 Jul 2026 ( v1 ), last revised 3 Aug 2026 (this version, v2)]"
     },
     {
       "paper_id": "2607.29078",
@@ -7100,10 +6404,7 @@
         "https://github.com/Lucian1115/DASH-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 31 Jul 2026 ( v1 ), last revised 26 Sep 2026 (this version, v4)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 31 Jul 2026 ( v1 ), last revised 26 Sep 2026 (this version, v4)]"
     },
     {
       "paper_id": "2607.29209",
@@ -7129,11 +6430,8 @@
       "mechanism": "hybrid_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 31 Jul 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 31 Jul 2026]"
     },
     {
       "paper_id": "2607.29494",
@@ -7154,11 +6452,8 @@
       "mechanism": "direct_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 31 Jul 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 31 Jul 2026]"
     },
     {
       "paper_id": "2608.00782",
@@ -7186,11 +6481,8 @@
       "mechanism": "hybrid_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 1 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 1 Aug 2026]"
     },
     {
       "paper_id": "2608.01263",
@@ -7210,11 +6502,8 @@
       "mechanism": "direct_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 2 Aug 2026 ( v1 ), last revised 6 Aug 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 2 Aug 2026 ( v1 ), last revised 6 Aug 2026 (this version, v2)]"
     },
     {
       "paper_id": "2608.01589",
@@ -7237,11 +6526,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 3 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 3 Aug 2026]"
     },
     {
       "paper_id": "2608.01735",
@@ -7265,10 +6551,7 @@
         "https://github.com/uanu2002/DAPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 3 Aug 2026 ( v1 ), last revised 13 Aug 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 3 Aug 2026 ( v1 ), last revised 13 Aug 2026 (this version, v2)]"
     },
     {
       "paper_id": "2608.01837",
@@ -7293,11 +6576,8 @@
       "mechanism": "hybrid_opd",
       "home": "7",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 3 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 3 Aug 2026]"
     },
     {
       "paper_id": "2608.01953",
@@ -7330,10 +6610,7 @@
         "https://github.com/ChenChiShui/FutureBridge-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 3 Aug 2026 ( v1 ), last revised 5 Aug 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 3 Aug 2026 ( v1 ), last revised 5 Aug 2026 (this version, v2)]"
     },
     {
       "paper_id": "2608.02139",
@@ -7363,10 +6640,7 @@
         "https://github.com/rrrsj/SPEE"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 3 Aug 2026 ( v1 ), last revised 4 Aug 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 3 Aug 2026 ( v1 ), last revised 4 Aug 2026 (this version, v2)]"
     },
     {
       "paper_id": "2608.02948",
@@ -7385,11 +6659,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 3 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 3 Aug 2026]"
     },
     {
       "paper_id": "2608.03092",
@@ -7416,11 +6687,8 @@
       "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 4 Aug 2026 ( v1 ), last revised 21 Aug 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 4 Aug 2026 ( v1 ), last revised 21 Aug 2026 (this version, v2)]"
     },
     {
       "paper_id": "2608.04408",
@@ -7440,11 +6708,8 @@
       "mechanism": "direct_opd",
       "home": "8",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 5 Aug 2026 ( v1 ), last revised 28 Sep 2026 (this version, v3)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 5 Aug 2026 ( v1 ), last revised 28 Sep 2026 (this version, v3)]"
     },
     {
       "paper_id": "2608.04419",
@@ -7468,11 +6733,8 @@
       "mechanism": "direct_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 5 Aug 2026 ( v1 ), last revised 17 Aug 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 5 Aug 2026 ( v1 ), last revised 17 Aug 2026 (this version, v2)]"
     },
     {
       "paper_id": "2608.04794",
@@ -7493,11 +6755,8 @@
       "mechanism": "analysis",
       "home": "8",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 5 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 5 Aug 2026]"
     },
     {
       "paper_id": "2608.05131",
@@ -7524,10 +6783,7 @@
         "https://github.com/aniri15/OPD-V"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 5 Aug 2026 ( v1 ), last revised 6 Aug 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 5 Aug 2026 ( v1 ), last revised 6 Aug 2026 (this version, v2)]"
     },
     {
       "paper_id": "2608.07068",
@@ -7551,10 +6807,7 @@
         "https://github.com/TPssp/MemOPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 7 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 7 Aug 2026]"
     },
     {
       "paper_id": "2608.07371",
@@ -7577,10 +6830,7 @@
         "https://github.com/Chihaya-Anon-chan/TRIAL"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 7 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 7 Aug 2026]"
     },
     {
       "paper_id": "2608.07935",
@@ -7604,11 +6854,8 @@
       "mechanism": "hybrid_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 8 Aug 2026 ( v1 ), last revised 11 Aug 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 8 Aug 2026 ( v1 ), last revised 11 Aug 2026 (this version, v2)]"
     },
     {
       "paper_id": "2608.08176",
@@ -7638,10 +6885,7 @@
         "https://github.com/lauvlalala/USD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 8 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 8 Aug 2026]"
     },
     {
       "paper_id": "2608.08726",
@@ -7660,11 +6904,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 9 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 9 Aug 2026]"
     },
     {
       "paper_id": "2608.08764",
@@ -7685,11 +6926,8 @@
       "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 9 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 9 Aug 2026]"
     },
     {
       "paper_id": "2608.08960",
@@ -7713,11 +6951,8 @@
       "mechanism": "hybrid_opd",
       "home": "7",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 9 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 9 Aug 2026]"
     },
     {
       "paper_id": "2608.09228",
@@ -7740,10 +6975,7 @@
         "https://github.com/MBZUAI-reasoninglab/OP2SD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 10 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 10 Aug 2026]"
     },
     {
       "paper_id": "2608.09263",
@@ -7766,11 +6998,8 @@
       "mechanism": "analysis",
       "home": "8",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 10 Aug 2026 ( v1 ), last revised 25 Aug 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 10 Aug 2026 ( v1 ), last revised 25 Aug 2026 (this version, v2)]"
     },
     {
       "paper_id": "2608.09447",
@@ -7798,11 +7027,8 @@
       "mechanism": "direct_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 10 Aug 2026 ( v1 ), last revised 3 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 10 Aug 2026 ( v1 ), last revised 3 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2608.09745",
@@ -7830,11 +7056,8 @@
       "mechanism": "direct_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 10 Aug 2026 ( v1 ), last revised 29 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 10 Aug 2026 ( v1 ), last revised 29 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2608.09826",
@@ -7854,11 +7077,8 @@
       "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 10 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 10 Aug 2026]"
     },
     {
       "paper_id": "2608.09836",
@@ -7884,10 +7104,7 @@
         "https://github.com/yzc-666/TIDE"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 10 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 10 Aug 2026]"
     },
     {
       "paper_id": "2608.19098",
@@ -7913,11 +7130,8 @@
       "mechanism": "direct_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 19 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 19 Aug 2026]"
     },
     {
       "paper_id": "2608.19181",
@@ -7945,10 +7159,7 @@
         "https://github.com/SolereZhang/GC-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 19 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 19 Aug 2026]"
     },
     {
       "paper_id": "2608.19408",
@@ -7969,11 +7180,8 @@
       "mechanism": "direct_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 19 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 19 Aug 2026]"
     },
     {
       "paper_id": "2608.20831",
@@ -7992,11 +7200,8 @@
       "mechanism": "application",
       "home": "9",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 21 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 21 Aug 2026]"
     },
     {
       "paper_id": "2608.21500",
@@ -8019,10 +7224,7 @@
         "https://github.com/pppyb/SecOPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 21 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 21 Aug 2026]"
     },
     {
       "paper_id": "2608.21811",
@@ -8039,11 +7241,8 @@
       "mechanism": "analysis",
       "home": "8",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 22 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 22 Aug 2026]"
     },
     {
       "paper_id": "2608.24696",
@@ -8070,10 +7269,7 @@
         "https://github.com/LeapLabTHU/OPDVR"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 25 Aug 2026 ( v1 ), last revised 29 Sep 2026 (this version, v4)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 25 Aug 2026 ( v1 ), last revised 29 Sep 2026 (this version, v4)]"
     },
     {
       "paper_id": "2608.24987",
@@ -8099,11 +7295,8 @@
       "mechanism": "direct_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 25 Aug 2026 ( v1 ), last revised 16 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 25 Aug 2026 ( v1 ), last revised 16 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2608.25643",
@@ -8133,11 +7326,8 @@
       "mechanism": "analysis",
       "home": "8",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 26 Aug 2026 ( v1 ), last revised 27 Aug 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 26 Aug 2026 ( v1 ), last revised 27 Aug 2026 (this version, v2)]"
     },
     {
       "paper_id": "2608.25936",
@@ -8155,11 +7345,8 @@
       "mechanism": "background",
       "home": "background",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 26 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 26 Aug 2026]"
     },
     {
       "paper_id": "2608.26658",
@@ -8184,11 +7371,8 @@
       "mechanism": "application",
       "home": "9",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 27 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 27 Aug 2026]"
     },
     {
       "paper_id": "2608.26735",
@@ -8209,11 +7393,8 @@
       "mechanism": "direct_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 27 Aug 2026 ( v1 ), last revised 28 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 27 Aug 2026 ( v1 ), last revised 28 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2608.27409",
@@ -8240,11 +7421,8 @@
       "mechanism": "analysis",
       "home": "8",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 27 Aug 2026 ( v1 ), last revised 18 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 27 Aug 2026 ( v1 ), last revised 18 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2608.27857",
@@ -8270,11 +7448,8 @@
       "mechanism": "direct_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 28 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 28 Aug 2026]"
     },
     {
       "paper_id": "2608.27960",
@@ -8298,11 +7473,8 @@
       "mechanism": "direct_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 28 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 28 Aug 2026]"
     },
     {
       "paper_id": "2608.29846",
@@ -8326,11 +7498,8 @@
       "mechanism": "direct_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 30 Aug 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 30 Aug 2026]"
     },
     {
       "paper_id": "2608.31046",
@@ -8348,11 +7517,8 @@
       "mechanism": "analysis",
       "home": "8",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 31 Aug 2026 ( v1 ), last revised 24 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 31 Aug 2026 ( v1 ), last revised 24 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2609.02401",
@@ -8377,11 +7543,8 @@
       "mechanism": "hybrid_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 2 Sep 2026 ( v1 ), last revised 7 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 2 Sep 2026 ( v1 ), last revised 7 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2609.02548",
@@ -8407,10 +7570,7 @@
         "https://github.com/hexixiang/MT-SDPO"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 2 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 2 Sep 2026]"
     },
     {
       "paper_id": "2609.02998",
@@ -8435,11 +7595,8 @@
       "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 2 Sep 2026 ( v1 ), last revised 16 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 2 Sep 2026 ( v1 ), last revised 16 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2609.04108",
@@ -8464,10 +7621,7 @@
         "https://github.com/StringNLPLAB/opd-rlvr"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 3 Sep 2026 ( v1 ), last revised 4 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 3 Sep 2026 ( v1 ), last revised 4 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2609.04172",
@@ -8499,10 +7653,7 @@
         "https://github.com/Thinking-Space/One-Shot-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 3 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 3 Sep 2026]"
     },
     {
       "paper_id": "2609.05198",
@@ -8522,11 +7673,8 @@
       "mechanism": "analysis",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 4 Sep 2026 ( v1 ), last revised 26 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 4 Sep 2026 ( v1 ), last revised 26 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2609.05295",
@@ -8545,11 +7693,8 @@
       "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 4 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 4 Sep 2026]"
     },
     {
       "paper_id": "2609.07103",
@@ -8572,10 +7717,7 @@
         "https://github.com/naver-ai/revisiting-trace"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 7 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 7 Sep 2026]"
     },
     {
       "paper_id": "2609.08183",
@@ -8631,10 +7773,7 @@
         "https://github.com/TokenRhythm/NeoHorse"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 8 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 8 Sep 2026]"
     },
     {
       "paper_id": "2609.08337",
@@ -8659,11 +7798,8 @@
       "mechanism": "direct_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 8 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 8 Sep 2026]"
     },
     {
       "paper_id": "2609.08341",
@@ -8684,11 +7820,8 @@
       "mechanism": "direct_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 8 Sep 2026 ( v1 ), last revised 29 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 8 Sep 2026 ( v1 ), last revised 29 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2609.09300",
@@ -8706,15 +7839,12 @@
       "submitted": "2026-09-08",
       "paper_url": "https://arxiv.org/abs/2609.09300",
       "description": "For video understanding, domain specialists supervise student-generated completions through a sample’s matched teacher, while reliability and teacher–student gaps guide example selection. The work consolidates capabilities in one student for deployment; long videos with sparse, distant evidence remain future work.",
-      "objective": "Domain-routed dense token-level teacher supervision on student-generated completions, with sample selection based on reliable supervision and teacher–student performance gaps; the supplied excerpt does not specify the distillation divergence.",
+      "objective": "Domain-routed dense token-level teacher supervision on student-generated completions, with sample selection based on reliable supervision and teacher–student performance gaps.",
       "mechanism": "application",
       "home": "9",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 8 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 8 Sep 2026]"
     },
     {
       "paper_id": "2609.10154",
@@ -8738,11 +7868,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 9 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 9 Sep 2026]"
     },
     {
       "paper_id": "2609.11127",
@@ -8763,11 +7890,8 @@
       "mechanism": "application",
       "home": "9",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 10 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 10 Sep 2026]"
     },
     {
       "paper_id": "2609.14193",
@@ -8793,11 +7917,8 @@
       "mechanism": "direct_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 12 Sep 2026 ( v1 ), last revised 17 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 12 Sep 2026 ( v1 ), last revised 17 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2609.14636",
@@ -8822,11 +7943,8 @@
       "mechanism": "direct_opd",
       "home": "7",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 13 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 13 Sep 2026]"
     },
     {
       "paper_id": "2609.15404",
@@ -8844,11 +7962,8 @@
       "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 14 Sep 2026 ( v1 ), last revised 15 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 14 Sep 2026 ( v1 ), last revised 15 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2609.16459",
@@ -8872,10 +7987,7 @@
         "https://github.com/Echochef/OPD-Aha"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 15 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 15 Sep 2026]"
     },
     {
       "paper_id": "2609.16937",
@@ -8903,11 +8015,8 @@
       "mechanism": "hybrid_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 15 Sep 2026 ( v1 ), last revised 19 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 15 Sep 2026 ( v1 ), last revised 19 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2609.20511",
@@ -8935,10 +8044,7 @@
         "https://github.com/UNCSciML/opd-eos"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 17 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 17 Sep 2026]"
     },
     {
       "paper_id": "2609.22254",
@@ -8963,11 +8069,8 @@
       "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 6 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 6 Sep 2026]"
     },
     {
       "paper_id": "2609.23038",
@@ -8993,11 +8096,8 @@
       "mechanism": "application",
       "home": "9",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 19 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 19 Sep 2026]"
     },
     {
       "paper_id": "2609.23377",
@@ -9019,11 +8119,8 @@
       "mechanism": "application",
       "home": "9",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 20 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 20 Sep 2026]"
     },
     {
       "paper_id": "2609.23435",
@@ -9056,10 +8153,7 @@
         "https://github.com/SeedScientist/OmicsBench"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 20 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 20 Sep 2026]"
     },
     {
       "paper_id": "2609.23697",
@@ -9086,11 +8180,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 20 Sep 2026 ( v1 ), last revised 30 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 20 Sep 2026 ( v1 ), last revised 30 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2609.23989",
@@ -9121,10 +8212,7 @@
         "https://github.com/WillDreamer/ACLArena"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 21 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 21 Sep 2026]"
     },
     {
       "paper_id": "2609.24141",
@@ -9144,11 +8232,8 @@
       "mechanism": "direct_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 21 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 21 Sep 2026]"
     },
     {
       "paper_id": "2609.24432",
@@ -9173,10 +8258,7 @@
         "https://github.com/BruceSheng1202/IER-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 21 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 21 Sep 2026]"
     },
     {
       "paper_id": "2609.25048",
@@ -9201,11 +8283,8 @@
       "mechanism": "hybrid_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 6 Sep 2026 ( v1 ), last revised 26 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 6 Sep 2026 ( v1 ), last revised 26 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2609.25176",
@@ -9239,11 +8318,8 @@
       "mechanism": "application",
       "home": "9",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 21 Sep 2026 ( v1 ), last revised 24 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 21 Sep 2026 ( v1 ), last revised 24 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2609.26355",
@@ -9269,10 +8345,7 @@
         "https://github.com/AllSpark-Research/PACT"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 22 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 22 Sep 2026]"
     },
     {
       "paper_id": "2609.26708",
@@ -9294,15 +8367,12 @@
       "submitted": "2026-09-22",
       "paper_url": "https://arxiv.org/abs/2609.26708",
       "description": "After fixed-prefix quantization-aware distillation, the student samples through its deployment quantized forward path; a frozen full-precision teacher supervises those student prefixes alongside task-verifier feedback. The stage targets long-form repetition attributed to quantization-amplified exposure bias and starts from a quantization-aware checkpoint.",
-      "objective": "Dense token-level teacher guidance on quantized student-generated prefixes combined with verifier rewards for mathematical final answers and code-test success; the supplied excerpt does not specify the precise distillation divergence or policy-update estimator.",
+      "objective": "Dense token-level teacher guidance on quantized student-generated prefixes combined with verifier rewards for mathematical final answers and code-test success.",
       "mechanism": "hybrid_opd",
       "home": "9",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 22 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 22 Sep 2026]"
     },
     {
       "paper_id": "2609.27421",
@@ -9330,10 +8400,7 @@
         "https://github.com/zhengyanzhao1997/cc-opd"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 23 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 23 Sep 2026]"
     },
     {
       "paper_id": "2609.28145",
@@ -9378,11 +8445,8 @@
       "mechanism": "analysis",
       "home": "8",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 23 Sep 2026 ( v1 ), last revised 26 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 23 Sep 2026 ( v1 ), last revised 26 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2609.28385",
@@ -9403,11 +8467,8 @@
       "mechanism": "hybrid_opd",
       "home": "4",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 23 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 23 Sep 2026]"
     },
     {
       "paper_id": "2609.28554",
@@ -9443,11 +8504,8 @@
       "mechanism": "hybrid_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 23 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 23 Sep 2026]"
     },
     {
       "paper_id": "2609.28778",
@@ -9470,10 +8528,7 @@
         "https://github.com/kaiyangli-ml/RT-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 23 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 23 Sep 2026]"
     },
     {
       "paper_id": "2609.28845",
@@ -9502,10 +8557,7 @@
         "https://github.com/Muyiiiii/LastOPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 23 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": "[Submitted on 23 Sep 2026]"
     },
     {
       "paper_id": "2609.29142",
@@ -9525,11 +8577,8 @@
       "mechanism": "teacher_mediated_rl",
       "home": "6",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 24 Sep 2026 ( v1 ), last revised 26 Sep 2026 (this version, v2)]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 24 Sep 2026 ( v1 ), last revised 26 Sep 2026 (this version, v2)]"
     },
     {
       "paper_id": "2609.29464",
@@ -9551,11 +8600,8 @@
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "[Submitted on 24 Sep 2026]",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 24 Sep 2026]"
     },
     {
       "paper_id": "deepseekv4",
@@ -9890,11 +8936,8 @@
       "mechanism": "application",
       "home": "9",
       "code_urls": [],
-      "code_status": "No verified repository link",
-      "source_version": "",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "code_status": "No repository listed",
+      "source_version": ""
     },
     {
       "paper_id": "lu2025onpolicy",
@@ -9915,10 +8958,7 @@
         "https://github.com/thinking-machines-lab/tinker-cookbook/tree/main/tinker_cookbook/recipes/distillation"
       ],
       "code_status": "Official implementation recipe",
-      "source_version": "",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": ""
     },
     {
       "paper_id": "nvidia2024tensorrtllm",
@@ -9938,10 +8978,7 @@
         "https://github.com/NVIDIA/TensorRT-LLM"
       ],
       "code_status": "Official infrastructure repository",
-      "source_version": "",
-      "metadata_checked_on": "2026-10-05",
-      "code_checked_on": "2026-10-05",
-      "description_source": "Original paper and official abstract"
+      "source_version": ""
     }
   ]
 }

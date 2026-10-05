@@ -1,7 +1,6 @@
 """Build the public reading list and indexes from the curated catalog.
 
-The data contains verified public descriptions and source links. This renderer
-does not score papers, infer metadata, or silently import private research notes.
+Render paper descriptions, resource links, and release announcements.
 """
 from __future__ import annotations
 from collections import Counter
@@ -12,6 +11,10 @@ import re
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'resources/catalog.json'
+NEWS=ROOT/'resources/news.json'
+PUBLIC_FIELDS={'paper_id','arxiv_id','title','authors','year','submitted',
+               'paper_url','description','objective','mechanism','home',
+               'code_urls','code_status','source_version'}
 SECTIONS=[('4','Objectives and update rules'),('5','Teacher and supervision construction'),
           ('6','Data and training dynamics'),('7','Agentic and multi-turn distillation'),
           ('8','Mechanisms, failures, and evaluation'),('9','Applications and systems'),
@@ -31,6 +34,9 @@ def heading_id(home):return 'papers-'+home
 
 def render():
     catalog=json.loads(DATA.read_text());papers=catalog['papers']
+    for paper in papers:
+        if set(paper)-PUBLIC_FIELDS:
+            raise ValueError('Unsupported catalog fields for '+paper['paper_id'])
     ids=[r['paper_id'] for r in papers]
     if len(ids)!=len(set(ids)):raise ValueError('Duplicate catalog IDs')
     main=[r for r in papers if r['home']!='background'];background=[r for r in papers if r['home']=='background']
@@ -44,20 +50,22 @@ def render():
            '[Reading paths](resources/reading-order.md) · [Method comparison](resources/method-comparison.md) · '
            '[Code index](resources/codebases.md) · [Equations](resources/key-equations.md) · '
            '[Evaluation guide](resources/benchmarks.md)', '',
-           f'**Catalog checked {date}.** {len(main)} method, analysis, and application entries plus '
+           f'**Updated {date}.** {len(main)} method, analysis, and application entries plus '
            f'{len(background)} foundational or related resources. Coverage through September 2026. '
            'These are reading-list entries, not a count of distinct direct-OPD algorithms. '
-           'The public survey PDF is arXiv v4; this catalog includes later reviewed literature.', '',
+           'The public survey PDF is arXiv v4; this catalog includes later literature.', '',
+           '## News', '']
+    for item in json.loads(NEWS.read_text())['items']:
+        parts.append(f'- **{item["date"]}** — {item["text"]} [{item["label"]}]({item["url"]})')
+    parts += ['',
            '## Scope and how to use the list', '',
            'The central topic is teacher-derived learning on states visited by an evolving language-model student. '
            'Direct distribution matching, mixed or replayed training, teacher-mediated rewards, analysis, and '
            'deployment reports are labeled by their actual role. Necessary off-policy comparators are identified explicitly. '
-           'Inclusion requires a relevant, supported contribution; a brief entry is not a lower quality tier. '
-           'Unavailable or unresolved evidence is held for review rather than presented as a verified method.', '',
-           'Titles, author lists, dates, and paper links are checked against primary pages. Dates below denote first '
-           'public release, rather than a venue year or the month encoded in an identifier. Repository links must '
-           'both resolve and have a paper association. “No verified repository link” does not mean no code exists. '
-           'A reachable repository is not an end-to-end reproduction claim.', '',
+           'The collection focuses on contributions that help readers compare these mechanisms and their evidence.', '',
+           'Dates below denote first public release. Each entry links to its source paper; repository links '
+           'identify associated implementations or resources. Unofficial reproductions are labeled, and a dash '
+           'means no repository is listed. Individual papers state their experimental conditions and limitations.', '',
            '<p align="center"><img src="assets/opd-overview.png" width="680" alt="Conceptual teacher–student on-policy learning loop"></p>', '',
            '*Conceptual illustration of one direct-matching loop. Teacher feedback is not certified ground truth; '
            'other methods use different targets, divergences, or teacher-mediated rewards.*', '',
@@ -67,6 +75,13 @@ def render():
            '- [Rethinking OPD](https://arxiv.org/abs/2604.13016): examine teacher–student reasoning compatibility and failure modes.',
            '- [GAD](https://arxiv.org/abs/2511.10643): compare teacher-text-derived discriminator rewards with direct logit matching.',
            '- [MemOPD](https://arxiv.org/abs/2608.07068): inspect memory-state reconstruction before teacher scoring.', '',
+           '## Teacher–Student Model Atlas', '',
+           'An overview of teacher and student model combinations in the **June 2026 catalog snapshot**. '
+           'Rows represent teacher models, columns represent student models, and cells show reported pair occurrences. '
+           'This historical snapshot is not a count of the current catalog or a ranking of model quality.', '',
+           '<p align="center"><a href="assets/model-atlas-heatmap.png"><img src="assets/model-atlas-heatmap.png" width="960" alt="Teacher–student model-pair matrix, June 2026 snapshot"></a></p>', '',
+           'Same-name teacher and student labels can use different conditioning information. '
+           'Open the image for a larger view.', '',
            '## Browse the catalog', '']
     for home,label in SECTIONS:
         n=sum(r['home']==home for r in papers)
@@ -74,7 +89,7 @@ def render():
     parts+=['','[Latest additions and update notes](CHANGELOG.md) · [Objective index](resources/loss-taxonomy.md) · '
             '[Related surveys](resources/related-surveys.md) · [Contributing](CONTRIBUTING.md)', '',
             '## Recent literature', '',
-            'Recent release dates within the reviewed collection; this is not a ranking or an automated inclusion queue.', '',
+            'The most recent release dates in the collection.', '',
             '| Paper | Released | Reading section |','|---|---|---|']
     for r in [r for r in ordered if r['home']!='background'][:12]:
         name=dict(SECTIONS)[r['home']]
@@ -94,9 +109,6 @@ def render():
     parts+=['','## Visual reference snapshots','',
             'The following images preserve earlier catalog snapshots. They are not statistics of the current '
             'selection and must not be used to infer the best teacher size, a universal loss ranking, or a current paper count.', '',
-            '<details><summary>Teacher–student model-pair snapshot</summary>','',
-            '![Historical teacher–student model-pair snapshot](assets/model-atlas-heatmap.png)','',
-            'Rows and columns denote model labels. Repeated model labels do not imply identical conditioning or shared live weights.','', '</details>', '',
             '<details><summary>Earlier loss-label snapshots</summary>','',
             '![Historical loss-label distribution](assets/loss-distribution.png)','',
             '![Historical loss-label evolution](assets/loss-evolution.png)','',
@@ -110,8 +122,8 @@ def render():
             'See [CONTRIBUTING.md](CONTRIBUTING.md).']
     (ROOT/'README.md').write_text('\n'.join(parts)+'\n')
     codes=['# Code and implementation index','', '[Catalog](../README.md) · [Contributing](../CONTRIBUTING.md)', '',
-           f'Checked {date}. Links below resolve and are associated with the listed papers through a primary paper link '
-           'or repository evidence. Some releases are minimal placeholders; availability is not a reproduction claim.', '',
+           f'Updated {date}. Implementations and resources associated with papers in the catalog. '
+           'Unofficial reproductions are identified explicitly. Features and release completeness vary by repository.', '',
            '| Paper | Repository |','|---|---|']
     for r in ordered:
         if r['code_urls']:
@@ -119,8 +131,7 @@ def render():
             if r['code_status'].startswith('Unofficial'):
                 links += '<br><sub>Unofficial reproduction</sub>'
             codes.append(f'| [{cell(r["title"])}]({r["paper_url"]}) | '+links+' |')
-    codes+=['','A dash in the main catalog means that no paper-specific repository was verified during this check. '
-            'We do not substitute an unrelated framework or a cited baseline for a missing implementation.']
+    codes+=['','A dash in the main catalog means that no paper-specific repository is listed.']
     (ROOT/'resources/codebases.md').write_text('\n'.join(codes)+'\n')
     objectives=['# Objective and feedback index','', '[Catalog](../README.md) · [Key equations](key-equations.md)', '',
                 'Descriptions below distinguish targets, gradients and sampling. A paper can use several objectives '
@@ -130,6 +141,11 @@ def render():
         if r['home']!='background':
             objectives.append(f'| [{cell(r["title"])}]({r["paper_url"]}) | {cell(r["objective"])} | {ROLES.get(r["mechanism"],r["mechanism"])} |')
     (ROOT/'resources/loss-taxonomy.md').write_text('\n'.join(objectives)+'\n')
+    releases=['# Release history', '', 'Survey releases and public catalog updates.', '']
+    for item in json.loads(NEWS.read_text())['items']:
+        releases += [f'## {item["date"]}', '', item['text']+' '+f'[{item["label"]}]({item["url"]})', '']
+    releases += ['The survey version labels refer to public arXiv releases. The reading catalog may include literature published after the latest survey PDF.']
+    (ROOT/'CHANGELOG.md').write_text('\n'.join(releases)+'\n')
     print(f'Rendered {len(papers)} catalog records and {sum(bool(r["code_urls"]) for r in papers)} linked-code records.')
 
 

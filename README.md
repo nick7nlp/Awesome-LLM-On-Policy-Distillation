@@ -8,13 +8,21 @@ A curated reading list for **[A Survey of On-Policy Distillation for Large Langu
 
 [Search and filter on OPDHub](https://nick7nlp.github.io/OPDHub/) · [Reading paths](resources/reading-order.md) · [Method comparison](resources/method-comparison.md) · [Code index](resources/codebases.md) · [Equations](resources/key-equations.md) · [Evaluation guide](resources/benchmarks.md)
 
-**Catalog checked 2026-10-05.** 297 method, analysis, and application entries plus 24 foundational or related resources. Coverage through September 2026. These are reading-list entries, not a count of distinct direct-OPD algorithms. The public survey PDF is arXiv v4; this catalog includes later reviewed literature.
+**Updated 2026-10-05.** 297 method, analysis, and application entries plus 24 foundational or related resources. Coverage through September 2026. These are reading-list entries, not a count of distinct direct-OPD algorithms. The public survey PDF is arXiv v4; this catalog includes later literature.
+
+## News
+
+- **2026-10-05** — The reading catalog now covers literature through September 2026. OPDHub offers updated search, reading sections, and citation export. [Explore OPDHub](https://nick7nlp.github.io/OPDHub/)
+- **2026-06-18** — Survey v4 is available on arXiv, expanding the literature coverage and discussions of on-policy distillation. [Read survey v4](https://arxiv.org/abs/2604.00626v4)
+- **2026-05-18** — Survey v3 is available on arXiv. [Read survey v3](https://arxiv.org/abs/2604.00626v3)
+- **2026-05-12** — Survey v2 is available on arXiv. [Read survey v2](https://arxiv.org/abs/2604.00626v2)
+- **2026-04-01** — The first version of A Survey of On-Policy Distillation for Large Language Models is available on arXiv. [Read survey v1](https://arxiv.org/abs/2604.00626v1)
 
 ## Scope and how to use the list
 
-The central topic is teacher-derived learning on states visited by an evolving language-model student. Direct distribution matching, mixed or replayed training, teacher-mediated rewards, analysis, and deployment reports are labeled by their actual role. Necessary off-policy comparators are identified explicitly. Inclusion requires a relevant, supported contribution; a brief entry is not a lower quality tier. Unavailable or unresolved evidence is held for review rather than presented as a verified method.
+The central topic is teacher-derived learning on states visited by an evolving language-model student. Direct distribution matching, mixed or replayed training, teacher-mediated rewards, analysis, and deployment reports are labeled by their actual role. Necessary off-policy comparators are identified explicitly. The collection focuses on contributions that help readers compare these mechanisms and their evidence.
 
-Titles, author lists, dates, and paper links are checked against primary pages. Dates below denote first public release, rather than a venue year or the month encoded in an identifier. Repository links must both resolve and have a paper association. “No verified repository link” does not mean no code exists. A reachable repository is not an end-to-end reproduction claim.
+Dates below denote first public release. Each entry links to its source paper; repository links identify associated implementations or resources. Unofficial reproductions are labeled, and a dash means no repository is listed. Individual papers state their experimental conditions and limitations.
 
 <p align="center"><img src="assets/opd-overview.png" width="680" alt="Conceptual teacher–student on-policy learning loop"></p>
 
@@ -27,6 +35,14 @@ Titles, author lists, dates, and paper links are checked against primary pages. 
 - [Rethinking OPD](https://arxiv.org/abs/2604.13016): examine teacher–student reasoning compatibility and failure modes.
 - [GAD](https://arxiv.org/abs/2511.10643): compare teacher-text-derived discriminator rewards with direct logit matching.
 - [MemOPD](https://arxiv.org/abs/2608.07068): inspect memory-state reconstruction before teacher scoring.
+
+## Teacher–Student Model Atlas
+
+An overview of teacher and student model combinations in the **June 2026 catalog snapshot**. Rows represent teacher models, columns represent student models, and cells show reported pair occurrences. This historical snapshot is not a count of the current catalog or a ranking of model quality.
+
+<p align="center"><a href="assets/model-atlas-heatmap.png"><img src="assets/model-atlas-heatmap.png" width="960" alt="Teacher–student model-pair matrix, June 2026 snapshot"></a></p>
+
+Same-name teacher and student labels can use different conditioning information. Open the image for a larger view.
 
 ## Browse the catalog
 
@@ -42,7 +58,7 @@ Titles, author lists, dates, and paper links are checked against primary pages. 
 
 ## Recent literature
 
-Recent release dates within the reviewed collection; this is not a ranking or an automated inclusion queue.
+The most recent release dates in the collection.
 
 | Paper | Released | Reading section |
 |---|---|---|
@@ -446,14 +462,6 @@ Recent release dates within the reviewed collection; this is not a ranking or an
 ## Visual reference snapshots
 
 The following images preserve earlier catalog snapshots. They are not statistics of the current selection and must not be used to infer the best teacher size, a universal loss ranking, or a current paper count.
-
-<details><summary>Teacher–student model-pair snapshot</summary>
-
-![Historical teacher–student model-pair snapshot](assets/model-atlas-heatmap.png)
-
-Rows and columns denote model labels. Repeated model labels do not imply identical conditioning or shared live weights.
-
-</details>
 
 <details><summary>Earlier loss-label snapshots</summary>
 
