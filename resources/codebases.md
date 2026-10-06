@@ -59,7 +59,6 @@ Updated 2026-10-06. Implementations and resources associated with papers in the 
 | [Your Teacher Can't Help You Here: Combating Supervision Fidelity Decay in On-Policy Distillation](https://arxiv.org/abs/2605.30833) | [zui-jiang/LGR](https://github.com/zui-jiang/LGR) |
 | [Skill-Conditioned Gated Self-Distillation for LLM Reasoning](https://arxiv.org/abs/2605.28791) | [walawalagoose/SGSD](https://github.com/walawalagoose/SGSD) |
 | [Beyond Imitation: Reflective On-Policy Self-Distillation for LLM Reasoning](https://arxiv.org/abs/2605.28014) | [ZiqiZhao1/ROSD](https://github.com/ZiqiZhao1/ROSD) |
-| [Pair-In, Pair-Out: Latent Multi-Token Prediction for Efficient LLMs](https://arxiv.org/abs/2605.27255) | [redai-studio/PIPO](https://github.com/redai-studio/PIPO) |
 | [Not All Disagreement Is Learnable: Token Teachability in On-Policy Distillation](https://arxiv.org/abs/2605.26844) | [wyy-code/TA-OPD](https://github.com/wyy-code/TA-OPD) |
 | [When Are Teacher Tokens Reliable? Position-Weighted On-Policy Self-Distillation for Reasoning](https://arxiv.org/abs/2605.21606) | [SaFo-Lab/PW-OPSD](https://github.com/SaFo-Lab/PW-OPSD) |
 | [AVSD: Adaptive-View Self-Distillation by Balancing Consensus and Teacher-Specific Privileged Signals](https://arxiv.org/abs/2605.20643) | [duykhuongnguyen/AVSD](https://github.com/duykhuongnguyen/AVSD) |

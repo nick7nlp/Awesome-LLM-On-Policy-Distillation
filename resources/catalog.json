@@ -3536,26 +3536,6 @@
       "source_version": "[Submitted on 9 May 2026]"
     },
     {
-      "paper_id": "2605.09329",
-      "arxiv_id": "2605.09329",
-      "title": "Test-Time Speculation",
-      "authors": [
-        "Kumar, Avinash",
-        "Sanghavi, Sujay",
-        "Das, Poulami"
-      ],
-      "year": 2026,
-      "submitted": "2026-05-10",
-      "paper_url": "https://arxiv.org/abs/2605.09329",
-      "description": "During speculative decoding, the draft model adapts within a generation using target-model distributions already computed to verify its proposed tokens. Position-weighted distillation includes a penalty against drifting from the previous draft; gradient updates add serving-time work even though the target remains unchanged.",
-      "objective": "Minimize position-weighted target-to-draft token KL on drafted tokens, plus a weighted KL penalty from the previous draft distribution to the updated draft.",
-      "mechanism": "application",
-      "home": "9",
-      "code_urls": [],
-      "code_status": "No repository listed",
-      "source_version": "[Submitted on 10 May 2026 ( v1 ), last revised 19 May 2026 (this version, v2)]"
-    },
-    {
       "paper_id": "2605.09548",
       "arxiv_id": "2605.09548",
       "title": "Crosslingual On-Policy Self-Distillation for Multilingual Reasoning",
@@ -4585,33 +4565,6 @@
       "code_urls": [],
       "code_status": "No repository listed",
       "source_version": "[Submitted on 26 May 2026 ( v1 ), last revised 30 Aug 2026 (this version, v2)]"
-    },
-    {
-      "paper_id": "2605.27255",
-      "arxiv_id": "2605.27255",
-      "title": "Pair-In, Pair-Out: Latent Multi-Token Prediction for Efficient LLMs",
-      "authors": [
-        "Tan, Wenhui",
-        "Li, Minghao",
-        "Ma, Xiaoqian",
-        "Fan, Siqi",
-        "Huang, Xiusheng",
-        "Zhang, Liujie",
-        "Song, Ruihua",
-        "Chen, Weihang"
-      ],
-      "year": 2026,
-      "submitted": "2026-05-26",
-      "paper_url": "https://arxiv.org/abs/2605.27255",
-      "description": "PIPO scores cleaned versions of pair-decoded student trajectories with an uncompressed teacher and jointly trains generation and draft acceptance. It reuses teacher-student probability ratios as acceptance labels, while stricter teacher-success filtering does not uniformly improve solution coverage.",
-      "objective": "Pair-decoder distillation plus acceptance-head binary cross-entropy",
-      "mechanism": "direct_opd",
-      "home": "9",
-      "code_urls": [
-        "https://github.com/redai-studio/PIPO"
-      ],
-      "code_status": "linked",
-      "source_version": "[Submitted on 26 May 2026 ( v1 ), last revised 29 May 2026 (this version, v2)]"
     },
     {
       "paper_id": "2605.28014",
