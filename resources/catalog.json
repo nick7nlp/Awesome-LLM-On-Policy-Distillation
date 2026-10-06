@@ -3949,7 +3949,7 @@
       "year": 2026,
       "submitted": "2026-05-13",
       "paper_url": "https://arxiv.org/abs/2605.13230",
-      "description": "TGPO supervises teacher-selected next tokens at student-generated prefixes alongside outcome-based policy optimization. Comparisons with sampled-token distillation and alternative guidance schedules support its tested recipe, while the proposed role of policy divergence remains an interpretation.",
+      "description": "TGPO studies teacher-selected next-token supervision on student-generated prefixes alongside reward optimization. Reported comparisons favor annealed guidance, while a sign inconsistency in the printed combined objective limits the exact update interpretation.",
       "objective": "Annealed teacher-token likelihood plus outcome-based policy optimization",
       "mechanism": "hybrid_opd",
       "home": "4",
