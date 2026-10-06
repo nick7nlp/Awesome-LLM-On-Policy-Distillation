@@ -91,7 +91,7 @@ There is no single “adaptive KL” equation covering every routing or reweight
 
 ## TIP token selection
 
-[TIP, Eqs. (5)–(7)](https://arxiv.org/abs/2604.14084) combines min–max-normalized student entropy $\hat h_t$ and teacher–student divergence $\hat\delta_t$ in a Soft-OR score,
+[TIP, Eqs. (7)–(9)](https://arxiv.org/abs/2604.14084) combines min–max-normalized student entropy $\hat h_t$ and teacher–student divergence $\hat\delta_t$ in a Soft-OR score,
 
 $$
 u_t=\hat h_t+\hat\delta_t-\hat h_t\hat\delta_t
@@ -108,9 +108,9 @@ $$
 
 The score can retain confident disagreement as well as uncertain positions. The retention ratio is a hyperparameter, and disagreement alone does not certify a factual error. The loss mask also does not imply proportional savings in trajectory generation or teacher scoring.
 
-## OPSD with an answer-conditioned self-teacher
+## OPSD with a solution-conditioned self-teacher
 
-For a problem–answer pair $(x,y^\star)$, [OPSD, Eq. (6)](https://arxiv.org/abs/2601.18734) samples $\hat y$ from the problem-only student and compares predictions at those prefixes,
+For a problem–reference-solution pair $(x,y^\star)$, [OPSD, Eq. (6)](https://arxiv.org/abs/2601.18734) samples $\hat y$ from the problem-only student and compares predictions at those prefixes,
 
 $$
 \mathcal L_{\mathrm{OPSD}}(\theta)
@@ -122,4 +122,4 @@ D\!\left(
 \right)\right].
 $$
 
-The teacher and student share a model but have different conditioning information. In the local matching update, the sampled tokens and teacher distribution are detached; gradients flow through the student predictions. The paper uses generalized JSD in its main experiments. Answer access can improve the supervisory view, but does not guarantee reliable correction on every student prefix.
+The equation describes the shared-model formulation with different conditioning information. In the local matching update, sampled prefixes and teacher predictions are detached. The main experiments instead keep the initial teacher fixed and use forward KL with clipping of individual vocabulary contributions; gradients update only the student. The paper separately compares generalized JSD, reverse KL, and a sampled-token policy-gradient variant. Reference solutions can improve the supervisory view, but do not guarantee reliable correction on every student prefix.

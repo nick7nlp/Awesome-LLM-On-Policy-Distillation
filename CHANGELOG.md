@@ -4,7 +4,7 @@ Survey releases and public catalog updates.
 
 ## 2026-10-06
 
-The reading list and OPDHub have been refined around substantive on-policy distillation methods, analyses, and applications, with clearer mechanism labels and updated reading guides. [Browse the reading list](https://github.com/nick7nlp/Awesome-LLM-On-Policy-Distillation)
+Updated paper versions, method descriptions, and reading sections across the catalog and OPDHub. The collection contains 235 entries, with source and implementation links and citation export. [Browse the reading list](https://github.com/nick7nlp/Awesome-LLM-On-Policy-Distillation)
 
 ## 2026-10-05
 

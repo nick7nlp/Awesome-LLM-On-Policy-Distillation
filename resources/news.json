@@ -2,7 +2,7 @@
   "items": [
     {
       "date": "2026-10-06",
-      "text": "The reading list and OPDHub have been refined around substantive on-policy distillation methods, analyses, and applications, with clearer mechanism labels and updated reading guides.",
+      "text": "Updated paper versions, method descriptions, and reading sections across the catalog and OPDHub. The collection contains 235 entries, with source and implementation links and citation export.",
       "label": "Browse the reading list",
       "url": "https://github.com/nick7nlp/Awesome-LLM-On-Policy-Distillation"
     },
