@@ -11,6 +11,7 @@ Updated 2026-10-06. Implementations and resources associated with papers in the 
 | [1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation](https://arxiv.org/abs/2609.24432) | [BruceSheng1202/IER-OPD](https://github.com/BruceSheng1202/IER-OPD) |
 | [When EOS Tokens Disagree: Understanding Length Inflation in On-Policy Distillation](https://arxiv.org/abs/2609.20511) | [UNCSciML/opd-eos](https://github.com/UNCSciML/opd-eos) |
 | [OPD-Aha: From Linguistic Momentum to Visual Reflection in Multimodal On-Policy Distillation](https://arxiv.org/abs/2609.16459) | [Echochef/OPD-Aha](https://github.com/Echochef/OPD-Aha) |
+| [Revisiting Complete Reasoning Traces for Post-Training](https://arxiv.org/abs/2609.07103) | [naver-ai/revisiting-trace](https://github.com/naver-ai/revisiting-trace) |
 | [Rethinking On-Policy Distillation of Large Language Models II: One Training Example](https://arxiv.org/abs/2609.04172) | [Thinking-Space/One-Shot-OPD](https://github.com/Thinking-Space/One-Shot-OPD) |
 | [Sequential Beats Joint: On the Interplay between On-Policy Distillation and RLVR](https://arxiv.org/abs/2609.04108) | [StringNLPLAB/opd-rlvr](https://github.com/StringNLPLAB/opd-rlvr) |
 | [Learn from Whoever Is Right: Answer-Verified Multi-Teacher Distillation for Multi-Domain LLMs](https://arxiv.org/abs/2609.02548) | [hexixiang/MT-SDPO](https://github.com/hexixiang/MT-SDPO) |
@@ -28,6 +29,7 @@ Updated 2026-10-06. Implementations and resources associated with papers in the 
 | [DASH-OPD: Discrepancy-Aware Switching with Hysteresis for On-Policy Distillation](https://arxiv.org/abs/2607.29078) | [Lucian1115/DASH-OPD](https://github.com/Lucian1115/DASH-OPD) |
 | [Weak-to-Strong On-Policy Distillation](https://arxiv.org/abs/2607.26246) | [Yu-Fangxu/W2S-OPD](https://github.com/Yu-Fangxu/W2S-OPD) |
 | [Pass the Baton: Trajectory-Relayed On-Policy Distillation](https://arxiv.org/abs/2607.26057) | [zju-real/Relay-OPD](https://github.com/zju-real/Relay-OPD) |
+| [The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation](https://arxiv.org/abs/2607.24720) | [Quester-one/PlanPhysCode](https://github.com/Quester-one/PlanPhysCode) |
 | [ShortOPD: Recovering Pruned LLMs with Short-to-Long On-Policy Distillation](https://arxiv.org/abs/2607.13124) | [VisionOPD/Vision-OPD](https://github.com/VisionOPD/Vision-OPD)<br>[icip-cas/ShortX](https://github.com/icip-cas/ShortX) |
 | [When Top-K Misses the Decision: Tool-Call Drift in Multi-Teacher On-Policy Distillation](https://arxiv.org/abs/2607.07050) | [shen-jiabin/decision-support-opd](https://github.com/shen-jiabin/decision-support-opd) |
 | [dOPSD: On-Policy Self-Distillation for Diffusion Language Models](https://arxiv.org/abs/2607.04428) | [tuandattt/dOPSD](https://github.com/tuandattt/dOPSD) |
@@ -37,12 +39,17 @@ Updated 2026-10-06. Implementations and resources associated with papers in the 
 | [PowerOPD: Stabilizing On-Policy Distillation with Bounded Power Transformation](https://arxiv.org/abs/2606.17199) | [EIT-NLP/PowerOPD](https://github.com/EIT-NLP/PowerOPD) |
 | [Dense Supervision, Sparse Updates: On the Sparsity and Geometry of On-Policy Distillation](https://arxiv.org/abs/2606.13657) | [SydCS/OPD-Param-Analysis](https://github.com/SydCS/OPD-Param-Analysis) |
 | [RLCSD: Reinforcement Learning with Contrastive On-Policy Self-Distillation](https://arxiv.org/abs/2606.11709) | [THU-BPM/RLCSD](https://github.com/THU-BPM/RLCSD) |
+| [Breaking the Tokenizer Barrier: On-Policy Distillation across Model Families](https://arxiv.org/abs/2606.09456) | [ivanniu/On-Policy-Distill](https://github.com/ivanniu/On-Policy-Distill) |
 | [Data-Efficient Autoregressive-to-Diffusion Language Models via On-Policy Distillation](https://arxiv.org/abs/2606.06712) | [divelab/OPDLM](https://github.com/divelab/OPDLM) |
 | [Reinforcement Learning from Rich Feedback with Distributional DAgger](https://arxiv.org/abs/2606.05152) | [rishabh-1086/distIL](https://github.com/rishabh-1086/distIL) |
 | [Rethinking Continual Experience Internalization for Self-Evolving LLM Agents](https://arxiv.org/abs/2606.04703) | [RUCBM/ExpInternalization](https://github.com/RUCBM/ExpInternalization) |
+| [Self-Distilled Policy Gradient](https://arxiv.org/abs/2606.04036) | [lauyikfung/SDPG](https://github.com/lauyikfung/SDPG) |
 | [World Models Meet Language Models: On the Complementarity of Concrete and Abstract Reasoning](https://arxiv.org/abs/2606.03603) | [yczhou001/PF-OPSD](https://github.com/yczhou001/PF-OPSD) |
+| [Filter, Then Reweight: Rethinking Optimization Granularity in On-Policy Distillation](https://arxiv.org/abs/2606.02684) | [YuYingLi0/FiRe-OPD](https://github.com/YuYingLi0/FiRe-OPD) |
+| [CoMAP: Co-Evolving World Models and Agent Policies for LLM Agents](https://arxiv.org/abs/2606.02372) | [loyiv/CoMAP](https://github.com/loyiv/CoMAP) |
 | [Skill-Conditioned Gated Self-Distillation for LLM Reasoning](https://arxiv.org/abs/2605.28791) | [walawalagoose/SGSD](https://github.com/walawalagoose/SGSD) |
 | [Beyond Imitation: Reflective On-Policy Self-Distillation for LLM Reasoning](https://arxiv.org/abs/2605.28014) | [ZiqiZhao1/ROSD](https://github.com/ZiqiZhao1/ROSD) |
+| [Not All Disagreement Is Learnable: Token Teachability in On-Policy Distillation](https://arxiv.org/abs/2605.26844) | [wyy-code/TA-OPD](https://github.com/wyy-code/TA-OPD) |
 | [When Are Teacher Tokens Reliable? Position-Weighted On-Policy Self-Distillation for Reasoning](https://arxiv.org/abs/2605.21606) | [SaFo-Lab/PW-OPSD](https://github.com/SaFo-Lab/PW-OPSD) |
 | [AVSD: Adaptive-View Self-Distillation by Balancing Consensus and Teacher-Specific Privileged Signals](https://arxiv.org/abs/2605.20643) | [duykhuongnguyen/AVSD](https://github.com/duykhuongnguyen/AVSD) |
 | [It Takes Two: Complementary Self-Distillation for Contextual Integrity in LLMs](https://arxiv.org/abs/2605.20258) | [sw-programmer/SelfCI](https://github.com/sw-programmer/SelfCI) |
@@ -54,10 +61,12 @@ Updated 2026-10-06. Implementations and resources associated with papers in the 
 | [Learning to Foresee: Unveiling the Unlocking Efficiency of On-Policy Distillation](https://arxiv.org/abs/2605.11739) | [caiyuchen-ustc/EffOPD](https://github.com/caiyuchen-ustc/EffOPD) |
 | [Anti-Self-Distillation for Reasoning RL via Pointwise Mutual Information](https://arxiv.org/abs/2605.11609) | [FloyedShen/AntiSD](https://github.com/FloyedShen/AntiSD) |
 | [Crosslingual On-Policy Self-Distillation for Multilingual Reasoning](https://arxiv.org/abs/2605.09548) | [cisnlp/COPSD](https://github.com/cisnlp/COPSD) |
+| [Training with Harnesses: On-Policy Harness Self-Distillation for Complex Reasoning](https://arxiv.org/abs/2605.08741) | [zzy1127/OPHSD-On-Policy-Harness-Self-Distillation](https://github.com/zzy1127/OPHSD-On-Policy-Harness-Self-Distillation) |
 | [KL for a KL: On-Policy Distillation with Control Variate Baseline](https://arxiv.org/abs/2605.07865) | [holi-lab/vOPD](https://github.com/holi-lab/vOPD) |
 | [SOD: Step-wise On-policy Distillation for Small Language Model Agents](https://arxiv.org/abs/2605.07725) | [YoungZ365/SOD](https://github.com/YoungZ365/SOD) |
 | [SimCT: Recovering Lost Supervision for Cross-Tokenizer On-Policy Distillation](https://arxiv.org/abs/2605.07711) | [sunjie279/SimCT-](https://github.com/sunjie279/SimCT-) |
 | [HyperEyes: Dual-Grained Efficiency-Aware Reinforcement Learning for Parallel Multimodal Search Agents](https://arxiv.org/abs/2605.07177) | [DeepExperience/HyperEyes](https://github.com/DeepExperience/HyperEyes) |
+| [UniSD: Towards a Unified Self-Distillation Framework for Large Language Models](https://arxiv.org/abs/2605.06597) | [Ahren09/UniSD](https://github.com/Ahren09/UniSD) |
 | [Uni-OPD: Unifying On-Policy Distillation with a Dual-Perspective Recipe](https://arxiv.org/abs/2605.03677) | [WenjinHou/Uni-OPD](https://github.com/WenjinHou/Uni-OPD) |
 | [MAD-OPD: Breaking the Ceiling in On-Policy Distillation via Multi-Agent Debate](https://arxiv.org/abs/2605.01347) | [chiefovoavicii/MAD-OPD](https://github.com/chiefovoavicii/MAD-OPD) |
 | [Learn where to Click from Yourself: On-Policy Self-Distillation for GUI Grounding](https://arxiv.org/abs/2605.00642) | [zhangyan-ucas/GUI-SD-code](https://github.com/zhangyan-ucas/GUI-SD-code) |

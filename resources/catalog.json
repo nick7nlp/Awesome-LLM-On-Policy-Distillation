@@ -6778,6 +6778,580 @@
       ],
       "code_status": "Official infrastructure repository",
       "source_version": ""
+    },
+    {
+      "paper_id": "2602.02994",
+      "arxiv_id": "2602.02994",
+      "title": "Video-OPD: Efficient Post-Training of Multimodal Large Language Models for Temporal Video Grounding via On-Policy Distillation",
+      "authors": [
+        "Li, Jiaze",
+        "Yin, Hao",
+        "Xu, Haoran",
+        "Xu, Boshen",
+        "Tan, Wenhui",
+        "He, Zewen",
+        "Ju, Jianzhong",
+        "Luo, Zhenbo",
+        "Luan, Jian"
+      ],
+      "year": 2026,
+      "submitted": "2026-02-03",
+      "paper_url": "https://arxiv.org/abs/2602.02994",
+      "description": "Video-OPD applies teacher supervision to student-generated temporal-grounding responses. An ablation with both curriculum components disabled reports gains on three re-annotated benchmarks, independently of the paper’s stronger curriculum and teacher-superiority claims.",
+      "objective": "Sampled teacher-minus-student log-probability policy updates on student responses; the cited basic variant disables both curriculum components.",
+      "mechanism": "direct_opd",
+      "home": "9",
+      "code_urls": [],
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 3 Feb 2026 ( v1 ), last revised 2 Jun 2026 (this version, v3)]"
+    },
+    {
+      "paper_id": "2604.17535",
+      "arxiv_id": "2604.17535",
+      "title": "OPSDL: On-Policy Self-Distillation for Long-Context Language Models",
+      "authors": [
+        "Zhang, Xinsen",
+        "Ding, Zhenkai",
+        "Pan, Tianjun",
+        "Yang, Run",
+        "Kang, Chun",
+        "Xiong, Xue",
+        "Gu, Jingnan"
+      ],
+      "year": 2026,
+      "submitted": "2026-04-19",
+      "paper_url": "https://arxiv.org/abs/2604.17535",
+      "description": "OPSDL uses short-context predictions of the same model to guide responses generated from long context. Multi-scale RULER and LongBench V2 comparisons evaluate the full recipe, without isolating every data-construction component or establishing the claimed gradient guarantee.",
+      "objective": "Policy-gradient guidance from short-view versus long-view sampled-token log probabilities on student responses; precise shared-teacher gradient handling is not fully specified.",
+      "mechanism": "direct_opd",
+      "home": "5",
+      "code_urls": [],
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 19 Apr 2026]"
+    },
+    {
+      "paper_id": "2605.05040",
+      "arxiv_id": "2605.05040",
+      "title": "Preference-Based Self-Distillation: Beyond KL Matching via Reward Regularization",
+      "authors": [
+        "Yu, Xin",
+        "Liao, Liuchen",
+        "Zhang, Yiwen",
+        "Yu, Yingchen",
+        "Xue, Lingzhou",
+        "Guo, Qinzhen"
+      ],
+      "year": 2026,
+      "submitted": "2026-05-06",
+      "paper_url": "https://arxiv.org/abs/2605.05040",
+      "description": "PBSD learns teacher-referenced preferences between privileged-teacher responses and current student samples. Its 8B experiments compare this sequence-preference route with token-level self-distillation; it is an adjacent transfer method rather than direct student-prefix distribution matching.",
+      "objective": "Teacher-referenced pairwise logistic loss on privileged-teacher and current-student response pairs.",
+      "mechanism": "teacher_mediated_rl",
+      "home": "4",
+      "code_urls": [],
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 6 May 2026 ( v1 ), last revised 21 Aug 2026 (this version, v2)]"
+    },
+    {
+      "paper_id": "2605.06597",
+      "arxiv_id": "2605.06597",
+      "title": "UniSD: Towards a Unified Self-Distillation Framework for Large Language Models",
+      "authors": [
+        "Jin, Yiqiao",
+        "Wang, Yiyang",
+        "Fu, Lucheng",
+        "Xiao, Yijia",
+        "Luo, Yinyi",
+        "Liu, Haoxin",
+        "Prakash, B. Aditya",
+        "Hester, Josiah",
+        "Wang, Jindong",
+        "Kumar, Srijan"
+      ],
+      "year": 2026,
+      "submitted": "2026-05-07",
+      "paper_url": "https://arxiv.org/abs/2605.06597",
+      "description": "UniSD compares self-distillation variants using EMA targets, contrastive supervision, representation matching, and divergence clipping. Task-dependent results inform comparison of these components; they do not establish a benefit from the sequence-agreement scalar that cancels under the stated normalization.",
+      "objective": "Context-conditioned distribution matching on student rollouts, with variant-specific auxiliary losses; cited comparisons exclude the disputed sequence-agreement contribution.",
+      "mechanism": "analysis",
+      "home": "5",
+      "code_urls": [
+        "https://github.com/Ahren09/UniSD"
+      ],
+      "code_status": "linked",
+      "source_version": "[Submitted on 7 May 2026 ( v1 ), last revised 21 May 2026 (this version, v2)]"
+    },
+    {
+      "paper_id": "2605.07804",
+      "arxiv_id": "2605.07804",
+      "title": "Prune-OPD: Efficient and Reliable On-Policy Distillation for Long-Horizon Reasoning",
+      "authors": [
+        "Yang, Zhicheng",
+        "Guo, Zhijiang",
+        "Song, Yifan",
+        "Xu, Minrui",
+        "Wang, Yongxin",
+        "Wang, Yiwei",
+        "Liang, Xiaodan",
+        "Tang, Jing"
+      ],
+      "year": 2026,
+      "submitted": "2026-05-08",
+      "paper_url": "https://arxiv.org/abs/2605.07804",
+      "description": "Prune-OPD weights teacher supervision by prefix compatibility and adjusts the next batch’s response budget. Reported time–accuracy comparisons differ between low- and high-compatibility pairs; they do not isolate compatibility selection from supervision quantity.",
+      "objective": "Compatibility-weighted teacher log-ratio updates on student prefixes with batch-level adjustment of subsequent rollout length.",
+      "mechanism": "direct_opd",
+      "home": "6",
+      "code_urls": [],
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 8 May 2026 ( v1 ), last revised 1 Jun 2026 (this version, v3)]"
+    },
+    {
+      "paper_id": "2605.08741",
+      "arxiv_id": "2605.08741",
+      "title": "Training with Harnesses: On-Policy Harness Self-Distillation for Complex Reasoning",
+      "authors": [
+        "Zhao, Zhengyang",
+        "Ma, Lu",
+        "Zhang, Wentao"
+      ],
+      "year": 2026,
+      "submitted": "2026-05-09",
+      "paper_url": "https://arxiv.org/abs/2605.08741",
+      "description": "OPHSD prepares teacher context through a dynamic reasoning harness and supervises direct student rollouts with a frozen initial teacher. Comparisons with static privileged context evaluate the complete preparation recipe, including additional harness computation.",
+      "objective": "Teacher–student token-distribution matching on student prefixes conditioned on harness-prepared teacher context; reported KL direction differs between the paper and available implementation.",
+      "mechanism": "direct_opd",
+      "home": "5",
+      "code_urls": [
+        "https://github.com/zzy1127/OPHSD-On-Policy-Harness-Self-Distillation"
+      ],
+      "code_status": "linked",
+      "source_version": "[Submitted on 9 May 2026]"
+    },
+    {
+      "paper_id": "2605.11458",
+      "arxiv_id": "2605.11458",
+      "title": "Adaptive Teacher Exposure for Self-Distillation in LLM Reasoning",
+      "authors": [
+        "Han, Zihao",
+        "Zhang, Tiangang",
+        "Wang, Huaibin",
+        "Sun, Yilun"
+      ],
+      "year": 2026,
+      "submitted": "2026-05-12",
+      "paper_url": "https://arxiv.org/abs/2605.11458",
+      "description": "Adaptive Teacher Exposure varies how much reference information the self-teacher sees. Fixed-exposure sweeps and internal controller comparisons study this design choice; headline results use benchmark-specific checkpoint selection and partly imported baselines.",
+      "objective": "Teacher-to-student forward KL on student prefixes with an exposure controller trained using delayed outcome feedback.",
+      "mechanism": "direct_opd",
+      "home": "5",
+      "code_urls": [],
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 9 Jun 2026 (this version, v3)]"
+    },
+    {
+      "paper_id": "2605.17862",
+      "arxiv_id": "2605.17862",
+      "title": "f-OPD: Stabilizing Long-Horizon On-Policy Distillation with Freshness-Aware Control",
+      "authors": [
+        "Chen, Xianwei",
+        "Zhang, Shimin",
+        "Wu, Jibin"
+      ],
+      "year": 2026,
+      "submitted": "2026-05-18",
+      "paper_url": "https://arxiv.org/abs/2605.17862",
+      "description": "f-OPD studies delayed student rollouts and teacher supervision, combining freshness weighting, anchoring, and refresh. Its coding-agent results report partial recovery of the synchronous baseline’s task success. These observations do not establish a precise stability or efficiency advantage.",
+      "objective": "Analysis of asynchronous distillation with buffered student states, freshness-weighted supervision, rollout anchoring, and refresh.",
+      "mechanism": "analysis",
+      "home": "6",
+      "code_urls": [],
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 18 May 2026]"
+    },
+    {
+      "paper_id": "2605.22263",
+      "arxiv_id": "2605.22263",
+      "title": "Tailoring Teaching to Aptitude: Direction-Adaptive Self-Distillation for LLM Reasoning",
+      "authors": [
+        "Zhang, Hongbin",
+        "Wang, Chaozheng",
+        "Chen, Kehai",
+        "Pan, Youcheng",
+        "Xiang, Yang",
+        "Wang, Jinpeng",
+        "Zhang, Min"
+      ],
+      "year": 2026,
+      "submitted": "2026-05-21",
+      "paper_url": "https://arxiv.org/abs/2605.22263",
+      "description": "DASD routes privileged teacher feedback by entropy and modulates its direction in a policy-gradient update. Routing and sign controls evaluate the recipe; the action-dependent gate does not establish an exact signed-KL matching objective.",
+      "objective": "PPO with outcome advantages plus gated, signed teacher-derived log-ratio feedback; an adjacent teacher-mediated update.",
+      "mechanism": "teacher_mediated_rl",
+      "home": "4",
+      "code_urls": [],
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 21 May 2026]"
+    },
+    {
+      "paper_id": "2605.26844",
+      "arxiv_id": "2605.26844",
+      "title": "Not All Disagreement Is Learnable: Token Teachability in On-Policy Distillation",
+      "authors": [
+        "Wang, Yuanyi",
+        "Lu, Su",
+        "Gu, Yanggan",
+        "Wang, Pengkai",
+        "Yang, Yifan",
+        "Yan, Zhaoyi",
+        "Xie, Congkai",
+        "Wu, Jianmin",
+        "Yang, Hongxia"
+      ],
+      "year": 2026,
+      "submitted": "2026-05-26",
+      "paper_url": "https://arxiv.org/abs/2605.26844",
+      "description": "Teachability-Aware OPD weights disagreement by teacher mass on student candidate support to select supervision positions. Fixed-token-budget benchmark comparisons test the resulting allocation rule; its diagnostic gain conventions and one appendix setting label require care.",
+      "objective": "Reverse-KL supervision on selected student-generated positions; selection combines candidate-support overlap and local disagreement. Fixed-context KL-change diagnostics are distinct from the training objective.",
+      "mechanism": "analysis",
+      "home": "6",
+      "code_urls": [
+        "https://github.com/wyy-code/TA-OPD"
+      ],
+      "code_status": "linked",
+      "source_version": "[Submitted on 26 May 2026]"
+    },
+    {
+      "paper_id": "2605.27028",
+      "arxiv_id": "2605.27028",
+      "title": "Less is More: Early Stopping Rollout for On-Policy Distillation",
+      "authors": [
+        "Ziheng, Zhou",
+        "Li, Jiaqi",
+        "Tang, Huacong",
+        "Wu, Ying Nian",
+        "Terzopoulos, Demetri"
+      ],
+      "year": 2026,
+      "submitted": "2026-05-26",
+      "paper_url": "https://arxiv.org/abs/2605.27028",
+      "description": "ESR compares fixed-prefix with full-rollout distillation. Same-generation model comparisons report higher averages under fixed-prefix supervision, with setting-dependent gains. This does not establish a dynamic reliability trigger or a cross-tokenizer guarantee.",
+      "objective": "Reverse-KL supervision over the first N student-generated tokens in the cited same-generation comparisons.",
+      "mechanism": "analysis",
+      "home": "6",
+      "code_urls": [],
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 26 May 2026]"
+    },
+    {
+      "paper_id": "2605.29584",
+      "arxiv_id": "2605.29584",
+      "title": "GAPD: Gold-Action Policy Distillation for Agentic Reinforcement Learning in Knowledge Base Question Answering",
+      "authors": [
+        "Sun, Xin",
+        "Xie, Jianan",
+        "Chen, Zhongqi",
+        "Liu, Qiang",
+        "Wu, Shu",
+        "Song, Bowen",
+        "Wang, Weiqiang",
+        "Wang, Zilei",
+        "Wang, Liang"
+      ],
+      "year": 2026,
+      "submitted": "2026-05-28",
+      "paper_url": "https://arxiv.org/abs/2605.29584",
+      "description": "GAPD adds gold-action-conditioned teacher feedback to student knowledge-base trajectories. Its complete pipeline improves the reported outcome-only baseline; the separate contribution of action alignment and equivalent-state filtering remains unresolved.",
+      "objective": "Outcome policy optimization with clipped teacher–student log-ratio feedback conditioned on aligned gold actions.",
+      "mechanism": "hybrid_opd",
+      "home": "7",
+      "code_urls": [],
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 28 May 2026 ( v1 ), last revised 3 Jun 2026 (this version, v2)]"
+    },
+    {
+      "paper_id": "2606.02372",
+      "arxiv_id": "2606.02372",
+      "title": "CoMAP: Co-Evolving World Models and Agent Policies for LLM Agents",
+      "authors": [
+        "Liu, Youwei",
+        "Wang, Jian",
+        "Wang, Hanlin",
+        "Li, Wenjie"
+      ],
+      "year": 2026,
+      "submitted": "2026-06-01",
+      "paper_url": "https://arxiv.org/abs/2606.02372",
+      "description": "CoMAP combines agent improvement with textual world-model self-distillation. A teacher view receives the observed next state and supervises the student world model’s generated prefixes. World-state prediction and component-removal experiments evaluate the combined recipe.",
+      "objective": "Supervised next-state prediction plus stopped teacher–student divergence on student-generated next-state prefixes, with an EMA teacher and separate agent-policy training.",
+      "mechanism": "hybrid_opd",
+      "home": "7",
+      "code_urls": [
+        "https://github.com/loyiv/CoMAP"
+      ],
+      "code_status": "linked",
+      "source_version": "[Submitted on 1 Jun 2026 ( v1 ), last revised 3 Sep 2026 (this version, v2)]"
+    },
+    {
+      "paper_id": "2606.02684",
+      "arxiv_id": "2606.02684",
+      "title": "Filter, Then Reweight: Rethinking Optimization Granularity in On-Policy Distillation",
+      "authors": [
+        "Li, Yuying",
+        "Zheng, Leqi",
+        "Yu, Yongzi",
+        "Zhou, Wenrui",
+        "Zhong, Xuchang",
+        "Hu, Xing",
+        "Jin, Jing",
+        "Yuan, Hangjie",
+        "Feng, Tao"
+      ],
+      "year": 2026,
+      "submitted": "2026-06-01",
+      "paper_url": "https://arxiv.org/abs/2606.02684",
+      "description": "FiRe-OPD filters student trajectories by mean teacher likelihood, then reweights retained token updates using teacher confidence and student uncertainty. Component and filtering-rate comparisons evaluate the two-level recipe; increasing the filtering rate does not monotonically improve results.",
+      "objective": "Sampled-token teacher–student log-ratio policy updates with trajectory filtering and normalized token weighting; the paper and released example differ in batch-normalization boundaries.",
+      "mechanism": "direct_opd",
+      "home": "6",
+      "code_urls": [
+        "https://github.com/YuYingLi0/FiRe-OPD"
+      ],
+      "code_status": "linked",
+      "source_version": "[Submitted on 1 Jun 2026 ( v1 ), last revised 4 Jun 2026 (this version, v2)]"
+    },
+    {
+      "paper_id": "2606.04036",
+      "arxiv_id": "2606.04036",
+      "title": "Self-Distilled Policy Gradient",
+      "authors": [
+        "Liu, Yifeng",
+        "Zhang, Shiyuan",
+        "Zhang, Yifan",
+        "Gu, Quanquan"
+      ],
+      "year": 2026,
+      "submitted": "2026-06-02",
+      "paper_url": "https://arxiv.org/abs/2606.04036",
+      "description": "SDPG combines outcome optimization, full-vocabulary reverse-KL matching to a privileged self-teacher, and fixed-reference regularization. Removing the teacher or reference component produces different accuracy, length, and entropy behavior in its mathematical-reasoning experiments.",
+      "objective": "Outcome policy optimization plus full-vocabulary student-to-privileged-teacher reverse KL and fixed-reference regularization; the paper also specifies positive-advantage gating and annealing.",
+      "mechanism": "hybrid_opd",
+      "home": "4",
+      "code_urls": [
+        "https://github.com/lauyikfung/SDPG"
+      ],
+      "code_status": "linked",
+      "source_version": "[Submitted on 2 Jun 2026]"
+    },
+    {
+      "paper_id": "2606.09456",
+      "arxiv_id": "2606.09456",
+      "title": "Breaking the Tokenizer Barrier: On-Policy Distillation across Model Families",
+      "authors": [
+        "Niu, Yifan",
+        "Xiao, Han",
+        "Liu, Dongyi",
+        "Wang, Zelong",
+        "Gong, Dihong",
+        "Wang, Yasheng",
+        "Li, Jia"
+      ],
+      "year": 2026,
+      "submitted": "2026-06-08",
+      "paper_url": "https://arxiv.org/abs/2606.09456",
+      "description": "This cross-tokenizer method aligns student responses and teacher retokenizations into synchronized text chunks, then distributes teacher path likelihoods across student tokens. Two post-SFT comparisons evaluate the full recipe; they do not prove optimal allocation or lossless vocabulary mapping.",
+      "objective": "Clipped policy updates using teacher chunk log-likelihood allocated in proportion to prior student-token log-probabilities.",
+      "mechanism": "direct_opd",
+      "home": "5",
+      "code_urls": [
+        "https://github.com/ivanniu/On-Policy-Distill"
+      ],
+      "code_status": "linked",
+      "source_version": "[Submitted on 8 Jun 2026]"
+    },
+    {
+      "paper_id": "2606.14368",
+      "arxiv_id": "2606.14368",
+      "title": "Be My Tutor: On-Policy Co-Distillation for Mutual LLM Improvement via Peer Feedback",
+      "authors": [
+        "Byeon, Woohyeon",
+        "Jeon, Jiwon",
+        "Kim, Jeonghye",
+        "Sung, Youngchul"
+      ],
+      "year": 2026,
+      "submitted": "2026-06-12",
+      "paper_url": "https://arxiv.org/abs/2606.14368",
+      "description": "OPCoD studies peer feedback for privileged self-distillation. A diagnostic using initial models compares how often feedback damages correct answers, independently of the alternating-training procedure. It provides evidence about tutor-feedback risk.",
+      "objective": "Analysis of peer-feedback reliability; the training proposal uses matching to feedback-conditioned self-teacher distributions.",
+      "mechanism": "analysis",
+      "home": "5",
+      "code_urls": [],
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 12 Jun 2026]"
+    },
+    {
+      "paper_id": "2607.24720",
+      "arxiv_id": "2607.24720",
+      "title": "The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation",
+      "authors": [
+        "Men, Tianyi",
+        "Jin, Zhuoran",
+        "Liu, Kang",
+        "Zhao, Jun"
+      ],
+      "year": 2026,
+      "submitted": "2026-07-27",
+      "paper_url": "https://arxiv.org/abs/2607.24720",
+      "description": "This synthetic-planning study compares OPD and outcome-reward training across data quality and horizon. Its idealized teacher’s described training source includes evaluation instantiations, whereas the student uses separate pools. The evidence concerns this oracle-teacher setting.",
+      "objective": "Teacher-supervised token updates on student interactive trajectories, compared with group-relative outcome optimization in controlled synthetic tasks.",
+      "mechanism": "analysis",
+      "home": "8",
+      "code_urls": [
+        "https://github.com/Quester-one/PlanPhysCode"
+      ],
+      "code_status": "linked",
+      "source_version": "[Submitted on 27 Jul 2026]"
+    },
+    {
+      "paper_id": "2608.00782",
+      "arxiv_id": "2608.00782",
+      "title": "Distill Where You Fail: Recovering Learning Signals of Negative RL-Groups from Adaptive Teacher Guidance",
+      "authors": [
+        "Han, Zhuowen",
+        "Xiao, Jinwei",
+        "Lu, Zhengxi",
+        "Jin, Renren",
+        "Yao, Zhiyuan",
+        "Liu, Yuxin",
+        "Hao, Hongyan",
+        "Sun, Yueqing",
+        "Yang, Yu",
+        "GU, Qi",
+        "Cai, Xunliang",
+        "Xiong, Deyi"
+      ],
+      "year": 2026,
+      "submitted": "2026-08-01",
+      "paper_url": "https://arxiv.org/abs/2608.00782",
+      "description": "This study tests teacher supervision for all-failure rollout groups. Its sequential ablation reports a gain from teacher-based advantage weighting before adding token selection or teacher-response SFT, providing a bounded comparison for recovering a signal when group-relative outcome advantages vanish.",
+      "objective": "Analysis of negative-group OPD and teacher-based advantage weighting alongside GRPO; the complete RSTG variant additionally selects tokens and uses teacher-response SFT.",
+      "mechanism": "analysis",
+      "home": "4",
+      "code_urls": [],
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 1 Aug 2026]"
+    },
+    {
+      "paper_id": "2608.01589",
+      "arxiv_id": "2608.01589",
+      "title": "Is More Privileged Information Better? From Solution Traces to Problem-Solving Structure in Self-Distilled Reasoning",
+      "authors": [
+        "Zhao, Xuyang",
+        "Zhang, Liting",
+        "Xu, Zichen",
+        "Wang, Zhihu",
+        "Caiyue, Xu",
+        "Zhao, Shiwan",
+        "Li, Qicheng"
+      ],
+      "year": 2026,
+      "submitted": "2026-08-03",
+      "paper_url": "https://arxiv.org/abs/2608.01589",
+      "description": "PS-OPSD compares complete reference solutions with structured problem-space guidance for the teacher while retaining the same student-prefix distillation objective. Mismatched and path-corrupted guidance test content, and checkpoint-specific results qualify claims of uniform improvement.",
+      "objective": "Student-prefix distribution matching to a privileged self-teacher with alternative reference-solution representations; comparisons vary teacher context.",
+      "mechanism": "direct_opd",
+      "home": "5",
+      "code_urls": [],
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 3 Aug 2026]"
+    },
+    {
+      "paper_id": "2608.08726",
+      "arxiv_id": "2608.08726",
+      "title": "PAST: Privileged Adaptation from Complete Student Trajectories for On-Policy Self-Distillation",
+      "authors": [
+        "Feng, Yangyang",
+        "Feng, Zhuoyan",
+        "Chen, Junlan"
+      ],
+      "year": 2026,
+      "submitted": "2026-08-09",
+      "paper_url": "https://arxiv.org/abs/2608.08726",
+      "description": "PAST adapts a hindsight-conditioned teacher using completed student trajectories, then distills it on original student prefixes. A fixed-step factorial comparison supports the combined recipe in the evaluated setting, without a universal guarantee for future-conditioned supervision.",
+      "objective": "Clipped teacher-to-student forward KL on original student prefixes after trajectory-conditioned teacher adaptation.",
+      "mechanism": "direct_opd",
+      "home": "5",
+      "code_urls": [],
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 9 Aug 2026]"
+    },
+    {
+      "paper_id": "2609.07103",
+      "arxiv_id": "2609.07103",
+      "title": "Revisiting Complete Reasoning Traces for Post-Training",
+      "authors": [
+        "Hwang, Jaehui",
+        "Yun, Sangdoo",
+        "Heo, Byeongho",
+        "Han, Dongyoon"
+      ],
+      "year": 2026,
+      "submitted": "2026-09-07",
+      "paper_url": "https://arxiv.org/abs/2609.07103",
+      "description": "A small OPD comparison tests masking the middle 20% of tokens or reasoning steps against unmasked supervision. Step masking gives the highest reported average, while MATH-500 declines, illustrating a setting-dependent tradeoff in supervision coverage.",
+      "objective": "OPD with token-level or reasoning-step-level middle-segment loss masks; the reported intervention removes the middle 20%.",
+      "mechanism": "analysis",
+      "home": "6",
+      "code_urls": [
+        "https://github.com/naver-ai/revisiting-trace"
+      ],
+      "code_status": "linked",
+      "source_version": "[Submitted on 7 Sep 2026]"
+    },
+    {
+      "paper_id": "2609.09300",
+      "arxiv_id": "2609.09300",
+      "title": "Video-MOPD: Multi-Teacher On-Policy Distillation for Video Understanding",
+      "authors": [
+        "Qin, Zhenxin",
+        "Shi, Peng",
+        "Han, Cong",
+        "Qian, Yinlong",
+        "Jie, Zequn",
+        "Ma, Lin"
+      ],
+      "year": 2026,
+      "submitted": "2026-09-08",
+      "paper_url": "https://arxiv.org/abs/2609.09300",
+      "description": "Video-MOPD consolidates video-domain experts using routed teacher supervision on student rollouts. It compares the resulting model with direct averaging of the same experts and tests token-support choices. The full-pipeline results do not isolate data selection or establish equal-compute superiority.",
+      "objective": "Domain-routed teacher supervision on student-generated response prefixes following expert training and data selection.",
+      "mechanism": "hybrid_opd",
+      "home": "9",
+      "code_urls": [],
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 8 Sep 2026]"
+    },
+    {
+      "paper_id": "2609.24141",
+      "arxiv_id": "2609.24141",
+      "title": "CLOOPD: Closing the Learner Loop in On-Policy Distillation",
+      "authors": [
+        "Zheng, Keye",
+        "Li, Hanyu",
+        "Cheng, Zhan",
+        "Gao, Yuan"
+      ],
+      "year": 2026,
+      "submitted": "2026-09-21",
+      "paper_url": "https://arxiv.org/abs/2609.24141",
+      "description": "CLOOPD compares additional student actor passes on frozen teacher-scored batches. The reported two-to-three-pass control improves the macro score without extra teacher scoring, while a matched-cap random allocator outperforms the proposed adaptive allocator.",
+      "objective": "Empirical comparison of repeated student updates using batch-fixed teacher scores and advantages; no claim of an established exact matching gradient.",
+      "mechanism": "analysis",
+      "home": "6",
+      "code_urls": [],
+      "code_status": "No repository listed",
+      "source_version": "[Submitted on 21 Sep 2026]"
     }
   ]
 }
