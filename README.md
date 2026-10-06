@@ -4,11 +4,11 @@
 
 A curated reading list for **[A Survey of On-Policy Distillation for Large Language Models](https://arxiv.org/abs/2604.00626)**.
 
-[![Stars](https://img.shields.io/github/stars/nick7nlp/Awesome-LLM-On-Policy-Distillation?style=flat)](https://github.com/nick7nlp/Awesome-LLM-On-Policy-Distillation) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE) ![Catalog](https://img.shields.io/badge/catalog-273_entries-blue)
+[![Stars](https://img.shields.io/github/stars/nick7nlp/Awesome-LLM-On-Policy-Distillation?style=flat)](https://github.com/nick7nlp/Awesome-LLM-On-Policy-Distillation) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE) ![Catalog](https://img.shields.io/badge/catalog-271_entries-blue)
 
 [Search and filter on OPDHub](https://nick7nlp.github.io/OPDHub/) · [Reading paths](resources/reading-order.md) · [Method comparison](resources/method-comparison.md) · [Code index](resources/codebases.md) · [Equations](resources/key-equations.md) · [Evaluation guide](resources/benchmarks.md)
 
-**Updated 2026-10-06.** 249 method, analysis, and application entries plus 24 foundational or related resources. Coverage through September 2026. These are reading-list entries, not a count of distinct direct-OPD algorithms. The public survey PDF is arXiv v4; this catalog includes later literature.
+**Updated 2026-10-06.** 247 method, analysis, and application entries plus 24 foundational or related resources. Coverage through September 2026. These are reading-list entries, not a count of distinct direct-OPD algorithms. The public survey PDF is arXiv v4; this catalog includes later literature.
 
 ## News
 
@@ -51,8 +51,8 @@ Same-name teacher and student labels can use different conditioning information.
 - [Teacher and supervision construction](#papers-5) — 74 entries
 - [Data and training dynamics](#papers-6) — 41 entries
 - [Agentic and multi-turn distillation](#papers-7) — 26 entries
-- [Mechanisms, failures, and evaluation](#papers-8) — 30 entries
-- [Applications and systems](#papers-9) — 20 entries
+- [Mechanisms, failures, and evaluation](#papers-8) — 29 entries
+- [Applications and systems](#papers-9) — 19 entries
 - [Foundations and related background](#papers-background) — 24 entries
 
 [Latest additions and update notes](CHANGELOG.md) · [Objective index](resources/loss-taxonomy.md) · [Related surveys](resources/related-surveys.md) · [Contributing](CONTRIBUTING.md)
@@ -70,11 +70,11 @@ The most recent release dates in the collection.
 | [Train Where the Quantized Model Goes: On-Policy Distillation for Low-Bit Reasoning](https://arxiv.org/abs/2609.26708) | 2026-09-22 | [Applications and systems](#papers-9) |
 | [1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation](https://arxiv.org/abs/2609.24432) | 2026-09-21 | [Objectives and update rules](#papers-4) |
 | [CLOOPD: Closing the Learner Loop in On-Policy Distillation](https://arxiv.org/abs/2609.24141) | 2026-09-21 | [Data and training dynamics](#papers-6) |
-| [ACLArena: Agent Continue Learning in Multi-stage Post-training](https://arxiv.org/abs/2609.23989) | 2026-09-21 | [Mechanisms, failures, and evaluation](#papers-8) |
 | [Distill What You Trust: Reliability-Aware Multi-Teacher On-Policy Distillation](https://arxiv.org/abs/2609.23697) | 2026-09-20 | [Teacher and supervision construction](#papers-5) |
 | [One to More, More to One: Category-Aware Iterative Expert Training for Software Engineering Agents](https://arxiv.org/abs/2609.23377) | 2026-09-20 | [Applications and systems](#papers-9) |
-| [Spatial-Interactor: Learning Spatial Reasoning through Interaction with the Observable Physical World](https://arxiv.org/abs/2609.23038) | 2026-09-19 | [Applications and systems](#papers-9) |
 | [When EOS Tokens Disagree: Understanding Length Inflation in On-Policy Distillation](https://arxiv.org/abs/2609.20511) | 2026-09-17 | [Mechanisms, failures, and evaluation](#papers-8) |
+| [Beyond Token-Local Imitation: Reward-Compatible Temporal Credit Assignment for On-Policy Distillation](https://arxiv.org/abs/2609.16937) | 2026-09-15 | [Objectives and update rules](#papers-4) |
+| [OPD-Aha: From Linguistic Momentum to Visual Reflection in Multimodal On-Policy Distillation](https://arxiv.org/abs/2609.16459) | 2026-09-15 | [Teacher and supervision construction](#papers-5) |
 
 <a id="papers-4"></a>
 
@@ -318,7 +318,6 @@ The most recent release dates in the collection.
 | Paper and contribution | First release | Role | Repository |
 |---|---|---|---|
 | [RL Starts before RL: On Policy Distillation for Better Reinforcement Learning](https://arxiv.org/abs/2609.28145)<br><sub>This study tests whether distillation on student-generated trajectories prepares a model for later reinforcement learning beyond improving its initial accuracy. In its comparisons, the preferred KL direction changes after RL on student trajectories; that ranking does not extend to teacher-generated trajectories.</sub> | 2026-09-23 | Analysis | — |
-| [ACLArena: Agent Continue Learning in Multi-stage Post-training](https://arxiv.org/abs/2609.23989)<br><sub>ACLArena examines forgetting and transfer across sequential agent post-training stages, comparing multi-teacher on-policy distillation with offline self-distillation and model merging. Its proposed retention recipe instead replays specialist trajectories and trains routed reinforcement-learning adapters; the reported study chiefly uses one backbone and a fixed stage order.</sub> | 2026-09-21 | Analysis | [Repository](https://github.com/WillDreamer/ACLArena) |
 | [When EOS Tokens Disagree: Understanding Length Inflation in On-Policy Distillation](https://arxiv.org/abs/2609.20511)<br><sub>This study traces some response-length inflation in sampled-token distillation to students and teachers preferring different tokens for the same stopping action. Aggregating equivalent termination tokens in the training signal mitigates that mismatch in single-turn math tests, but late-run inflation can remain.</sub> | 2026-09-17 | Analysis | [Repository](https://github.com/UNCSciML/opd-eos) |
 | [Revisiting Complete Reasoning Traces for Post-Training](https://arxiv.org/abs/2609.07103)<br><sub>The paper tests whether complete reasoning traces are needed, primarily by training on pre-collected traces with their middle spans removed while retaining both ends. Its OPD extension masks middle-position loss on student rollouts rather than shortening generation; the findings concern tested reasoning settings.</sub> | 2026-09-07 | Analysis | [Repository](https://github.com/naver-ai/revisiting-trace) |
 | [Rethinking On-Policy Distillation of Large Language Models II: One Training Example](https://arxiv.org/abs/2609.04172)<br><sub>This study repeatedly distills on fresh student rollouts from a single query and compares semantic-cluster coverage of visited prefixes with full-data training. It finds broad early coverage but slower teacher alignment; cluster coverage does not measure every state's instructional value.</sub> | 2026-09-03 | Analysis | [Repository](https://github.com/Thinking-Space/One-Shot-OPD) |
@@ -358,7 +357,6 @@ The most recent release dates in the collection.
 |---|---|---|---|
 | [Train Where the Quantized Model Goes: On-Policy Distillation for Low-Bit Reasoning](https://arxiv.org/abs/2609.26708)<br><sub>After fixed-prefix quantization-aware distillation, the student samples through its deployment quantized forward path; a frozen full-precision teacher supervises those student prefixes alongside task-verifier feedback. The stage targets long-form repetition attributed to quantization-amplified exposure bias and starts from a quantization-aware checkpoint.</sub> | 2026-09-22 | Hybrid OPD | — |
 | [One to More, More to One: Category-Aware Iterative Expert Training for Software Engineering Agents](https://arxiv.org/abs/2609.23377)<br><sub>The pipeline trains category-specific software-engineering agents with executable-feedback reinforcement learning, refreshes task mastery, and repairs regressions using each expert’s verified successful trajectories. It then routes student rollouts to category experts for rectified, reference-anchored distillation; its categories are operational task groupings, not isolated capabilities.</sub> | 2026-09-20 | Application / system report | — |
-| [Spatial-Interactor: Learning Spatial Reasoning through Interaction with the Observable Physical World](https://arxiv.org/abs/2609.23038)<br><sub>For spatial reasoning in vision-language models, the framework first trains on local changes derived from interaction trajectories. Its later on-policy stage uses segment-level transition descriptions available only to a teacher branch to supervise student-generated reasoning over long trajectories; it is an application-specific training pipeline.</sub> | 2026-09-19 | Application / system report | — |
 | [KuaiRP Series Role-playing Models Technical Report](https://arxiv.org/abs/2609.11127)<br><sub>KuaiRP transfers a role-play specialist into the original base model using policy-gradient distillation for format and style, followed by teacher-top-k forward-KL distillation for world knowledge. Cumulative prefix divergence downweights later supervision; reported difficulties include poor knowledge transfer with sampled-token updates and overfitting with unrestricted GKD.</sub> | 2026-09-10 | Application / system report | — |
 | [Video-MOPD: Multi-Teacher On-Policy Distillation for Video Understanding](https://arxiv.org/abs/2609.09300)<br><sub>For video understanding, domain specialists supervise student-generated completions through a sample’s matched teacher, while reliability and teacher–student gaps guide example selection. The work consolidates capabilities in one student for deployment; long videos with sparse, distant evidence remain future work.</sub> | 2026-09-08 | Application / system report | — |
 | [SecOPD: Mitigating Adaptive Prompt Injections by On-Policy Distillation](https://arxiv.org/abs/2608.21500)<br><sub>For indirect prompt-injection defense, this application samples student responses to attacked inputs and scores each token with a frozen initialization model given the corresponding clean input, using detached token advantages for policy updates. It assumes trusted instructions and untrusted data are distinguishable.</sub> | 2026-08-21 | Application / system report | [Repository](https://github.com/pppyb/SecOPD) |

@@ -9,7 +9,6 @@ Updated 2026-10-06. Implementations and resources associated with papers in the 
 | [LastOPD: Taming Collapse in Latent On-Policy Distillation](https://arxiv.org/abs/2609.28845) | [Muyiiiii/LastOPD](https://github.com/Muyiiiii/LastOPD) |
 | [Counterfactual Constraint-Conditioned On-Policy Distillation for Multi-Constraint Instruction Following](https://arxiv.org/abs/2609.27421) | [zhengyanzhao1997/cc-opd](https://github.com/zhengyanzhao1997/cc-opd) |
 | [1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation](https://arxiv.org/abs/2609.24432) | [BruceSheng1202/IER-OPD](https://github.com/BruceSheng1202/IER-OPD) |
-| [ACLArena: Agent Continue Learning in Multi-stage Post-training](https://arxiv.org/abs/2609.23989) | [WillDreamer/ACLArena](https://github.com/WillDreamer/ACLArena) |
 | [When EOS Tokens Disagree: Understanding Length Inflation in On-Policy Distillation](https://arxiv.org/abs/2609.20511) | [UNCSciML/opd-eos](https://github.com/UNCSciML/opd-eos) |
 | [OPD-Aha: From Linguistic Momentum to Visual Reflection in Multimodal On-Policy Distillation](https://arxiv.org/abs/2609.16459) | [Echochef/OPD-Aha](https://github.com/Echochef/OPD-Aha) |
 | [Revisiting Complete Reasoning Traces for Post-Training](https://arxiv.org/abs/2609.07103) | [naver-ai/revisiting-trace](https://github.com/naver-ai/revisiting-trace) |

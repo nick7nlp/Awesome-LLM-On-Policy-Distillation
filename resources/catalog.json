@@ -6989,33 +6989,6 @@
       "source_version": "[Submitted on 6 Sep 2026]"
     },
     {
-      "paper_id": "2609.23038",
-      "arxiv_id": "2609.23038",
-      "title": "Spatial-Interactor: Learning Spatial Reasoning through Interaction with the Observable Physical World",
-      "authors": [
-        "Yao, Kaixiang",
-        "Wang, Xu",
-        "Pan, Miao",
-        "Xiyue, Hu",
-        "Wang, Weishi",
-        "Dahlmeier, Daniel",
-        "Chen, Jintao",
-        "Shen, Yongliang",
-        "Zhang, Xuhong",
-        "Zhang, Wenqi"
-      ],
-      "year": 2026,
-      "submitted": "2026-09-19",
-      "paper_url": "https://arxiv.org/abs/2609.23038",
-      "description": "For spatial reasoning in vision-language models, the framework first trains on local changes derived from interaction trajectories. Its later on-policy stage uses segment-level transition descriptions available only to a teacher branch to supervise student-generated reasoning over long trajectories; it is an application-specific training pipeline.",
-      "objective": "Supervised fine-tuning on local-transition tasks, followed by privileged teacher supervision of the student’s on-policy reasoning for long-trajectory tasks.",
-      "mechanism": "application",
-      "home": "9",
-      "code_urls": [],
-      "code_status": "No repository listed",
-      "source_version": "[Submitted on 19 Sep 2026]"
-    },
-    {
       "paper_id": "2609.23377",
       "arxiv_id": "2609.23377",
       "title": "One to More, More to One: Category-Aware Iterative Expert Training for Software Engineering Agents",
@@ -7065,37 +7038,6 @@
       "code_urls": [],
       "code_status": "No repository listed",
       "source_version": "[Submitted on 20 Sep 2026 ( v1 ), last revised 30 Sep 2026 (this version, v2)]"
-    },
-    {
-      "paper_id": "2609.23989",
-      "arxiv_id": "2609.23989",
-      "title": "ACLArena: Agent Continue Learning in Multi-stage Post-training",
-      "authors": [
-        "Wang, Haixin",
-        "Wang, Xiaoxuan",
-        "Zhang, Junkai",
-        "Zhang, Han",
-        "Sun, Renliang",
-        "Taylor, Alexander K",
-        "Shi, Yidan",
-        "Deng, Haoran",
-        "Wang, Chenguang",
-        "Cong, Jason",
-        "Sun, Yizhou",
-        "Wang, Wei"
-      ],
-      "year": 2026,
-      "submitted": "2026-09-21",
-      "paper_url": "https://arxiv.org/abs/2609.23989",
-      "description": "ACLArena examines forgetting and transfer across sequential agent post-training stages, comparing multi-teacher on-policy distillation with offline self-distillation and model merging. Its proposed retention recipe instead replays specialist trajectories and trains routed reinforcement-learning adapters; the reported study chiefly uses one backbone and a fixed stage order.",
-      "objective": "Compare capability retention under mixed reverse- and forward-KL multi-teacher distillation, offline trajectory fine-tuning, and model merging; the proposed recipe uses offline replay followed by environment-reward training of routed adapters.",
-      "mechanism": "analysis",
-      "home": "8",
-      "code_urls": [
-        "https://github.com/WillDreamer/ACLArena"
-      ],
-      "code_status": "linked",
-      "source_version": "[Submitted on 21 Sep 2026]"
     },
     {
       "paper_id": "2609.24141",
