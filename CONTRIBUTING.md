@@ -25,6 +25,14 @@ with other objectives, teacher interventions, or trajectory reuse. A supervised
 warm start or an adaptive teacher alone does not make a method hybrid. Ordinary
 offline distillation and evaluator training are not admitted through this label.
 
+Distinguish teacher-target matching from reinforcement learning with a
+teacher-derived reward or value estimate. A policy-gradient implementation can
+qualify when its connection to the distillation target is established; merely
+scoring student outputs with a teacher is insufficient. Neighboring RL methods
+require a specific, independently reviewed comparison role and are not core OPD
+methods. Sampling or implementation details that change the proposed claim must
+be resolved before retention.
+
 For an application, system report, or neighboring analysis, identify the specific
 OPD question, independent supporting evidence, and useful insight that the
 collection would lose without it. Adoption of OPD in a product pipeline and an

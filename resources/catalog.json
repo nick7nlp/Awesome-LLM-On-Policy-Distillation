@@ -1223,27 +1223,6 @@
       "source_version": "[Submitted on 15 Apr 2025]"
     },
     {
-      "paper_id": "2504.19024",
-      "arxiv_id": "2504.19024",
-      "title": "KETCHUP: K-Step Return Estimation for Sequential Knowledge Distillation",
-      "authors": [
-        "Fan, Jiabin",
-        "Luo, Guoqing",
-        "Bowling, Michael",
-        "Mou, Lili"
-      ],
-      "year": 2025,
-      "submitted": "2025-04-26",
-      "paper_url": "https://arxiv.org/abs/2504.19024",
-      "description": "KETCHUP trains on student-generated text using a policy-gradient update weighted by approximate multi-step returns constructed from teacher-derived token values. The return estimator trades lower variance for bias, so it is not a token-distribution matching objective.",
-      "objective": "Maximize teacher-derived approximate returns on student trajectories using a REINFORCE policy-gradient estimator.",
-      "mechanism": "teacher_mediated_rl",
-      "home": "4",
-      "code_urls": [],
-      "code_status": "No repository listed",
-      "source_version": "[Submitted on 26 Apr 2025]"
-    },
-    {
       "paper_id": "2505.09388",
       "arxiv_id": "2505.09388",
       "title": "Qwen3 Technical Report",

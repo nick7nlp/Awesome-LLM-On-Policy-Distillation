@@ -4,11 +4,11 @@
 
 A curated reading list for **[A Survey of On-Policy Distillation for Large Language Models](https://arxiv.org/abs/2604.00626)**.
 
-[![Stars](https://img.shields.io/github/stars/nick7nlp/Awesome-LLM-On-Policy-Distillation?style=flat)](https://github.com/nick7nlp/Awesome-LLM-On-Policy-Distillation) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE) ![Catalog](https://img.shields.io/badge/catalog-271_entries-blue)
+[![Stars](https://img.shields.io/github/stars/nick7nlp/Awesome-LLM-On-Policy-Distillation?style=flat)](https://github.com/nick7nlp/Awesome-LLM-On-Policy-Distillation) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE) ![Catalog](https://img.shields.io/badge/catalog-270_entries-blue)
 
 [Search and filter on OPDHub](https://nick7nlp.github.io/OPDHub/) · [Reading paths](resources/reading-order.md) · [Method comparison](resources/method-comparison.md) · [Code index](resources/codebases.md) · [Equations](resources/key-equations.md) · [Evaluation guide](resources/benchmarks.md)
 
-**Updated 2026-10-06.** 247 method, analysis, and application entries plus 24 foundational or related resources. Coverage through September 2026. These are reading-list entries, not a count of distinct direct-OPD algorithms. The public survey PDF is arXiv v4; this catalog includes later literature.
+**Updated 2026-10-06.** 246 method, analysis, and application entries plus 24 foundational or related resources. Coverage through September 2026. These are reading-list entries, not a count of distinct direct-OPD algorithms. The public survey PDF is arXiv v4; this catalog includes later literature.
 
 ## News
 
@@ -47,7 +47,7 @@ Same-name teacher and student labels can use different conditioning information.
 
 ## Browse the catalog
 
-- [Objectives and update rules](#papers-4) — 58 entries
+- [Objectives and update rules](#papers-4) — 57 entries
 - [Teacher and supervision construction](#papers-5) — 74 entries
 - [Data and training dynamics](#papers-6) — 41 entries
 - [Agentic and multi-turn distillation](#papers-7) — 26 entries
@@ -133,7 +133,6 @@ The most recent release dates in the collection.
 | [A Note on Hybrid Online Reinforcement and Imitation Learning for LLMs: Formulations and Algorithms](https://arxiv.org/abs/2512.23097)<br><sub>This note combines trajectory-level student-to-reference KL with task reward, separating an analytic local token-KL gradient from a sampled gradient for future divergence and rewards. It supplies a gradient decomposition and proposed algorithm, while leaving empirical training validation to future work.</sub> | 2025-12-28 | Analysis | — |
 | [Distillation of Large Language Models via Concrete Score Matching](https://arxiv.org/abs/2509.25837)<br><sub>Concrete Score Distillation matches weighted teacher–student logit differences across vocabulary pairs, allowing additive logit shifts. Factorized weights make gradient computation linear in vocabulary size. The objective requires a shared vocabulary and can complement on-policy training without itself requiring student rollouts.</sub> | 2025-09-30 | Offline comparator | [Repository](https://github.com/aailab-kaist/CSD) |
 | [KDRL: Post-Training Reasoning LLMs via Unified Knowledge Distillation and Reinforcement Learning](https://arxiv.org/abs/2506.02208)<br><sub>KDRL trains on student-generated reasoning trajectories, combining rule-based outcome-reward updates with an auxiliary teacher-directed reverse-KL loss. It also studies masking distillation for rewarded responses; its main evaluation concerns mathematical reasoning.</sub> | 2025-06-02 | Hybrid OPD | — |
-| [KETCHUP: K-Step Return Estimation for Sequential Knowledge Distillation](https://arxiv.org/abs/2504.19024)<br><sub>KETCHUP trains on student-generated text using a policy-gradient update weighted by approximate multi-step returns constructed from teacher-derived token values. The return estimator trades lower variance for bias, so it is not a token-distribution matching objective.</sub> | 2025-04-26 | Teacher-mediated RL | — |
 | [DistiLLM-2: A Contrastive Approach Boosts the Distillation of LLMs](https://arxiv.org/abs/2503.07067)<br><sub>DistiLLM-2 applies skewed forward divergence to teacher-generated responses and skewed reverse divergence to student-generated responses, while adapting the skew and loss balance during training. Student responses are generated in batches before each epoch, rather than freshly for every update.</sub> | 2025-03-10 | Hybrid OPD | [Repository](https://github.com/jongwooko/distillm-2) |
 | [AlignDistil: Token-Level Language Model Alignment as Adaptive Policy Distillation](https://arxiv.org/abs/2503.02832)<br><sub>AlignDistil constructs a token-level target by extrapolating logits from normal and reverse preference-trained models, with token-specific weights based on their distributional difference. It matches this target on student-sampled prefixes, but also provides an off-policy loss on fixed responses.</sub> | 2025-03-04 | Direct OPD | [Repository](https://github.com/songmzhang/AlignDistil) |
 | [DistiLLM: Towards Streamlined Distillation for Large Language Models](https://arxiv.org/abs/2402.03898)<br><sub>DistiLLM combines skewed token-distribution matching with an adaptive schedule that draws from fixed data or a replay buffer of student-generated responses. Because buffered responses are reused after collection, its data strategy is partly off-policy rather than continuously fresh student rollout.</sub> | 2024-02-06 | Hybrid OPD | [Repository](https://github.com/jongwooko/distillm) |
