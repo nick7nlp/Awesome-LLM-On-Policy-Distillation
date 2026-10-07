@@ -4,11 +4,11 @@
 
 A curated reading list for **[A Survey of On-Policy Distillation for Large Language Models](https://arxiv.org/abs/2604.00626)**.
 
-[![Stars](https://img.shields.io/github/stars/nick7nlp/Awesome-LLM-On-Policy-Distillation?style=flat)](https://github.com/nick7nlp/Awesome-LLM-On-Policy-Distillation) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE) ![Catalog](https://img.shields.io/badge/catalog-303_entries-blue)
+[![Stars](https://img.shields.io/github/stars/nick7nlp/Awesome-LLM-On-Policy-Distillation?style=flat)](https://github.com/nick7nlp/Awesome-LLM-On-Policy-Distillation) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE) ![Catalog](https://img.shields.io/badge/catalog-304_entries-blue)
 
 [Search and filter on OPDHub](https://nick7nlp.github.io/OPDHub/) · [Reading paths](resources/reading-order.md) · [Method comparison](resources/method-comparison.md) · [Code index](resources/codebases.md) · [Equations](resources/key-equations.md) · [Evaluation guide](resources/benchmarks.md)
 
-**Updated 2026-10-06.** 284 method, analysis, and application entries plus 19 foundational or related resources. Coverage through September 2026. These are reading-list entries, not a count of distinct direct-OPD algorithms. The public survey PDF is arXiv v4; this catalog includes later literature.
+**Updated 2026-10-06.** 285 method, analysis, and application entries plus 19 foundational or related resources. Coverage through September 2026. These are reading-list entries, not a count of distinct direct-OPD algorithms. The public survey PDF is arXiv v4; this catalog includes later literature.
 
 ## News
 
@@ -50,7 +50,7 @@ Same-name teacher and student labels can use different conditioning information.
 - [Objectives and update rules](#papers-4) — 57 entries
 - [Teacher and supervision construction](#papers-5) — 80 entries
 - [Data and training dynamics](#papers-6) — 59 entries
-- [Agentic and multi-turn distillation](#papers-7) — 32 entries
+- [Agentic and multi-turn distillation](#papers-7) — 33 entries
 - [Mechanisms, failures, and evaluation](#papers-8) — 36 entries
 - [Applications and systems](#papers-9) — 20 entries
 - [Foundations and related background](#papers-background) — 19 entries
@@ -63,6 +63,7 @@ The most recent release dates in the collection.
 
 | Paper | Released | Reading section |
 |---|---|---|
+| [UOPD: Uncertainty-Aware Intervention for On-Policy Distillation of Multi-Turn Agents](https://arxiv.org/abs/2609.34036) | 2026-09-27 | [Agentic and multi-turn distillation](#papers-7) |
 | [Not Every Token Is Worth Distilling: Selective Supervision for Direct-OPD](https://arxiv.org/abs/2609.29142) | 2026-09-24 | [Data and training dynamics](#papers-6) |
 | [LastOPD: Taming Collapse in Latent On-Policy Distillation](https://arxiv.org/abs/2609.28845) | 2026-09-23 | [Teacher and supervision construction](#papers-5) |
 | [When and Where to Trust the Teacher: Unifying On-Policy Distillation and GRPO through Entropy-Calibrated Credit Assignment](https://arxiv.org/abs/2609.28385) | 2026-09-23 | [Mechanisms, failures, and evaluation](#papers-8) |
@@ -74,7 +75,6 @@ The most recent release dates in the collection.
 | [Distill What You Trust: Reliability-Aware Multi-Teacher On-Policy Distillation](https://arxiv.org/abs/2609.23697) | 2026-09-20 | [Teacher and supervision construction](#papers-5) |
 | [One to More, More to One: Category-Aware Iterative Expert Training for Software Engineering Agents](https://arxiv.org/abs/2609.23377) | 2026-09-20 | [Applications and systems](#papers-9) |
 | [Calibrating Teacher--Student Discrepancy for On-Policy Distillation](https://arxiv.org/abs/2609.21619) | 2026-09-18 | [Teacher and supervision construction](#papers-5) |
-| [GVPO++: Group Variance Policy Optimization for LLM Post-Training and On-Policy Distillation](https://arxiv.org/abs/2609.21432) | 2026-09-18 | [Teacher and supervision construction](#papers-5) |
 
 <a id="papers-4"></a>
 
@@ -305,6 +305,7 @@ The most recent release dates in the collection.
 
 | Paper and contribution | First release | Role | Repository |
 |---|---|---|---|
+| [UOPD: Uncertainty-Aware Intervention for On-Policy Distillation of Multi-Turn Agents](https://arxiv.org/abs/2609.34036)<br><sub>Unifies on-policy distillation and SFT through selective intervention guided by teacher uncertainty for multi-turn agents. Student turns receive reverse-KL supervision, while selected turns execute teacher actions and train with SFT using adaptive intervention thresholds.</sub> | 2026-09-27 | Hybrid OPD | [Repository](https://github.com/onepounchman/UOPD) |
 | [Know When to Stop, Where to Restart: Accelerating Multi-Turn Agentic On-Policy Distillation](https://arxiv.org/abs/2609.14636)<br><sub>STRIDE stops multi-turn student rollouts using cumulative teacher log-probability, then restarts from a cached student prefix selected by a likelihood threshold. Buffer ablations and measured time per step support the tested recipe; the threshold does not certify prefix correctness.</sub> | 2026-09-13 | Direct OPD | — |
 | [CataOPD: Catalytic On-Policy Distillation for Large Language Model Reasoning](https://arxiv.org/abs/2609.29518)<br><sub>CataOPD first attempts unguided recovery of all-failed rollout groups, then uses teacher hints to help the student produce verified training targets. Ablations support recovery, guidance, and guided-versus-unaided token weighting, while the additional sampling has a separate training cost.</sub> | 2026-08-25 | Hybrid OPD | — |
 | [OPDSearch+: On-Policy Distillation with RL Refinement for Search-Augmented Reasoning](https://arxiv.org/abs/2608.24310)<br><sub>OPDSearch+ first distills a frozen teacher on student trajectories that include live retrieval, then refines the student with outcome-based RL. Comparisons with offline preparation, RL alone, and simultaneous training support the sequential recipe in the tested search setting.</sub> | 2026-08-25 | Hybrid OPD | — |

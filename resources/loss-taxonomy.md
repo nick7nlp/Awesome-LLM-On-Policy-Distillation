@@ -6,6 +6,7 @@ Descriptions below distinguish targets, gradients and sampling. A paper can use 
 
 | Paper | Objective or feedback | Role |
 |---|---|---|
+| [UOPD: Uncertainty-Aware Intervention for On-Policy Distillation of Multi-Turn Agents](https://arxiv.org/abs/2609.34036) | Token-level reverse KL on student actions and SFT on teacher actions (forward KL in expectation), with turn selection guided by teacher uncertainty. | Hybrid OPD |
 | [Not Every Token Is Worth Distilling: Selective Supervision for Direct-OPD](https://arxiv.org/abs/2609.29142) | At selected student states, apply detached student-top-candidate weights to post-RL/pre-RL teacher log-ratio rewards, together with an initial-student KL penalty. Both terms are masked and averaged over states selected by teacher–reference JSD. | Direct OPD |
 | [LastOPD: Taming Collapse in Latent On-Policy Distillation](https://arxiv.org/abs/2609.28845) | A linearly decreasing final-state alignment loss and increasing reverse top-k student-to-teacher token KL on the same student rollouts; token KL alone after the crossfade. | Direct OPD |
 | [When and Where to Trust the Teacher: Unifying On-Policy Distillation and GRPO through Entropy-Calibrated Credit Assignment](https://arxiv.org/abs/2609.28385) | Analyze credit localization under response-wise conservation | Analysis |

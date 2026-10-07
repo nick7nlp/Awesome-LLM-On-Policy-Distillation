@@ -6,6 +6,7 @@ Updated 2026-10-06. Implementations and resources associated with papers in the 
 
 | Paper | Repository |
 |---|---|
+| [UOPD: Uncertainty-Aware Intervention for On-Policy Distillation of Multi-Turn Agents](https://arxiv.org/abs/2609.34036) | [onepounchman/UOPD](https://github.com/onepounchman/UOPD) |
 | [LastOPD: Taming Collapse in Latent On-Policy Distillation](https://arxiv.org/abs/2609.28845) | [Muyiiiii/LastOPD](https://github.com/Muyiiiii/LastOPD) |
 | [Counterfactual Constraint-Conditioned On-Policy Distillation for Multi-Constraint Instruction Following](https://arxiv.org/abs/2609.27421) | [zhengyanzhao1997/cc-opd](https://github.com/zhengyanzhao1997/cc-opd) |
 | [1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation](https://arxiv.org/abs/2609.24432) | [BruceSheng1202/IER-OPD](https://github.com/BruceSheng1202/IER-OPD) |
