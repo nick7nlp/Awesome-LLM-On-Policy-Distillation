@@ -8591,6 +8591,30 @@
       "code_urls": [],
       "code_status": "No repository listed",
       "source_version": "[Submitted on 24 Sep 2026 ( v1 ), last revised 26 Sep 2026 (this version, v2)]"
+    },
+    {
+      "paper_id": "2609.34036",
+      "arxiv_id": "2609.34036",
+      "title": "UOPD: Uncertainty-Aware Intervention for On-Policy Distillation of Multi-Turn Agents",
+      "authors": [
+        "Zhang, Wenbo",
+        "Xu, Pengcheng",
+        "Du, Weizhi",
+        "Zhang, Jing",
+        "Cai, Hengrui"
+      ],
+      "year": 2026,
+      "submitted": "2026-09-27",
+      "paper_url": "https://arxiv.org/abs/2609.34036",
+      "description": "Unifies on-policy distillation and SFT through selective intervention guided by teacher uncertainty for multi-turn agents. Student turns receive reverse-KL supervision, while selected turns execute teacher actions and train with SFT using adaptive intervention thresholds.",
+      "objective": "Token-level reverse KL on student actions and SFT on teacher actions (forward KL in expectation), with turn selection guided by teacher uncertainty.",
+      "mechanism": "hybrid_opd",
+      "home": "7",
+      "code_urls": [
+        "https://github.com/onepounchman/UOPD"
+      ],
+      "code_status": "Official implementation",
+      "source_version": "[Submitted on 27 Sep 2026 (v1)]"
     }
   ]
 }
