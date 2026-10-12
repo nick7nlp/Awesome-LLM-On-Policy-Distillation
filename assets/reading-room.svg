@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="292" viewBox="0 0 1200 292" role="img" aria-labelledby="title desc">
+  <title id="title">On-policy distillation</title>
+  <desc id="desc">A research reading companion connecting objectives, supervision, and interaction.</desc>
+  <rect width="1200" height="292" rx="10" fill="#f5f4ed"/>
+  <path d="M48 42h46" stroke="#365c51" stroke-width="4"/>
+  <text x="109" y="48" fill="#59665f" font-family="Arial, sans-serif" font-size="14" letter-spacing="3">THE RESEARCH COMPANION</text>
+  <text x="46" y="127" fill="#253e35" font-family="Georgia, 'Times New Roman', serif" font-size="57">On-policy distillation.</text>
+  <text x="49" y="169" fill="#616a63" font-family="Arial, sans-serif" font-size="20">Learning from teachers on the student's own trajectories.</text>
+  <path d="M49 205H714" stroke="#d4d9cf"/>
+  <g fill="#4d635b" font-family="Arial, sans-serif" font-size="15">
+    <text x="49" y="244">01 / Objectives</text>
+    <text x="269" y="244">02 / Supervision</text>
+    <text x="501" y="244">03 / Interaction</text>
+  </g>
+  <g transform="translate(854 46)">
+    <path d="M58 44C154 -14 243 71 215 153" fill="none" stroke="#90aaa1" stroke-width="2.2"/>
+    <path d="m207 142 8 13 13-8" fill="none" stroke="#90aaa1" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M197 177C101 232 9 156 39 72" fill="none" stroke="#b9a88b" stroke-width="2.2"/>
+    <path d="m28 79 12-9 9 13" fill="none" stroke="#b9a88b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="56" cy="43" r="20" fill="#dce8df" stroke="#5b7d6a" stroke-width="1.5"/>
+    <circle cx="198" cy="177" r="20" fill="#e9e0cf" stroke="#ab946e" stroke-width="1.5"/>
+    <path d="M81 63l92 92" stroke="#c0ccc5" stroke-width="1.4" stroke-dasharray="4 6"/>
+    <circle cx="127" cy="109" r="5" fill="#69897d"/>
+    <g fill="#4d635b" font-family="Arial, sans-serif" font-size="14">
+      <text x="3" y="14">teacher</text>
+      <text x="173" y="221">student</text>
+    </g>
+  </g>
+</svg>

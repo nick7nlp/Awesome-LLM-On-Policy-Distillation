@@ -1,4 +1,4 @@
-# ⚡ Method Quick-Reference Matrix
+# Method comparison
 
 [Catalog](../README.md) · [Reading order](reading-order.md) · [Key equations](key-equations.md) · [Benchmarks](benchmarks.md) · [Codebases](codebases.md)
 
@@ -14,6 +14,18 @@ Compare methods by the states they supervise, the information used to construct 
 | [EOPD](https://arxiv.org/abs/2603.07079) | Reverse KL plus entropy-gated top-*K* forward KL | Sampled-token teacher probabilities, teacher entropy, and teacher top-*K* alternatives | Reverse KL remains active at high-entropy positions; the forward term is added there. |
 | [AOPD](https://arxiv.org/abs/2605.06387) | Sampled policy-gradient updates at positive-advantage tokens; top-*K* forward guidance at non-positive tokens | Teacher–student probability gaps and alternative teacher-supported tokens | The method changes the update and its support, rather than only applying a scalar weight. |
 | [G-OPD](https://arxiv.org/abs/2602.12125) | Teacher-to-reference log-ratio reward with a KL penalty to the reference; scaling extrapolates the target | Teacher and reference probabilities | The reward is an implicit policy contrast. Exceeding the teacher is an empirical result in evaluated settings, not a guarantee of distillation or evidence of an independent verifier reward. |
+
+## Estimation, adaptive teachers, and consolidation
+
+| Method | What changes | Evidence boundary or prerequisite |
+|---|---|---|
+| [TT-OPD](https://arxiv.org/abs/2609.34447) | Exact contributions on selected tokens plus a sampled tail correction | The unbiasedness identity is conditional on a fixed prefix; the default selection uses the student's top 16 tokens. |
+| [ResOPD](https://arxiv.org/abs/2610.04882) | Uses an aggregate-tail control for sparse reverse-KL estimation | Its unbiasedness result assumes ancestral sampling; practical truncated samplers fall outside that assumption. Lower variance does not itself imply higher accuracy. |
+| [SparseOPD](https://arxiv.org/abs/2609.34386) | Plans corrections from full-vocabulary distributions, then sparsifies and compensates logits for backpropagation | Saves measured backward memory while increasing complete-update time; it does not remove the full-distribution interface. |
+| [SCOUT](https://arxiv.org/abs/2609.38360) | Periodically adapts the teacher to student-induced prefixes during OPD | Teacher training is part of the method and its cost. |
+| [Teacher Preparation](https://arxiv.org/abs/2610.04950) | Prepares a teacher using RL on fixed student-generated prefixes before OPD | Reported downstream cost excludes teacher preparation; its timing differs from SCOUT. |
+| [Delta-OPD](https://arxiv.org/abs/2610.10460) | Combines teacher-relative logit shifts at the student's initialization | Composes supervision before distillation, rather than merging independently distilled experts. |
+| [USA](https://arxiv.org/abs/2609.34225) | Uses update-aware sharpness training to prepare distilled agent experts for parameter merging | Supports the specified OPD interface and reported common-pipeline comparisons; the exact implemented gradient estimator is unspecified. |
 
 ## Constructing a self-teacher
 
@@ -32,6 +44,9 @@ Compare methods by the states they supervise, the information used to construct 
 | [Uni-OPD](https://arxiv.org/abs/2605.03677) | Couples difficulty and correctness balancing with outcome-guided margin calibration | Sampling allocation and teacher-score calibration contribute together in the tested pipeline. |
 | [SOD](https://arxiv.org/abs/2605.07725) | Recursively weights tool-bounded distillation steps alongside GRPO; masks observation tokens | Evidence concerns Python-tool reasoning, not arbitrary long-horizon environments. |
 | [MemOPD](https://arxiv.org/abs/2608.07068) | Reconstructs compact-memory invocation states before teacher scoring | Requires matching visibility, positions, and valid action masks; tested with a shared tokenizer. |
+| [Semi-OPD](https://arxiv.org/abs/2610.11291) | Reuses initial-student rollouts instead of refreshing them continuously | Cached rollouts often perform better in the 17 tested teacher–student pairs; the evidence concerns mathematical reasoning. |
+| [MAS-OPD](https://arxiv.org/abs/2609.34234) | Uses role-contrast teacher scores and privileged historical attribution on joint agent trajectories | RAS retains the student's log probability; PAC attributes completed past turns. The study does not establish exact trajectory KL or equal-compute superiority. |
+| [STI](https://arxiv.org/abs/2610.10878) | Combines stochastic teacher takeovers with importance-weighted matching | Interventions change the visited history distribution as well as the supervision received. |
 
 ## Interfaces and related pipelines
 

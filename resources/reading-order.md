@@ -1,4 +1,4 @@
-# 📚 Recommended Reading Order
+# Reading paths
 
 [Catalog](../README.md) · [Method comparison](method-comparison.md) · [Key equations](key-equations.md) · [Benchmarks](benchmarks.md) · [Codebases](codebases.md)
 
@@ -49,5 +49,23 @@ For a short introduction, read GKD, MiniLLM, and **[Rethinking OPD](https://arxi
 | Which costs can be reduced? | DistiLLM → TIP → Lightning-OPD; distinguish scoring, generation, and optimization costs |
 | How does interaction change supervision? | SOD → MemOPD → [Revisiting DAgger for LLM Agents](https://arxiv.org/abs/2605.12913), which studies teacher intervention and action labeling |
 | What can improve while something else degrades? | Rethinking OPD → SCOPE → CaOPD → the sampled-demonstration diversity study → [Benchmarks](benchmarks.md) |
+
+## Deeper connections
+
+### Sparse feedback and sparse computation
+
+**[TT-OPD](https://arxiv.org/abs/2609.34447)** and **[ResOPD](https://arxiv.org/abs/2610.04882)** estimate reverse-KL gradients from a selected vocabulary set and a sampled tail. Read their unbiasedness conditions alongside the sampling used in practice: conditional fixed-prefix identities do not establish that a truncated rollout procedure is unbiased. **[SparseOPD](https://arxiv.org/abs/2609.34386)** solves a different resource problem. It reads full-vocabulary information before choosing logits for sparse backpropagation; its measured memory savings accompany a slower complete update. These papers separate the information available from the computation retained.
+
+### Adapting the teacher and combining experts
+
+**[SCOUT](https://arxiv.org/abs/2609.38360)** updates the teacher during student training, whereas **[Preparing Teachers for OPD](https://arxiv.org/abs/2610.04950)** prepares the teacher on student-generated prefixes before distillation. The difference is when the teacher adapts, not a shared head-to-head performance result. For several teachers, pair **[Delta-OPD](https://arxiv.org/abs/2610.10460)**, which combines teacher-relative logit shifts, with **[USA](https://arxiv.org/abs/2609.34225)**, which prepares separately distilled agent experts for merging through update-aware sharpness training. USA supports the stated training interface and common-pipeline comparisons; its exact implemented gradient estimator remains unspecified.
+
+### Joint trajectories, intervention, and credit
+
+Move from SOD and MemOPD to **[MAS-OPD](https://arxiv.org/abs/2609.34234)**. Its joint agent trajectories require role-contrast teacher scoring and attribution to completed past turns. **[STI](https://arxiv.org/abs/2610.10878)** asks a complementary question: how teacher takeovers alter the histories on which the student learns. **[SPICE](https://arxiv.org/abs/2609.36679)** combines privileged-context likelihood guidance with outcome-based agent RL; the full turn-return update should not be read as an exact conditional-KL estimator.
+
+### State freshness and the limits of recovery
+
+**[Semi-OPD](https://arxiv.org/abs/2610.11291)** compares cached initial-student rollouts with repeated refresh, showing that continual refresh need not win in its tested mathematical-reasoning settings. **[Skills vs. Knowledge](https://arxiv.org/abs/2610.09639)** separates prefix provenance and divergence direction when comparing skill and factual transfer. **[ReCal](https://arxiv.org/abs/2610.11332)** then shows why a stronger recovered math model is not sufficient evidence of broader retention: its instruction-following outcomes move in the opposite direction. Together these studies make the choice of transfer target explicit.
 
 These are routes through mechanisms and evidence. Use the [method comparison](method-comparison.md) to narrow candidates under a particular supervision interface and measured resource constraint.

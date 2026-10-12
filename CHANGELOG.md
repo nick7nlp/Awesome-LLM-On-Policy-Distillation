@@ -2,6 +2,10 @@
 
 Survey releases and public catalog updates.
 
+## 2026-10-12
+
+Added 59 papers, including MAS-OPD and USA, with expanded reading paths for sparse estimators, adaptive teachers, multi-agent learning, and transfer limits. Redesigned the reading list and OPDHub for easier browsing and comparison. [Explore the collection](https://nick7nlp.github.io/OPDHub/)
+
 ## 2026-10-06
 
 Updated the reading collection to 303 entries, covering OPD objectives, teacher construction, training, analysis, and systems. Expanded the method comparisons and refreshed paper descriptions, references, and repository links across the reading list and OPDHub. [Browse the reading list](https://github.com/nick7nlp/Awesome-LLM-On-Policy-Distillation)

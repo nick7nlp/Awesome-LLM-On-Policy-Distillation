@@ -1,6 +1,12 @@
 {
   "items": [
     {
+      "date": "2026-10-12",
+      "text": "Added 59 papers, including MAS-OPD and USA, with expanded reading paths for sparse estimators, adaptive teachers, multi-agent learning, and transfer limits. Redesigned the reading list and OPDHub for easier browsing and comparison.",
+      "label": "Explore the collection",
+      "url": "https://nick7nlp.github.io/OPDHub/"
+    },
+    {
       "date": "2026-10-06",
       "text": "Updated the reading collection to 303 entries, covering OPD objectives, teacher construction, training, analysis, and systems. Expanded the method comparisons and refreshed paper descriptions, references, and repository links across the reading list and OPDHub.",
       "label": "Browse the reading list",

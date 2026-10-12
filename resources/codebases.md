@@ -2,7 +2,7 @@
 
 [Catalog](../README.md) · [Contributing](../CONTRIBUTING.md)
 
-Updated 2026-10-06. Implementations and resources associated with papers in the catalog. Unofficial reproductions are identified explicitly. Features and release completeness vary by repository.
+Updated 2026-10-12. Implementations and resources associated with papers in the catalog. Unofficial reproductions are identified explicitly. Features and release completeness vary by repository.
 
 | Paper | Repository |
 |---|---|
@@ -131,4 +131,4 @@ Updated 2026-10-06. Implementations and resources associated with papers in the 
 | [Holistic Evaluation of Language Models](https://arxiv.org/abs/2211.09110) | [stanford-crfm/helm](https://github.com/stanford-crfm/helm) |
 | [Sequence-Level Knowledge Distillation](https://arxiv.org/abs/1606.07947) | [harvardnlp/nmt-android](https://github.com/harvardnlp/nmt-android)<br>[harvardnlp/seq2seq-attn](https://github.com/harvardnlp/seq2seq-attn) |
 
-A dash in the main catalog means that no paper-specific repository is listed.
+Entries without a code link have no verified paper-specific repository listed.
