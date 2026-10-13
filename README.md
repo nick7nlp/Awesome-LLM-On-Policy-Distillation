@@ -4,9 +4,9 @@
   <a href="https://nick7nlp.github.io/OPDHub/">
     <picture>
       <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/reading-room-mobile-dark.svg">
-      <source media="(max-width: 600px)" srcset="assets/reading-room-mobile.svg">
+      <source media="(max-width: 600px)" srcset="assets/reading-room-mobile-light.svg">
       <source media="(prefers-color-scheme: dark)" srcset="assets/reading-room-dark.svg">
-      <img src="assets/reading-room.svg" width="1200" alt="Awesome LLM On-Policy Distillation — learning from teachers on the student’s own trajectories.">
+      <img src="assets/reading-room-light.svg" width="1200" alt="Awesome LLM On-Policy Distillation — learning from teachers on the student’s own trajectories.">
     </picture>
   </a>
 </p>
@@ -62,7 +62,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 
 <a id="objectives-and-update-rules"></a>
 
-<details><summary><strong>Objectives and update rules</strong> &nbsp;·&nbsp; 64</summary>
+<details><summary><strong>Objectives and update rules</strong>&nbsp;·&nbsp;64</summary>
 
 *What does the student update optimize?*
 
@@ -330,7 +330,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 
 <a id="teacher-and-supervision-construction"></a>
 
-<details><summary><strong>Teacher and supervision construction</strong> &nbsp;·&nbsp; 98</summary>
+<details><summary><strong>Teacher and supervision construction</strong>&nbsp;·&nbsp;98</summary>
 
 *What makes a teacher useful on student trajectories?*
 
@@ -734,7 +734,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 
 <a id="data-and-training-dynamics"></a>
 
-<details><summary><strong>Data and training dynamics</strong> &nbsp;·&nbsp; 71</summary>
+<details><summary><strong>Data and training dynamics</strong>&nbsp;·&nbsp;71</summary>
 
 *Which states, tokens, and training stages matter?*
 
@@ -1030,7 +1030,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 
 <a id="agentic-and-multi-turn-distillation"></a>
 
-<details><summary><strong>Agentic and multi-turn distillation</strong> &nbsp;·&nbsp; 39</summary>
+<details><summary><strong>Agentic and multi-turn distillation</strong>&nbsp;·&nbsp;39</summary>
 
 *How does supervision change across actions and turns?*
 
@@ -1198,7 +1198,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 
 <a id="mechanisms-failures-and-evaluation"></a>
 
-<details><summary><strong>Mechanisms, failures, and evaluation</strong> &nbsp;·&nbsp; 46</summary>
+<details><summary><strong>Mechanisms, failures, and evaluation</strong>&nbsp;·&nbsp;46</summary>
 
 *What transfers, what fails, and why?*
 
@@ -1394,7 +1394,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 
 <a id="applications-and-systems"></a>
 
-<details><summary><strong>Applications and systems</strong> &nbsp;·&nbsp; 24</summary>
+<details><summary><strong>Applications and systems</strong>&nbsp;·&nbsp;24</summary>
 
 *How does distillation fit into a deployed system?*
 
@@ -1502,7 +1502,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 
 <a id="foundations-and-related-background"></a>
 
-<details><summary><strong>Foundations and related background</strong> &nbsp;·&nbsp; 20</summary>
+<details><summary><strong>Foundations and related background</strong>&nbsp;·&nbsp;20</summary>
 
 *Which foundations and comparators clarify OPD?*
 

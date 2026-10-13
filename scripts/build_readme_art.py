@@ -81,6 +81,6 @@ def masthead(theme, mobile=False):
 if __name__ == '__main__':
     for theme in PALETTES:
         for mobile in (False, True):
-            suffix = ('-mobile' if mobile else '') + ('-dark' if theme == 'dark' else '')
+            suffix = ('-mobile' if mobile else '') + f'-{theme}'
             (ROOT / f'assets/reading-room{suffix}.svg').write_text(masthead(theme, mobile))
     print('Rendered four README mastheads.')

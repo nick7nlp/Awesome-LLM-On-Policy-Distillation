@@ -62,9 +62,9 @@ def render():
            '  <a href="https://nick7nlp.github.io/OPDHub/">',
            '    <picture>',
            '      <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/reading-room-mobile-dark.svg">',
-           '      <source media="(max-width: 600px)" srcset="assets/reading-room-mobile.svg">',
+           '      <source media="(max-width: 600px)" srcset="assets/reading-room-mobile-light.svg">',
            '      <source media="(prefers-color-scheme: dark)" srcset="assets/reading-room-dark.svg">',
-           '      <img src="assets/reading-room.svg" width="1200" alt="Awesome LLM On-Policy Distillation — learning from teachers on the student’s own trajectories.">',
+           '      <img src="assets/reading-room-light.svg" width="1200" alt="Awesome LLM On-Policy Distillation — learning from teachers on the student’s own trajectories.">',
            '    </picture>',
            '  </a>',
            '</p>', '',
@@ -98,7 +98,7 @@ def render():
         group=[r for r in ordered if r['home']==home]
         parts+=['',f'<a id="{heading_id(home)}"></a>','',
                 f'<a id="{label.lower().replace(",", "").replace(" ", "-")}"></a>', '',
-                f'<details><summary><strong>{label}</strong> &nbsp;·&nbsp; {len(group)}</summary>', '',
+                f'<details><summary><strong>{label}</strong>&nbsp;·&nbsp;{len(group)}</summary>', '',
                 f'*{QUESTIONS[home]}*', '']
         for r in group:
             resources=' · '.join(f'[Code {i+1}]({url})' if len(r['code_urls'])>1 else f'[Code]({url})'
