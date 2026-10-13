@@ -2,10 +2,15 @@
 
 [Catalog](../README.md) · [Contributing](../CONTRIBUTING.md)
 
-Updated 2026-10-12. Implementations and resources associated with papers in the catalog. Unofficial reproductions are identified explicitly. Features and release completeness vary by repository.
+Updated 2026-10-13. Implementations and resources associated with papers in the catalog. Unofficial reproductions are identified explicitly. Features and release completeness vary by repository.
 
 | Paper | Repository |
 |---|---|
+| [Distilling Routed 3D Privilege for Spatial Reasoning in Vision-Language Models](https://arxiv.org/abs/2610.12355) | [ZJU-REAL/GPD](https://github.com/ZJU-REAL/GPD) |
+| [Why On-Policy Distillation Sometimes Fails: Vanishing Learning Signals](https://arxiv.org/abs/2610.11247) | [leizhao7/opd-learning-signals](https://github.com/leizhao7/opd-learning-signals) |
+| [Sharpen Without Search: On-Policy Distillation of Sequence-Level Power Distribution](https://arxiv.org/abs/2610.06804) | [ArminAzizi98/OPPD](https://github.com/ArminAzizi98/OPPD) |
+| [Language Models that Play Chess and Explain Their Moves](https://arxiv.org/abs/2610.03695) | [queen-project/queen](https://github.com/queen-project/queen) |
+| [Gains and Collapse in On-Policy Distillation:A Reinforcement Learning Perspective](https://arxiv.org/abs/2610.03185) | [HancCui/opd_hacking](https://github.com/HancCui/opd_hacking) |
 | [LastOPD: Taming Collapse in Latent On-Policy Distillation](https://arxiv.org/abs/2609.28845) | [Muyiiiii/LastOPD](https://github.com/Muyiiiii/LastOPD) |
 | [Counterfactual Constraint-Conditioned On-Policy Distillation for Multi-Constraint Instruction Following](https://arxiv.org/abs/2609.27421) | [zhengyanzhao1997/cc-opd](https://github.com/zhengyanzhao1997/cc-opd) |
 | [1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation](https://arxiv.org/abs/2609.24432) | [BruceSheng1202/IER-OPD](https://github.com/BruceSheng1202/IER-OPD) |
@@ -20,6 +25,7 @@ Updated 2026-10-12. Implementations and resources associated with papers in the 
 | [On-policy Distillation with Verifiable Reward](https://arxiv.org/abs/2608.24696) | [LeapLabTHU/OPDVR](https://github.com/LeapLabTHU/OPDVR) |
 | [SecOPD: Mitigating Adaptive Prompt Injections by On-Policy Distillation](https://arxiv.org/abs/2608.21500) | [pppyb/SecOPD](https://github.com/pppyb/SecOPD) |
 | [Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning](https://arxiv.org/abs/2608.19181) | [SolereZhang/GC-OPD](https://github.com/SolereZhang/GC-OPD) |
+| [Towards Understanding On-Policy Distillation through the Lens of Test-Time Scaling](https://arxiv.org/abs/2608.11829) | [Geraldxm/opd-test-time-scaling](https://github.com/Geraldxm/opd-test-time-scaling) |
 | [Mismatch Matters: On-Policy Distillation Beyond Token Agreement](https://arxiv.org/abs/2608.09836) | [yzc-666/TIDE](https://github.com/yzc-666/TIDE) |
 | [Privileged Solutions or Context-Induced Teacher Behavior? Dissecting On-Policy Self-Distillation](https://arxiv.org/abs/2608.09228) | [MBZUAI-reasoninglab/OP2SD](https://github.com/MBZUAI-reasoninglab/OP2SD) |
 | [Matching Supervision to the Student's Learning Capacity: A Unified Framework for On-Policy Self-Distillation](https://arxiv.org/abs/2608.08176) | [lauvlalala/USD](https://github.com/lauvlalala/USD) |
@@ -29,15 +35,19 @@ Updated 2026-10-12. Implementations and resources associated with papers in the 
 | [Self-Improving Large Language Models via Progressive Experience Evolution](https://arxiv.org/abs/2608.02139) | [rrrsj/SPEE](https://github.com/rrrsj/SPEE) |
 | [Look Ahead Before You Distill: Future Trajectory Validation of Teacher Guidance for Agentic On-Policy Distillation](https://arxiv.org/abs/2608.01953) | [ChenChiShui/FutureBridge-OPD](https://github.com/ChenChiShui/FutureBridge-OPD) |
 | [DAPD: Dual-Anchored Policy Distillation](https://arxiv.org/abs/2608.01735) | [uanu2002/DAPD](https://github.com/uanu2002/DAPD) |
+| [Verifier-Induced Support Reshaping in On-Policy Optimization](https://arxiv.org/abs/2608.00220) | [sylvain-wei/VISR](https://github.com/sylvain-wei/VISR) |
 | [DASH-OPD: Discrepancy-Aware Switching with Hysteresis for On-Policy Distillation](https://arxiv.org/abs/2607.29078) | [Lucian1115/DASH-OPD](https://github.com/Lucian1115/DASH-OPD) |
 | [Weak-to-Strong On-Policy Distillation](https://arxiv.org/abs/2607.26246) | [Yu-Fangxu/W2S-OPD](https://github.com/Yu-Fangxu/W2S-OPD) |
 | [Pass the Baton: Trajectory-Relayed On-Policy Distillation](https://arxiv.org/abs/2607.26057) | [zju-real/Relay-OPD](https://github.com/zju-real/Relay-OPD) |
 | [The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation](https://arxiv.org/abs/2607.24720) | [Quester-one/PlanPhysCode](https://github.com/Quester-one/PlanPhysCode) |
-| [Better Starts, Better Ends: Bootstrapped Iterative Self-Reasoning Distillation for Compressed Reasoning](https://arxiv.org/abs/2607.15736) | [KawhiC/BIRD](https://github.com/KawhiC/BIRD) |
+| [AdaFlash: Adaptive Speculative Decoding via On-Policy Distilled Diffusion Drafters](https://arxiv.org/abs/2607.19223) | [ZinYY/AdaFlash](https://github.com/ZinYY/AdaFlash) |
+| [Distilled Reinforcement Learning for LLM Post-training](https://arxiv.org/abs/2607.17247) | [597358816/Distilled-RL](https://github.com/597358816/Distilled-RL) |
+| [Better Starts, Better Ends: Bootstrapped Iterative Self-Reasoning Distillation for Compressed Reasoning](https://arxiv.org/abs/2607.15736) | [PRISM-AI-Lab/BIRD](https://github.com/PRISM-AI-Lab/BIRD) |
 | [ShortOPD: Recovering Pruned LLMs with Short-to-Long On-Policy Distillation](https://arxiv.org/abs/2607.13124) | [VisionOPD/Vision-OPD](https://github.com/VisionOPD/Vision-OPD)<br>[icip-cas/ShortX](https://github.com/icip-cas/ShortX) |
 | [When Top-K Misses the Decision: Tool-Call Drift in Multi-Teacher On-Policy Distillation](https://arxiv.org/abs/2607.07050) | [shen-jiabin/decision-support-opd](https://github.com/shen-jiabin/decision-support-opd) |
 | [dOPSD: On-Policy Self-Distillation for Diffusion Language Models](https://arxiv.org/abs/2607.04428) | [tuandattt/dOPSD](https://github.com/tuandattt/dOPSD) |
 | [UI-MOPD: Multi-Platform On-Policy Distillation for Unified GUI Agents](https://arxiv.org/abs/2607.04425) | [EliSpectre/UI-MOPD](https://github.com/EliSpectre/UI-MOPD) |
+| [Reward-Gated On-Policy Distillation](https://arxiv.org/abs/2607.04037) | [UoC-tail/RG-OPD](https://github.com/UoC-tail/RG-OPD) |
 | [Behavior Cloning is Not All You Need: The Optimality of On-Policy Distillation for Noisy Expert Feedback](https://arxiv.org/abs/2606.30923) | [plau666/NAIL](https://github.com/plau666/NAIL) |
 | [UCOB: Learning to Utilize and Evolve Agentic Skills via Credit-Aware On-Policy Bidirectional Self-Distillation](https://arxiv.org/abs/2606.29502) | [TU2021/UCOB](https://github.com/TU2021/UCOB) |
 | [AsyncOPD: How Stale Can On-Policy Distillation Be?](https://arxiv.org/abs/2606.24143) | [furiosa-ai/async-opd](https://github.com/furiosa-ai/async-opd) |
@@ -126,7 +136,7 @@ Updated 2026-10-12. Implementations and resources associated with papers in the 
 | [DistiLLM: Towards Streamlined Distillation for Large Language Models](https://arxiv.org/abs/2402.03898) | [jongwooko/distillm](https://github.com/jongwooko/distillm) |
 | [Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models](https://arxiv.org/abs/2401.01335) | [uclaml/SPIN](https://github.com/uclaml/SPIN) |
 | [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
-| [MiniLLM: On-Policy Distillation of Large Language Models](https://arxiv.org/abs/2306.08543) | [microsoft/LMOps](https://github.com/microsoft/LMOps) |
+| [MiniLLM: On-Policy Distillation of Large Language Models](https://arxiv.org/abs/2306.08543) | [microsoft/LMOps/tree/main/minillm](https://github.com/microsoft/LMOps/tree/main/minillm) |
 | [Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes](https://arxiv.org/abs/2305.02301) | [google-research/distilling-step-by-step](https://github.com/google-research/distilling-step-by-step) |
 | [Holistic Evaluation of Language Models](https://arxiv.org/abs/2211.09110) | [stanford-crfm/helm](https://github.com/stanford-crfm/helm) |
 | [Sequence-Level Knowledge Distillation](https://arxiv.org/abs/1606.07947) | [harvardnlp/nmt-android](https://github.com/harvardnlp/nmt-android)<br>[harvardnlp/seq2seq-attn](https://github.com/harvardnlp/seq2seq-attn) |

@@ -3,7 +3,7 @@
 [Main catalog](../README.md) · [Reading paths](reading-order.md)
 
 These broader surveys provide context rather than additional OPD method entries.
-Titles and links were checked against official arXiv pages on 2026-10-05.
+Titles and links were checked against official arXiv pages on 2026-10-13.
 
 | Survey | Scope |
 |---|---|
@@ -13,5 +13,5 @@ Titles and links were checked against official arXiv pages on 2026-10-05.
 | [RLHF Workflow: From Reward Modeling to Online RLHF](https://arxiv.org/abs/2405.07863) | Reward modeling and reinforcement-learning alignment workflows. |
 
 The companion [OPD survey](https://arxiv.org/abs/2604.00626) is the primary reading
-guide. Its public PDF is arXiv v4, revised June 18, 2026; this catalog includes
-subsequently reviewed literature through September 2026.
+guide. Its public PDF is arXiv v4, revised June 18, 2026. The
+[current reading list](../README.md#browse-the-literature) also includes later work.

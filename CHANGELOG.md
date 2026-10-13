@@ -2,6 +2,10 @@
 
 Survey releases and public catalog updates.
 
+## 2026-10-13
+
+Refreshed paper metadata and repository links across the reading list and OPDHub. New collection charts show topic, role, and first-release date distributions from the current catalog. [View the collection](https://github.com/nick7nlp/Awesome-LLM-On-Policy-Distillation#the-collection-in-view)
+
 ## 2026-10-12
 
 Added 59 papers, including MAS-OPD and USA, with expanded reading paths for sparse estimators, adaptive teachers, multi-agent learning, and transfer limits. Redesigned the reading list and OPDHub for easier browsing and comparison. [Explore the collection](https://nick7nlp.github.io/OPDHub/)

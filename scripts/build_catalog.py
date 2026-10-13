@@ -4,14 +4,16 @@ Render paper descriptions, resource links, and release announcements.
 """
 from __future__ import annotations
 import json
+import re
 from pathlib import Path
+from build_catalog_charts import render as render_charts
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'resources/catalog.json'
 NEWS=ROOT/'resources/news.json'
 PUBLIC_FIELDS={'paper_id','arxiv_id','title','authors','year','submitted',
                'paper_url','description','objective','mechanism','home',
-               'code_urls','code_status','source_version'}
+               'code_urls','code_status','source_version','latest_version'}
 SECTIONS=[('4','Objectives and update rules'),('5','Teacher and supervision construction'),
           ('6','Data and training dynamics'),('7','Agentic and multi-turn distillation'),
           ('8','Mechanisms, failures, and evaluation'),('9','Applications and systems'),
@@ -53,6 +55,13 @@ def render():
     for paper in papers:
         if set(paper)-PUBLIC_FIELDS:
             raise ValueError('Unsupported catalog fields for '+paper['paper_id'])
+        if 'latest_version' in paper:
+            aid = paper.get('arxiv_id')
+            latest = paper['latest_version']
+            if not aid or not isinstance(latest, str) or not re.fullmatch(
+                re.escape(aid) + r'v[1-9]\d*', latest
+            ):
+                raise ValueError('Invalid latest_version for '+paper['paper_id'])
     ids=[r['paper_id'] for r in papers]
     if len(ids)!=len(set(ids)):raise ValueError('Duplicate catalog IDs')
     date=catalog['updated_on'];ordered=sorted(papers,key=lambda r:(r['submitted'],r['paper_id']),reverse=True)
@@ -129,26 +138,28 @@ def render():
                  '<strong><a href="CONTRIBUTING.md">Suggest a paper or correction</a></strong><br><sub>Help keep the reading list useful.</sub>'),
             ]), '',
             '<a id="updates"></a>', '<a id="visual-reference-snapshots"></a>', '',
-            '## Updates and visual references', '',
+            '## The collection in view', '',
+            '<img src="assets/catalog-overview.svg" width="1200" alt="Current collection by reading topic and paper role; every entry is counted once in each panel.">', '',
+            '<img src="assets/catalog-timeline.svg" width="1200" alt="First-release dates of papers in this collection; the current month is incomplete.">', '',
+            'These figures use the [current catalog](resources/catalog.json). '
+            'The [chart data](resources/chart-data.json) provide the exact counts and definitions. '
+            'Roles describe how papers fit into the collection; they are not loss-function classes.', '',
             '<details><summary>Latest additions and survey releases</summary>', '']
     for item in json.loads(NEWS.read_text())['items'][:2]:
         parts.append(f'- **{item["date"]}** — {item["text"]} [{item["label"]}]({item["url"]})')
     parts += ['', '[All updates and survey releases](CHANGELOG.md)', '', '</details>', '',
-            '<details><summary>Teacher–student model atlas · June 2026</summary>', '',
-            'Rows represent teacher models, columns represent student models, and cells show reported pair occurrences '
-            'in the June 2026 catalog snapshot. Same-name models can use different conditioning information. '
-            'This historical view is not a ranking of model quality or a count of the current collection.', '',
-            '<a href="assets/model-atlas-heatmap.png"><img src="assets/model-atlas-heatmap.png" width="960" alt="Teacher–student model-pair matrix, June 2026 snapshot"></a>', '',
-            '</details>', '',
             '<details><summary>A direct-matching loop</summary>', '',
-            '<img src="assets/opd-overview.png" width="680" alt="Conceptual teacher–student on-policy learning loop">', '',
-            'One direct-matching loop. Teacher feedback is not certified ground truth; other methods use '
-            'different targets, divergences, or teacher-mediated rewards.', '', '</details>', '',
-            '<details><summary>Earlier loss-label snapshots</summary>','',
-            '![Historical loss-label distribution](assets/loss-distribution.png)','',
-            '![Historical loss-label evolution](assets/loss-evolution.png)','',
-            'The older display classes grouped several non-equivalent mechanisms. Use the current [objective index](resources/loss-taxonomy.md) '
-            'and [equation guide](resources/key-equations.md) for method-specific descriptions.','', '</details>', '',
+            '<img src="assets/catalog-learning-loop.svg" width="1200" alt="A student generates trajectories, a teacher supplies targets on the visited prefixes, and an optimizer updates the student; the loop then repeats.">', '',
+            'One direct-matching example. See the [objective index](resources/loss-taxonomy.md) '
+            'and [equation guide](resources/key-equations.md) for method-specific losses and feedback.', '', '</details>', '',
+            '<details><summary>Archived exploratory visualizations</summary>', '',
+            '[June 2026 model atlas](assets/model-atlas-heatmap.png) · '
+            '[Earlier loss-label distribution](assets/loss-distribution.png) · '
+            '[Earlier loss-label evolution](assets/loss-evolution.png)', '',
+            'The atlas contains unverified model aliases and may count repeated model-pair mentions. '
+            'The earlier loss plots mix overlapping objective labels. These archived exploratory '
+            'visualizations are not reliable model-pair statistics or current collection counts. '
+            'Use the current figures and method-specific indexes above.', '', '</details>', '',
             '## Citation','', '```bibtex','@misc{song2026surveyonpolicydistillationlarge,',
             '  title = {A Survey of On-Policy Distillation for Large Language Models},',
             '  author = {Mingyang Song and Mao Zheng},',
@@ -186,6 +197,7 @@ def render():
         releases += [f'## {item["date"]}', '', item['text']+' '+f'[{item["label"]}]({item["url"]})', '']
     releases += ['The survey version labels refer to public arXiv releases. The reading catalog may include literature published after the latest survey PDF.']
     (ROOT/'CHANGELOG.md').write_text('\n'.join(releases)+'\n')
+    render_charts()
     print(f'Rendered {len(papers)} catalog records and {sum(bool(r["code_urls"]) for r in papers)} linked-code records.')
 
 

@@ -7,11 +7,22 @@ a correction or addition.
 
 The public source of truth is [resources/catalog.json](resources/catalog.json).
 Edit its record, then run `python3 scripts/build_catalog.py` to regenerate the
-README, code index and objective index. Do not edit only a generated duplicate.
+README, code and objective indexes, release history, and catalog figures with
+their [chart data](resources/chart-data.json). The build requires Python 3 and
+Matplotlib (`python3 -m pip install matplotlib`). Do not edit only a generated duplicate.
+
+The figures use the catalog's `updated_on` date and count each unique entry once
+per panel. To rebuild only the SVG and PNG figures and chart data, run
+`python3 scripts/build_catalog_charts.py`.
 
 Records contain the title, ordered authors, first-release date, canonical paper
 URL, concise mechanism description, objective, evidence role, reading section,
 and verified repository links. Use official paper or publisher metadata.
+
+`source_version` retains the source/version record used for the entry's existing
+description. Optional `latest_version` (for example, `2605.07505v2`) identifies
+the latest arXiv version whose metadata have been checked. Refreshing metadata does not establish that the
+description has been reviewed against the newer manuscript.
 
 ## Inclusion
 

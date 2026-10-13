@@ -1,5 +1,5 @@
 {
-  "updated_on": "2026-10-12",
+  "updated_on": "2026-10-13",
   "coverage_through": "2026-10",
   "description": "A reading collection of language-model distillation methods, analyses, applications, and related foundations.",
   "papers": [
@@ -21,7 +21,8 @@
       "home": "background",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 2 Nov 2010 ( v1 ), last revised 16 Mar 2011 (this version, v3)]"
+      "source_version": "[Submitted on 2 Nov 2010 ( v1 ), last revised 16 Mar 2011 (this version, v3)]",
+      "latest_version": "1011.0686v3"
     },
     {
       "paper_id": "1503.02531",
@@ -41,7 +42,8 @@
       "home": "background",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 9 Mar 2015]"
+      "source_version": "[Submitted on 9 Mar 2015]",
+      "latest_version": "1503.02531v1"
     },
     {
       "paper_id": "1606.07947",
@@ -63,7 +65,8 @@
         "https://github.com/harvardnlp/seq2seq-attn"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 25 Jun 2016 ( v1 ), last revised 22 Sep 2016 (this version, v4)]"
+      "source_version": "[Submitted on 25 Jun 2016 ( v1 ), last revised 22 Sep 2016 (this version, v4)]",
+      "latest_version": "1606.07947v4"
     },
     {
       "paper_id": "2203.15556",
@@ -102,7 +105,8 @@
       "home": "background",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 29 Mar 2022]"
+      "source_version": "[Submitted on 29 Mar 2022]",
+      "latest_version": "2203.15556v1"
     },
     {
       "paper_id": "2211.09110",
@@ -171,7 +175,8 @@
         "https://github.com/stanford-crfm/helm"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 16 Nov 2022 ( v1 ), last revised 1 Oct 2023 (this version, v2)]"
+      "source_version": "[Submitted on 16 Nov 2022 ( v1 ), last revised 1 Oct 2023 (this version, v2)]",
+      "latest_version": "2211.09110v2"
     },
     {
       "paper_id": "2305.02301",
@@ -199,7 +204,8 @@
         "https://github.com/google-research/distilling-step-by-step"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 3 May 2023 ( v1 ), last revised 5 Jul 2023 (this version, v2)]"
+      "source_version": "[Submitted on 3 May 2023 ( v1 ), last revised 5 Jul 2023 (this version, v2)]",
+      "latest_version": "2305.02301v2"
     },
     {
       "paper_id": "2305.15717",
@@ -224,7 +230,8 @@
       "home": "background",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 25 May 2023]"
+      "source_version": "[Submitted on 25 May 2023]",
+      "latest_version": "2305.15717v1"
     },
     {
       "paper_id": "2306.08543",
@@ -244,10 +251,11 @@
       "mechanism": "direct_opd",
       "home": "4",
       "code_urls": [
-        "https://github.com/microsoft/LMOps"
+        "https://github.com/microsoft/LMOps/tree/main/minillm"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 14 Jun 2023 ( v1 ), last revised 31 Jan 2026 (this version, v6)]"
+      "source_version": "[Submitted on 14 Jun 2023 ( v1 ), last revised 31 Jan 2026 (this version, v6)]",
+      "latest_version": "2306.08543v6"
     },
     {
       "paper_id": "2306.13649",
@@ -271,7 +279,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 23 Jun 2023 ( v1 ), last revised 17 Jan 2024 (this version, v3)]"
+      "source_version": "[Submitted on 23 Jun 2023 ( v1 ), last revised 17 Jan 2024 (this version, v3)]",
+      "latest_version": "2306.13649v3"
     },
     {
       "paper_id": "2307.15190",
@@ -292,7 +301,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 27 Jul 2023]"
+      "source_version": "[Submitted on 27 Jul 2023]",
+      "latest_version": "2307.15190v1"
     },
     {
       "paper_id": "2309.06180",
@@ -320,7 +330,8 @@
         "https://github.com/vllm-project/vllm"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 12 Sep 2023]"
+      "source_version": "[Submitted on 12 Sep 2023]",
+      "latest_version": "2309.06180v1"
     },
     {
       "paper_id": "2310.08461",
@@ -345,7 +356,8 @@
       "home": "9",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 12 Oct 2023 ( v1 ), last revised 31 Mar 2024 (this version, v2)]"
+      "source_version": "[Submitted on 12 Oct 2023 ( v1 ), last revised 31 Mar 2024 (this version, v2)]",
+      "latest_version": "2310.08461v2"
     },
     {
       "paper_id": "2401.01335",
@@ -369,7 +381,8 @@
         "https://github.com/uclaml/SPIN"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 2 Jan 2024 ( v1 ), last revised 14 Jun 2024 (this version, v3)]"
+      "source_version": "[Submitted on 2 Jan 2024 ( v1 ), last revised 14 Jun 2024 (this version, v3)]",
+      "latest_version": "2401.01335v3"
     },
     {
       "paper_id": "2402.03898",
@@ -392,7 +405,8 @@
         "https://github.com/jongwooko/distillm"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 6 Feb 2024 ( v1 ), last revised 3 Jul 2024 (this version, v2)]"
+      "source_version": "[Submitted on 6 Feb 2024 ( v1 ), last revised 3 Jul 2024 (this version, v2)]",
+      "latest_version": "2402.03898v2"
     },
     {
       "paper_id": "2402.11890",
@@ -415,7 +429,8 @@
       "home": "background",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 19 Feb 2024 ( v1 ), last revised 17 Jun 2024 (this version, v2)]"
+      "source_version": "[Submitted on 19 Feb 2024 ( v1 ), last revised 17 Jun 2024 (this version, v2)]",
+      "latest_version": "2402.11890v2"
     },
     {
       "paper_id": "2402.12842",
@@ -437,7 +452,8 @@
         "https://github.com/gmkim-ai/PromptKD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 20 Feb 2024 ( v1 ), last revised 27 Sep 2024 (this version, v3)]"
+      "source_version": "[Submitted on 20 Feb 2024 ( v1 ), last revised 27 Sep 2024 (this version, v3)]",
+      "latest_version": "2402.12842v3"
     },
     {
       "paper_id": "2402.13116",
@@ -465,7 +481,8 @@
         "https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 20 Feb 2024 ( v1 ), last revised 21 Oct 2024 (this version, v4)]"
+      "source_version": "[Submitted on 20 Feb 2024 ( v1 ), last revised 21 Oct 2024 (this version, v4)]",
+      "latest_version": "2402.13116v4"
     },
     {
       "paper_id": "2404.02657",
@@ -490,7 +507,8 @@
         "https://github.com/wutaiqiang/LLM_KD_AKL"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 3 Apr 2024 ( v1 ), last revised 8 Dec 2024 (this version, v4)]"
+      "source_version": "[Submitted on 3 Apr 2024 ( v1 ), last revised 8 Dec 2024 (this version, v4)]",
+      "latest_version": "2404.02657v4"
     },
     {
       "paper_id": "2408.00118",
@@ -705,7 +723,8 @@
       "home": "background",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 31 Jul 2024 ( v1 ), last revised 2 Oct 2024 (this version, v3)]"
+      "source_version": "[Submitted on 31 Jul 2024 ( v1 ), last revised 2 Oct 2024 (this version, v3)]",
+      "latest_version": "2408.00118v3"
     },
     {
       "paper_id": "2409.19256",
@@ -733,7 +752,8 @@
         "https://github.com/verl-project/verl"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 28 Sep 2024 ( v1 ), last revised 2 Oct 2024 (this version, v2)]"
+      "source_version": "[Submitted on 28 Sep 2024 ( v1 ), last revised 2 Oct 2024 (this version, v2)]",
+      "latest_version": "2409.19256v2"
     },
     {
       "paper_id": "2410.11325",
@@ -760,7 +780,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 15 Oct 2024 ( v1 ), last revised 27 Apr 2025 (this version, v3)]"
+      "source_version": "[Submitted on 15 Oct 2024 ( v1 ), last revised 27 Apr 2025 (this version, v3)]",
+      "latest_version": "2410.11325v3"
     },
     {
       "paper_id": "2410.17215",
@@ -784,7 +805,8 @@
         "https://github.com/thu-coai/MiniPLM"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 22 Oct 2024 ( v1 ), last revised 19 Mar 2025 (this version, v3)]"
+      "source_version": "[Submitted on 22 Oct 2024 ( v1 ), last revised 19 Mar 2025 (this version, v3)]",
+      "latest_version": "2410.17215v3"
     },
     {
       "paper_id": "2501.12948",
@@ -1001,7 +1023,8 @@
       "home": "background",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 22 Jan 2025 ( v1 ), last revised 4 Jan 2026 (this version, v2)]"
+      "source_version": "[Submitted on 22 Jan 2025 ( v1 ), last revised 4 Jan 2026 (this version, v2)]",
+      "latest_version": "2501.12948v2"
     },
     {
       "paper_id": "2502.02671",
@@ -1025,7 +1048,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 4 Feb 2025]"
+      "source_version": "[Submitted on 4 Feb 2025]",
+      "latest_version": "2502.02671v1"
     },
     {
       "paper_id": "2502.08606",
@@ -1048,7 +1072,8 @@
       "home": "background",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 12 Feb 2025 ( v1 ), last revised 25 Jul 2025 (this version, v2)]"
+      "source_version": "[Submitted on 12 Feb 2025 ( v1 ), last revised 25 Jul 2025 (this version, v2)]",
+      "latest_version": "2502.08606v2"
     },
     {
       "paper_id": "2503.02832",
@@ -1073,7 +1098,8 @@
         "https://github.com/songmzhang/AlignDistil"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 4 Mar 2025 ( v1 ), last revised 23 Jul 2025 (this version, v3)]"
+      "source_version": "[Submitted on 4 Mar 2025 ( v1 ), last revised 23 Jul 2025 (this version, v3)]",
+      "latest_version": "2503.02832v3"
     },
     {
       "paper_id": "2503.07067",
@@ -1099,7 +1125,8 @@
         "https://github.com/jongwooko/distillm-2"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 10 Mar 2025 ( v1 ), last revised 30 May 2025 (this version, v2)]"
+      "source_version": "[Submitted on 10 Mar 2025 ( v1 ), last revised 30 May 2025 (this version, v2)]",
+      "latest_version": "2503.07067v2"
     },
     {
       "paper_id": "2504.11426",
@@ -1125,7 +1152,8 @@
         "https://github.com/songmzhang/DSKDv2"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 15 Apr 2025]"
+      "source_version": "[Submitted on 15 Apr 2025]",
+      "latest_version": "2504.11426v1"
     },
     {
       "paper_id": "2505.09388",
@@ -1204,7 +1232,8 @@
         "https://github.com/QwenLM/Qwen3"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 14 May 2025]"
+      "source_version": "[Submitted on 14 May 2025]",
+      "latest_version": "2505.09388v1"
     },
     {
       "paper_id": "2505.13111",
@@ -1225,7 +1254,8 @@
         "https://github.com/csm9493/kd-minimal-explanation"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 19 May 2025 ( v1 ), last revised 14 Jan 2026 (this version, v3)]"
+      "source_version": "[Submitted on 19 May 2025 ( v1 ), last revised 14 Jan 2026 (this version, v3)]",
+      "latest_version": "2505.13111v3"
     },
     {
       "paper_id": "2505.18952",
@@ -1243,7 +1273,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 25 May 2025]"
+      "source_version": "[Submitted on 25 May 2025]",
+      "latest_version": "2505.18952v1"
     },
     {
       "paper_id": "2506.02208",
@@ -1269,7 +1300,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 2 Jun 2025]"
+      "source_version": "[Submitted on 2 Jun 2025]",
+      "latest_version": "2506.02208v1"
     },
     {
       "paper_id": "2509.25837",
@@ -1293,7 +1325,8 @@
         "https://github.com/aailab-kaist/CSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 30 Sep 2025 ( v1 ), last revised 30 May 2026 (this version, v3)]"
+      "source_version": "[Submitted on 30 Sep 2025 ( v1 ), last revised 30 May 2026 (this version, v3)]",
+      "latest_version": "2509.25837v3"
     },
     {
       "paper_id": "2510.07842",
@@ -1318,7 +1351,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 9 Oct 2025 ( v1 ), last revised 19 Mar 2026 (this version, v3)]"
+      "source_version": "[Submitted on 9 Oct 2025 ( v1 ), last revised 19 Mar 2026 (this version, v3)]",
+      "latest_version": "2510.07842v3"
     },
     {
       "paper_id": "lu2025onpolicy",
@@ -1329,7 +1363,7 @@
         "Thinking Machines Lab"
       ],
       "year": 2025,
-      "submitted": "2025-10-26",
+      "submitted": "2025-10-27",
       "paper_url": "https://www.thinkingmachines.ai/blog/on-policy-distillation/",
       "description": "Student-generated trajectories are scored using teacher log probabilities for sampled tokens, and a policy-gradient-style update uses the negative log-ratio as per-token feedback. This implementation uses immediate next-token credit, not full-vocabulary teacher distributions or future-token returns; the citation here supports sampled-token supervision.",
       "objective": "Minimize immediate per-token reverse KL on student-sampled prefixes, using sampled student-minus-teacher token log probabilities as negative advantages in an importance-sampling policy-gradient update.",
@@ -1359,7 +1393,8 @@
       "home": "9",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 27 Oct 2025 ( v1 ), last revised 3 Jun 2026 (this version, v3)]"
+      "source_version": "[Submitted on 27 Oct 2025 ( v1 ), last revised 3 Jun 2026 (this version, v3)]",
+      "latest_version": "2510.23497v3"
     },
     {
       "paper_id": "2510.24021",
@@ -1380,7 +1415,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 28 Oct 2025 ( v1 ), last revised 16 Nov 2025 (this version, v2)]"
+      "source_version": "[Submitted on 28 Oct 2025 ( v1 ), last revised 16 Nov 2025 (this version, v2)]",
+      "latest_version": "2510.24021v2"
     },
     {
       "paper_id": "2511.10643",
@@ -1405,7 +1441,8 @@
         "https://github.com/microsoft/LMOps/tree/main/gad"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 13 Nov 2025 ( v1 ), last revised 8 Jan 2026 (this version, v3)]"
+      "source_version": "[Submitted on 13 Nov 2025 ( v1 ), last revised 8 Jan 2026 (this version, v3)]",
+      "latest_version": "2511.10643v3"
     },
     {
       "paper_id": "2512.23097",
@@ -1425,7 +1462,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 28 Dec 2025]"
+      "source_version": "[Submitted on 28 Dec 2025]",
+      "latest_version": "2512.23097v1"
     },
     {
       "paper_id": "2601.02780",
@@ -1570,7 +1608,8 @@
         "https://github.com/XiaomiMiMo/MiMo-V2-Flash"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 6 Jan 2026 ( v1 ), last revised 8 Jan 2026 (this version, v2)]"
+      "source_version": "[Submitted on 6 Jan 2026 ( v1 ), last revised 8 Jan 2026 (this version, v2)]",
+      "latest_version": "2601.02780v2"
     },
     {
       "paper_id": "2601.07155",
@@ -1594,7 +1633,8 @@
         "https://github.com/jjun-0824/Veto"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 12 Jan 2026 ( v1 ), last revised 11 Jul 2026 (this version, v3)]"
+      "source_version": "[Submitted on 12 Jan 2026 ( v1 ), last revised 11 Jul 2026 (this version, v3)]",
+      "latest_version": "2601.07155v3"
     },
     {
       "paper_id": "2601.08310",
@@ -1619,7 +1659,8 @@
       "home": "9",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 13 Jan 2026 ( v1 ), last revised 16 Apr 2026 (this version, v2)]"
+      "source_version": "[Submitted on 13 Jan 2026 ( v1 ), last revised 16 Apr 2026 (this version, v2)]",
+      "latest_version": "2601.08310v2"
     },
     {
       "paper_id": "2601.09088",
@@ -1647,7 +1688,8 @@
         "https://github.com/D2I-ai/dasd-thinking"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 14 Jan 2026]"
+      "source_version": "[Submitted on 14 Jan 2026]",
+      "latest_version": "2601.09088v1"
     },
     {
       "paper_id": "2601.16547",
@@ -1676,7 +1718,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 23 Jan 2026]"
+      "source_version": "[Submitted on 23 Jan 2026]",
+      "latest_version": "2601.16547v1"
     },
     {
       "paper_id": "2601.18734",
@@ -1702,7 +1745,8 @@
         "https://github.com/siyan-zhao/OPSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 26 Jan 2026 ( v1 ), last revised 20 Mar 2026 (this version, v3)]"
+      "source_version": "[Submitted on 26 Jan 2026 ( v1 ), last revised 20 Mar 2026 (this version, v3)]",
+      "latest_version": "2601.18734v3"
     },
     {
       "paper_id": "2601.19897",
@@ -1725,7 +1769,8 @@
         "https://github.com/idanshen/Self-Distillation"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 27 Jan 2026 ( v1 ), last revised 7 Aug 2026 (this version, v2)]"
+      "source_version": "[Submitted on 27 Jan 2026 ( v1 ), last revised 7 Aug 2026 (this version, v2)]",
+      "latest_version": "2601.19897v2"
     },
     {
       "paper_id": "2601.20802",
@@ -1755,7 +1800,8 @@
         "https://github.com/lasgroup/SDPO"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 28 Jan 2026 ( v1 ), last revised 16 Feb 2026 (this version, v2)]"
+      "source_version": "[Submitted on 28 Jan 2026 ( v1 ), last revised 16 Feb 2026 (this version, v2)]",
+      "latest_version": "2601.20802v2"
     },
     {
       "paper_id": "2602.00400",
@@ -1777,7 +1823,8 @@
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 30 Jan 2026 ( v1 ), last revised 11 May 2026 (this version, v2)]"
+      "source_version": "[Submitted on 30 Jan 2026 ( v1 ), last revised 11 May 2026 (this version, v2)]",
+      "latest_version": "2602.00400v2"
     },
     {
       "paper_id": "2602.02405",
@@ -1799,7 +1846,8 @@
         "https://github.com/ethanm88/DAIL"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 2 Feb 2026 ( v1 ), last revised 3 Jun 2026 (this version, v2)]"
+      "source_version": "[Submitted on 2 Feb 2026 ( v1 ), last revised 3 Jun 2026 (this version, v2)]",
+      "latest_version": "2602.02405v2"
     },
     {
       "paper_id": "2602.02482",
@@ -1824,7 +1872,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 2 Feb 2026 ( v1 ), last revised 11 Feb 2026 (this version, v2)]"
+      "source_version": "[Submitted on 2 Feb 2026 ( v1 ), last revised 11 Feb 2026 (this version, v2)]",
+      "latest_version": "2602.02482v2"
     },
     {
       "paper_id": "2602.04942",
@@ -1847,7 +1896,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 4 Feb 2026 ( v1 ), last revised 16 Feb 2026 (this version, v3)]"
+      "source_version": "[Submitted on 4 Feb 2026 ( v1 ), last revised 16 Feb 2026 (this version, v3)]",
+      "latest_version": "2602.04942v3"
     },
     {
       "paper_id": "2602.06019",
@@ -1872,7 +1922,8 @@
         "https://github.com/jwkirchenbauer/mtp-lm"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 5 Feb 2026 ( v1 ), last revised 23 Apr 2026 (this version, v2)]"
+      "source_version": "[Submitted on 5 Feb 2026 ( v1 ), last revised 23 Apr 2026 (this version, v2)]",
+      "latest_version": "2602.06019v2"
     },
     {
       "paper_id": "2602.12125",
@@ -1897,7 +1948,8 @@
         "https://github.com/RUCBM/G-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 12 Feb 2026 ( v1 ), last revised 26 Feb 2026 (this version, v2)]"
+      "source_version": "[Submitted on 12 Feb 2026 ( v1 ), last revised 26 Feb 2026 (this version, v2)]",
+      "latest_version": "2602.12125v2"
     },
     {
       "paper_id": "2602.12222",
@@ -1927,7 +1979,8 @@
         "https://github.com/zhangmiaosen2000/Towards-On-Policy-SFT"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 12 Feb 2026 ( v1 ), last revised 14 Mar 2026 (this version, v2)]"
+      "source_version": "[Submitted on 12 Feb 2026 ( v1 ), last revised 14 Mar 2026 (this version, v2)]",
+      "latest_version": "2602.12222v2"
     },
     {
       "paper_id": "2602.12674",
@@ -1946,7 +1999,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 13 Feb 2026]"
+      "source_version": "[Submitted on 13 Feb 2026]",
+      "latest_version": "2602.12674v1"
     },
     {
       "paper_id": "2602.15260",
@@ -1972,7 +2026,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 16 Feb 2026]"
+      "source_version": "[Submitted on 16 Feb 2026]",
+      "latest_version": "2602.15260v1"
     },
     {
       "paper_id": "2602.20574",
@@ -1992,7 +2047,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 24 Feb 2026]"
+      "source_version": "[Submitted on 24 Feb 2026]",
+      "latest_version": "2602.20574v1"
     },
     {
       "paper_id": "2603.13260",
@@ -2013,7 +2069,8 @@
         "https://github.com/kmswin1/TSD-KD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 25 Feb 2026]"
+      "source_version": "[Submitted on 25 Feb 2026]",
+      "latest_version": "2603.13260v1"
     },
     {
       "paper_id": "2603.05433",
@@ -2038,7 +2095,8 @@
         "https://github.com/HJSang/CRISP_Reasoning_Compression"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 5 Mar 2026 ( v1 ), last revised 3 Jul 2026 (this version, v7)]"
+      "source_version": "[Submitted on 5 Mar 2026 ( v1 ), last revised 3 Jul 2026 (this version, v7)]",
+      "latest_version": "2603.05433v7"
     },
     {
       "paper_id": "2603.07079",
@@ -2063,7 +2121,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 7 Mar 2026 ( v1 ), last revised 12 Jun 2026 (this version, v3)]"
+      "source_version": "[Submitted on 7 Mar 2026 ( v1 ), last revised 12 Jun 2026 (this version, v3)]",
+      "latest_version": "2603.07079v3"
     },
     {
       "paper_id": "2603.10165",
@@ -2087,7 +2146,8 @@
         "https://github.com/Gen-Verse/OpenClaw-RL"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 10 Mar 2026 ( v1 ), last revised 11 May 2026 (this version, v2)]"
+      "source_version": "[Submitted on 10 Mar 2026 ( v1 ), last revised 11 May 2026 (this version, v2)]",
+      "latest_version": "2603.10165v2"
     },
     {
       "paper_id": "2603.11137",
@@ -2109,7 +2169,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 11 Mar 2026]"
+      "source_version": "[Submitted on 11 Mar 2026]",
+      "latest_version": "2603.11137v1"
     },
     {
       "paper_id": "2603.11178",
@@ -2131,7 +2192,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 11 Mar 2026 ( v1 ), last revised 9 Apr 2026 (this version, v3)]"
+      "source_version": "[Submitted on 11 Mar 2026 ( v1 ), last revised 9 Apr 2026 (this version, v3)]",
+      "latest_version": "2603.11178v3"
     },
     {
       "paper_id": "2603.16856",
@@ -2154,7 +2216,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 17 Mar 2026 ( v1 ), last revised 29 Jun 2026 (this version, v2)]"
+      "source_version": "[Submitted on 17 Mar 2026 ( v1 ), last revised 29 Jun 2026 (this version, v2)]",
+      "latest_version": "2603.16856v2"
     },
     {
       "paper_id": "2603.19220",
@@ -2188,7 +2251,8 @@
       "home": "9",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 19 Mar 2026 ( v1 ), last revised 22 Mar 2026 (this version, v2)]"
+      "source_version": "[Submitted on 19 Mar 2026 ( v1 ), last revised 22 Mar 2026 (this version, v2)]",
+      "latest_version": "2603.19220v2"
     },
     {
       "paper_id": "2603.24472",
@@ -2215,7 +2279,8 @@
         "https://github.com/beanie00/self-distillation-analysis"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 25 Mar 2026 ( v1 ), last revised 18 Aug 2026 (this version, v4)]"
+      "source_version": "[Submitted on 25 Mar 2026 ( v1 ), last revised 18 Aug 2026 (this version, v4)]",
+      "latest_version": "2603.24472v4"
     },
     {
       "paper_id": "2603.25562",
@@ -2239,7 +2304,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 26 Mar 2026 ( v1 ), last revised 27 Apr 2026 (this version, v2)]"
+      "source_version": "[Submitted on 26 Mar 2026 ( v1 ), last revised 27 Apr 2026 (this version, v2)]",
+      "latest_version": "2603.25562v2"
     },
     {
       "paper_id": "2604.02288",
@@ -2265,7 +2331,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 2 Apr 2026]"
+      "source_version": "[Submitted on 2 Apr 2026]",
+      "latest_version": "2604.02288v1"
     },
     {
       "paper_id": "2604.03128",
@@ -2292,7 +2359,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 3 Apr 2026 ( v1 ), last revised 8 Apr 2026 (this version, v2)]"
+      "source_version": "[Submitted on 3 Apr 2026 ( v1 ), last revised 8 Apr 2026 (this version, v2)]",
+      "latest_version": "2604.03128v2"
     },
     {
       "paper_id": "2604.08527",
@@ -2316,7 +2384,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 9 Apr 2026]"
+      "source_version": "[Submitted on 9 Apr 2026]",
+      "latest_version": "2604.08527v1"
     },
     {
       "paper_id": "2604.10674",
@@ -2344,7 +2413,8 @@
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 12 Apr 2026]"
+      "source_version": "[Submitted on 12 Apr 2026]",
+      "latest_version": "2604.10674v1"
     },
     {
       "paper_id": "2604.10688",
@@ -2372,7 +2442,8 @@
         "https://github.com/machine981/SCOPE"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 12 Apr 2026 ( v1 ), last revised 30 May 2026 (this version, v2)]"
+      "source_version": "[Submitted on 12 Apr 2026 ( v1 ), last revised 30 May 2026 (this version, v2)]",
+      "latest_version": "2604.10688v2"
     },
     {
       "paper_id": "2604.12002",
@@ -2401,7 +2472,8 @@
         "https://github.com/princeton-pli/Self-Distillation-Zero"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 13 Apr 2026 ( v1 ), last revised 11 Jun 2026 (this version, v2)]"
+      "source_version": "[Submitted on 13 Apr 2026 ( v1 ), last revised 11 Jun 2026 (this version, v2)]",
+      "latest_version": "2604.12002v2"
     },
     {
       "paper_id": "2604.13010",
@@ -2423,7 +2495,8 @@
         "https://github.com/jet-ai-projects/Lightning-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 14 Apr 2026 ( v1 ), last revised 26 Sep 2026 (this version, v3)]"
+      "source_version": "[Submitted on 14 Apr 2026 ( v1 ), last revised 26 Sep 2026 (this version, v3)]",
+      "latest_version": "2604.13010v3"
     },
     {
       "paper_id": "2604.13016",
@@ -2453,7 +2526,8 @@
         "https://github.com/Thinking-Space/Rethinking-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 14 Apr 2026 ( v1 ), last revised 15 Apr 2026 (this version, v2)]"
+      "source_version": "[Submitted on 14 Apr 2026 ( v1 ), last revised 15 Apr 2026 (this version, v2)]",
+      "latest_version": "2604.13016v2"
     },
     {
       "paper_id": "2604.14054",
@@ -2482,7 +2556,8 @@
         "https://github.com/zhyaoch/pi-play"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 15 Apr 2026 ( v1 ), last revised 25 May 2026 (this version, v2)]"
+      "source_version": "[Submitted on 15 Apr 2026 ( v1 ), last revised 25 May 2026 (this version, v2)]",
+      "latest_version": "2604.14054v2"
     },
     {
       "paper_id": "2604.14084",
@@ -2507,7 +2582,8 @@
         "https://github.com/HJSang/OPSD_OnPolicyDistillation"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 15 Apr 2026 ( v1 ), last revised 21 May 2026 (this version, v4)]"
+      "source_version": "[Submitted on 15 Apr 2026 ( v1 ), last revised 21 May 2026 (this version, v4)]",
+      "latest_version": "2604.14084v4"
     },
     {
       "paper_id": "2604.16830",
@@ -2532,7 +2608,8 @@
         "https://github.com/SalesforceAIResearch/CaOPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 18 Apr 2026]"
+      "source_version": "[Submitted on 18 Apr 2026]",
+      "latest_version": "2604.16830v1"
     },
     {
       "paper_id": "2604.17535",
@@ -2556,7 +2633,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 19 Apr 2026]"
+      "source_version": "[Submitted on 19 Apr 2026]",
+      "latest_version": "2604.17535v1"
     },
     {
       "paper_id": "2604.18963",
@@ -2577,7 +2655,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 21 Apr 2026]"
+      "source_version": "[Submitted on 21 Apr 2026]",
+      "latest_version": "2604.18963v1"
     },
     {
       "paper_id": "2604.20244",
@@ -2600,7 +2679,8 @@
         "https://github.com/zwhong714/Hybrid-Policy-Distillation"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 22 Apr 2026 ( v1 ), last revised 8 Aug 2026 (this version, v2)]"
+      "source_version": "[Submitted on 22 Apr 2026 ( v1 ), last revised 8 Aug 2026 (this version, v2)]",
+      "latest_version": "2604.20244v2"
     },
     {
       "paper_id": "deepseekv4",
@@ -2936,7 +3016,8 @@
       "home": "9",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": ""
+      "source_version": "",
+      "latest_version": "2606.19348v1"
     },
     {
       "paper_id": "2604.24005",
@@ -2960,7 +3041,8 @@
         "https://github.com/kokolerk/TCOD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 27 Apr 2026 ( v1 ), last revised 29 Apr 2026 (this version, v3)]"
+      "source_version": "[Submitted on 27 Apr 2026 ( v1 ), last revised 29 Apr 2026 (this version, v3)]",
+      "latest_version": "2604.24005v3"
     },
     {
       "paper_id": "2604.26573",
@@ -2979,7 +3061,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 29 Apr 2026]"
+      "source_version": "[Submitted on 29 Apr 2026]",
+      "latest_version": "2604.26573v1"
     },
     {
       "paper_id": "2604.27083",
@@ -3006,7 +3089,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 29 Apr 2026]"
+      "source_version": "[Submitted on 29 Apr 2026]",
+      "latest_version": "2604.27083v1"
     },
     {
       "paper_id": "2604.28123",
@@ -3037,7 +3121,8 @@
         "https://github.com/XIAO4579/PRISM"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 30 Apr 2026 ( v1 ), last revised 29 Jun 2026 (this version, v3)]"
+      "source_version": "[Submitted on 30 Apr 2026 ( v1 ), last revised 29 Jun 2026 (this version, v3)]",
+      "latest_version": "2604.28123v3"
     },
     {
       "paper_id": "2605.00642",
@@ -3061,7 +3146,8 @@
         "https://github.com/zhangyan-ucas/GUI-SD-code"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 1 May 2026 ( v1 ), last revised 10 May 2026 (this version, v3)]"
+      "source_version": "[Submitted on 1 May 2026 ( v1 ), last revised 10 May 2026 (this version, v3)]",
+      "latest_version": "2605.00642v3"
     },
     {
       "paper_id": "2605.02943",
@@ -3081,7 +3167,8 @@
         "https://github.com/minstar/Healthcare_GYM"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 1 May 2026]"
+      "source_version": "[Submitted on 1 May 2026]",
+      "latest_version": "2605.02943v1"
     },
     {
       "paper_id": "2605.01347",
@@ -3110,7 +3197,8 @@
         "https://github.com/chiefovoavicii/MAD-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 2 May 2026]"
+      "source_version": "[Submitted on 2 May 2026]",
+      "latest_version": "2605.01347v1"
     },
     {
       "paper_id": "2605.02971",
@@ -3133,7 +3221,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 3 May 2026 ( v1 ), last revised 7 May 2026 (this version, v2)]"
+      "source_version": "[Submitted on 3 May 2026 ( v1 ), last revised 7 May 2026 (this version, v2)]",
+      "latest_version": "2605.02971v2"
     },
     {
       "paper_id": "2605.03677",
@@ -3168,7 +3257,8 @@
         "https://github.com/WenjinHou/Uni-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 5 May 2026 ( v1 ), last revised 6 Jul 2026 (this version, v2)]"
+      "source_version": "[Submitted on 5 May 2026 ( v1 ), last revised 6 Jul 2026 (this version, v2)]",
+      "latest_version": "2605.03677v2"
     },
     {
       "paper_id": "2605.05040",
@@ -3191,7 +3281,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 6 May 2026 ( v1 ), last revised 21 Aug 2026 (this version, v2)]"
+      "source_version": "[Submitted on 6 May 2026 ( v1 ), last revised 21 Aug 2026 (this version, v2)]",
+      "latest_version": "2605.05040v2"
     },
     {
       "paper_id": "2605.05940",
@@ -3217,7 +3308,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 7 May 2026]"
+      "source_version": "[Submitted on 7 May 2026]",
+      "latest_version": "2605.05940v1"
     },
     {
       "paper_id": "2605.06188",
@@ -3236,7 +3328,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 7 May 2026 ( v1 ), last revised 26 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 7 May 2026 ( v1 ), last revised 26 Sep 2026 (this version, v2)]",
+      "latest_version": "2605.06188v2"
     },
     {
       "paper_id": "2605.06387",
@@ -3262,7 +3355,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 7 May 2026 ( v1 ), last revised 30 Aug 2026 (this version, v4)]"
+      "source_version": "[Submitted on 7 May 2026 ( v1 ), last revised 30 Aug 2026 (this version, v4)]",
+      "latest_version": "2605.06387v4"
     },
     {
       "paper_id": "2605.06597",
@@ -3291,7 +3385,8 @@
         "https://github.com/Ahren09/UniSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 7 May 2026 ( v1 ), last revised 21 May 2026 (this version, v2)]"
+      "source_version": "[Submitted on 7 May 2026 ( v1 ), last revised 21 May 2026 (this version, v2)]",
+      "latest_version": "2605.06597v2"
     },
     {
       "paper_id": "2605.07177",
@@ -3315,12 +3410,13 @@
         "https://github.com/DeepExperience/HyperEyes"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 8 May 2026 ( v1 ), last revised 11 May 2026 (this version, v2)]"
+      "source_version": "[Submitted on 8 May 2026 ( v1 ), last revised 11 May 2026 (this version, v2)]",
+      "latest_version": "2605.07177v2"
     },
     {
       "paper_id": "2605.07505",
       "arxiv_id": "2605.07505",
-      "title": "LiteGUI: Distilling Compact GUI Agents with Reinforcement Learning",
+      "title": "LiteGUI: Lightweight GUI Agents via Multi-Solution Guided Distillation and Dual-Level Reinforcement Learning",
       "authors": [
         "Wu, Yubin",
         "Cai, Zicheng",
@@ -3339,7 +3435,8 @@
       "home": "9",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 8 May 2026]"
+      "source_version": "[Submitted on 8 May 2026]",
+      "latest_version": "2605.07505v2"
     },
     {
       "paper_id": "2605.07711",
@@ -3367,7 +3464,8 @@
         "https://github.com/sunjie279/SimCT-"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 8 May 2026 ( v1 ), last revised 21 May 2026 (this version, v2)]"
+      "source_version": "[Submitted on 8 May 2026 ( v1 ), last revised 21 May 2026 (this version, v2)]",
+      "latest_version": "2605.07711v2"
     },
     {
       "paper_id": "2605.07725",
@@ -3394,7 +3492,8 @@
         "https://github.com/YoungZ365/SOD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 8 May 2026 ( v1 ), last revised 18 Aug 2026 (this version, v3)]"
+      "source_version": "[Submitted on 8 May 2026 ( v1 ), last revised 18 Aug 2026 (this version, v3)]",
+      "latest_version": "2605.07725v3"
     },
     {
       "paper_id": "2605.07804",
@@ -3419,7 +3518,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 8 May 2026 ( v1 ), last revised 1 Jun 2026 (this version, v3)]"
+      "source_version": "[Submitted on 8 May 2026 ( v1 ), last revised 1 Jun 2026 (this version, v3)]",
+      "latest_version": "2605.07804v3"
     },
     {
       "paper_id": "2605.07865",
@@ -3443,7 +3543,8 @@
         "https://github.com/holi-lab/vOPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 8 May 2026]"
+      "source_version": "[Submitted on 8 May 2026]",
+      "latest_version": "2605.07865v1"
     },
     {
       "paper_id": "2605.08737",
@@ -3465,7 +3566,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 9 May 2026]"
+      "source_version": "[Submitted on 9 May 2026]",
+      "latest_version": "2605.08737v1"
     },
     {
       "paper_id": "2605.08741",
@@ -3487,7 +3589,8 @@
         "https://github.com/zzy1127/OPHSD-On-Policy-Harness-Self-Distillation"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 9 May 2026]"
+      "source_version": "[Submitted on 9 May 2026]",
+      "latest_version": "2605.08741v1"
     },
     {
       "paper_id": "2605.08776",
@@ -3511,7 +3614,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 9 May 2026]"
+      "source_version": "[Submitted on 9 May 2026]",
+      "latest_version": "2605.08776v1"
     },
     {
       "paper_id": "2605.08873",
@@ -3533,7 +3637,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 9 May 2026]"
+      "source_version": "[Submitted on 9 May 2026]",
+      "latest_version": "2605.08873v1"
     },
     {
       "paper_id": "2605.09548",
@@ -3556,7 +3661,8 @@
         "https://github.com/cisnlp/COPSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 10 May 2026]"
+      "source_version": "[Submitted on 10 May 2026]",
+      "latest_version": "2605.09548v1"
     },
     {
       "paper_id": "2605.09725",
@@ -3582,7 +3688,8 @@
         "https://github.com/BWGZK-keke/BRTS"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 10 May 2026 ( v1 ), last revised 11 Aug 2026 (this version, v3)]"
+      "source_version": "[Submitted on 10 May 2026 ( v1 ), last revised 11 Aug 2026 (this version, v3)]",
+      "latest_version": "2605.09725v3"
     },
     {
       "paper_id": "2605.10194",
@@ -3604,7 +3711,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 11 May 2026 ( v1 ), last revised 30 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 11 May 2026 ( v1 ), last revised 30 Sep 2026 (this version, v2)]",
+      "latest_version": "2605.10194v2"
     },
     {
       "paper_id": "2605.11182",
@@ -3626,7 +3734,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 11 May 2026 ( v1 ), last revised 24 May 2026 (this version, v2)]"
+      "source_version": "[Submitted on 11 May 2026 ( v1 ), last revised 24 May 2026 (this version, v2)]",
+      "latest_version": "2605.11182v2"
     },
     {
       "paper_id": "2605.11458",
@@ -3647,7 +3756,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 9 Jun 2026 (this version, v3)]"
+      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 9 Jun 2026 (this version, v3)]",
+      "latest_version": "2605.11458v3"
     },
     {
       "paper_id": "2605.11609",
@@ -3673,7 +3783,8 @@
         "https://github.com/FloyedShen/AntiSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 12 May 2026]"
+      "source_version": "[Submitted on 12 May 2026]",
+      "latest_version": "2605.11609v1"
     },
     {
       "paper_id": "2605.11613",
@@ -3697,7 +3808,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 12 May 2026]"
+      "source_version": "[Submitted on 12 May 2026]",
+      "latest_version": "2605.11613v1"
     },
     {
       "paper_id": "2605.11739",
@@ -3728,7 +3840,8 @@
         "https://github.com/caiyuchen-ustc/EffOPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 21 May 2026 (this version, v3)]"
+      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 21 May 2026 (this version, v3)]",
+      "latest_version": "2605.11739v3"
     },
     {
       "paper_id": "2605.11854",
@@ -3757,7 +3870,8 @@
       "home": "9",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 18 May 2026 (this version, v2)]"
+      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 18 May 2026 (this version, v2)]",
+      "latest_version": "2605.11854v2"
     },
     {
       "paper_id": "2605.12227",
@@ -3777,7 +3891,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 10 Sep 2026 (this version, v3)]"
+      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 10 Sep 2026 (this version, v3)]",
+      "latest_version": "2605.12227v3"
     },
     {
       "paper_id": "2605.12400",
@@ -3797,7 +3912,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 29 May 2026 (this version, v2)]"
+      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 29 May 2026 (this version, v2)]",
+      "latest_version": "2605.12400v2"
     },
     {
       "paper_id": "2605.12483",
@@ -3820,7 +3936,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 20 May 2026 (this version, v4)]"
+      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 20 May 2026 (this version, v4)]",
+      "latest_version": "2605.12483v4"
     },
     {
       "paper_id": "2605.12652",
@@ -3850,7 +3967,8 @@
         "https://github.com/viviable/mopd_code"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 1 Jun 2026 (this version, v2)]"
+      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 1 Jun 2026 (this version, v2)]",
+      "latest_version": "2605.12652v2"
     },
     {
       "paper_id": "2605.12741",
@@ -3881,7 +3999,8 @@
         "https://github.com/horizon-llm/RESD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 12 May 2026]"
+      "source_version": "[Submitted on 12 May 2026]",
+      "latest_version": "2605.12741v1"
     },
     {
       "paper_id": "2605.12913",
@@ -3905,7 +4024,8 @@
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 13 May 2026]"
+      "source_version": "[Submitted on 13 May 2026]",
+      "latest_version": "2605.12913v1"
     },
     {
       "paper_id": "2605.13230",
@@ -3935,7 +4055,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 13 May 2026 ( v1 ), last revised 28 May 2026 (this version, v2)]"
+      "source_version": "[Submitted on 13 May 2026 ( v1 ), last revised 28 May 2026 (this version, v2)]",
+      "latest_version": "2605.13230v2"
     },
     {
       "paper_id": "2605.13501",
@@ -3957,7 +4078,8 @@
       "home": "9",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 13 May 2026]"
+      "source_version": "[Submitted on 13 May 2026]",
+      "latest_version": "2605.13501v1"
     },
     {
       "paper_id": "2605.13643",
@@ -3980,7 +4102,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 13 May 2026 ( v1 ), last revised 25 May 2026 (this version, v2)]"
+      "source_version": "[Submitted on 13 May 2026 ( v1 ), last revised 25 May 2026 (this version, v2)]",
+      "latest_version": "2605.13643v2"
     },
     {
       "paper_id": "2605.15155",
@@ -4010,7 +4133,8 @@
         "https://github.com/ZJU-REAL/SDAR"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 14 May 2026]"
+      "source_version": "[Submitted on 14 May 2026]",
+      "latest_version": "2605.15155v1"
     },
     {
       "paper_id": "2605.15239",
@@ -4036,7 +4160,8 @@
         "https://github.com/FYYFU/OPSA"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 14 May 2026]"
+      "source_version": "[Submitted on 14 May 2026]",
+      "latest_version": "2605.15239v1"
     },
     {
       "paper_id": "2605.15532",
@@ -4060,7 +4185,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 15 May 2026 ( v1 ), last revised 8 Aug 2026 (this version, v3)]"
+      "source_version": "[Submitted on 15 May 2026 ( v1 ), last revised 8 Aug 2026 (this version, v3)]",
+      "latest_version": "2605.15532v3"
     },
     {
       "paper_id": "2605.16826",
@@ -4082,8 +4208,9 @@
       "mechanism": "analysis",
       "home": "8",
       "code_urls": [],
-      "code_status": "No repository listed",
-      "source_version": "[Submitted on 16 May 2026]"
+      "code_status": "Announced repository currently unavailable",
+      "source_version": "[Submitted on 16 May 2026]",
+      "latest_version": "2605.16826v1"
     },
     {
       "paper_id": "2605.16865",
@@ -4110,7 +4237,8 @@
         "https://github.com/jiarui-liu/MixSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 16 May 2026 ( v1 ), last revised 17 Jun 2026 (this version, v3)]"
+      "source_version": "[Submitted on 16 May 2026 ( v1 ), last revised 17 Jun 2026 (this version, v3)]",
+      "latest_version": "2605.16865v3"
     },
     {
       "paper_id": "2605.17497",
@@ -4128,8 +4256,9 @@
       "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [],
-      "code_status": "No repository listed",
-      "source_version": "[Submitted on 17 May 2026]"
+      "code_status": "Announced repository currently unavailable",
+      "source_version": "[Submitted on 17 May 2026]",
+      "latest_version": "2605.17497v1"
     },
     {
       "paper_id": "2605.17862",
@@ -4149,7 +4278,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 18 May 2026]"
+      "source_version": "[Submitted on 18 May 2026]",
+      "latest_version": "2605.17862v1"
     },
     {
       "paper_id": "2605.17873",
@@ -4172,7 +4302,8 @@
         "https://github.com/wgcyeo/HINT-SD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 18 May 2026 ( v1 ), last revised 2 Oct 2026 (this version, v3)]"
+      "source_version": "[Submitted on 18 May 2026 ( v1 ), last revised 2 Oct 2026 (this version, v3)]",
+      "latest_version": "2605.17873v3"
     },
     {
       "paper_id": "2605.18299",
@@ -4198,7 +4329,8 @@
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 18 May 2026]"
+      "source_version": "[Submitted on 18 May 2026]",
+      "latest_version": "2605.18299v1"
     },
     {
       "paper_id": "2605.18740",
@@ -4224,7 +4356,8 @@
         "https://github.com/VisionOPD/Vision-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 18 May 2026 ( v1 ), last revised 2 Jun 2026 (this version, v4)]"
+      "source_version": "[Submitted on 18 May 2026 ( v1 ), last revised 2 Jun 2026 (this version, v4)]",
+      "latest_version": "2605.18740v4"
     },
     {
       "paper_id": "2605.20258",
@@ -4252,7 +4385,8 @@
         "https://github.com/sw-programmer/SelfCI"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 18 May 2026]"
+      "source_version": "[Submitted on 18 May 2026]",
+      "latest_version": "2605.20258v1"
     },
     {
       "paper_id": "2605.19433",
@@ -4281,7 +4415,8 @@
         "https://github.com/wangbing1416/MOTAB"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 19 May 2026]"
+      "source_version": "[Submitted on 19 May 2026]",
+      "latest_version": "2605.19433v1"
     },
     {
       "paper_id": "2605.19447",
@@ -4309,7 +4444,8 @@
         "https://github.com/OliverLeeXZ/SERL"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 19 May 2026]"
+      "source_version": "[Submitted on 19 May 2026]",
+      "latest_version": "2605.19447v1"
     },
     {
       "paper_id": "2605.20643",
@@ -4338,7 +4474,8 @@
         "https://github.com/duykhuongnguyen/AVSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 20 May 2026]"
+      "source_version": "[Submitted on 20 May 2026]",
+      "latest_version": "2605.20643v1"
     },
     {
       "paper_id": "2605.21606",
@@ -4362,7 +4499,8 @@
         "https://github.com/SaFo-Lab/PW-OPSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 20 May 2026]"
+      "source_version": "[Submitted on 20 May 2026]",
+      "latest_version": "2605.21606v1"
     },
     {
       "paper_id": "2605.21834",
@@ -4387,7 +4525,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 20 May 2026]"
+      "source_version": "[Submitted on 20 May 2026]",
+      "latest_version": "2605.21834v1"
     },
     {
       "paper_id": "2605.21924",
@@ -4415,7 +4554,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 21 May 2026]"
+      "source_version": "[Submitted on 21 May 2026]",
+      "latest_version": "2605.21924v1"
     },
     {
       "paper_id": "2605.22240",
@@ -4442,7 +4582,8 @@
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 21 May 2026 ( v1 ), last revised 3 Jun 2026 (this version, v2)]"
+      "source_version": "[Submitted on 21 May 2026 ( v1 ), last revised 3 Jun 2026 (this version, v2)]",
+      "latest_version": "2605.22240v2"
     },
     {
       "paper_id": "2605.22263",
@@ -4466,7 +4607,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 21 May 2026]"
+      "source_version": "[Submitted on 21 May 2026]",
+      "latest_version": "2605.22263v1"
     },
     {
       "paper_id": "2605.26844",
@@ -4494,7 +4636,8 @@
         "https://github.com/wyy-code/TA-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 26 May 2026]"
+      "source_version": "[Submitted on 26 May 2026]",
+      "latest_version": "2605.26844v1"
     },
     {
       "paper_id": "2605.27028",
@@ -4516,7 +4659,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 26 May 2026]"
+      "source_version": "[Submitted on 26 May 2026]",
+      "latest_version": "2605.27028v1"
     },
     {
       "paper_id": "2605.27115",
@@ -4539,7 +4683,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 26 May 2026 ( v1 ), last revised 14 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 26 May 2026 ( v1 ), last revised 14 Sep 2026 (this version, v2)]",
+      "latest_version": "2605.27115v2"
     },
     {
       "paper_id": "2605.27186",
@@ -4564,7 +4709,8 @@
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 26 May 2026 ( v1 ), last revised 30 Aug 2026 (this version, v2)]"
+      "source_version": "[Submitted on 26 May 2026 ( v1 ), last revised 30 Aug 2026 (this version, v2)]",
+      "latest_version": "2605.27186v2"
     },
     {
       "paper_id": "2605.28014",
@@ -4592,7 +4738,8 @@
         "https://github.com/ZiqiZhao1/ROSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 27 May 2026 ( v1 ), last revised 28 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 27 May 2026 ( v1 ), last revised 28 Sep 2026 (this version, v2)]",
+      "latest_version": "2605.28014v2"
     },
     {
       "paper_id": "2605.28791",
@@ -4617,7 +4764,8 @@
         "https://github.com/walawalagoose/SGSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 27 May 2026 ( v1 ), last revised 3 Sep 2026 (this version, v4)]"
+      "source_version": "[Submitted on 27 May 2026 ( v1 ), last revised 3 Sep 2026 (this version, v4)]",
+      "latest_version": "2605.28791v4"
     },
     {
       "paper_id": "2605.29584",
@@ -4643,7 +4791,8 @@
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 28 May 2026 ( v1 ), last revised 3 Jun 2026 (this version, v2)]"
+      "source_version": "[Submitted on 28 May 2026 ( v1 ), last revised 3 Jun 2026 (this version, v2)]",
+      "latest_version": "2605.29584v2"
     },
     {
       "paper_id": "2605.30251",
@@ -4669,7 +4818,8 @@
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 28 May 2026]"
+      "source_version": "[Submitted on 28 May 2026]",
+      "latest_version": "2605.30251v1"
     },
     {
       "paper_id": "2605.30833",
@@ -4698,7 +4848,8 @@
         "https://github.com/zui-jiang/LGR"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 29 May 2026]"
+      "source_version": "[Submitted on 29 May 2026]",
+      "latest_version": "2605.30833v1"
     },
     {
       "paper_id": "2605.31159",
@@ -4722,7 +4873,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 29 May 2026]"
+      "source_version": "[Submitted on 29 May 2026]",
+      "latest_version": "2605.31159v1"
     },
     {
       "paper_id": "2605.31490",
@@ -4749,7 +4901,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 29 May 2026 ( v1 ), last revised 1 Jun 2026 (this version, v2)]"
+      "source_version": "[Submitted on 29 May 2026 ( v1 ), last revised 1 Jun 2026 (this version, v2)]",
+      "latest_version": "2605.31490v2"
     },
     {
       "paper_id": "2606.00147",
@@ -4771,7 +4924,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 29 May 2026]"
+      "source_version": "[Submitted on 29 May 2026]",
+      "latest_version": "2606.00147v1"
     },
     {
       "paper_id": "2606.00172",
@@ -4794,7 +4948,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 29 May 2026]"
+      "source_version": "[Submitted on 29 May 2026]",
+      "latest_version": "2606.00172v1"
     },
     {
       "paper_id": "2606.00424",
@@ -4818,7 +4973,8 @@
         "https://github.com/jiakanglee/OPCD-Weak_critiques_strong"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 29 May 2026 ( v1 ), last revised 21 Aug 2026 (this version, v2)]"
+      "source_version": "[Submitted on 29 May 2026 ( v1 ), last revised 21 Aug 2026 (this version, v2)]",
+      "latest_version": "2606.00424v2"
     },
     {
       "paper_id": "2606.00564",
@@ -4844,7 +5000,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No implementation released",
-      "source_version": "[Submitted on 30 May 2026]"
+      "source_version": "[Submitted on 30 May 2026]",
+      "latest_version": "2606.00564v1"
     },
     {
       "paper_id": "2606.00755",
@@ -4867,7 +5024,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 30 May 2026 ( v1 ), last revised 12 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 30 May 2026 ( v1 ), last revised 12 Sep 2026 (this version, v2)]",
+      "latest_version": "2606.00755v2"
     },
     {
       "paper_id": "2606.01039",
@@ -4890,7 +5048,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 31 May 2026]"
+      "source_version": "[Submitted on 31 May 2026]",
+      "latest_version": "2606.01039v1"
     },
     {
       "paper_id": "2606.01249",
@@ -4912,7 +5071,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 31 May 2026 ( v1 ), last revised 17 Jun 2026 (this version, v3)]"
+      "source_version": "[Submitted on 31 May 2026 ( v1 ), last revised 17 Jun 2026 (this version, v3)]",
+      "latest_version": "2606.01249v3"
     },
     {
       "paper_id": "2606.02372",
@@ -4935,7 +5095,8 @@
         "https://github.com/loyiv/CoMAP"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 1 Jun 2026 ( v1 ), last revised 3 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 1 Jun 2026 ( v1 ), last revised 3 Sep 2026 (this version, v2)]",
+      "latest_version": "2606.02372v2"
     },
     {
       "paper_id": "2606.02530",
@@ -4963,7 +5124,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 1 Jun 2026 ( v1 ), last revised 21 Aug 2026 (this version, v2)]"
+      "source_version": "[Submitted on 1 Jun 2026 ( v1 ), last revised 21 Aug 2026 (this version, v2)]",
+      "latest_version": "2606.02530v2"
     },
     {
       "paper_id": "2606.02684",
@@ -4991,7 +5153,8 @@
         "https://github.com/YuYingLi0/FiRe-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 1 Jun 2026 ( v1 ), last revised 4 Jun 2026 (this version, v2)]"
+      "source_version": "[Submitted on 1 Jun 2026 ( v1 ), last revised 4 Jun 2026 (this version, v2)]",
+      "latest_version": "2606.02684v2"
     },
     {
       "paper_id": "2606.03089",
@@ -5019,7 +5182,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 2 Jun 2026 ( v1 ), last revised 13 Aug 2026 (this version, v3)]"
+      "source_version": "[Submitted on 2 Jun 2026 ( v1 ), last revised 13 Aug 2026 (this version, v3)]",
+      "latest_version": "2606.03089v3"
     },
     {
       "paper_id": "2606.03603",
@@ -5042,7 +5206,8 @@
         "https://github.com/yczhou001/PF-OPSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 2 Jun 2026 ( v1 ), last revised 31 Aug 2026 (this version, v2)]"
+      "source_version": "[Submitted on 2 Jun 2026 ( v1 ), last revised 31 Aug 2026 (this version, v2)]",
+      "latest_version": "2606.03603v2"
     },
     {
       "paper_id": "2606.03620",
@@ -5065,7 +5230,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 2 Jun 2026]"
+      "source_version": "[Submitted on 2 Jun 2026]",
+      "latest_version": "2606.03620v1"
     },
     {
       "paper_id": "2606.04036",
@@ -5088,7 +5254,8 @@
         "https://github.com/lauyikfung/SDPG"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 2 Jun 2026]"
+      "source_version": "[Submitted on 2 Jun 2026]",
+      "latest_version": "2606.04036v1"
     },
     {
       "paper_id": "2606.04694",
@@ -5111,7 +5278,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 3 Jun 2026 ( v1 ), last revised 10 Jun 2026 (this version, v2)]"
+      "source_version": "[Submitted on 3 Jun 2026 ( v1 ), last revised 10 Jun 2026 (this version, v2)]",
+      "latest_version": "2606.04694v2"
     },
     {
       "paper_id": "2606.04703",
@@ -5140,7 +5308,8 @@
         "https://github.com/RUCBM/ExpInternalization"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 3 Jun 2026]"
+      "source_version": "[Submitted on 3 Jun 2026]",
+      "latest_version": "2606.04703v1"
     },
     {
       "paper_id": "2606.05152",
@@ -5162,7 +5331,8 @@
         "https://github.com/rishabh-1086/distIL"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 3 Jun 2026 ( v1 ), last revised 5 Jun 2026 (this version, v2)]"
+      "source_version": "[Submitted on 3 Jun 2026 ( v1 ), last revised 5 Jun 2026 (this version, v2)]",
+      "latest_version": "2606.05152v2"
     },
     {
       "paper_id": "2606.06021",
@@ -5192,7 +5362,8 @@
         "https://github.com/ShenzhiYang2000/OPRD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 4 Jun 2026 ( v1 ), last revised 20 Jun 2026 (this version, v4)]"
+      "source_version": "[Submitted on 4 Jun 2026 ( v1 ), last revised 20 Jun 2026 (this version, v4)]",
+      "latest_version": "2606.06021v4"
     },
     {
       "paper_id": "2606.06076",
@@ -5222,7 +5393,8 @@
         "https://github.com/Oranger-l/MGSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 4 Jun 2026 ( v1 ), last revised 7 Aug 2026 (this version, v3)]"
+      "source_version": "[Submitted on 4 Jun 2026 ( v1 ), last revised 7 Aug 2026 (this version, v3)]",
+      "latest_version": "2606.06076v3"
     },
     {
       "paper_id": "2606.06712",
@@ -5250,7 +5422,8 @@
         "https://github.com/divelab/OPDLM"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 4 Jun 2026]"
+      "source_version": "[Submitted on 4 Jun 2026]",
+      "latest_version": "2606.06712v1"
     },
     {
       "paper_id": "2606.07082",
@@ -5276,7 +5449,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 5 Jun 2026 ( v1 ), last revised 14 Jun 2026 (this version, v3)]"
+      "source_version": "[Submitted on 5 Jun 2026 ( v1 ), last revised 14 Jun 2026 (this version, v3)]",
+      "latest_version": "2606.07082v3"
     },
     {
       "paper_id": "2606.08432",
@@ -5299,7 +5473,8 @@
         "https://github.com/louieworth/trd"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 7 Jun 2026]"
+      "source_version": "[Submitted on 7 Jun 2026]",
+      "latest_version": "2606.08432v1"
     },
     {
       "paper_id": "2606.08719",
@@ -5328,7 +5503,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 7 Jun 2026]"
+      "source_version": "[Submitted on 7 Jun 2026]",
+      "latest_version": "2606.08719v1"
     },
     {
       "paper_id": "2606.09456",
@@ -5354,7 +5530,8 @@
         "https://github.com/ivanniu/On-Policy-Distill"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 8 Jun 2026]"
+      "source_version": "[Submitted on 8 Jun 2026]",
+      "latest_version": "2606.09456v1"
     },
     {
       "paper_id": "2606.09471",
@@ -5377,7 +5554,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 8 Jun 2026]"
+      "source_version": "[Submitted on 8 Jun 2026]",
+      "latest_version": "2606.09471v1"
     },
     {
       "paper_id": "2606.10385",
@@ -5395,7 +5573,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 9 Jun 2026]"
+      "source_version": "[Submitted on 9 Jun 2026]",
+      "latest_version": "2606.10385v1"
     },
     {
       "paper_id": "2606.11559",
@@ -5417,7 +5596,8 @@
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 10 Jun 2026]"
+      "source_version": "[Submitted on 10 Jun 2026]",
+      "latest_version": "2606.11559v1"
     },
     {
       "paper_id": "2606.11627",
@@ -5439,7 +5619,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 10 Jun 2026 ( v1 ), last revised 4 Aug 2026 (this version, v2)]"
+      "source_version": "[Submitted on 10 Jun 2026 ( v1 ), last revised 4 Aug 2026 (this version, v2)]",
+      "latest_version": "2606.11627v2"
     },
     {
       "paper_id": "2606.11709",
@@ -5466,7 +5647,8 @@
         "https://github.com/THU-BPM/RLCSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 10 Jun 2026 ( v1 ), last revised 14 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 10 Jun 2026 ( v1 ), last revised 14 Sep 2026 (this version, v2)]",
+      "latest_version": "2606.11709v2"
     },
     {
       "paper_id": "2606.12507",
@@ -5492,7 +5674,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 10 Jun 2026]"
+      "source_version": "[Submitted on 10 Jun 2026]",
+      "latest_version": "2606.12507v1"
     },
     {
       "paper_id": "2607.24771",
@@ -5518,7 +5701,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 10 Jun 2026]"
+      "source_version": "[Submitted on 10 Jun 2026]",
+      "latest_version": "2607.24771v1"
     },
     {
       "paper_id": "2606.13657",
@@ -5543,7 +5727,8 @@
         "https://github.com/SydCS/OPD-Param-Analysis"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 11 Jun 2026 ( v1 ), last revised 30 Jul 2026 (this version, v3)]"
+      "source_version": "[Submitted on 11 Jun 2026 ( v1 ), last revised 30 Jul 2026 (this version, v3)]",
+      "latest_version": "2606.13657v3"
     },
     {
       "paper_id": "2606.14368",
@@ -5564,7 +5749,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 12 Jun 2026]"
+      "source_version": "[Submitted on 12 Jun 2026]",
+      "latest_version": "2606.14368v1"
     },
     {
       "paper_id": "2606.17199",
@@ -5589,7 +5775,8 @@
         "https://github.com/EIT-NLP/PowerOPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 15 Jun 2026]"
+      "source_version": "[Submitted on 15 Jun 2026]",
+      "latest_version": "2606.17199v1"
     },
     {
       "paper_id": "2607.22629",
@@ -5610,7 +5797,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 18 Jun 2026 ( v1 ), last revised 30 Sep 2026 (this version, v3)]"
+      "source_version": "[Submitted on 18 Jun 2026 ( v1 ), last revised 30 Sep 2026 (this version, v3)]",
+      "latest_version": "2607.22629v3"
     },
     {
       "paper_id": "2606.24143",
@@ -5641,7 +5829,8 @@
         "https://github.com/furiosa-ai/async-opd"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 23 Jun 2026]"
+      "source_version": "[Submitted on 23 Jun 2026]",
+      "latest_version": "2606.24143v1"
     },
     {
       "paper_id": "2606.26091",
@@ -5661,7 +5850,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 24 Jun 2026]"
+      "source_version": "[Submitted on 24 Jun 2026]",
+      "latest_version": "2606.26091v1"
     },
     {
       "paper_id": "2606.27814",
@@ -5684,7 +5874,8 @@
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 26 Jun 2026 ( v1 ), last revised 10 Aug 2026 (this version, v6)]"
+      "source_version": "[Submitted on 26 Jun 2026 ( v1 ), last revised 10 Aug 2026 (this version, v6)]",
+      "latest_version": "2606.27814v6"
     },
     {
       "paper_id": "2606.29502",
@@ -5712,7 +5903,8 @@
         "https://github.com/TU2021/UCOB"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 28 Jun 2026 ( v1 ), last revised 17 Jul 2026 (this version, v2)]"
+      "source_version": "[Submitted on 28 Jun 2026 ( v1 ), last revised 17 Jul 2026 (this version, v2)]",
+      "latest_version": "2606.29502v2"
     },
     {
       "paper_id": "2606.30044",
@@ -5733,7 +5925,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 29 Jun 2026]"
+      "source_version": "[Submitted on 29 Jun 2026]",
+      "latest_version": "2606.30044v1"
     },
     {
       "paper_id": "2606.30406",
@@ -5763,7 +5956,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 29 Jun 2026]"
+      "source_version": "[Submitted on 29 Jun 2026]",
+      "latest_version": "2606.30406v1"
     },
     {
       "paper_id": "2606.30626",
@@ -5796,7 +5990,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 29 Jun 2026]"
+      "source_version": "[Submitted on 29 Jun 2026]",
+      "latest_version": "2606.30626v1"
     },
     {
       "paper_id": "2606.30923",
@@ -5819,7 +6014,8 @@
         "https://github.com/plau666/NAIL"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 29 Jun 2026]"
+      "source_version": "[Submitted on 29 Jun 2026]",
+      "latest_version": "2606.30923v1"
     },
     {
       "paper_id": "2606.31984",
@@ -5907,7 +6103,8 @@
       "home": "9",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 30 Jun 2026 ( v1 ), last revised 3 Jul 2026 (this version, v3)]"
+      "source_version": "[Submitted on 30 Jun 2026 ( v1 ), last revised 3 Jul 2026 (this version, v3)]",
+      "latest_version": "2606.31984v3"
     },
     {
       "paper_id": "2607.04037",
@@ -5928,9 +6125,12 @@
       "objective": "Reward-likelihood-gated token-level reverse KL",
       "mechanism": "direct_opd",
       "home": "6",
-      "code_urls": [],
-      "code_status": "No repository listed",
-      "source_version": "[Submitted on 4 Jul 2026]"
+      "code_urls": [
+        "https://github.com/UoC-tail/RG-OPD"
+      ],
+      "code_status": "linked",
+      "source_version": "[Submitted on 4 Jul 2026]",
+      "latest_version": "2607.04037v1"
     },
     {
       "paper_id": "2607.04425",
@@ -5960,7 +6160,8 @@
         "https://github.com/EliSpectre/UI-MOPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 5 Jul 2026 ( v1 ), last revised 10 Aug 2026 (this version, v2)]"
+      "source_version": "[Submitted on 5 Jul 2026 ( v1 ), last revised 10 Aug 2026 (this version, v2)]",
+      "latest_version": "2607.04425v2"
     },
     {
       "paper_id": "2607.04428",
@@ -5982,7 +6183,8 @@
         "https://github.com/tuandattt/dOPSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 5 Jul 2026]"
+      "source_version": "[Submitted on 5 Jul 2026]",
+      "latest_version": "2607.04428v1"
     },
     {
       "paper_id": "2607.04751",
@@ -6003,7 +6205,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 6 Jul 2026]"
+      "source_version": "[Submitted on 6 Jul 2026]",
+      "latest_version": "2607.04751v1"
     },
     {
       "paper_id": "2607.04763",
@@ -6026,7 +6229,8 @@
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 6 Jul 2026 ( v1 ), last revised 26 Jul 2026 (this version, v3)]"
+      "source_version": "[Submitted on 6 Jul 2026 ( v1 ), last revised 26 Jul 2026 (this version, v3)]",
+      "latest_version": "2607.04763v3"
     },
     {
       "paper_id": "2607.05394",
@@ -6053,7 +6257,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 6 Jul 2026 ( v1 ), last revised 8 Jul 2026 (this version, v2)]"
+      "source_version": "[Submitted on 6 Jul 2026 ( v1 ), last revised 8 Jul 2026 (this version, v2)]",
+      "latest_version": "2607.05394v2"
     },
     {
       "paper_id": "2607.05804",
@@ -6076,7 +6281,8 @@
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 7 Jul 2026 ( v1 ), last revised 28 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 7 Jul 2026 ( v1 ), last revised 28 Sep 2026 (this version, v2)]",
+      "latest_version": "2607.05804v2"
     },
     {
       "paper_id": "2607.06855",
@@ -6095,7 +6301,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 7 Jul 2026 ( v1 ), last revised 5 Oct 2026 (this version, v2)]"
+      "source_version": "[Submitted on 7 Jul 2026 ( v1 ), last revised 5 Oct 2026 (this version, v2)]",
+      "latest_version": "2607.06855v2"
     },
     {
       "paper_id": "2607.07050",
@@ -6117,7 +6324,8 @@
         "https://github.com/shen-jiabin/decision-support-opd"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 8 Jul 2026 ( v1 ), last revised 5 Sep 2026 (this version, v6)]"
+      "source_version": "[Submitted on 8 Jul 2026 ( v1 ), last revised 5 Sep 2026 (this version, v6)]",
+      "latest_version": "2607.07050v6"
     },
     {
       "paper_id": "2607.09375",
@@ -6135,7 +6343,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 10 Jul 2026]"
+      "source_version": "[Submitted on 10 Jul 2026]",
+      "latest_version": "2607.09375v1"
     },
     {
       "paper_id": "2607.10805",
@@ -6157,7 +6366,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 12 Jul 2026]"
+      "source_version": "[Submitted on 12 Jul 2026]",
+      "latest_version": "2607.10805v1"
     },
     {
       "paper_id": "2607.13124",
@@ -6185,7 +6395,8 @@
         "https://github.com/icip-cas/ShortX"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 14 Jul 2026 ( v1 ), last revised 14 Aug 2026 (this version, v2)]"
+      "source_version": "[Submitted on 14 Jul 2026 ( v1 ), last revised 14 Aug 2026 (this version, v2)]",
+      "latest_version": "2607.13124v2"
     },
     {
       "paper_id": "2607.13399",
@@ -6209,7 +6420,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 15 Jul 2026]"
+      "source_version": "[Submitted on 15 Jul 2026]",
+      "latest_version": "2607.13399v1"
     },
     {
       "paper_id": "2607.15736",
@@ -6232,10 +6444,11 @@
       "mechanism": "direct_opd",
       "home": "6",
       "code_urls": [
-        "https://github.com/KawhiC/BIRD"
+        "https://github.com/PRISM-AI-Lab/BIRD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 17 Jul 2026]"
+      "source_version": "[Submitted on 17 Jul 2026]",
+      "latest_version": "2607.15736v1"
     },
     {
       "paper_id": "2607.16872",
@@ -6257,7 +6470,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 18 Jul 2026]"
+      "source_version": "[Submitted on 18 Jul 2026]",
+      "latest_version": "2607.16872v1"
     },
     {
       "paper_id": "2607.16955",
@@ -6276,7 +6490,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 18 Jul 2026]"
+      "source_version": "[Submitted on 18 Jul 2026]",
+      "latest_version": "2607.16955v1"
     },
     {
       "paper_id": "2607.18082",
@@ -6303,7 +6518,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 20 Jul 2026 ( v1 ), last revised 27 Sep 2026 (this version, v4)]"
+      "source_version": "[Submitted on 20 Jul 2026 ( v1 ), last revised 27 Sep 2026 (this version, v4)]",
+      "latest_version": "2607.18082v4"
     },
     {
       "paper_id": "2607.18110",
@@ -6327,7 +6543,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 20 Jul 2026]"
+      "source_version": "[Submitted on 20 Jul 2026]",
+      "latest_version": "2607.18110v1"
     },
     {
       "paper_id": "2607.20062",
@@ -6397,7 +6614,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 22 Jul 2026 ( v1 ), last revised 24 Jul 2026 (this version, v2)]"
+      "source_version": "[Submitted on 22 Jul 2026 ( v1 ), last revised 24 Jul 2026 (this version, v2)]",
+      "latest_version": "2607.20062v2"
     },
     {
       "paper_id": "2607.22334",
@@ -6421,7 +6639,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 24 Jul 2026]"
+      "source_version": "[Submitted on 24 Jul 2026]",
+      "latest_version": "2607.22334v1"
     },
     {
       "paper_id": "2607.23125",
@@ -6443,7 +6662,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 25 Jul 2026 ( v1 ), last revised 31 Jul 2026 (this version, v2)]"
+      "source_version": "[Submitted on 25 Jul 2026 ( v1 ), last revised 31 Jul 2026 (this version, v2)]",
+      "latest_version": "2607.23125v2"
     },
     {
       "paper_id": "2607.23731",
@@ -6461,7 +6681,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 26 Jul 2026]"
+      "source_version": "[Submitted on 26 Jul 2026]",
+      "latest_version": "2607.23731v1"
     },
     {
       "paper_id": "2607.24720",
@@ -6484,7 +6705,8 @@
         "https://github.com/Quester-one/PlanPhysCode"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 27 Jul 2026]"
+      "source_version": "[Submitted on 27 Jul 2026]",
+      "latest_version": "2607.24720v1"
     },
     {
       "paper_id": "2607.26057",
@@ -6511,7 +6733,8 @@
         "https://github.com/zju-real/Relay-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 28 Jul 2026]"
+      "source_version": "[Submitted on 28 Jul 2026]",
+      "latest_version": "2607.26057v1"
     },
     {
       "paper_id": "2607.26246",
@@ -6535,7 +6758,8 @@
         "https://github.com/Yu-Fangxu/W2S-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 28 Jul 2026 ( v1 ), last revised 3 Aug 2026 (this version, v2)]"
+      "source_version": "[Submitted on 28 Jul 2026 ( v1 ), last revised 3 Aug 2026 (this version, v2)]",
+      "latest_version": "2607.26246v2"
     },
     {
       "paper_id": "2607.29078",
@@ -6560,7 +6784,8 @@
         "https://github.com/Lucian1115/DASH-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 31 Jul 2026 ( v1 ), last revised 26 Sep 2026 (this version, v4)]"
+      "source_version": "[Submitted on 31 Jul 2026 ( v1 ), last revised 26 Sep 2026 (this version, v4)]",
+      "latest_version": "2607.29078v4"
     },
     {
       "paper_id": "2607.29209",
@@ -6587,7 +6812,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 31 Jul 2026]"
+      "source_version": "[Submitted on 31 Jul 2026]",
+      "latest_version": "2607.29209v1"
     },
     {
       "paper_id": "2607.29494",
@@ -6609,7 +6835,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 31 Jul 2026]"
+      "source_version": "[Submitted on 31 Jul 2026]",
+      "latest_version": "2607.29494v1"
     },
     {
       "paper_id": "2608.00782",
@@ -6638,7 +6865,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 1 Aug 2026]"
+      "source_version": "[Submitted on 1 Aug 2026]",
+      "latest_version": "2608.00782v1"
     },
     {
       "paper_id": "2608.01263",
@@ -6659,7 +6887,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 2 Aug 2026 ( v1 ), last revised 6 Aug 2026 (this version, v2)]"
+      "source_version": "[Submitted on 2 Aug 2026 ( v1 ), last revised 6 Aug 2026 (this version, v2)]",
+      "latest_version": "2608.01263v2"
     },
     {
       "paper_id": "2608.01589",
@@ -6683,7 +6912,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 3 Aug 2026]"
+      "source_version": "[Submitted on 3 Aug 2026]",
+      "latest_version": "2608.01589v1"
     },
     {
       "paper_id": "2608.01735",
@@ -6707,7 +6937,8 @@
         "https://github.com/uanu2002/DAPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 3 Aug 2026 ( v1 ), last revised 13 Aug 2026 (this version, v2)]"
+      "source_version": "[Submitted on 3 Aug 2026 ( v1 ), last revised 13 Aug 2026 (this version, v2)]",
+      "latest_version": "2608.01735v2"
     },
     {
       "paper_id": "2608.01837",
@@ -6733,7 +6964,8 @@
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 3 Aug 2026]"
+      "source_version": "[Submitted on 3 Aug 2026]",
+      "latest_version": "2608.01837v1"
     },
     {
       "paper_id": "2608.01953",
@@ -6766,7 +6998,8 @@
         "https://github.com/ChenChiShui/FutureBridge-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 3 Aug 2026 ( v1 ), last revised 5 Aug 2026 (this version, v2)]"
+      "source_version": "[Submitted on 3 Aug 2026 ( v1 ), last revised 5 Aug 2026 (this version, v2)]",
+      "latest_version": "2608.01953v2"
     },
     {
       "paper_id": "2608.02139",
@@ -6796,7 +7029,8 @@
         "https://github.com/rrrsj/SPEE"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 3 Aug 2026 ( v1 ), last revised 4 Aug 2026 (this version, v2)]"
+      "source_version": "[Submitted on 3 Aug 2026 ( v1 ), last revised 4 Aug 2026 (this version, v2)]",
+      "latest_version": "2608.02139v2"
     },
     {
       "paper_id": "2608.02948",
@@ -6816,7 +7050,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 3 Aug 2026]"
+      "source_version": "[Submitted on 3 Aug 2026]",
+      "latest_version": "2608.02948v1"
     },
     {
       "paper_id": "2608.03092",
@@ -6844,7 +7079,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 4 Aug 2026 ( v1 ), last revised 21 Aug 2026 (this version, v2)]"
+      "source_version": "[Submitted on 4 Aug 2026 ( v1 ), last revised 21 Aug 2026 (this version, v2)]",
+      "latest_version": "2608.03092v2"
     },
     {
       "paper_id": "2608.04419",
@@ -6869,7 +7105,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 5 Aug 2026 ( v1 ), last revised 17 Aug 2026 (this version, v2)]"
+      "source_version": "[Submitted on 5 Aug 2026 ( v1 ), last revised 17 Aug 2026 (this version, v2)]",
+      "latest_version": "2608.04419v2"
     },
     {
       "paper_id": "2608.04794",
@@ -6891,7 +7128,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 5 Aug 2026]"
+      "source_version": "[Submitted on 5 Aug 2026]",
+      "latest_version": "2608.04794v1"
     },
     {
       "paper_id": "2608.05131",
@@ -6918,7 +7156,8 @@
         "https://github.com/aniri15/OPD-V"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 5 Aug 2026 ( v1 ), last revised 6 Aug 2026 (this version, v2)]"
+      "source_version": "[Submitted on 5 Aug 2026 ( v1 ), last revised 6 Aug 2026 (this version, v2)]",
+      "latest_version": "2608.05131v2"
     },
     {
       "paper_id": "2608.06756",
@@ -6945,7 +7184,8 @@
       "home": "9",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 7 Aug 2026]"
+      "source_version": "[Submitted on 7 Aug 2026]",
+      "latest_version": "2608.06756v1"
     },
     {
       "paper_id": "2608.07068",
@@ -6969,7 +7209,8 @@
         "https://github.com/TPssp/MemOPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 7 Aug 2026]"
+      "source_version": "[Submitted on 7 Aug 2026]",
+      "latest_version": "2608.07068v1"
     },
     {
       "paper_id": "2608.07371",
@@ -6992,7 +7233,8 @@
         "https://github.com/Chihaya-Anon-chan/TRIAL"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 7 Aug 2026]"
+      "source_version": "[Submitted on 7 Aug 2026]",
+      "latest_version": "2608.07371v1"
     },
     {
       "paper_id": "2608.07935",
@@ -7017,7 +7259,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 8 Aug 2026 ( v1 ), last revised 11 Aug 2026 (this version, v2)]"
+      "source_version": "[Submitted on 8 Aug 2026 ( v1 ), last revised 11 Aug 2026 (this version, v2)]",
+      "latest_version": "2608.07935v2"
     },
     {
       "paper_id": "2608.08176",
@@ -7047,7 +7290,8 @@
         "https://github.com/lauvlalala/USD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 8 Aug 2026]"
+      "source_version": "[Submitted on 8 Aug 2026]",
+      "latest_version": "2608.08176v1"
     },
     {
       "paper_id": "2608.08726",
@@ -7067,7 +7311,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 9 Aug 2026]"
+      "source_version": "[Submitted on 9 Aug 2026]",
+      "latest_version": "2608.08726v1"
     },
     {
       "paper_id": "2608.08960",
@@ -7092,7 +7337,8 @@
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 9 Aug 2026]"
+      "source_version": "[Submitted on 9 Aug 2026]",
+      "latest_version": "2608.08960v1"
     },
     {
       "paper_id": "2608.09228",
@@ -7115,7 +7361,8 @@
         "https://github.com/MBZUAI-reasoninglab/OP2SD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 10 Aug 2026]"
+      "source_version": "[Submitted on 10 Aug 2026]",
+      "latest_version": "2608.09228v1"
     },
     {
       "paper_id": "2608.09263",
@@ -7139,7 +7386,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 10 Aug 2026 ( v1 ), last revised 25 Aug 2026 (this version, v2)]"
+      "source_version": "[Submitted on 10 Aug 2026 ( v1 ), last revised 25 Aug 2026 (this version, v2)]",
+      "latest_version": "2608.09263v2"
     },
     {
       "paper_id": "2608.09447",
@@ -7168,7 +7416,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 10 Aug 2026 ( v1 ), last revised 3 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 10 Aug 2026 ( v1 ), last revised 3 Sep 2026 (this version, v2)]",
+      "latest_version": "2608.09447v2"
     },
     {
       "paper_id": "2608.09745",
@@ -7197,7 +7446,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 10 Aug 2026 ( v1 ), last revised 29 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 10 Aug 2026 ( v1 ), last revised 29 Sep 2026 (this version, v2)]",
+      "latest_version": "2608.09745v2"
     },
     {
       "paper_id": "2608.09826",
@@ -7218,7 +7468,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 10 Aug 2026]"
+      "source_version": "[Submitted on 10 Aug 2026]",
+      "latest_version": "2608.09826v1"
     },
     {
       "paper_id": "2608.09836",
@@ -7244,7 +7495,8 @@
         "https://github.com/yzc-666/TIDE"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 10 Aug 2026]"
+      "source_version": "[Submitted on 10 Aug 2026]",
+      "latest_version": "2608.09836v1"
     },
     {
       "paper_id": "2608.19098",
@@ -7271,7 +7523,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 19 Aug 2026]"
+      "source_version": "[Submitted on 19 Aug 2026]",
+      "latest_version": "2608.19098v1"
     },
     {
       "paper_id": "2608.19181",
@@ -7299,7 +7552,8 @@
         "https://github.com/SolereZhang/GC-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 19 Aug 2026]"
+      "source_version": "[Submitted on 19 Aug 2026]",
+      "latest_version": "2608.19181v1"
     },
     {
       "paper_id": "2608.19408",
@@ -7321,7 +7575,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 19 Aug 2026]"
+      "source_version": "[Submitted on 19 Aug 2026]",
+      "latest_version": "2608.19408v1"
     },
     {
       "paper_id": "2608.21500",
@@ -7344,7 +7599,8 @@
         "https://github.com/pppyb/SecOPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 21 Aug 2026]"
+      "source_version": "[Submitted on 21 Aug 2026]",
+      "latest_version": "2608.21500v1"
     },
     {
       "paper_id": "2608.21811",
@@ -7362,7 +7618,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 22 Aug 2026]"
+      "source_version": "[Submitted on 22 Aug 2026]",
+      "latest_version": "2608.21811v1"
     },
     {
       "paper_id": "2608.24310",
@@ -7388,7 +7645,8 @@
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 25 Aug 2026]"
+      "source_version": "[Submitted on 25 Aug 2026]",
+      "latest_version": "2608.24310v1"
     },
     {
       "paper_id": "2608.24696",
@@ -7415,7 +7673,8 @@
         "https://github.com/LeapLabTHU/OPDVR"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 25 Aug 2026 ( v1 ), last revised 29 Sep 2026 (this version, v4)]"
+      "source_version": "[Submitted on 25 Aug 2026 ( v1 ), last revised 29 Sep 2026 (this version, v4)]",
+      "latest_version": "2608.24696v4"
     },
     {
       "paper_id": "2608.24987",
@@ -7442,7 +7701,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 25 Aug 2026 ( v1 ), last revised 16 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 25 Aug 2026 ( v1 ), last revised 16 Sep 2026 (this version, v2)]",
+      "latest_version": "2608.24987v2"
     },
     {
       "paper_id": "2609.29518",
@@ -7464,8 +7724,9 @@
       "mechanism": "hybrid_opd",
       "home": "7",
       "code_urls": [],
-      "code_status": "No repository listed",
-      "source_version": "[Submitted on 25 Aug 2026]"
+      "code_status": "Announced repository currently unavailable",
+      "source_version": "[Submitted on 25 Aug 2026]",
+      "latest_version": "2609.29518v1"
     },
     {
       "paper_id": "2608.25643",
@@ -7496,7 +7757,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 26 Aug 2026 ( v1 ), last revised 27 Aug 2026 (this version, v2)]"
+      "source_version": "[Submitted on 26 Aug 2026 ( v1 ), last revised 27 Aug 2026 (this version, v2)]",
+      "latest_version": "2608.25643v2"
     },
     {
       "paper_id": "2608.26735",
@@ -7518,7 +7780,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 27 Aug 2026 ( v1 ), last revised 28 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 27 Aug 2026 ( v1 ), last revised 28 Sep 2026 (this version, v2)]",
+      "latest_version": "2608.26735v2"
     },
     {
       "paper_id": "2608.27409",
@@ -7546,7 +7809,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 27 Aug 2026 ( v1 ), last revised 18 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 27 Aug 2026 ( v1 ), last revised 18 Sep 2026 (this version, v2)]",
+      "latest_version": "2608.27409v2"
     },
     {
       "paper_id": "2608.27857",
@@ -7573,7 +7837,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 28 Aug 2026]"
+      "source_version": "[Submitted on 28 Aug 2026]",
+      "latest_version": "2608.27857v1"
     },
     {
       "paper_id": "2608.27960",
@@ -7598,7 +7863,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 28 Aug 2026]"
+      "source_version": "[Submitted on 28 Aug 2026]",
+      "latest_version": "2608.27960v1"
     },
     {
       "paper_id": "2608.29846",
@@ -7623,7 +7889,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 30 Aug 2026]"
+      "source_version": "[Submitted on 30 Aug 2026]",
+      "latest_version": "2608.29846v1"
     },
     {
       "paper_id": "2608.31046",
@@ -7642,7 +7909,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 31 Aug 2026 ( v1 ), last revised 24 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 31 Aug 2026 ( v1 ), last revised 24 Sep 2026 (this version, v2)]",
+      "latest_version": "2608.31046v2"
     },
     {
       "paper_id": "2609.02548",
@@ -7668,7 +7936,8 @@
         "https://github.com/hexixiang/MT-SDPO"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 2 Sep 2026]"
+      "source_version": "[Submitted on 2 Sep 2026]",
+      "latest_version": "2609.02548v1"
     },
     {
       "paper_id": "2609.02998",
@@ -7694,7 +7963,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 2 Sep 2026 ( v1 ), last revised 16 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 2 Sep 2026 ( v1 ), last revised 16 Sep 2026 (this version, v2)]",
+      "latest_version": "2609.02998v2"
     },
     {
       "paper_id": "2609.04108",
@@ -7719,7 +7989,8 @@
         "https://github.com/StringNLPLAB/opd-rlvr"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 3 Sep 2026 ( v1 ), last revised 4 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 3 Sep 2026 ( v1 ), last revised 4 Sep 2026 (this version, v2)]",
+      "latest_version": "2609.04108v2"
     },
     {
       "paper_id": "2609.04172",
@@ -7751,7 +8022,8 @@
         "https://github.com/Thinking-Space/One-Shot-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 3 Sep 2026]"
+      "source_version": "[Submitted on 3 Sep 2026]",
+      "latest_version": "2609.04172v1"
     },
     {
       "paper_id": "2609.04565",
@@ -7773,7 +8045,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 3 Sep 2026]"
+      "source_version": "[Submitted on 3 Sep 2026]",
+      "latest_version": "2609.04565v1"
     },
     {
       "paper_id": "2609.05198",
@@ -7794,7 +8067,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 4 Sep 2026 ( v1 ), last revised 26 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 4 Sep 2026 ( v1 ), last revised 26 Sep 2026 (this version, v2)]",
+      "latest_version": "2609.05198v2"
     },
     {
       "paper_id": "2609.05295",
@@ -7814,7 +8088,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 4 Sep 2026]"
+      "source_version": "[Submitted on 4 Sep 2026]",
+      "latest_version": "2609.05295v1"
     },
     {
       "paper_id": "2609.22254",
@@ -7840,7 +8115,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 6 Sep 2026]"
+      "source_version": "[Submitted on 6 Sep 2026]",
+      "latest_version": "2609.22254v1"
     },
     {
       "paper_id": "2609.25048",
@@ -7866,7 +8142,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 6 Sep 2026 ( v1 ), last revised 26 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 6 Sep 2026 ( v1 ), last revised 26 Sep 2026 (this version, v2)]",
+      "latest_version": "2609.25048v2"
     },
     {
       "paper_id": "2609.07103",
@@ -7889,7 +8166,8 @@
         "https://github.com/naver-ai/revisiting-trace"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 7 Sep 2026]"
+      "source_version": "[Submitted on 7 Sep 2026]",
+      "latest_version": "2609.07103v1"
     },
     {
       "paper_id": "2609.08337",
@@ -7915,7 +8193,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 8 Sep 2026]"
+      "source_version": "[Submitted on 8 Sep 2026]",
+      "latest_version": "2609.08337v1"
     },
     {
       "paper_id": "2609.08341",
@@ -7937,7 +8216,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 8 Sep 2026 ( v1 ), last revised 29 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 8 Sep 2026 ( v1 ), last revised 29 Sep 2026 (this version, v2)]",
+      "latest_version": "2609.08341v2"
     },
     {
       "paper_id": "2609.08368",
@@ -7945,7 +8225,6 @@
       "title": "Miles v0.1: Production-Level Post-Training",
       "authors": [
         "RadixArk",
-        ":",
         "Chen, Tom",
         "Cheng, Mao",
         "Dong, Shi",
@@ -7970,7 +8249,8 @@
         "https://github.com/radixark/miles"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 8 Sep 2026]"
+      "source_version": "[Submitted on 8 Sep 2026]",
+      "latest_version": "2609.08368v1"
     },
     {
       "paper_id": "2609.09300",
@@ -7993,7 +8273,8 @@
       "home": "9",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 8 Sep 2026]"
+      "source_version": "[Submitted on 8 Sep 2026]",
+      "latest_version": "2609.09300v1"
     },
     {
       "paper_id": "2609.10154",
@@ -8018,7 +8299,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 9 Sep 2026]"
+      "source_version": "[Submitted on 9 Sep 2026]",
+      "latest_version": "2609.10154v1"
     },
     {
       "paper_id": "2609.11127",
@@ -8040,7 +8322,8 @@
       "home": "9",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 10 Sep 2026]"
+      "source_version": "[Submitted on 10 Sep 2026]",
+      "latest_version": "2609.11127v1"
     },
     {
       "paper_id": "2609.14193",
@@ -8069,8 +8352,9 @@
       "mechanism": "direct_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No repository listed",
-      "source_version": "[Submitted on 12 Sep 2026 ( v1 ), last revised 1 Oct 2026 (this version, v3)]"
+      "code_status": "Repository announced; implementation not yet released",
+      "source_version": "[Submitted on 12 Sep 2026 ( v1 ), last revised 1 Oct 2026 (this version, v3)]",
+      "latest_version": "2609.14193v4"
     },
     {
       "paper_id": "2609.14636",
@@ -8096,7 +8380,8 @@
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 13 Sep 2026]"
+      "source_version": "[Submitted on 13 Sep 2026]",
+      "latest_version": "2609.14636v1"
     },
     {
       "paper_id": "2609.14708",
@@ -8118,7 +8403,8 @@
         "https://github.com/jet-ai-projects/Lightning-Weave"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 13 Sep 2026 ( v1 ), last revised 16 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 13 Sep 2026 ( v1 ), last revised 16 Sep 2026 (this version, v2)]",
+      "latest_version": "2609.14708v2"
     },
     {
       "paper_id": "2609.16459",
@@ -8142,7 +8428,8 @@
         "https://github.com/Echochef/OPD-Aha"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 15 Sep 2026]"
+      "source_version": "[Submitted on 15 Sep 2026]",
+      "latest_version": "2609.16459v1"
     },
     {
       "paper_id": "2609.16937",
@@ -8171,7 +8458,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 15 Sep 2026 ( v1 ), last revised 19 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 15 Sep 2026 ( v1 ), last revised 19 Sep 2026 (this version, v2)]",
+      "latest_version": "2609.16937v2"
     },
     {
       "paper_id": "2609.18310",
@@ -8229,7 +8517,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 16 Sep 2026 ( v1 ), last revised 18 Sep 2026 (this version, v3)]"
+      "source_version": "[Submitted on 16 Sep 2026 ( v1 ), last revised 18 Sep 2026 (this version, v3)]",
+      "latest_version": "2609.18310v3"
     },
     {
       "paper_id": "2609.18321",
@@ -8248,7 +8537,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 16 Sep 2026]"
+      "source_version": "[Submitted on 16 Sep 2026]",
+      "latest_version": "2609.18321v1"
     },
     {
       "paper_id": "2609.20511",
@@ -8276,7 +8566,8 @@
         "https://github.com/UNCSciML/opd-eos"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 17 Sep 2026]"
+      "source_version": "[Submitted on 17 Sep 2026]",
+      "latest_version": "2609.20511v1"
     },
     {
       "paper_id": "2609.21432",
@@ -8300,7 +8591,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 18 Sep 2026]"
+      "source_version": "[Submitted on 18 Sep 2026]",
+      "latest_version": "2609.21432v1"
     },
     {
       "paper_id": "2609.21619",
@@ -8320,7 +8612,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 18 Sep 2026]"
+      "source_version": "[Submitted on 18 Sep 2026]",
+      "latest_version": "2609.21619v1"
     },
     {
       "paper_id": "2609.23377",
@@ -8343,7 +8636,8 @@
       "home": "9",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 20 Sep 2026]"
+      "source_version": "[Submitted on 20 Sep 2026]",
+      "latest_version": "2609.23377v1"
     },
     {
       "paper_id": "2609.23697",
@@ -8371,7 +8665,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 20 Sep 2026 ( v1 ), last revised 30 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 20 Sep 2026 ( v1 ), last revised 30 Sep 2026 (this version, v2)]",
+      "latest_version": "2609.23697v2"
     },
     {
       "paper_id": "2609.24141",
@@ -8392,7 +8687,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 21 Sep 2026]"
+      "source_version": "[Submitted on 21 Sep 2026]",
+      "latest_version": "2609.24141v1"
     },
     {
       "paper_id": "2609.24432",
@@ -8417,7 +8713,8 @@
         "https://github.com/BruceSheng1202/IER-OPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 21 Sep 2026]"
+      "source_version": "[Submitted on 21 Sep 2026]",
+      "latest_version": "2609.24432v1"
     },
     {
       "paper_id": "2609.26708",
@@ -8444,7 +8741,8 @@
       "home": "9",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 22 Sep 2026]"
+      "source_version": "[Submitted on 22 Sep 2026]",
+      "latest_version": "2609.26708v1"
     },
     {
       "paper_id": "2609.27421",
@@ -8472,7 +8770,8 @@
         "https://github.com/zhengyanzhao1997/cc-opd"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 23 Sep 2026]"
+      "source_version": "[Submitted on 23 Sep 2026]",
+      "latest_version": "2609.27421v1"
     },
     {
       "paper_id": "2609.28145",
@@ -8518,7 +8817,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 23 Sep 2026 ( v1 ), last revised 26 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 23 Sep 2026 ( v1 ), last revised 26 Sep 2026 (this version, v2)]",
+      "latest_version": "2609.28145v2"
     },
     {
       "paper_id": "2609.28385",
@@ -8540,7 +8840,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 23 Sep 2026]"
+      "source_version": "[Submitted on 23 Sep 2026]",
+      "latest_version": "2609.28385v1"
     },
     {
       "paper_id": "2609.28845",
@@ -8569,7 +8870,8 @@
         "https://github.com/Muyiiiii/LastOPD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 23 Sep 2026]"
+      "source_version": "[Submitted on 23 Sep 2026]",
+      "latest_version": "2609.28845v1"
     },
     {
       "paper_id": "2609.29142",
@@ -8590,7 +8892,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 24 Sep 2026 ( v1 ), last revised 26 Sep 2026 (this version, v2)]"
+      "source_version": "[Submitted on 24 Sep 2026 ( v1 ), last revised 26 Sep 2026 (this version, v2)]",
+      "latest_version": "2609.29142v2"
     },
     {
       "paper_id": "2509.22230",
@@ -8610,7 +8913,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2509.22230v2"
+      "source_version": "2509.22230v2",
+      "latest_version": "2509.22230v2"
     },
     {
       "paper_id": "2604.20733",
@@ -8636,7 +8940,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2604.20733v2"
+      "source_version": "2604.20733v2",
+      "latest_version": "2604.20733v2"
     },
     {
       "paper_id": "2606.18216",
@@ -8662,7 +8967,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2606.18216v5"
+      "source_version": "2606.18216v5",
+      "latest_version": "2606.18216v5"
     },
     {
       "paper_id": "2606.18810",
@@ -8689,7 +8995,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2606.18810v2"
+      "source_version": "2606.18810v2",
+      "latest_version": "2606.18810v2"
     },
     {
       "paper_id": "2607.11020",
@@ -8710,7 +9017,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2607.11020v3"
+      "source_version": "2607.11020v3",
+      "latest_version": "2607.11020v3"
     },
     {
       "paper_id": "2607.17247",
@@ -8732,9 +9040,12 @@
       "objective": "Teacher-weighted RL, with reverse-KL OPD and OPD–RL mixture comparisons.",
       "mechanism": "teacher_mediated_rl",
       "home": "4",
-      "code_urls": [],
-      "code_status": "No repository listed",
-      "source_version": "2607.17247v2"
+      "code_urls": [
+        "https://github.com/597358816/Distilled-RL"
+      ],
+      "code_status": "linked",
+      "source_version": "2607.17247v2",
+      "latest_version": "2607.17247v2"
     },
     {
       "paper_id": "2607.18850",
@@ -8759,7 +9070,8 @@
       "home": "9",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2607.18850v2"
+      "source_version": "2607.18850v2",
+      "latest_version": "2607.18850v2"
     },
     {
       "paper_id": "2607.19046",
@@ -8784,7 +9096,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2607.19046v2"
+      "source_version": "2607.19046v2",
+      "latest_version": "2607.19046v2"
     },
     {
       "paper_id": "2607.19223",
@@ -8806,9 +9119,12 @@
       "objective": "Clipped reverse-KL and hard-label distillation for online diffusion speculative drafters.",
       "mechanism": "hybrid_opd",
       "home": "9",
-      "code_urls": [],
-      "code_status": "No repository listed",
-      "source_version": "2607.19223v3"
+      "code_urls": [
+        "https://github.com/ZinYY/AdaFlash"
+      ],
+      "code_status": "linked",
+      "source_version": "2607.19223v3",
+      "latest_version": "2607.19223v3"
     },
     {
       "paper_id": "2608.00220",
@@ -8830,9 +9146,12 @@
       "objective": "OPD comparisons across instruction-following RL teachers with different retention properties.",
       "mechanism": "direct_opd",
       "home": "8",
-      "code_urls": [],
-      "code_status": "No repository listed",
-      "source_version": "2608.00220v2"
+      "code_urls": [
+        "https://github.com/sylvain-wei/VISR"
+      ],
+      "code_status": "linked",
+      "source_version": "2608.00220v2",
+      "latest_version": "2608.00220v2"
     },
     {
       "paper_id": "2608.11829",
@@ -8858,9 +9177,12 @@
       "objective": "Budget-dependent pass@K analysis and teacher selection through test-time alignment scores.",
       "mechanism": "analysis",
       "home": "8",
-      "code_urls": [],
-      "code_status": "No repository listed",
-      "source_version": "2608.11829v3"
+      "code_urls": [
+        "https://github.com/Geraldxm/opd-test-time-scaling"
+      ],
+      "code_status": "linked",
+      "source_version": "2608.11829v3",
+      "latest_version": "2608.11829v3"
     },
     {
       "paper_id": "2608.15763",
@@ -8887,7 +9209,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2608.15763v5"
+      "source_version": "2608.15763v5",
+      "latest_version": "2608.15763v5"
     },
     {
       "paper_id": "2609.35553",
@@ -8911,7 +9234,8 @@
       "home": "9",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2609.35553v1"
+      "source_version": "2609.35553v1",
+      "latest_version": "2609.35553v1"
     },
     {
       "paper_id": "2609.36679",
@@ -8938,7 +9262,8 @@
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2609.36679v2"
+      "source_version": "2609.36679v2",
+      "latest_version": "2609.36679v2"
     },
     {
       "paper_id": "2610.02140",
@@ -8958,7 +9283,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2610.02140v1"
+      "source_version": "2610.02140v1",
+      "latest_version": "2610.02140v1"
     },
     {
       "paper_id": "2610.03695",
@@ -8976,9 +9302,12 @@
       "objective": "Iterative SFT on engine-checked analyses of model-play and external chess positions.",
       "mechanism": "hybrid_opd",
       "home": "7",
-      "code_urls": [],
-      "code_status": "No repository listed",
-      "source_version": "2610.03695v1"
+      "code_urls": [
+        "https://github.com/queen-project/queen"
+      ],
+      "code_status": "linked",
+      "source_version": "2610.03695v1",
+      "latest_version": "2610.03695v1"
     },
     {
       "paper_id": "2610.11111",
@@ -9009,7 +9338,8 @@
       "home": "9",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2610.11111v1"
+      "source_version": "2610.11111v1",
+      "latest_version": "2610.11111v1"
     },
     {
       "paper_id": "2610.08967",
@@ -9031,7 +9361,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2610.08967v1"
+      "source_version": "2610.08967v1",
+      "latest_version": "2610.08967v1"
     },
     {
       "paper_id": "2610.09074",
@@ -9056,7 +9387,8 @@
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2610.09074v1"
+      "source_version": "2610.09074v1",
+      "latest_version": "2610.09074v1"
     },
     {
       "paper_id": "2610.09484",
@@ -9083,7 +9415,8 @@
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2610.09484v2"
+      "source_version": "2610.09484v2",
+      "latest_version": "2610.09484v2"
     },
     {
       "paper_id": "2610.09639",
@@ -9102,7 +9435,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2610.09639v1"
+      "source_version": "2610.09639v1",
+      "latest_version": "2610.09639v1"
     },
     {
       "paper_id": "2610.09665",
@@ -9122,8 +9456,9 @@
       "mechanism": "offline_distillation",
       "home": "background",
       "code_urls": [],
-      "code_status": "No repository listed",
-      "source_version": "2610.09665v1"
+      "code_status": "Repository announced; implementation not yet released",
+      "source_version": "2610.09665v1",
+      "latest_version": "2610.09665v1"
     },
     {
       "paper_id": "2610.09795",
@@ -9144,7 +9479,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2610.09795v1"
+      "source_version": "2610.09795v1",
+      "latest_version": "2610.09795v1"
     },
     {
       "paper_id": "2610.10447",
@@ -9164,7 +9500,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2610.10447v1"
+      "source_version": "2610.10447v1",
+      "latest_version": "2610.10447v1"
     },
     {
       "paper_id": "2610.10460",
@@ -9187,7 +9524,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2610.10460v1"
+      "source_version": "2610.10460v1",
+      "latest_version": "2610.10460v1"
     },
     {
       "paper_id": "2610.10623",
@@ -9209,7 +9547,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2610.10623v1"
+      "source_version": "2610.10623v1",
+      "latest_version": "2610.10623v1"
     },
     {
       "paper_id": "2610.10878",
@@ -9232,7 +9571,8 @@
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2610.10878v1"
+      "source_version": "2610.10878v1",
+      "latest_version": "2610.10878v1"
     },
     {
       "paper_id": "2610.11167",
@@ -9257,7 +9597,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2610.11167v1"
+      "source_version": "2610.11167v1",
+      "latest_version": "2610.11167v1"
     },
     {
       "paper_id": "2610.11247",
@@ -9276,9 +9617,12 @@
       "objective": "Full-KL OPD flow analysis separating fixed-prefix learning from rollout-occupancy changes.",
       "mechanism": "analysis",
       "home": "8",
-      "code_urls": [],
-      "code_status": "No repository listed",
-      "source_version": "2610.11247v1"
+      "code_urls": [
+        "https://github.com/leizhao7/opd-learning-signals"
+      ],
+      "code_status": "linked",
+      "source_version": "2610.11247v1",
+      "latest_version": "2610.11247v1"
     },
     {
       "paper_id": "2610.11291",
@@ -9306,7 +9650,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2610.11291v1"
+      "source_version": "2610.11291v1",
+      "latest_version": "2610.11291v1"
     },
     {
       "paper_id": "2610.11332",
@@ -9330,7 +9675,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2610.11332v1"
+      "source_version": "2610.11332v1",
+      "latest_version": "2610.11332v1"
     },
     {
       "paper_id": "2610.11366",
@@ -9356,7 +9702,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2610.11366v1"
+      "source_version": "2610.11366v1",
+      "latest_version": "2610.11366v1"
     },
     {
       "paper_id": "2610.11384",
@@ -9380,7 +9727,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2610.11384v1"
+      "source_version": "2610.11384v1",
+      "latest_version": "2610.11384v1"
     },
     {
       "paper_id": "2610.11423",
@@ -9402,7 +9750,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2610.11423v1"
+      "source_version": "2610.11423v1",
+      "latest_version": "2610.11423v1"
     },
     {
       "paper_id": "2610.11451",
@@ -9431,7 +9780,8 @@
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2610.11451v1"
+      "source_version": "2610.11451v1",
+      "latest_version": "2610.11451v1"
     },
     {
       "paper_id": "2610.11519",
@@ -9450,7 +9800,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2610.11519v1"
+      "source_version": "2610.11519v1",
+      "latest_version": "2610.11519v1"
     },
     {
       "paper_id": "2610.11529",
@@ -9471,7 +9822,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2610.11529v1"
+      "source_version": "2610.11529v1",
+      "latest_version": "2610.11529v1"
     },
     {
       "paper_id": "2610.11659",
@@ -9496,7 +9848,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2610.11659v1"
+      "source_version": "2610.11659v1",
+      "latest_version": "2610.11659v1"
     },
     {
       "paper_id": "2610.11989",
@@ -9522,7 +9875,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2610.11989v1"
+      "source_version": "2610.11989v1",
+      "latest_version": "2610.11989v1"
     },
     {
       "paper_id": "2610.12355",
@@ -9545,9 +9899,12 @@
       "objective": "GRPO plus capped privileged-context discrepancy on incorrect RGB-conditioned student responses.",
       "mechanism": "hybrid_opd",
       "home": "5",
-      "code_urls": [],
-      "code_status": "No repository listed",
-      "source_version": "2610.12355v1"
+      "code_urls": [
+        "https://github.com/ZJU-REAL/GPD"
+      ],
+      "code_status": "linked",
+      "source_version": "2610.12355v1",
+      "latest_version": "2610.12355v1"
     },
     {
       "paper_id": "2610.12367",
@@ -9571,7 +9928,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2610.12367v1"
+      "source_version": "2610.12367v1",
+      "latest_version": "2610.12367v1"
     },
     {
       "paper_id": "2609.34225",
@@ -9597,7 +9955,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2609.34225v1"
+      "source_version": "2609.34225v1",
+      "latest_version": "2609.34225v1"
     },
     {
       "paper_id": "2609.34234",
@@ -9622,7 +9981,8 @@
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "2609.34234v1"
+      "source_version": "2609.34234v1",
+      "latest_version": "2609.34234v1"
     },
     {
       "paper_id": "2609.34386",
@@ -9644,7 +10004,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "arXiv:2609.34386v1; submitted 2026-09-28T06:02:40Z; updated 2026-09-28T06:02:40Z"
+      "source_version": "arXiv:2609.34386v1; submitted 2026-09-28T06:02:40Z; updated 2026-09-28T06:02:40Z",
+      "latest_version": "2609.34386v1"
     },
     {
       "paper_id": "2609.34447",
@@ -9669,7 +10030,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "arXiv:2609.34447v2; submitted 2026-09-28T07:03:32Z; updated 2026-10-01T03:43:03Z"
+      "source_version": "arXiv:2609.34447v1",
+      "latest_version": "2609.34447v2"
     },
     {
       "paper_id": "2609.38360",
@@ -9694,7 +10056,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "arXiv:2609.38360v1; submitted 2026-09-29T18:22:05Z; updated 2026-09-29T18:22:05Z"
+      "source_version": "arXiv:2609.38360v1; submitted 2026-09-29T18:22:05Z; updated 2026-09-29T18:22:05Z",
+      "latest_version": "2609.38360v1"
     },
     {
       "paper_id": "2609.38666",
@@ -9717,7 +10080,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "arXiv:2609.38666v1; submitted 2026-09-29T23:47:58Z; updated 2026-09-29T23:47:58Z"
+      "source_version": "arXiv:2609.38666v1; submitted 2026-09-29T23:47:58Z; updated 2026-09-29T23:47:58Z",
+      "latest_version": "2609.38666v1"
     },
     {
       "paper_id": "2610.03185",
@@ -9738,9 +10102,12 @@
       "objective": "OPD reasoning-dynamics analysis and truncated-rollout masking against degeneration.",
       "mechanism": "direct_opd",
       "home": "8",
-      "code_urls": [],
-      "code_status": "No repository listed",
-      "source_version": "arXiv:2610.03185v1; submitted 2026-10-02T11:57:36Z; updated 2026-10-02T11:57:36Z"
+      "code_urls": [
+        "https://github.com/HancCui/opd_hacking"
+      ],
+      "code_status": "linked",
+      "source_version": "arXiv:2610.03185v1; submitted 2026-10-02T11:57:36Z; updated 2026-10-02T11:57:36Z",
+      "latest_version": "2610.03185v1"
     },
     {
       "paper_id": "2610.03529",
@@ -9759,7 +10126,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "arXiv:2610.03529v1; submitted 2026-10-02T16:15:53Z; updated 2026-10-02T16:15:53Z"
+      "source_version": "arXiv:2610.03529v1; submitted 2026-10-02T16:15:53Z; updated 2026-10-02T16:15:53Z",
+      "latest_version": "2610.03529v1"
     },
     {
       "paper_id": "2610.04882",
@@ -9782,7 +10150,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "arXiv:2610.04882v1; submitted 2026-10-04T02:43:39Z; updated 2026-10-04T02:43:39Z"
+      "source_version": "arXiv:2610.04882v1; submitted 2026-10-04T02:43:39Z; updated 2026-10-04T02:43:39Z",
+      "latest_version": "2610.04882v1"
     },
     {
       "paper_id": "2610.04950",
@@ -9804,7 +10173,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "arXiv:2610.04950v1; submitted 2026-10-04T04:49:24Z; updated 2026-10-04T04:49:24Z"
+      "source_version": "arXiv:2610.04950v1; submitted 2026-10-04T04:49:24Z; updated 2026-10-04T04:49:24Z",
+      "latest_version": "2610.04950v1"
     },
     {
       "paper_id": "2610.05373",
@@ -9830,7 +10200,8 @@
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "arXiv:2610.05373v1; submitted 2026-10-04T17:00:16Z; updated 2026-10-04T17:00:16Z"
+      "source_version": "arXiv:2610.05373v1; submitted 2026-10-04T17:00:16Z; updated 2026-10-04T17:00:16Z",
+      "latest_version": "2610.05373v1"
     },
     {
       "paper_id": "2610.05974",
@@ -9855,7 +10226,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "arXiv:2610.05974v1; submitted 2026-10-05T08:26:20Z; updated 2026-10-05T08:26:20Z"
+      "source_version": "arXiv:2610.05974v1; submitted 2026-10-05T08:26:20Z; updated 2026-10-05T08:26:20Z",
+      "latest_version": "2610.05974v1"
     },
     {
       "paper_id": "2610.06105",
@@ -9881,7 +10253,8 @@
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "arXiv:2610.06105v1; submitted 2026-10-05T10:36:57Z; updated 2026-10-05T10:36:57Z"
+      "source_version": "arXiv:2610.06105v1; submitted 2026-10-05T10:36:57Z; updated 2026-10-05T10:36:57Z",
+      "latest_version": "2610.06105v1"
     },
     {
       "paper_id": "2610.06804",
@@ -9903,9 +10276,12 @@
       "objective": "Teacher-scored particle histories and resampling for approximate sequence-level power sharpening.",
       "mechanism": "direct_opd",
       "home": "5",
-      "code_urls": [],
-      "code_status": "No repository listed",
-      "source_version": "arXiv:2610.06804v1; submitted 2026-10-05T17:53:30Z; updated 2026-10-05T17:53:30Z"
+      "code_urls": [
+        "https://github.com/ArminAzizi98/OPPD"
+      ],
+      "code_status": "linked",
+      "source_version": "arXiv:2610.06804v1; submitted 2026-10-05T17:53:30Z; updated 2026-10-05T17:53:30Z",
+      "latest_version": "2610.06804v1"
     },
     {
       "paper_id": "2610.07654",
@@ -9930,7 +10306,8 @@
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "arXiv:2610.07654v1; submitted 2026-10-06T02:50:07Z; updated 2026-10-06T02:50:07Z"
+      "source_version": "arXiv:2610.07654v1; submitted 2026-10-06T02:50:07Z; updated 2026-10-06T02:50:07Z",
+      "latest_version": "2610.07654v1"
     },
     {
       "paper_id": "2610.07874",
@@ -9950,8 +10327,9 @@
       "mechanism": "hybrid_opd",
       "home": "6",
       "code_urls": [],
-      "code_status": "No repository listed",
-      "source_version": "arXiv:2610.07874v1; submitted 2026-10-06T07:25:03Z; updated 2026-10-06T07:25:03Z"
+      "code_status": "Repository announced; implementation not yet released",
+      "source_version": "arXiv:2610.07874v1; submitted 2026-10-06T07:25:03Z; updated 2026-10-06T07:25:03Z",
+      "latest_version": "2610.07874v1"
     },
     {
       "paper_id": "2610.08398",
@@ -9979,7 +10357,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "arXiv:2610.08398v1; submitted 2026-10-06T14:13:31Z; updated 2026-10-06T14:13:31Z"
+      "source_version": "arXiv:2610.08398v1; submitted 2026-10-06T14:13:31Z; updated 2026-10-06T14:13:31Z",
+      "latest_version": "2610.08398v1"
     },
     {
       "paper_id": "2610.08448",
@@ -10003,7 +10382,8 @@
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "arXiv:2610.08448v1; submitted 2026-10-06T14:37:22Z; updated 2026-10-06T14:37:22Z"
+      "source_version": "arXiv:2610.08448v1; submitted 2026-10-06T14:37:22Z; updated 2026-10-06T14:37:22Z",
+      "latest_version": "2610.08448v1"
     }
   ]
 }
