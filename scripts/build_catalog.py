@@ -149,10 +149,14 @@ def render():
             '![Historical loss-label evolution](assets/loss-evolution.png)','',
             'The older display classes grouped several non-equivalent mechanisms. Use the current [objective index](resources/loss-taxonomy.md) '
             'and [equation guide](resources/key-equations.md) for method-specific descriptions.','', '</details>', '',
-            '## Citation','', '```bibtex','@article{song2026opdsurvey,',
+            '## Citation','', '```bibtex','@misc{song2026surveyonpolicydistillationlarge,',
             '  title = {A Survey of On-Policy Distillation for Large Language Models},',
             '  author = {Mingyang Song and Mao Zheng},',
-            '  journal = {arXiv preprint arXiv:2604.00626},','  year = {2026}','}','```','',
+            '  year = {2026},',
+            '  eprint = {2604.00626},',
+            '  archivePrefix = {arXiv},',
+            '  primaryClass = {cs.LG},',
+            '  url = {https://arxiv.org/abs/2604.00626},','}','```','',
             'For corrections, provide the paper version and the primary source supporting the change. '
             'See [CONTRIBUTING.md](CONTRIBUTING.md).', '',
             '[MIT License](LICENSE) · [↑ Back to top](#readme-top)']

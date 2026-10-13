@@ -1664,11 +1664,14 @@ The older display classes grouped several non-equivalent mechanisms. Use the cur
 ## Citation
 
 ```bibtex
-@article{song2026opdsurvey,
+@misc{song2026surveyonpolicydistillationlarge,
   title = {A Survey of On-Policy Distillation for Large Language Models},
   author = {Mingyang Song and Mao Zheng},
-  journal = {arXiv preprint arXiv:2604.00626},
-  year = {2026}
+  year = {2026},
+  eprint = {2604.00626},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.LG},
+  url = {https://arxiv.org/abs/2604.00626},
 }
 ```
 
