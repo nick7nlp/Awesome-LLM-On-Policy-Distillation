@@ -1,55 +1,70 @@
 <a id="readme-top"></a>
 
-<p align="center"><a href="https://nick7nlp.github.io/OPDHub/"><img src="assets/reading-room.svg" width="960" alt="On-Policy Distillation — objectives, supervision, interaction"></a></p>
+<p align="center">
+  <a href="https://nick7nlp.github.io/OPDHub/">
+    <picture>
+      <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/reading-room-mobile-dark.svg">
+      <source media="(max-width: 600px)" srcset="assets/reading-room-mobile.svg">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/reading-room-dark.svg">
+      <img src="assets/reading-room.svg" width="1200" alt="Awesome LLM On-Policy Distillation — learning from teachers on the student’s own trajectories.">
+    </picture>
+  </a>
+</p>
 
-# Awesome LLM On-Policy Distillation
+<p align="center">
+  <a href="https://arxiv.org/abs/2604.00626"><strong>Read the survey</strong></a> &nbsp;·&nbsp; <a href="https://nick7nlp.github.io/OPDHub/"><strong>Explore OPDHub ↗</strong></a> &nbsp;·&nbsp; <a href="#browse-the-literature">Browse papers</a> &nbsp;·&nbsp; <a href="#citation">Cite</a>
+</p>
 
-How language-model students learn from teachers on their own trajectories. A reading companion to **[A Survey of On-Policy Distillation for Large Language Models](https://arxiv.org/abs/2604.00626)**.
+<p align="center"><sub>362 entries · 124 with code · Updated&nbsp;2026&#8209;10&#8209;12</sub></p>
 
-[![Read the survey](https://img.shields.io/badge/Survey-arXiv-315c52?style=flat-square)](https://arxiv.org/abs/2604.00626) [![Explore OPDHub](https://img.shields.io/badge/Explore-OPDHub-526c7c?style=flat-square)](https://nick7nlp.github.io/OPDHub/) [![License](https://img.shields.io/badge/License-MIT-7a7365?style=flat-square)](LICENSE)
+A reading companion to **[A Survey of On-Policy Distillation for Large Language Models](https://arxiv.org/abs/2604.00626)**.
 
-**[Search the collection ↗](https://nick7nlp.github.io/OPDHub/)** · [Reading paths](resources/reading-order.md) · [Method comparison](resources/method-comparison.md) · [Code](resources/codebases.md) · [Equations](resources/key-equations.md) · [Evaluation](resources/benchmarks.md)
+<a id="a-few-good-starting-points"></a>
 
-<sub>362 papers and resources · Updated 2026-10-12 · The public survey is arXiv v4; the reading list includes later work.</sub>
+## Start reading
 
-## Find your question
+<table>
+<thead><tr>
+<th align="left" width="440">Follow a question</th>
+<th align="left" width="440">Start with</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>How does the student learn?</strong><br><sub>Sampling, divergence, and the policy update.</sub></td>
+<td><a href="https://arxiv.org/abs/2306.13649">GKD</a> · <a href="https://arxiv.org/abs/2306.08543">MiniLLM</a></td>
+</tr>
+<tr>
+<td><strong>Where does supervision come from?</strong><br><sub>Solutions and feedback as teacher context.</sub></td>
+<td><a href="https://arxiv.org/abs/2601.18734">OPSD</a> · <a href="https://arxiv.org/abs/2601.20802">SDPO</a></td>
+</tr>
+<tr>
+<td><strong>What transfers, and what does not?</strong><br><sub>Reasoning compatibility, skills, and knowledge.</sub></td>
+<td><a href="https://arxiv.org/abs/2604.13016">Rethinking OPD</a> · <a href="https://arxiv.org/abs/2610.09639">Skills vs. Knowledge</a></td>
+</tr>
+<tr>
+<td><strong>How do multiple agents learn?</strong><br><sub>Joint trajectories and merging distilled experts.</sub></td>
+<td><a href="https://arxiv.org/abs/2609.34234">MAS-OPD</a> · <a href="https://arxiv.org/abs/2609.34225">USA</a></td>
+</tr>
+</tbody>
+</table>
 
-| Learning signal | Supervision and interaction | Transfer and practice |
-|:---|:---|:---|
-| [Objectives and update rules](#papers-4) | [Teacher construction](#papers-5) | [Mechanisms and failures](#papers-8) |
-| [Data and training](#papers-6) | [Agents and multi-turn learning](#papers-7) | [Applications and systems](#papers-9) |
+**[Follow the full reading paths →](resources/reading-order.md)**
 
-[Foundations and related background](#papers-background) · [Related surveys](resources/related-surveys.md)
+<a id="the-collection"></a>
+<a id="find-your-question"></a>
 
-## A few good starting points
+## Browse the literature
 
-- **The learning problem.** [GKD](https://arxiv.org/abs/2306.13649) separates the prefix distribution from the matching loss; [MiniLLM](https://arxiv.org/abs/2306.08543) develops sequence reverse KL and its practical estimator.
-- **The supervision interface.** [OPSD](https://arxiv.org/abs/2601.18734) and [SDPO](https://arxiv.org/abs/2601.20802) show how solutions and feedback can turn a model into its own teacher.
-- **The limits of transfer.** [Rethinking OPD](https://arxiv.org/abs/2604.13016) examines reasoning compatibility; [Skills vs. Knowledge](https://arxiv.org/abs/2610.09639) separates prefix choice from divergence direction.
-- **Beyond one policy.** [MAS-OPD](https://arxiv.org/abs/2609.34234) studies role-specific supervision on joint agent trajectories; [USA](https://arxiv.org/abs/2609.34225) prepares distilled agent experts for merging.
+Expand a topic to read the paper summaries, or **[search and filter on OPDHub ↗](https://nick7nlp.github.io/OPDHub/)**. Entries are ordered newest first within each topic.
 
-Follow a [complete reading path](resources/reading-order.md) or compare [methods by their supervision requirements](resources/method-comparison.md).
-
-## Updates
-
-- **2026-10-12** — Added 59 papers, including MAS-OPD and USA, with expanded reading paths for sparse estimators, adaptive teachers, multi-agent learning, and transfer limits. Redesigned the reading list and OPDHub for easier browsing and comparison. [Explore the collection](https://nick7nlp.github.io/OPDHub/)
-- **2026-10-06** — Updated the reading collection to 303 entries, covering OPD objectives, teacher construction, training, analysis, and systems. Expanded the method comparisons and refreshed paper descriptions, references, and repository links across the reading list and OPDHub. [Browse the reading list](https://github.com/nick7nlp/Awesome-LLM-On-Policy-Distillation)
-
-[All updates and survey releases](CHANGELOG.md)
-
-## The collection
-
-The central topic is research that improves, explains, or implements teacher-to-student transfer on student-generated states. Direct matching, hybrid training, teacher-mediated RL, and related comparators are labeled separately. Each topic brings together mechanisms and evidence; it is a reading guide rather than a performance ranking.
-
-<sub>Newest first within each topic. Dates denote first public release. Code links identify associated resources; unofficial reproductions are labeled.</sub>
 
 <a id="papers-4"></a>
 
-### Objectives and update rules
+<a id="objectives-and-update-rules"></a>
+
+<details><summary><strong>Objectives and update rules</strong> &nbsp;·&nbsp; 64</summary>
 
 *What does the student update optimize?*
-
-<details open><summary>64 entries · expand / collapse</summary>
 
 - **[Residual Advantage: Student-Relative Teacher Guidance for RL with Verifiable Rewards](https://arxiv.org/abs/2610.11519)**  
   <sub>2026-10-08 · Teacher-mediated RL</sub>  
@@ -307,17 +322,17 @@ The central topic is research that improves, explains, or implements teacher-to-
   <sub>2023-06-14 · Direct OPD · [Code](https://github.com/microsoft/LMOps)</sub>  
   MiniLLM targets sequence-level reverse KL using student-generated responses and teacher probabilities. Its update separates an immediate full-vocabulary term from estimated future effects, with teacher-mixed sampling and other stabilizers; its reported evaluation centers on instruction following, not a general rule favoring reverse KL.
 
-</details>
+[↑ Back to topics](#browse-the-literature)
 
-[↑ Back to top](#readme-top)
+</details>
 
 <a id="papers-5"></a>
 
-### Teacher and supervision construction
+<a id="teacher-and-supervision-construction"></a>
+
+<details><summary><strong>Teacher and supervision construction</strong> &nbsp;·&nbsp; 98</summary>
 
 *What makes a teacher useful on student trajectories?*
-
-<details open><summary>98 entries · expand / collapse</summary>
 
 - **[Which Skill to Distill? SGUID: Selecting a Compact Skill Bank for Model-Skill Co-Evolution](https://arxiv.org/abs/2610.12367)**  
   <sub>2026-10-08 · Direct OPD</sub>  
@@ -711,17 +726,17 @@ The central topic is research that improves, explains, or implements teacher-to-
   <sub>2024-02-20 · Direct OPD · [Code](https://github.com/gmkim-ai/PromptKD)</sub>  
   On student-generated responses, PromptKD alternates student-guided tuning of soft teacher prompts with reverse-KL updates of the student toward the prompted teacher. Teacher weights stay fixed, while an early, decaying regularizer limits how far the prompted teacher departs from its unprompted distribution.
 
-</details>
+[↑ Back to topics](#browse-the-literature)
 
-[↑ Back to top](#readme-top)
+</details>
 
 <a id="papers-6"></a>
 
-### Data and training dynamics
+<a id="data-and-training-dynamics"></a>
+
+<details><summary><strong>Data and training dynamics</strong> &nbsp;·&nbsp; 71</summary>
 
 *Which states, tokens, and training stages matter?*
-
-<details open><summary>71 entries · expand / collapse</summary>
 
 - **[MetaOPD: Meta-Learned Token Weighting for On-Policy Distillation](https://arxiv.org/abs/2610.11989)**  
   <sub>2026-10-08 · Direct OPD</sub>  
@@ -1007,17 +1022,17 @@ The central topic is research that improves, explains, or implements teacher-to-
   <sub>2024-10-15 · Hybrid OPD</sub>  
   Speculative Knowledge Distillation builds training sequences by accepting student-proposed tokens that rank highly under the teacher and replacing rejected tokens with teacher samples. It then matches teacher and student token distributions on those mixed trajectories, rather than training solely on unmodified student rollouts.
 
-</details>
+[↑ Back to topics](#browse-the-literature)
 
-[↑ Back to top](#readme-top)
+</details>
 
 <a id="papers-7"></a>
 
-### Agentic and multi-turn distillation
+<a id="agentic-and-multi-turn-distillation"></a>
+
+<details><summary><strong>Agentic and multi-turn distillation</strong> &nbsp;·&nbsp; 39</summary>
 
 *How does supervision change across actions and turns?*
-
-<details open><summary>39 entries · expand / collapse</summary>
 
 - **[SAIL: Scientific Agentic Intelligence via a Science-Aware Loop](https://arxiv.org/abs/2610.11451)**  
   <sub>2026-10-08 · Hybrid OPD</sub>  
@@ -1175,17 +1190,17 @@ The central topic is research that improves, explains, or implements teacher-to-
   <sub>2026-01-30 · Hybrid OPD</sub>  
   KEPO combines reward-thresholded teacher matching with a separate recovery branch for rollout groups that receive no positive reward. Gating and recovery comparisons support these two changes, while the threshold includes format reward and should not be described as a correctness-only filter.
 
-</details>
+[↑ Back to topics](#browse-the-literature)
 
-[↑ Back to top](#readme-top)
+</details>
 
 <a id="papers-8"></a>
 
-### Mechanisms, failures, and evaluation
+<a id="mechanisms-failures-and-evaluation"></a>
+
+<details><summary><strong>Mechanisms, failures, and evaluation</strong> &nbsp;·&nbsp; 46</summary>
 
 *What transfers, what fails, and why?*
-
-<details open><summary>46 entries · expand / collapse</summary>
 
 - **[Policy Alignment: New Signals for Membership Auditing in On-Policy Distillation](https://arxiv.org/abs/2610.11423)**  
   <sub>2026-10-08 · Analysis</sub>  
@@ -1371,17 +1386,17 @@ The central topic is research that improves, explains, or implements teacher-to-
   <sub>2025-02-04 · Analysis</sub>  
   The teacher-hacking study separates progress toward a distillation teacher from progress toward an independently evaluated oracle. Controlled comparisons show that refreshing teacher or student generations can reduce the divergence between these metrics, with task-dependent effects from prompt diversity.
 
-</details>
+[↑ Back to topics](#browse-the-literature)
 
-[↑ Back to top](#readme-top)
+</details>
 
 <a id="papers-9"></a>
 
-### Applications and systems
+<a id="applications-and-systems"></a>
+
+<details><summary><strong>Applications and systems</strong> &nbsp;·&nbsp; 24</summary>
 
 *How does distillation fit into a deployed system?*
-
-<details open><summary>24 entries · expand / collapse</summary>
 
 - **[Lapras: Latent Reasoning for Time Series Language Models](https://arxiv.org/abs/2610.11111)**  
   <sub>2026-10-08 · Direct OPD</sub>  
@@ -1479,17 +1494,17 @@ The central topic is research that improves, explains, or implements teacher-to-
   <sub>2023-10-12 · Application / system report</sub>  
   DistillSpec trains a speculative-decoding draft model on draft-generated contexts to match a target model’s next-token distributions, choosing the divergence according to the task and decoding strategy. Its purpose is draft–target alignment for deployment-time verification, not faster distillation training.
 
-</details>
+[↑ Back to topics](#browse-the-literature)
 
-[↑ Back to top](#readme-top)
+</details>
 
 <a id="papers-background"></a>
 
-### Foundations and related background
+<a id="foundations-and-related-background"></a>
+
+<details><summary><strong>Foundations and related background</strong> &nbsp;·&nbsp; 20</summary>
 
 *Which foundations and comparators clarify OPD?*
-
-<details><summary>20 entries · expand / collapse</summary>
 
 - **[SAPD: Step-Aligned Privileged Distillation](https://arxiv.org/abs/2610.09665)**  
   <sub>2026-10-07 · Offline comparator</sub>  
@@ -1571,11 +1586,54 @@ The central topic is research that improves, explains, or implements teacher-to-
   <sub>2010-11-02 · Background</sub>  
   DAgger collects states visited by the learner or an optional learner–expert mixture, obtains expert action labels, and retrains on the accumulated data. Its no-regret analysis concerns sequential imitation under additional assumptions, not language-model token distillation.
 
+[↑ Back to topics](#browse-the-literature)
+
 </details>
 
-[↑ Back to top](#readme-top)
+<details><summary>About the collection</summary>
 
-## Visual reference snapshots
+The central topic is research that improves, explains, or implements teacher-to-student transfer on student-generated states. Direct matching, hybrid training, teacher-mediated RL, and related comparators are labeled separately. Each topic brings together mechanisms and evidence; it is a reading guide rather than a performance ranking.
+
+Dates denote first public release. Code links identify associated resources; unofficial reproductions are labeled. The public survey is arXiv v4; the reading list includes later work.
+
+</details>
+
+## Research tools
+
+<table>
+<thead><tr>
+<th align="left" width="440">Compare and understand</th>
+<th align="left" width="440">Implement and evaluate</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong><a href="resources/method-comparison.md">Method comparison</a></strong><br><sub>Supervision requirements and practical trade-offs.</sub></td>
+<td><strong><a href="resources/codebases.md">Code index</a></strong><br><sub>Implementations and associated resources.</sub></td>
+</tr>
+<tr>
+<td><strong><a href="resources/loss-taxonomy.md">Objectives</a> · <a href="resources/key-equations.md">Key equations</a></strong><br><sub>Targets, gradients, and sampling assumptions.</sub></td>
+<td><strong><a href="resources/benchmarks.md">Evaluation guide</a></strong><br><sub>Benchmarks, costs, and transfer diagnostics.</sub></td>
+</tr>
+<tr>
+<td><strong><a href="resources/related-surveys.md">Related surveys</a></strong><br><sub>Connections to the broader literature.</sub></td>
+<td><strong><a href="CONTRIBUTING.md">Suggest a paper or correction</a></strong><br><sub>Help keep the reading list useful.</sub></td>
+</tr>
+</tbody>
+</table>
+
+<a id="updates"></a>
+<a id="visual-reference-snapshots"></a>
+
+## Updates and visual references
+
+<details><summary>Latest additions and survey releases</summary>
+
+- **2026-10-12** — Added 59 papers, including MAS-OPD and USA, with expanded reading paths for sparse estimators, adaptive teachers, multi-agent learning, and transfer limits. Redesigned the reading list and OPDHub for easier browsing and comparison. [Explore the collection](https://nick7nlp.github.io/OPDHub/)
+- **2026-10-06** — Updated the reading collection to 303 entries, covering OPD objectives, teacher construction, training, analysis, and systems. Expanded the method comparisons and refreshed paper descriptions, references, and repository links across the reading list and OPDHub. [Browse the reading list](https://github.com/nick7nlp/Awesome-LLM-On-Policy-Distillation)
+
+[All updates and survey releases](CHANGELOG.md)
+
+</details>
 
 <details><summary>Teacher–student model atlas · June 2026</summary>
 
@@ -1615,3 +1673,5 @@ The older display classes grouped several non-equivalent mechanisms. Use the cur
 ```
 
 For corrections, provide the paper version and the primary source supporting the change. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+[MIT License](LICENSE) · [↑ Back to top](#readme-top)

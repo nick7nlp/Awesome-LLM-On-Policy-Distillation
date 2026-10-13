@@ -38,6 +38,16 @@ def cell(value):
 def heading_id(home):return 'papers-'+home
 
 
+def guide_table(headers, rows):
+    """Use native cell widths so guides fill a README but shrink on phones."""
+    lines=['<table>', '<thead><tr>']
+    lines += [f'<th align="left" width="440">{header}</th>' for header in headers]
+    lines += ['</tr></thead>', '<tbody>']
+    for row in rows:
+        lines += ['<tr>', *(f'<td>{value}</td>' for value in row), '</tr>']
+    return '\n'.join(lines + ['</tbody>', '</table>'])
+
+
 def render():
     catalog=json.loads(DATA.read_text());papers=catalog['papers']
     for paper in papers:
@@ -46,53 +56,50 @@ def render():
     ids=[r['paper_id'] for r in papers]
     if len(ids)!=len(set(ids)):raise ValueError('Duplicate catalog IDs')
     date=catalog['updated_on'];ordered=sorted(papers,key=lambda r:(r['submitted'],r['paper_id']),reverse=True)
+    code_count=sum(bool(r['code_urls']) for r in papers)
     parts=['<a id="readme-top"></a>', '',
-           '<p align="center"><a href="https://nick7nlp.github.io/OPDHub/"><img src="assets/reading-room.svg" width="960" alt="On-Policy Distillation — objectives, supervision, interaction"></a></p>', '',
-           '# Awesome LLM On-Policy Distillation', '',
-           'How language-model students learn from teachers on their own trajectories. '
+           '<p align="center">',
+           '  <a href="https://nick7nlp.github.io/OPDHub/">',
+           '    <picture>',
+           '      <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/reading-room-mobile-dark.svg">',
+           '      <source media="(max-width: 600px)" srcset="assets/reading-room-mobile.svg">',
+           '      <source media="(prefers-color-scheme: dark)" srcset="assets/reading-room-dark.svg">',
+           '      <img src="assets/reading-room.svg" width="1200" alt="Awesome LLM On-Policy Distillation — learning from teachers on the student’s own trajectories.">',
+           '    </picture>',
+           '  </a>',
+           '</p>', '',
+           '<p align="center">',
+           '  <a href="https://arxiv.org/abs/2604.00626"><strong>Read the survey</strong></a> &nbsp;·&nbsp; '
+           '<a href="https://nick7nlp.github.io/OPDHub/"><strong>Explore OPDHub ↗</strong></a> &nbsp;·&nbsp; '
+           '<a href="#browse-the-literature">Browse papers</a> &nbsp;·&nbsp; <a href="#citation">Cite</a>',
+           '</p>', '',
+           f'<p align="center"><sub>{len(papers)} entries · {code_count} with code · '
+           f'Updated&nbsp;{date.replace("-", "&#8209;")}</sub></p>', '',
            'A reading companion to **[A Survey of On-Policy Distillation for Large Language Models](https://arxiv.org/abs/2604.00626)**.', '',
-           '[![Read the survey](https://img.shields.io/badge/Survey-arXiv-315c52?style=flat-square)](https://arxiv.org/abs/2604.00626) '
-           '[![Explore OPDHub](https://img.shields.io/badge/Explore-OPDHub-526c7c?style=flat-square)](https://nick7nlp.github.io/OPDHub/) '
-           '[![License](https://img.shields.io/badge/License-MIT-7a7365?style=flat-square)](LICENSE)', '',
-           '**[Search the collection ↗](https://nick7nlp.github.io/OPDHub/)** · '
-           '[Reading paths](resources/reading-order.md) · [Method comparison](resources/method-comparison.md) · '
-           '[Code](resources/codebases.md) · [Equations](resources/key-equations.md) · '
-           '[Evaluation](resources/benchmarks.md)', '',
-           f'<sub>{len(papers)} papers and resources · Updated {date} · '
-           'The public survey is arXiv v4; the reading list includes later work.</sub>', '',
-           '## Find your question', '',
-           '| Learning signal | Supervision and interaction | Transfer and practice |',
-           '|:---|:---|:---|',
-           '| [Objectives and update rules](#papers-4) | [Teacher construction](#papers-5) | [Mechanisms and failures](#papers-8) |',
-           '| [Data and training](#papers-6) | [Agents and multi-turn learning](#papers-7) | [Applications and systems](#papers-9) |', '',
-           '[Foundations and related background](#papers-background) · [Related surveys](resources/related-surveys.md)', '',
-           '## A few good starting points', '',
-           '- **The learning problem.** [GKD](https://arxiv.org/abs/2306.13649) separates the prefix distribution from the matching loss; '
-           '[MiniLLM](https://arxiv.org/abs/2306.08543) develops sequence reverse KL and its practical estimator.',
-           '- **The supervision interface.** [OPSD](https://arxiv.org/abs/2601.18734) and [SDPO](https://arxiv.org/abs/2601.20802) '
-           'show how solutions and feedback can turn a model into its own teacher.',
-           '- **The limits of transfer.** [Rethinking OPD](https://arxiv.org/abs/2604.13016) examines reasoning compatibility; '
-           '[Skills vs. Knowledge](https://arxiv.org/abs/2610.09639) separates prefix choice from divergence direction.',
-           '- **Beyond one policy.** [MAS-OPD](https://arxiv.org/abs/2609.34234) studies role-specific supervision on joint agent trajectories; '
-           '[USA](https://arxiv.org/abs/2609.34225) prepares distilled agent experts for merging.', '',
-           'Follow a [complete reading path](resources/reading-order.md) or compare '
-           '[methods by their supervision requirements](resources/method-comparison.md).', '',
-           '## Updates', '']
-    for item in json.loads(NEWS.read_text())['items'][:2]:
-        parts.append(f'- **{item["date"]}** — {item["text"]} [{item["label"]}]({item["url"]})')
-    parts += ['', '[All updates and survey releases](CHANGELOG.md)', '',
-           '## The collection', '',
-           'The central topic is research that improves, explains, or implements teacher-to-student transfer '
-           'on student-generated states. Direct matching, hybrid training, teacher-mediated RL, and related '
-           'comparators are labeled separately. Each topic brings together mechanisms and evidence; '
-           'it is a reading guide rather than a performance ranking.', '',
-           '<sub>Newest first within each topic. Dates denote first public release. '
-           'Code links identify associated resources; unofficial reproductions are labeled.</sub>']
+           '<a id="a-few-good-starting-points"></a>', '',
+           '## Start reading', '',
+           guide_table(['Follow a question', 'Start with'], [
+               ('<strong>How does the student learn?</strong><br><sub>Sampling, divergence, and the policy update.</sub>',
+                '<a href="https://arxiv.org/abs/2306.13649">GKD</a> · <a href="https://arxiv.org/abs/2306.08543">MiniLLM</a>'),
+               ('<strong>Where does supervision come from?</strong><br><sub>Solutions and feedback as teacher context.</sub>',
+                '<a href="https://arxiv.org/abs/2601.18734">OPSD</a> · <a href="https://arxiv.org/abs/2601.20802">SDPO</a>'),
+               ('<strong>What transfers, and what does not?</strong><br><sub>Reasoning compatibility, skills, and knowledge.</sub>',
+                '<a href="https://arxiv.org/abs/2604.13016">Rethinking OPD</a> · <a href="https://arxiv.org/abs/2610.09639">Skills vs. Knowledge</a>'),
+               ('<strong>How do multiple agents learn?</strong><br><sub>Joint trajectories and merging distilled experts.</sub>',
+                '<a href="https://arxiv.org/abs/2609.34234">MAS-OPD</a> · <a href="https://arxiv.org/abs/2609.34225">USA</a>'),
+           ]), '',
+           '**[Follow the full reading paths →](resources/reading-order.md)**', '',
+           '<a id="the-collection"></a>', '<a id="find-your-question"></a>', '',
+           '## Browse the literature', '',
+           'Expand a topic to read the paper summaries, or '
+           '**[search and filter on OPDHub ↗](https://nick7nlp.github.io/OPDHub/)**. '
+           'Entries are ordered newest first within each topic.', '']
     for home,label in SECTIONS:
         group=[r for r in ordered if r['home']==home]
-        parts+=['',f'<a id="{heading_id(home)}"></a>','',f'### {label}', '',
-                f'*{QUESTIONS[home]}*', '',
-                f'<details{" open" if home != "background" else ""}><summary>{len(group)} entries · expand / collapse</summary>', '']
+        parts+=['',f'<a id="{heading_id(home)}"></a>','',
+                f'<a id="{label.lower().replace(",", "").replace(" ", "-")}"></a>', '',
+                f'<details><summary><strong>{label}</strong> &nbsp;·&nbsp; {len(group)}</summary>', '',
+                f'*{QUESTIONS[home]}*', '']
         for r in group:
             resources=' · '.join(f'[Code {i+1}]({url})' if len(r['code_urls'])>1 else f'[Code]({url})'
                                  for i,url in enumerate(r['code_urls']))
@@ -103,8 +110,30 @@ def render():
                 meta += ' · ' + resources
             parts += [f'- **[{cell(r["title"])}]({r["paper_url"]})**  ',
                       f'  <sub>{meta}</sub>  ', f'  {cell(r["description"])}', '']
-        parts+=['</details>', '', '[↑ Back to top](#readme-top)']
-    parts+=['','## Visual reference snapshots','',
+        parts+=['[↑ Back to topics](#browse-the-literature)', '', '</details>']
+    parts+=['', '<details><summary>About the collection</summary>', '',
+            'The central topic is research that improves, explains, or implements teacher-to-student transfer '
+            'on student-generated states. Direct matching, hybrid training, teacher-mediated RL, and related '
+            'comparators are labeled separately. Each topic brings together mechanisms and evidence; '
+            'it is a reading guide rather than a performance ranking.', '',
+            'Dates denote first public release. Code links identify associated resources; unofficial '
+            'reproductions are labeled. The public survey is arXiv v4; the reading list includes later work.', '',
+            '</details>', '',
+            '## Research tools', '',
+            guide_table(['Compare and understand', 'Implement and evaluate'], [
+                ('<strong><a href="resources/method-comparison.md">Method comparison</a></strong><br><sub>Supervision requirements and practical trade-offs.</sub>',
+                 '<strong><a href="resources/codebases.md">Code index</a></strong><br><sub>Implementations and associated resources.</sub>'),
+                ('<strong><a href="resources/loss-taxonomy.md">Objectives</a> · <a href="resources/key-equations.md">Key equations</a></strong><br><sub>Targets, gradients, and sampling assumptions.</sub>',
+                 '<strong><a href="resources/benchmarks.md">Evaluation guide</a></strong><br><sub>Benchmarks, costs, and transfer diagnostics.</sub>'),
+                ('<strong><a href="resources/related-surveys.md">Related surveys</a></strong><br><sub>Connections to the broader literature.</sub>',
+                 '<strong><a href="CONTRIBUTING.md">Suggest a paper or correction</a></strong><br><sub>Help keep the reading list useful.</sub>'),
+            ]), '',
+            '<a id="updates"></a>', '<a id="visual-reference-snapshots"></a>', '',
+            '## Updates and visual references', '',
+            '<details><summary>Latest additions and survey releases</summary>', '']
+    for item in json.loads(NEWS.read_text())['items'][:2]:
+        parts.append(f'- **{item["date"]}** — {item["text"]} [{item["label"]}]({item["url"]})')
+    parts += ['', '[All updates and survey releases](CHANGELOG.md)', '', '</details>', '',
             '<details><summary>Teacher–student model atlas · June 2026</summary>', '',
             'Rows represent teacher models, columns represent student models, and cells show reported pair occurrences '
             'in the June 2026 catalog snapshot. Same-name models can use different conditioning information. '
@@ -125,7 +154,8 @@ def render():
             '  author = {Mingyang Song and Mao Zheng},',
             '  journal = {arXiv preprint arXiv:2604.00626},','  year = {2026}','}','```','',
             'For corrections, provide the paper version and the primary source supporting the change. '
-            'See [CONTRIBUTING.md](CONTRIBUTING.md).']
+            'See [CONTRIBUTING.md](CONTRIBUTING.md).', '',
+            '[MIT License](LICENSE) · [↑ Back to top](#readme-top)']
     (ROOT/'README.md').write_text('\n'.join(parts)+'\n')
     codes=['# Code and implementation index','', '[Catalog](../README.md) · [Contributing](../CONTRIBUTING.md)', '',
            f'Updated {date}. Implementations and resources associated with papers in the catalog. '

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="380" viewBox="0 0 640 380" role="img" aria-labelledby="title desc">
+<title id="title">On-policy distillation — a research library for large language models</title>
+<desc id="desc">Learning from teachers on the student’s own trajectories: student rollout, teacher feedback, student update.</desc>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+.serif{font-family:Georgia,"Times New Roman",serif;letter-spacing:-2px}
+.paper{fill:#f5f5ee}
+.ink{fill:#294a3d}
+.muted{fill:#576b5d}
+.line{fill:#d6ded0}
+.accent{fill:#7a9883}
+.soft{fill:#e7ece0}
+.rule{fill:none;stroke:#d6ded0;stroke-width:1}
+.flow{fill:none;stroke:#7a9883;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.mark{fill:none;stroke:#7a9883;stroke-width:4}
+</style>
+<rect width="640" height="380" rx="8" class="paper"/>
+<path d="M36 32v21m8-25v28m8-23v18" class="mark"/>
+<text x="70" y="48" class="muted" font-size="17" letter-spacing="2">OPD / RESEARCH LIBRARY</text>
+<text x="33" y="137" class="serif ink" font-size="76">On-policy</text>
+<text x="33" y="211" class="serif ink" font-size="76">distillation.</text>
+<text x="36" y="258" class="muted" font-size="22">Learning from teachers on the student’s</text>
+<text x="36" y="287" class="muted" font-size="22">own trajectories.</text>
+<path d="M36 316H604" class="rule"/>
+<g class="muted" font-size="18">
+<text x="36" y="349">Student rollout</text>
+<text x="244" y="349">Teacher feedback</text>
+<text x="476" y="349">Policy update</text>
+</g>
+<path d="M193 343h26m-5-4 5 4-5 4M425 343h26m-5-4 5 4-5 4" class="flow"/>
+</svg>
