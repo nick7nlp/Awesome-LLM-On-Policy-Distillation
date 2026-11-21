@@ -15,7 +15,7 @@
   <a href="https://arxiv.org/abs/2604.00626"><strong>Read the survey</strong></a> &nbsp;·&nbsp; <a href="https://nick7nlp.github.io/OPDHub/"><strong>Explore OPDHub ↗</strong></a> &nbsp;·&nbsp; <a href="#browse-the-literature">Browse papers</a> &nbsp;·&nbsp; <a href="#citation">Cite</a>
 </p>
 
-<p align="center"><sub>362 entries · 134 with code · Updated&nbsp;2026&#8209;10&#8209;13</sub></p>
+<p align="center"><sub>363 entries · 134 with code · Updated&nbsp;2026&#8209;11&#8209;22</sub></p>
 
 A reading companion to **[A Survey of On-Policy Distillation for Large Language Models](https://arxiv.org/abs/2604.00626)**.
 
@@ -1030,9 +1030,13 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 
 <a id="agentic-and-multi-turn-distillation"></a>
 
-<details><summary><strong>Agentic and multi-turn distillation</strong>&nbsp;·&nbsp;39</summary>
+<details><summary><strong>Agentic and multi-turn distillation</strong>&nbsp;·&nbsp;40</summary>
 
 *How does supervision change across actions and turns?*
+
+- **[MultiAgent-OPD: End-to-End Training of Hierarchical Multi-Agent Systems with On-Policy Distillation](https://arxiv.org/abs/2610.23234)**  
+  <sub>2026-10-16 · Hybrid OPD</sub>  
+  A frozen, task-trained teacher scores Searcher tokens on the shared student policy’s own delegated rollouts, while the Leader and Answerer receive outcome-based RL updates. A matched prompted-critic comparison tests the Searcher supervision within the same hierarchy.
 
 - **[SAIL: Scientific Agentic Intelligence via a Science-Aware Loop](https://arxiv.org/abs/2610.11451)**  
   <sub>2026-10-08 · Hybrid OPD</sub>  

@@ -1,5 +1,5 @@
 {
-  "updated_on": "2026-10-13",
+  "updated_on": "2026-11-22",
   "coverage_through": "2026-10",
   "description": "A reading collection of language-model distillation methods, analyses, applications, and related foundations.",
   "papers": [
@@ -10384,6 +10384,33 @@
       "code_status": "No repository listed",
       "source_version": "arXiv:2610.08448v1; submitted 2026-10-06T14:37:22Z; updated 2026-10-06T14:37:22Z",
       "latest_version": "2610.08448v1"
+    },
+    {
+      "paper_id": "2610.23234",
+      "arxiv_id": "2610.23234",
+      "title": "MultiAgent-OPD: End-to-End Training of Hierarchical Multi-Agent Systems with On-Policy Distillation",
+      "authors": [
+        "Yuhan Sun",
+        "Jiaxin Zhao",
+        "Yongdong Luo",
+        "Yibo Hu",
+        "Meiguang Jin",
+        "Junfeng Ma",
+        "Weixun Wang",
+        "Weihang Pan",
+        "Zhongan Bi"
+      ],
+      "year": 2026,
+      "submitted": "2026-10-16",
+      "paper_url": "https://arxiv.org/abs/2610.23234",
+      "description": "A frozen, task-trained teacher scores Searcher tokens on the shared student policy’s own delegated rollouts, while the Leader and Answerer receive outcome-based RL updates. A matched prompted-critic comparison tests the Searcher supervision within the same hierarchy.",
+      "objective": "Sampled token-level reverse KL for Searchers, with outcome-based GRPO for the Leader and Answerer.",
+      "mechanism": "hybrid_opd",
+      "home": "7",
+      "code_urls": [],
+      "code_status": "No repository listed",
+      "source_version": "2610.23234v2",
+      "latest_version": "2610.23234v2"
     }
   ]
 }

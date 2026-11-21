@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "catalog_updated_on": "2026-10-13",
-  "catalog_sha256": "50d28d85b40f829344ef186c3e3aa0624529767422dae983d017d7095f9d3787",
+  "catalog_updated_on": "2026-11-22",
+  "catalog_sha256": "49c301ec1da3cbe99675fe69aac061f55014f9b6e33dcdbb2289cd642d355557",
   "source": "catalog.json",
-  "total_entries": 362,
+  "total_entries": 363,
   "counting_unit": "One unique catalog entry; one home topic and one role per entry.",
   "role_note": "Roles describe a paper's place in the collection, not mathematical loss classes.",
   "topics": [
@@ -11,43 +11,43 @@
       "key": "4",
       "label": "Objectives and update rules",
       "count": 64,
-      "percent": 17.6796
+      "percent": 17.6309
     },
     {
       "key": "5",
       "label": "Teacher and supervision construction",
       "count": 98,
-      "percent": 27.0718
+      "percent": 26.9972
     },
     {
       "key": "6",
       "label": "Data and training dynamics",
       "count": 71,
-      "percent": 19.6133
+      "percent": 19.5592
     },
     {
       "key": "7",
       "label": "Agentic and multi-turn distillation",
-      "count": 39,
-      "percent": 10.7735
+      "count": 40,
+      "percent": 11.0193
     },
     {
       "key": "8",
       "label": "Mechanisms, failures, and evaluation",
       "count": 46,
-      "percent": 12.7072
+      "percent": 12.6722
     },
     {
       "key": "9",
       "label": "Applications and systems",
       "count": 24,
-      "percent": 6.6298
+      "percent": 6.6116
     },
     {
       "key": "background",
       "label": "Foundations and related background",
       "count": 20,
-      "percent": 5.5249
+      "percent": 5.5096
     }
   ],
   "roles": [
@@ -55,58 +55,58 @@
       "key": "direct_opd",
       "label": "Direct OPD",
       "count": 165,
-      "percent": 45.5801
+      "percent": 45.4545
     },
     {
       "key": "hybrid_opd",
       "label": "Hybrid OPD",
-      "count": 107,
-      "percent": 29.558
+      "count": 108,
+      "percent": 29.7521
     },
     {
       "key": "analysis",
       "label": "Analysis",
       "count": 54,
-      "percent": 14.9171
+      "percent": 14.876
     },
     {
       "key": "background",
       "label": "Background",
       "count": 19,
-      "percent": 5.2486
+      "percent": 5.2342
     },
     {
       "key": "teacher_mediated_rl",
       "label": "Teacher-mediated RL",
       "count": 8,
-      "percent": 2.2099
+      "percent": 2.2039
     },
     {
       "key": "application",
       "label": "Application / system report",
       "count": 6,
-      "percent": 1.6575
+      "percent": 1.6529
     },
     {
       "key": "offline_distillation",
       "label": "Offline comparator",
       "count": 2,
-      "percent": 0.5525
+      "percent": 0.551
     },
     {
       "key": "interactive_imitation",
       "label": "Interactive imitation",
       "count": 1,
-      "percent": 0.2762
+      "percent": 0.2755
     }
   ],
   "timeline": {
     "date_field": "submitted",
     "date_meaning": "First public release; not the date added to this collection.",
     "scope": "Entries in this collection, including foundations and related background.",
-    "latest_first_release": "2026-10-08",
+    "latest_first_release": "2026-10-16",
     "year": 2026,
-    "entries_in_year": 322,
+    "entries_in_year": 323,
     "entries_before_year": 40,
     "annual": [
       {
@@ -139,7 +139,7 @@
       },
       {
         "year": 2026,
-        "count": 322
+        "count": 323
       }
     ],
     "monthly": [
@@ -190,7 +190,12 @@
       },
       {
         "month": "2026-10",
-        "count": 39,
+        "count": 40,
+        "calendar_month_complete": true
+      },
+      {
+        "month": "2026-11",
+        "count": 0,
         "calendar_month_complete": false
       }
     ],

@@ -6,6 +6,7 @@ Descriptions below distinguish targets, gradients and sampling. A paper can use 
 
 | Paper | Objective or feedback | Role |
 |---|---|---|
+| [MultiAgent-OPD: End-to-End Training of Hierarchical Multi-Agent Systems with On-Policy Distillation](https://arxiv.org/abs/2610.23234) | Sampled token-level reverse KL for Searchers, with outcome-based GRPO for the Leader and Answerer. | Hybrid OPD |
 | [Which Skill to Distill? SGUID: Selecting a Compact Skill Bank for Model-Skill Co-Evolution](https://arxiv.org/abs/2610.12367) | Skill-conditioned OPD with compact teacher-skill selection from verifier-aligned training signals. | Direct OPD |
 | [Distilling Routed 3D Privilege for Spatial Reasoning in Vision-Language Models](https://arxiv.org/abs/2610.12355) | GRPO plus capped privileged-context discrepancy on incorrect RGB-conditioned student responses. | Hybrid OPD |
 | [MetaOPD: Meta-Learned Token Weighting for On-Policy Distillation](https://arxiv.org/abs/2610.11989) | Token-weighted OPD with weights learned by a one-step reference-loss meta-update. | Direct OPD |
