@@ -17,6 +17,7 @@ Updated 2026-11-27. Implementations and resources associated with papers in the 
 | [When Students Fail to Learn from Teachers: Learning Dynamics of On-Policy Distillation](https://arxiv.org/abs/2611.27125) | [zhangxinnan123/learning-dynamic-opd](https://github.com/zhangxinnan123/learning-dynamic-opd) |
 | [Distilling Routed 3D Privilege for Spatial Reasoning in Vision-Language Models](https://arxiv.org/abs/2610.12355) | [ZJU-REAL/GPD](https://github.com/ZJU-REAL/GPD) |
 | [Why On-Policy Distillation Sometimes Fails: Vanishing Learning Signals](https://arxiv.org/abs/2610.11247) | [leizhao7/opd-learning-signals](https://github.com/leizhao7/opd-learning-signals) |
+| [Composing What Each Teacher Learned: Delta Distillation for Multi-Teacher On-Policy Learning](https://arxiv.org/abs/2610.10460) | [HJSang/Delta-MOPD](https://github.com/HJSang/Delta-MOPD) |
 | [Sharpen Without Search: On-Policy Distillation of Sequence-Level Power Distribution](https://arxiv.org/abs/2610.06804) | [ArminAzizi98/OPPD](https://github.com/ArminAzizi98/OPPD) |
 | [Language Models that Play Chess and Explain Their Moves](https://arxiv.org/abs/2610.03695) | [queen-project/queen](https://github.com/queen-project/queen) |
 | [Gains and Collapse in On-Policy Distillation:A Reinforcement Learning Perspective](https://arxiv.org/abs/2610.03185) | [HancCui/opd_hacking](https://github.com/HancCui/opd_hacking) |

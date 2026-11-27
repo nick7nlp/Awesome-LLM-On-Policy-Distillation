@@ -38,7 +38,7 @@ For a short introduction, read GKD, MiniLLM, and **[Rethinking OPD](https://arxi
 ## 5. Deployment and useful comparators
 
 18. **[Qwen3](https://arxiv.org/abs/2505.09388)** describes off-policy initialization followed by on-policy refinement of smaller students. **[DeepSeek-V4](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf)** describes multi-teacher consolidation with full-vocabulary supervision. These reports show how OPD fits into larger training pipelines; their overall scores are not isolated OPD effects.
-19. **[DeepSeek-R1](https://arxiv.org/abs/2501.12948)** and **[Gemma 2](https://arxiv.org/abs/2408.00118)** provide off-policy comparators: teacher-trace transfer and distillation during pretraining, respectively. They help test whether a proposed on-policy stage adds value over a suitable fixed-data baseline.
+19. **[DeepSeek-R1](https://arxiv.org/abs/2501.12948)** provides a teacher-trace transfer baseline. **[Gemma 2](https://arxiv.org/abs/2408.00118)** distinguishes soft-target distillation during pretraining from teacher–student distribution matching on student-generated responses during post-training. Read the stages separately when comparing fixed-data transfer with on-policy training.
 
 ## Paths by research question
 
@@ -58,7 +58,7 @@ For a short introduction, read GKD, MiniLLM, and **[Rethinking OPD](https://arxi
 
 ### Adapting the teacher and combining experts
 
-**[SCOUT](https://arxiv.org/abs/2609.38360)** updates the teacher during student training, whereas **[Preparing Teachers for OPD](https://arxiv.org/abs/2610.04950)** prepares the teacher on student-generated prefixes before distillation. The difference is when the teacher adapts, not a shared head-to-head performance result. For several teachers, pair **[Delta-OPD](https://arxiv.org/abs/2610.10460)**, which combines teacher-relative logit shifts, with **[USA](https://arxiv.org/abs/2609.34225)**, which prepares separately distilled agent experts for merging through update-aware sharpness training. USA supports the stated training interface and common-pipeline comparisons; its exact implemented gradient estimator remains unspecified.
+**[SCOUT](https://arxiv.org/abs/2609.38360)** updates the teacher during student training, whereas **[Preparing Teachers for OPD](https://arxiv.org/abs/2610.04950)** prepares the teacher on student-generated prefixes before distillation. The difference is when the teacher adapts, not a shared head-to-head performance result. For several teachers, pair **[Delta-MOPD](https://arxiv.org/abs/2610.10460)**, which combines teacher-relative logit shifts, with **[USA](https://arxiv.org/abs/2609.34225)**, which prepares separately distilled agent experts for merging through update-aware sharpness training. USA supports the stated training interface and common-pipeline comparisons; its exact implemented gradient estimator remains unspecified.
 
 ### Joint trajectories, intervention, and credit
 

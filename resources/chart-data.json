@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "catalog_updated_on": "2026-11-27",
-  "catalog_sha256": "1e4b2661c56310b8af192726a14491034e192808b59859b6f20200faf751c268",
+  "catalog_sha256": "ec215cabf49b69dd7f97b23c6861799285bd85a223cae827933b6adedb047ba5",
   "source": "catalog.json",
   "total_entries": 397,
   "counting_unit": "One unique catalog entry; one home topic and one role per entry.",
@@ -54,14 +54,14 @@
     {
       "key": "direct_opd",
       "label": "Direct OPD",
-      "count": 184,
-      "percent": 46.3476
+      "count": 180,
+      "percent": 45.3401
     },
     {
       "key": "hybrid_opd",
       "label": "Hybrid OPD",
-      "count": 117,
-      "percent": 29.471
+      "count": 121,
+      "percent": 30.4786
     },
     {
       "key": "analysis",

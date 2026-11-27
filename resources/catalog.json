@@ -248,7 +248,7 @@
       "paper_url": "https://arxiv.org/abs/2306.08543",
       "description": "MiniLLM targets sequence-level reverse KL using student-generated responses and teacher probabilities. Its update separates an immediate full-vocabulary term from estimated future effects, with teacher-mixed sampling and other stabilizers; its reported evaluation centers on instruction following, not a general rule favoring reverse KL.",
       "objective": "Minimize sequence-level student-to-teacher reverse KL using a decomposed gradient with an immediate conditional term and a future-return policy-gradient term; training also includes a pretraining language-model loss.",
-      "mechanism": "direct_opd",
+      "mechanism": "hybrid_opd",
       "home": "4",
       "code_urls": [
         "https://github.com/microsoft/LMOps/tree/main/minillm"
@@ -1470,7 +1470,7 @@
       "arxiv_id": "2601.02780",
       "title": "MiMo-V2-Flash Technical Report",
       "authors": [
-        "Core Team",
+        "Xiaomi LLM-Core Team",
         "Xiao, Bangjun",
         "Xia, Bingquan",
         "Yang, Bo",
@@ -1746,7 +1746,7 @@
       ],
       "code_status": "linked",
       "source_version": "[Submitted on 26 Jan 2026 ( v1 ), last revised 20 Mar 2026 (this version, v3)]",
-      "latest_version": "2601.18734v3"
+      "latest_version": "2601.18734v4"
     },
     {
       "paper_id": "2601.19897",
@@ -1985,7 +1985,7 @@
     {
       "paper_id": "2602.12674",
       "arxiv_id": "2602.12674",
-      "title": "$X$-KD: General Experiential Knowledge Distillation for Large Language Models",
+      "title": "𝒳-KD: General Experiential Knowledge Distillation for Large Language Models",
       "authors": [
         "Cai, Yuang",
         "Yuan, Yuyu"
@@ -2170,7 +2170,7 @@
       "code_urls": [],
       "code_status": "No repository listed",
       "source_version": "[Submitted on 11 Mar 2026]",
-      "latest_version": "2603.11137v1"
+      "latest_version": "2603.11137v2"
     },
     {
       "paper_id": "2603.11178",
@@ -3056,7 +3056,7 @@
       "submitted": "2026-04-29",
       "paper_url": "https://arxiv.org/abs/2604.26573",
       "description": "PAINT studies how much reference-solution context a fixed self-teacher should receive when supervising student rollouts. Its masking-only comparisons vary overlap-dependent disclosure and block placement with target interpolation disabled, favoring moderate suffix masking in the tested Qwen3-1.7B setup.",
-      "objective": "Clipped forward-KL self-distillation under partial reference-solution context; the retained comparison concerns masking-only variants. The full method additionally proposes sparse energy interpolation.",
+      "objective": "Clipped forward-KL self-distillation under partial reference-solution context in the masking-only variants; the full method additionally proposes sparse energy interpolation.",
       "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [],
@@ -3122,7 +3122,7 @@
       ],
       "code_status": "linked",
       "source_version": "[Submitted on 30 Apr 2026 ( v1 ), last revised 29 Jun 2026 (this version, v3)]",
-      "latest_version": "2604.28123v3"
+      "latest_version": "2604.28123v4"
     },
     {
       "paper_id": "2605.00642",
@@ -3222,7 +3222,7 @@
       "code_urls": [],
       "code_status": "No repository listed",
       "source_version": "[Submitted on 3 May 2026 ( v1 ), last revised 7 May 2026 (this version, v2)]",
-      "latest_version": "2605.02971v2"
+      "latest_version": "2605.02971v3"
     },
     {
       "paper_id": "2605.03677",
@@ -3304,7 +3304,7 @@
       "paper_url": "https://arxiv.org/abs/2605.05940",
       "description": "Near-Policy Distillation periodically collects student responses, filters them by teacher–student difficulty discrepancy, and packs retained sequences for teacher scoring and supervised learner updates. Because generation and optimization are decoupled, sampled states can lag behind the current student rather than remain strictly on-policy.",
       "objective": "Minimize a weighted combination of cross-entropy on retained student responses and teacher-to-student KL over the teacher’s top-k token support.",
-      "mechanism": "direct_opd",
+      "mechanism": "hybrid_opd",
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
@@ -3370,6 +3370,7 @@
         "Luo, Yinyi",
         "Liu, Haoxin",
         "Prakash, B. Aditya",
+        "Zhang, Chao",
         "Hester, Josiah",
         "Wang, Jindong",
         "Kumar, Srijan"
@@ -3377,16 +3378,16 @@
       "year": 2026,
       "submitted": "2026-05-07",
       "paper_url": "https://arxiv.org/abs/2605.06597",
-      "description": "UniSD compares self-distillation variants using EMA targets, contrastive supervision, representation matching, and divergence clipping. Task-dependent results inform comparison of these components; they do not establish a benefit from the sequence-agreement scalar that cancels under the stated normalization.",
-      "objective": "Context-conditioned distribution matching on student rollouts, with variant-specific auxiliary losses; cited comparisons exclude the disputed sequence-agreement contribution.",
+      "description": "UniSD compares self-distillation variants using EMA targets, contrastive supervision, representation matching, and divergence clipping. Its sequence-agreement weight is constant within each sequence and cancels from the normalized loss when the normalization floor is inactive; below that floor, it still scales the loss.",
+      "objective": "Context-conditioned distribution matching on student rollouts, with variant-specific auxiliary losses and a normalization floor that determines whether sequence-level weighting changes the loss.",
       "mechanism": "analysis",
       "home": "5",
       "code_urls": [
         "https://github.com/Ahren09/UniSD"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 7 May 2026 ( v1 ), last revised 21 May 2026 (this version, v2)]",
-      "latest_version": "2605.06597v2"
+      "source_version": "2605.06597v3",
+      "latest_version": "2605.06597v3"
     },
     {
       "paper_id": "2605.07177",
@@ -3416,7 +3417,7 @@
     {
       "paper_id": "2605.07505",
       "arxiv_id": "2605.07505",
-      "title": "LiteGUI: Lightweight GUI Agents via Multi-Solution Guided Distillation and Dual-Level Reinforcement Learning",
+      "title": "LiteGUI: Lightweight GUI Agents via Multi-solution Guided Distillation and Offline Dual-level Policy Optimization",
       "authors": [
         "Wu, Yubin",
         "Cai, Zicheng",
@@ -3429,14 +3430,14 @@
       "year": 2026,
       "submitted": "2026-05-08",
       "paper_url": "https://arxiv.org/abs/2605.07505",
-      "description": "LiteGUI distills on student-generated GUI outputs while giving the teacher a matched, human-verified valid action unavailable to the student, then applies dual-level reinforcement learning for planning and execution. Guidance and action rewards depend on a finite annotated set that can miss valid actions.",
-      "objective": "Reverse-KL distillation from a teacher conditioned on valid-action guidance, followed by group-relative policy optimization with model-evaluated subtask-planning and multi-solution action-matching rewards.",
+      "description": "LiteGUI generates student completions at logged GUI states and conditions the teacher on a matched, human-verified valid action. Reverse-KL distillation is followed by offline policy optimization with planning and action-matching rewards; sampled outputs are not executed during training. The finite annotation set can miss valid actions.",
+      "objective": "Full-vocabulary reverse-KL matching on student-generated prefixes at logged GUI states, followed by separate offline group-relative optimization with planning and multi-solution action rewards.",
       "mechanism": "direct_opd",
       "home": "9",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 8 May 2026]",
-      "latest_version": "2605.07505v2"
+      "source_version": "2605.07505v3",
+      "latest_version": "2605.07505v3"
     },
     {
       "paper_id": "2605.07711",
@@ -3465,7 +3466,7 @@
       ],
       "code_status": "linked",
       "source_version": "[Submitted on 8 May 2026 ( v1 ), last revised 21 May 2026 (this version, v2)]",
-      "latest_version": "2605.07711v2"
+      "latest_version": "2605.07711v4"
     },
     {
       "paper_id": "2605.07725",
@@ -3544,12 +3545,12 @@
       ],
       "code_status": "linked",
       "source_version": "[Submitted on 8 May 2026]",
-      "latest_version": "2605.07865v1"
+      "latest_version": "2605.07865v2"
     },
     {
       "paper_id": "2605.08737",
       "arxiv_id": "2605.08737",
-      "title": "The Extrapolation Cliff in On-Policy Distillation of Near-Deterministic Structured Outputs",
+      "title": "ErrOPD: When Does On-Policy Distillation Transfer Teacher Errors?",
       "authors": [
         "Li, Xin",
         "Jiang, Hao",
@@ -3560,14 +3561,14 @@
       "year": 2026,
       "submitted": "2026-05-09",
       "paper_url": "https://arxiv.org/abs/2605.08737",
-      "description": "This study varies reward extrapolation and training duration in OPD for near-deterministic structured outputs. It finds abrupt losses of parsing validity despite comparatively stable ranking among valid outputs, while the proposed closed-form clipping threshold is not established by the reported implementation.",
-      "objective": "Diagnose format validity under stronger OPD extrapolation",
+      "description": "ErrOPD studies whether teachers transmit rare structured-output errors, including early JSON closure, duplicate identifiers, and incorrect SQL. In matched student-rollout experiments, forward KL transfers these errors quickly, whereas reverse KL can delay transfer at short training budgets. Longer training and higher initial student error probability expose the limits of that delay.",
+      "objective": "Compare forward- and reverse-KL distillation on student rollouts, with decision-level gradient-magnitude interventions to study teacher-error transfer.",
       "mechanism": "analysis",
       "home": "8",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 9 May 2026]",
-      "latest_version": "2605.08737v1"
+      "source_version": "2605.08737v2",
+      "latest_version": "2605.08737v2"
     },
     {
       "paper_id": "2605.08741",
@@ -3908,7 +3909,7 @@
       "paper_url": "https://arxiv.org/abs/2605.12400",
       "description": "OGLS-SD contrasts teacher logits conditioned on successful and failed guidance pools to form targets for failed student prefixes. A fixed base teacher supplies the distributions; short successful rollouts add tail SFT. Local ablations test steering and tail regularization.",
       "objective": "Forward KL to a stop-gradient, outcome-steered teacher on the first 1,024 tokens of incorrect student rollouts, with auxiliary SFT on the final 128 tokens of short verified-successful rollouts.",
-      "mechanism": "direct_opd",
+      "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [],
       "code_status": "No repository listed",
@@ -3930,14 +3931,14 @@
       "year": 2026,
       "submitted": "2026-05-12",
       "paper_url": "https://arxiv.org/abs/2605.12483",
-      "description": "This verifiable-math study tests allocating scarce labeled examples first to teacher-side sparse-reward learning, then transferring behavior through a teacher-rollout forward-KL warm-up and student-rollout reverse-KL distillation, with optional later student reinforcement learning. The stages are sequential, not a joint RL–distillation update, and the allocation evidence is task-specific.",
+      "description": "This study compares post-training allocations in verifiable mathematics and code tasks. Sparse-reward learning first improves the teacher; teacher-rollout forward-KL warm-up and student-rollout reverse-KL distillation then transfer its behavior, with optional later student reinforcement learning. The evidence concerns this sequential allocation of sparse and dense feedback across the tested model families.",
       "objective": "Sequential teacher sparse-reward RL, teacher-trajectory forward-KL warm-up, student-trajectory reverse-KL distillation, and optional student sparse-reward RL.",
       "mechanism": "hybrid_opd",
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 12 May 2026 ( v1 ), last revised 20 May 2026 (this version, v4)]",
-      "latest_version": "2605.12483v4"
+      "source_version": "2605.12483v5",
+      "latest_version": "2605.12483v5"
     },
     {
       "paper_id": "2605.12652",
@@ -4049,14 +4050,14 @@
       "year": 2026,
       "submitted": "2026-05-13",
       "paper_url": "https://arxiv.org/abs/2605.13230",
-      "description": "TGPO studies teacher-selected next-token supervision on student-generated prefixes alongside reward optimization. Reported comparisons favor annealed guidance, while a sign inconsistency in the printed combined objective limits the exact update interpretation.",
-      "objective": "Annealed teacher-token likelihood plus outcome-based policy optimization",
+      "description": "TGPO combines teacher-selected next-token likelihood on student-generated prefixes with GRPO under large teacher–student policy divergence. Annealing the guidance weight shifts training toward outcome rewards; the reported comparisons favor this schedule, while expanding the teacher target to top-k tokens does not consistently help.",
+      "objective": "Maximize the outcome-based GRPO objective minus an annealed teacher-token negative-log-likelihood loss on student-generated prefixes.",
       "mechanism": "hybrid_opd",
       "home": "4",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 13 May 2026 ( v1 ), last revised 28 May 2026 (this version, v2)]",
-      "latest_version": "2605.13230v2"
+      "source_version": "2605.13230v3",
+      "latest_version": "2605.13230v3"
     },
     {
       "paper_id": "2605.13501",
@@ -4079,7 +4080,7 @@
       "code_urls": [],
       "code_status": "No repository listed",
       "source_version": "[Submitted on 13 May 2026]",
-      "latest_version": "2605.13501v1"
+      "latest_version": "2605.13501v2"
     },
     {
       "paper_id": "2605.13643",
@@ -4272,14 +4273,14 @@
       "year": 2026,
       "submitted": "2026-05-18",
       "paper_url": "https://arxiv.org/abs/2605.17862",
-      "description": "f-OPD studies delayed student rollouts and teacher supervision, combining freshness weighting, anchoring, and refresh. Its coding-agent results report partial recovery of the synchronous baseline’s task success. These observations do not establish a precise stability or efficiency advantage.",
+      "description": "f-OPD combines freshness weighting, rollout anchoring, and refresh to address delayed student states and teacher feedback. In its reported coding-agent experiment, it reaches 1.46× synchronous throughput while retaining about 94% of synchronous task success, with no observed collapses across five runs; vanilla asynchronous training is faster but loses more task success and collapses in three runs.",
       "objective": "Analysis of asynchronous distillation with buffered student states, freshness-weighted supervision, rollout anchoring, and refresh.",
       "mechanism": "analysis",
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 18 May 2026]",
-      "latest_version": "2605.17862v1"
+      "source_version": "2605.17862v2",
+      "latest_version": "2605.17862v2"
     },
     {
       "paper_id": "2605.17873",
@@ -4386,7 +4387,7 @@
       ],
       "code_status": "linked",
       "source_version": "[Submitted on 18 May 2026]",
-      "latest_version": "2605.20258v1"
+      "latest_version": "2605.20258v2"
     },
     {
       "paper_id": "2605.19433",
@@ -4457,7 +4458,7 @@
         "Prasad, Archiki",
         "Khan, Zaid",
         "Das, Anirban",
-        "Zhang, Austin",
+        "Zhang, Shi-Xiong",
         "Sahu, Sambit",
         "Lee, Hyunji",
         "Stengel-Eskin, Elias",
@@ -4475,7 +4476,7 @@
       ],
       "code_status": "linked",
       "source_version": "[Submitted on 20 May 2026]",
-      "latest_version": "2605.20643v1"
+      "latest_version": "2605.20643v2"
     },
     {
       "paper_id": "2605.21606",
@@ -4819,7 +4820,7 @@
       "code_urls": [],
       "code_status": "No repository listed",
       "source_version": "[Submitted on 28 May 2026]",
-      "latest_version": "2605.30251v1"
+      "latest_version": "2605.30251v2"
     },
     {
       "paper_id": "2605.30833",
@@ -5465,16 +5466,16 @@
       "year": 2026,
       "submitted": "2026-06-07",
       "paper_url": "https://arxiv.org/abs/2606.08432",
-      "description": "TRD reports low teacher–student KL even on incorrect student trajectories and compares these diagnostics with teacher-refined prefixes. Its proposed training method uses teacher-rewritten offline trajectories, so the retained contribution is the diagnostic comparison rather than a new core OPD algorithm.",
-      "objective": "Diagnostic comparison of KL on student and teacher-rewritten prefixes",
+      "description": "TRD studies cases where incorrect student trajectories still have low teacher–student KL. Its training procedure asks the teacher to rewrite student rollouts, then matches teacher distributions on the refined prefixes. The supervision therefore follows rewritten trajectories, which distinguishes it from matching on the original student states.",
+      "objective": "Forward-KL matching on teacher-refined prefixes, alongside diagnostics comparing divergence on original student and refined trajectories.",
       "mechanism": "analysis",
       "home": "8",
       "code_urls": [
         "https://github.com/louieworth/trd"
       ],
       "code_status": "linked",
-      "source_version": "[Submitted on 7 Jun 2026]",
-      "latest_version": "2606.08432v1"
+      "source_version": "2606.08432v2",
+      "latest_version": "2606.08432v2"
     },
     {
       "paper_id": "2606.08719",
@@ -5579,7 +5580,7 @@
     {
       "paper_id": "2606.11559",
       "arxiv_id": "2606.11559",
-      "title": "HERO: Hindsight-Enhanced Reflection from Environment Observations for Agentic Self-Distillation",
+      "title": "Multi-Turn Agent Self-Distillation with Compressed Hindsight",
       "authors": [
         "Liu, Haoran",
         "Zhang, Yuwei",
@@ -5590,14 +5591,14 @@
       "year": 2026,
       "submitted": "2026-06-10",
       "paper_url": "https://arxiv.org/abs/2606.11559",
-      "description": "HERO compresses completed student interactions into turn-specific hindsight hints. An EMA self-teacher uses the original decision history, next observation, terminal outcome, and parsed hint to supervise the original action tokens. Its prompt ablation favors reflection-conditioned supervision over raw observations in the tested setting.",
+      "description": "HINT compresses completed student interactions into turn-specific hindsight hints. An EMA self-teacher receives the original decision history, immediate next observation, terminal outcome, and parsed hint, without raw future actions. Jensen–Shannon supervision updates the original student action tokens on turns with nonempty hints; the hints supply context rather than target tokens.",
       "objective": "Token-level Jensen–Shannon self-distillation on assistant turns with parsed nonempty hints, using student top-100 probabilities plus a tail bucket and an EMA teacher.",
       "mechanism": "direct_opd",
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 10 Jun 2026]",
-      "latest_version": "2606.11559v1"
+      "source_version": "2606.11559v2",
+      "latest_version": "2606.11559v2"
     },
     {
       "paper_id": "2606.11627",
@@ -5728,7 +5729,7 @@
       ],
       "code_status": "linked",
       "source_version": "[Submitted on 11 Jun 2026 ( v1 ), last revised 30 Jul 2026 (this version, v3)]",
-      "latest_version": "2606.13657v3"
+      "latest_version": "2606.13657v4"
     },
     {
       "paper_id": "2606.14368",
@@ -6206,7 +6207,7 @@
       "code_urls": [],
       "code_status": "No repository listed",
       "source_version": "[Submitted on 6 Jul 2026]",
-      "latest_version": "2607.04751v1"
+      "latest_version": "2607.04751v2"
     },
     {
       "paper_id": "2607.04763",
@@ -6734,7 +6735,7 @@
       ],
       "code_status": "linked",
       "source_version": "[Submitted on 28 Jul 2026]",
-      "latest_version": "2607.26057v1"
+      "latest_version": "2607.26057v2"
     },
     {
       "paper_id": "2607.26246",
@@ -7338,7 +7339,7 @@
       "code_urls": [],
       "code_status": "No repository listed",
       "source_version": "[Submitted on 9 Aug 2026]",
-      "latest_version": "2608.08960v1"
+      "latest_version": "2608.08960v2"
     },
     {
       "paper_id": "2608.09228",
@@ -7726,7 +7727,7 @@
       "code_urls": [],
       "code_status": "Announced repository currently unavailable",
       "source_version": "[Submitted on 25 Aug 2026]",
-      "latest_version": "2609.29518v1"
+      "latest_version": "2609.29518v2"
     },
     {
       "paper_id": "2608.25643",
@@ -7744,6 +7745,8 @@
         "Xi, Zhiheng",
         "Liu, Boyang",
         "Shang, Junlin",
+        "Wang, Peixin",
+        "Zhang, Qi",
         "Gui, Tao",
         "Zhang, Qi",
         "Huang, Xuanjing"
@@ -7758,7 +7761,7 @@
       "code_urls": [],
       "code_status": "No repository listed",
       "source_version": "[Submitted on 26 Aug 2026 ( v1 ), last revised 27 Aug 2026 (this version, v2)]",
-      "latest_version": "2608.25643v2"
+      "latest_version": "2608.25643v3"
     },
     {
       "paper_id": "2608.26735",
@@ -8404,7 +8407,7 @@
       ],
       "code_status": "linked",
       "source_version": "[Submitted on 13 Sep 2026 ( v1 ), last revised 16 Sep 2026 (this version, v2)]",
-      "latest_version": "2609.14708v2"
+      "latest_version": "2609.14708v3"
     },
     {
       "paper_id": "2609.16459",
@@ -8513,7 +8516,7 @@
       "paper_url": "https://arxiv.org/abs/2609.18310",
       "description": "SEA-LION-v4.8 documents asynchronous OPD interleaved with SFT across concurrent agent environments. Token-level version tracking, staleness masking, and compressed teacher outputs specify its operating design, without an isolated comparison establishing a universal throughput advantage.",
       "objective": "Asynchronous top-k teacher matching with interleaved SFT",
-      "mechanism": "direct_opd",
+      "mechanism": "hybrid_opd",
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
@@ -8526,7 +8529,9 @@
       "title": "Trajectory Learnability for Offline On-Policy Distillation with Imperfect Teachers",
       "authors": [
         "Ai, Yihao",
-        "Yan, Weilong"
+        "Lin, Beibei",
+        "Yan, Weilong",
+        "Zhang, Huaijian"
       ],
       "year": 2026,
       "submitted": "2026-09-16",
@@ -8538,7 +8543,7 @@
       "code_urls": [],
       "code_status": "No repository listed",
       "source_version": "[Submitted on 16 Sep 2026]",
-      "latest_version": "2609.18321v1"
+      "latest_version": "2609.18321v2"
     },
     {
       "paper_id": "2609.20511",
@@ -8637,7 +8642,7 @@
       "code_urls": [],
       "code_status": "No repository listed",
       "source_version": "[Submitted on 20 Sep 2026]",
-      "latest_version": "2609.23377v1"
+      "latest_version": "2609.23377v2"
     },
     {
       "paper_id": "2609.23697",
@@ -8666,29 +8671,29 @@
       "code_urls": [],
       "code_status": "No repository listed",
       "source_version": "[Submitted on 20 Sep 2026 ( v1 ), last revised 30 Sep 2026 (this version, v2)]",
-      "latest_version": "2609.23697v2"
+      "latest_version": "2609.23697v4"
     },
     {
       "paper_id": "2609.24141",
       "arxiv_id": "2609.24141",
-      "title": "CLOOPD: Closing the Learner Loop in On-Policy Distillation",
+      "title": "SAVOR: Score Once, Learn Deeper in On-Policy Distillation",
       "authors": [
         "Zheng, Keye",
         "Li, Hanyu",
-        "Cheng, Zhan",
-        "Gao, Yuan"
+        "Gao, Yuan",
+        "Cheng, Zhan"
       ],
       "year": 2026,
       "submitted": "2026-09-21",
       "paper_url": "https://arxiv.org/abs/2609.24141",
-      "description": "CLOOPD compares additional student actor passes on frozen teacher-scored batches. The reported two-to-three-pass control improves the macro score without extra teacher scoring, while a matched-cap random allocator outperforms the proposed adaptive allocator.",
-      "objective": "Empirical comparison of repeated student updates using batch-fixed teacher scores and advantages; no claim of an established exact matching gradient.",
+      "description": "SAVOR scores each student batch once, calibrates teacher-mixture strength against sampled KL and a low-tail reward constraint, and reuses fixed advantages for several clipped actor-update passes. Its reported two-to-three-pass controls improve scores without further teacher scoring; a matched random allocator outperforms the proposed adaptive pass allocator.",
+      "objective": "Clipped policy updates on a reused student batch with fixed behavior log probabilities and calibrated advantages combining immediate teacher-mixture log ratios with mean future-token returns.",
       "mechanism": "analysis",
       "home": "6",
       "code_urls": [],
       "code_status": "No repository listed",
-      "source_version": "[Submitted on 21 Sep 2026]",
-      "latest_version": "2609.24141v1"
+      "source_version": "2609.24141v4",
+      "latest_version": "2609.24141v4"
     },
     {
       "paper_id": "2609.24432",
@@ -8968,7 +8973,7 @@
       "code_urls": [],
       "code_status": "No repository listed",
       "source_version": "2606.18216v5",
-      "latest_version": "2606.18216v5"
+      "latest_version": "2606.18216v6"
     },
     {
       "paper_id": "2606.18810",
@@ -9071,7 +9076,7 @@
       "code_urls": [],
       "code_status": "No repository listed",
       "source_version": "2607.18850v2",
-      "latest_version": "2607.18850v2"
+      "latest_version": "2607.18850v3"
     },
     {
       "paper_id": "2607.19046",
@@ -9182,14 +9187,14 @@
       ],
       "code_status": "linked",
       "source_version": "2608.11829v3",
-      "latest_version": "2608.11829v3"
+      "latest_version": "2608.11829v4"
     },
     {
       "paper_id": "2608.15763",
       "arxiv_id": "2608.15763",
       "title": "Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report",
       "authors": [
-        " TaoLive AIGC LLM Team",
+        "TaoLive AIGC LLM Team",
         "Yuhan Sun",
         "Wenhao Lin",
         "Yongdong Luo",
@@ -9388,7 +9393,7 @@
       "code_urls": [],
       "code_status": "No repository listed",
       "source_version": "2610.09074v1",
-      "latest_version": "2610.09074v1"
+      "latest_version": "2610.09074v2"
     },
     {
       "paper_id": "2610.09484",
@@ -9506,14 +9511,15 @@
     {
       "paper_id": "2610.10460",
       "arxiv_id": "2610.10460",
-      "title": "Composing What Each Teacher Learned: Multi-Teacher On-Policy Distillation through Teacher-Relative Shifts",
+      "title": "Composing What Each Teacher Learned: Delta Distillation for Multi-Teacher On-Policy Learning",
       "authors": [
-        "Hejian Sang",
-        "Zhengze Zhou",
-        "Shayan Mohajer Hamidi",
-        "Xiaomin Li",
-        "Rohit Jain",
-        "Alborz Geramifard"
+        "Xu, Yuanda",
+        "Sang, Hejian",
+        "Zhou, Zhengze",
+        "Hamidi, Shayan Mohajer",
+        "Li, Xiaomin",
+        "Jain, Rohit",
+        "Geramifard, Alborz"
       ],
       "year": 2026,
       "submitted": "2026-10-07",
@@ -9522,10 +9528,12 @@
       "objective": "Multi-teacher OPD targets formed from teacher-relative logit shifts at the student initialization.",
       "mechanism": "direct_opd",
       "home": "5",
-      "code_urls": [],
-      "code_status": "No repository listed",
-      "source_version": "2610.10460v1",
-      "latest_version": "2610.10460v1"
+      "code_urls": [
+        "https://github.com/HJSang/Delta-MOPD"
+      ],
+      "code_status": "Official research preview",
+      "source_version": "2610.10460v2",
+      "latest_version": "2610.10460v2"
     },
     {
       "paper_id": "2610.10623",
@@ -9548,7 +9556,7 @@
       "code_urls": [],
       "code_status": "No repository listed",
       "source_version": "2610.10623v1",
-      "latest_version": "2610.10623v1"
+      "latest_version": "2610.10623v2"
     },
     {
       "paper_id": "2610.10878",
@@ -9758,7 +9766,7 @@
       "arxiv_id": "2610.11451",
       "title": "SAIL: Scientific Agentic Intelligence via a Science-Aware Loop",
       "authors": [
-        " SAIL Model Team",
+        "SAIL Model Team",
         "Boyuan Sun",
         "Bryan Dai",
         "Che Liu",
@@ -9781,7 +9789,7 @@
       "code_urls": [],
       "code_status": "No repository listed",
       "source_version": "2610.11451v1",
-      "latest_version": "2610.11451v1"
+      "latest_version": "2610.11451v3"
     },
     {
       "paper_id": "2610.11519",
@@ -9904,7 +9912,7 @@
       ],
       "code_status": "linked",
       "source_version": "2610.12355v1",
-      "latest_version": "2610.12355v1"
+      "latest_version": "2610.12355v2"
     },
     {
       "paper_id": "2610.12367",
@@ -10174,7 +10182,7 @@
       "code_urls": [],
       "code_status": "No repository listed",
       "source_version": "arXiv:2610.04950v1; submitted 2026-10-04T04:49:24Z; updated 2026-10-04T04:49:24Z",
-      "latest_version": "2610.04950v1"
+      "latest_version": "2610.04950v2"
     },
     {
       "paper_id": "2610.05373",
@@ -10201,7 +10209,7 @@
       "code_urls": [],
       "code_status": "No repository listed",
       "source_version": "arXiv:2610.05373v1; submitted 2026-10-04T17:00:16Z; updated 2026-10-04T17:00:16Z",
-      "latest_version": "2610.05373v1"
+      "latest_version": "2610.05373v2"
     },
     {
       "paper_id": "2610.05974",
@@ -11036,10 +11044,10 @@
       "home": "5",
       "mechanism": "direct_opd",
       "description": "VIVID transfers paired contrast-image information to a medical vision-language model that sees non-contrast inputs. Visual-value information defines a direction for correcting centered teacher log-probabilities, yielding a target that guides student-generated responses without requiring contrast images at inference.",
-      "objective": "Top-k-plus-tail Jensen-Shannon matching to visually corrected targets, with weak teacher cross-entropy.",
+      "objective": "Top-k-plus-tail Jensen–Shannon matching to visually corrected targets, plus a weak, adaptively weighted Jensen–Shannon term to the contrast-enhanced-image teacher; targets and weights are detached.",
       "code_urls": [],
       "code_status": "No verified repository listed",
-      "source_version": "arXiv:2611.29361v1; submitted 2026-11-22T09:55:46Z; updated 2026-11-22T09:55:46Z",
+      "source_version": "2611.29361v1",
       "latest_version": "2611.29361v1"
     },
     {

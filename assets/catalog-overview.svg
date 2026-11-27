@@ -259,16 +259,16 @@ z
    </g>
    <g id="patch_24">
     <path d="M 470.88 190.95102 
-L 798.44259 190.95102 
-L 798.44259 186.351516 
+L 791.322064 190.95102 
+L 791.322064 186.351516 
 L 470.88 186.351516 
 z
 " clip-path="url(#pf87b004370)" style="fill: #527967"/>
    </g>
    <g id="patch_25">
     <path d="M 470.88 229.28022 
-L 679.166882 229.28022 
-L 679.166882 224.680716 
+L 686.288115 229.28022 
+L 686.288115 224.680716 
 L 470.88 224.680716 
 z
 " clip-path="url(#pf87b004370)" style="fill: #527967"/>
@@ -325,13 +325,13 @@ z
     <text style="font-size: 10.8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #294a3d" x="470.88" y="178.599465" transform="rotate(-0 470.88 178.599465)">Direct OPD</text>
    </g>
    <g id="text_18">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #637165" x="824.256" y="178.378715" transform="rotate(-0 824.256 178.378715)">184  ·  46.3%</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #637165" x="824.256" y="178.378715" transform="rotate(-0 824.256 178.378715)">180  ·  45.3%</text>
    </g>
    <g id="text_19">
     <text style="font-size: 10.8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #294a3d" x="470.88" y="216.928665" transform="rotate(-0 470.88 216.928665)">Hybrid OPD</text>
    </g>
    <g id="text_20">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #637165" x="824.256" y="216.707915" transform="rotate(-0 824.256 216.707915)">117  ·  29.5%</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #637165" x="824.256" y="216.707915" transform="rotate(-0 824.256 216.707915)">121  ·  30.5%</text>
    </g>
    <g id="text_21">
     <text style="font-size: 10.8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #294a3d" x="470.88" y="255.257865" transform="rotate(-0 470.88 255.257865)">Analysis</text>

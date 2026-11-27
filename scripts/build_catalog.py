@@ -126,7 +126,7 @@ def render():
             'comparators are labeled separately. Each topic brings together mechanisms and evidence; '
             'it is a reading guide rather than a performance ranking.', '',
             'Dates denote first public release. Code links identify associated resources; unofficial '
-            'reproductions are labeled. The public survey is arXiv v4; the reading list includes later work.', '',
+            'reproductions are labeled. The public survey is arXiv v5; the reading list includes later work.', '',
             '</details>', '',
             '## Research tools', '',
             guide_table(['Compare and understand', 'Implement and evaluate'], [
