@@ -67,7 +67,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub 鈫
 *What does the student update optimize?*
 
 - **[Contrastive On-Policy Self-Distillation for LLM Unlearning](https://arxiv.org/abs/2611.31932)**  
-  <sub>2026-11-24 路 Direct OPD</sub>  
+  <sub>2026-11-24 路 Hybrid OPD</sub>  
   Contrastive On-Policy Self-Distillation constructs an unlearning target from ordinary and privileged forget-context predictions of a frozen pre-unlearning model. The student matches the inverse contrastive target on its own responses while retaining a language-model loss, examining the balance between forgetting and utility.
 
 - **[Verifiable On-Policy Distillation](https://arxiv.org/abs/2611.30325)**  
@@ -399,7 +399,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub 鈫
   VIVID transfers paired contrast-image information to a medical vision-language model that sees non-contrast inputs. Visual-value information defines a direction for correcting centered teacher log-probabilities, yielding a target that guides student-generated responses without requiring contrast images at inference.
 
 - **[KMed-31B Technical Report](https://arxiv.org/abs/2611.28719)**  
-  <sub>2026-11-21 路 Hybrid OPD</sub>  
+  <sub>2026-11-21 路 Direct OPD</sub>  
   KMed-31B compares multi-teacher OPD variants for combining specialist and general capabilities. Its MOPD2 update uses centered, directionally filtered expert-base log-probability differences with reference regularization, providing a concrete comparison of target construction and retention within a medical model training recipe.
 
 - **[Med-Agentic: Distilling Agentic Medical Reasoning with Internalized Meta-Capabilities](https://arxiv.org/abs/2611.28176)**  
@@ -407,7 +407,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub 鈫
   Med-Agentic routes student-generated medical responses among four teachers using visual and reasoning capability tags. Comparisons with uniform routing and single-factor routing test how these two routing factors interact in transferring specialist capabilities to one language-generating model.
 
 - **[Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation](https://arxiv.org/abs/2611.26954)**  
-  <sub>2026-11-20 路 Hybrid OPD</sub>  
+  <sub>2026-11-20 路 Direct OPD</sub>  
   Future-OPSD trains a video foresight model that sees only past frames using a teacher with access to future frames. A contrast between true and reference futures modifies the sampled-token distillation advantage, combining privileged temporal information with clipped policy updates.
 
 - **[Which Skill to Distill? SGUID: Selecting a Compact Skill Bank for Model-Skill Co-Evolution](https://arxiv.org/abs/2610.12367)**  

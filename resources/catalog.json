@@ -10913,7 +10913,7 @@
       "submitted": "2026-11-24",
       "paper_url": "https://arxiv.org/abs/2611.31932",
       "home": "4",
-      "mechanism": "direct_opd",
+      "mechanism": "hybrid_opd",
       "description": "Contrastive On-Policy Self-Distillation constructs an unlearning target from ordinary and privileged forget-context predictions of a frozen pre-unlearning model. The student matches the inverse contrastive target on its own responses while retaining a language-model loss, examining the balance between forgetting and utility.",
       "objective": "Reverse-KL matching to an inverse contrastive self-teacher, combined with a retain-set language-model loss.",
       "code_urls": [],
@@ -11047,13 +11047,13 @@
       "arxiv_id": "2611.28719",
       "title": "KMed-31B Technical Report",
       "authors": [
-        " KMed Team"
+        "KMed Team at NAVER"
       ],
       "year": 2026,
       "submitted": "2026-11-21",
       "paper_url": "https://arxiv.org/abs/2611.28719",
       "home": "5",
-      "mechanism": "hybrid_opd",
+      "mechanism": "direct_opd",
       "description": "KMed-31B compares multi-teacher OPD variants for combining specialist and general capabilities. Its MOPD2 update uses centered, directionally filtered expert-base log-probability differences with reference regularization, providing a concrete comparison of target construction and retention within a medical model training recipe.",
       "objective": "Top-64 filtered expert-base distillation advantages combined with reference-policy KL regularization.",
       "code_urls": [],
@@ -11270,7 +11270,7 @@
       "submitted": "2026-11-20",
       "paper_url": "https://arxiv.org/abs/2611.26954",
       "home": "5",
-      "mechanism": "hybrid_opd",
+      "mechanism": "direct_opd",
       "description": "Future-OPSD trains a video foresight model that sees only past frames using a teacher with access to future frames. A contrast between true and reference futures modifies the sampled-token distillation advantage, combining privileged temporal information with clipped policy updates.",
       "objective": "Centered, clipped policy updates combining future-contrast signals and teacher-student token log-probability differences.",
       "code_urls": [],
