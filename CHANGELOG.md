@@ -2,6 +2,10 @@
 
 Survey releases and public catalog updates.
 
+## 2026-11-27
+
+Added 35 papers on multi-teacher and multimodal distillation, agent replay, capability retention, and learning dynamics. The collection now contains 397 entries, with updated topic charts and repository links. [Explore the latest papers](https://nick7nlp.github.io/OPDHub/)
+
 ## 2026-10-13
 
 Refreshed paper metadata and repository links across the reading list and OPDHub. New collection charts show topic, role, and first-release date distributions from the current catalog. [View the collection](https://github.com/nick7nlp/Awesome-LLM-On-Policy-Distillation#the-collection-in-view)

@@ -1,6 +1,12 @@
 {
   "items": [
     {
+      "date": "2026-11-27",
+      "text": "Added 35 papers on multi-teacher and multimodal distillation, agent replay, capability retention, and learning dynamics. The collection now contains 397 entries, with updated topic charts and repository links.",
+      "label": "Explore the latest papers",
+      "url": "https://nick7nlp.github.io/OPDHub/"
+    },
+    {
       "date": "2026-10-13",
       "text": "Refreshed paper metadata and repository links across the reading list and OPDHub. New collection charts show topic, role, and first-release date distributions from the current catalog.",
       "label": "View the collection",

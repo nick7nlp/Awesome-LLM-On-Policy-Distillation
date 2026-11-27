@@ -2,10 +2,19 @@
 
 [Catalog](../README.md) · [Contributing](../CONTRIBUTING.md)
 
-Updated 2026-10-13. Implementations and resources associated with papers in the catalog. Unofficial reproductions are identified explicitly. Features and release completeness vary by repository.
+Updated 2026-11-27. Implementations and resources associated with papers in the catalog. Unofficial reproductions are identified explicitly. Features and release completeness vary by repository.
 
 | Paper | Repository |
 |---|---|
+| [Seeing the Right Context: Grounded On-Policy Distillation for Remote Sensing](https://arxiv.org/abs/2611.34700) | [YeeCharm/GeOPD](https://github.com/YeeCharm/GeOPD) |
+| [Strong Starts, Simple Recipes: Unified Multi-Teacher On-Policy Distillation from Multimodal Specialists](https://arxiv.org/abs/2611.34397) | [AmberHeart/Uni-MOPD](https://github.com/AmberHeart/Uni-MOPD) |
+| [GRAPE-Bench: When Vision Degrades, Does Video Reasoning Hold?](https://arxiv.org/abs/2611.33020) | [zhangce01/GRAPE-Bench](https://github.com/zhangce01/GRAPE-Bench) |
+| [STAR: Counterfactual Dual-World Rollouts and Spatial Target Adaptive Reconstruction for Visual On-Policy Distillation](https://arxiv.org/abs/2611.32472) | [xiaolingdudu/STAR](https://github.com/xiaolingdudu/STAR) |
+| [DiCT: Teaching X-ray Vision-Language Models to Reason via Imagining CT](https://arxiv.org/abs/2611.32344) | [HongYep/DiCT](https://github.com/HongYep/DiCT) |
+| [WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce](https://arxiv.org/abs/2611.30662) | [Tencent/WeMM-Ecom](https://github.com/Tencent/WeMM-Ecom) |
+| [Distilling Visual Agents from Limited Interaction Experience](https://arxiv.org/abs/2611.28618) | [elated-sawyer/visual-agent-distillation](https://github.com/elated-sawyer/visual-agent-distillation) |
+| [Distillation with Errors: Sparse Unbiased Backpropagation for Knowledge Distillation](https://arxiv.org/abs/2611.27131) | [dwe-lab/DWE](https://github.com/dwe-lab/DWE) |
+| [When Students Fail to Learn from Teachers: Learning Dynamics of On-Policy Distillation](https://arxiv.org/abs/2611.27125) | [zhangxinnan123/learning-dynamic-opd](https://github.com/zhangxinnan123/learning-dynamic-opd) |
 | [Distilling Routed 3D Privilege for Spatial Reasoning in Vision-Language Models](https://arxiv.org/abs/2610.12355) | [ZJU-REAL/GPD](https://github.com/ZJU-REAL/GPD) |
 | [Why On-Policy Distillation Sometimes Fails: Vanishing Learning Signals](https://arxiv.org/abs/2610.11247) | [leizhao7/opd-learning-signals](https://github.com/leizhao7/opd-learning-signals) |
 | [Sharpen Without Search: On-Policy Distillation of Sequence-Level Power Distribution](https://arxiv.org/abs/2610.06804) | [ArminAzizi98/OPPD](https://github.com/ArminAzizi98/OPPD) |

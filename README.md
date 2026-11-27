@@ -15,7 +15,7 @@
   <a href="https://arxiv.org/abs/2604.00626"><strong>Read the survey</strong></a> &nbsp;·&nbsp; <a href="https://nick7nlp.github.io/OPDHub/"><strong>Explore OPDHub ↗</strong></a> &nbsp;·&nbsp; <a href="#browse-the-literature">Browse papers</a> &nbsp;·&nbsp; <a href="#citation">Cite</a>
 </p>
 
-<p align="center"><sub>362 entries · 134 with code · Updated&nbsp;2026&#8209;10&#8209;13</sub></p>
+<p align="center"><sub>397 entries · 143 with code · Updated&nbsp;2026&#8209;11&#8209;27</sub></p>
 
 A reading companion to **[A Survey of On-Policy Distillation for Large Language Models](https://arxiv.org/abs/2604.00626)**.
 
@@ -62,9 +62,21 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 
 <a id="objectives-and-update-rules"></a>
 
-<details><summary><strong>Objectives and update rules</strong>&nbsp;·&nbsp;64</summary>
+<details><summary><strong>Objectives and update rules</strong>&nbsp;·&nbsp;67</summary>
 
 *What does the student update optimize?*
+
+- **[Contrastive On-Policy Self-Distillation for LLM Unlearning](https://arxiv.org/abs/2611.31932)**  
+  <sub>2026-11-24 · Direct OPD</sub>  
+  Contrastive On-Policy Self-Distillation constructs an unlearning target from ordinary and privileged forget-context predictions of a frozen pre-unlearning model. The student matches the inverse contrastive target on its own responses while retaining a language-model loss, examining the balance between forgetting and utility.
+
+- **[Verifiable On-Policy Distillation](https://arxiv.org/abs/2611.30325)**  
+  <sub>2026-11-23 · Hybrid OPD</sub>  
+  VOPD uses the group-level correlation between an implicit teacher reward and a verifier to adjust teacher-reference extrapolation. Groups with zero reward variance use a fixed coefficient, combining distribution supervision with verifiable feedback while limiting adaptation to informative groups.
+
+- **[Contrastive On-Policy Distillation via Dual-Branch Supervision](https://arxiv.org/abs/2611.28359)**  
+  <sub>2026-11-20 · Direct OPD</sub>  
+  Contrastive OPD combines strong, weak, and reference model probabilities to gate positive and negative update coefficients on student trajectories. Its bounded coefficients act directly on token log-probability updates rather than defining a normalized synthetic-teacher distribution.
 
 - **[Residual Advantage: Student-Relative Teacher Guidance for RL with Verifiable Rewards](https://arxiv.org/abs/2610.11519)**  
   <sub>2026-10-08 · Teacher-mediated RL</sub>  
@@ -330,9 +342,73 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 
 <a id="teacher-and-supervision-construction"></a>
 
-<details><summary><strong>Teacher and supervision construction</strong>&nbsp;·&nbsp;98</summary>
+<details><summary><strong>Teacher and supervision construction</strong>&nbsp;·&nbsp;114</summary>
 
 *What makes a teacher useful on student trajectories?*
+
+- **[Seeing the Right Context: Grounded On-Policy Distillation for Remote Sensing](https://arxiv.org/abs/2611.34700)**  
+  <sub>2026-11-25 · Direct OPD · [Code](https://github.com/YeeCharm/GeOPD)</sub>  
+  GeOPD constructs teacher signals from marked and masked image views and weights them using the student's response to restored visual evidence. Its combined alignment and contrastive supervision improves the tested visual reasoning tasks, whereas the contrastive component alone can hurt performance.
+
+- **[PreserveReward: Reliable Consistency Reward Modeling for Image Editing via Dual-Teacher On-Policy Self-Distillation](https://arxiv.org/abs/2611.34446)**  
+  <sub>2026-11-25 · Hybrid OPD</sub>  
+  PreserveReward adapts a vision-language reward model that generates reasoning and discrete scores. Local and global EMA teachers supply distribution targets, with reference-score calibration and gradient-alignment routing to combine distillation with score regression.
+
+- **[Strong Starts, Simple Recipes: Unified Multi-Teacher On-Policy Distillation from Multimodal Specialists](https://arxiv.org/abs/2611.34397)**  
+  <sub>2026-11-25 · Direct OPD · [Code](https://github.com/AmberHeart/Uni-MOPD)</sub>  
+  Uni-MOPD initializes a generalist by uniformly merging five specialists derived from a common base, then routes student-generated responses to domain teachers. Its comparisons separate initialization from distillation and show benefits of distribution targets over sampled-token supervision within the same training backend.
+
+- **[OmniMeld: Enhancing Audio-Visual Understanding via Multi-Teacher On-Policy Distillation](https://arxiv.org/abs/2611.33861)**  
+  <sub>2026-11-25 · Direct OPD</sub>  
+  OmniMeld distills frozen audio-visual specialists on student-generated responses. Predictions under four input views define an optimal-transport cost, while the full audio-visual view supplies the teacher target; the update combines reverse KL with transport over a compact token support.
+
+- **[ViCARD: Visual Credit Assignment with Reward-Gated Distillation for Multimodal Reasoning](https://arxiv.org/abs/2611.33437)**  
+  <sub>2026-11-24 · Hybrid OPD</sub>  
+  ViCARD uses visual evidence to weight GRPO updates for groups containing successful responses. For all-failure groups, a teacher with a correct image crop instead supplies distribution supervision on student prefixes; the teacher is updated by exponential moving average.
+
+- **[Branch and Consolidate: A Unified Recipe for Multi-Teacher On-Policy Distillation](https://arxiv.org/abs/2611.32515)**  
+  <sub>2026-11-24 · Direct OPD</sub>  
+  Branch and Consolidate combines a merged initialization with routed expert teachers and a frozen merged self-teacher. It also replays previously difficult questions while regenerating student responses, examining the tradeoff between specialist gains and general capability retention.
+
+- **[STAR: Counterfactual Dual-World Rollouts and Spatial Target Adaptive Reconstruction for Visual On-Policy Distillation](https://arxiv.org/abs/2611.32472)**  
+  <sub>2026-11-24 · Direct OPD · [Code](https://github.com/xiaolingdudu/STAR)</sub>  
+  STAR generates independent student rollouts in two image worlds and constructs spatially informed targets by contrasting real and mean-color crop views. An attention-based proxy controls the target adjustment before distribution matching on a shared compact support.
+
+- **[The Teacher Is Already Inside: Self-Distilling Looped Language Models Beyond Their Last Loop](https://arxiv.org/abs/2611.32452)**  
+  <sub>2026-11-24 · Direct OPD</sub>  
+  ELPSD builds a self-teacher for a looped language model by extrapolating between the first- and last-loop log-probabilities of its frozen initial model. The current student generates responses with its final loop and matches the extrapolated target, using internal computation depth as a source of supervision.
+
+- **[Evolve to Learn: Gradient-aligned experience evolution for model self-improvement](https://arxiv.org/abs/2611.32390)**  
+  <sub>2026-11-24 · Direct OPD</sub>  
+  Evolve to Learn conditions a self-teacher on evolved textual experiences and distills its predictions at the same current-student prefixes. Gradient alignment with diagnostic examples guides experience selection, connecting the usefulness of contextual advice to the direction of the resulting distillation update.
+
+- **[DiCT: Teaching X-ray Vision-Language Models to Reason via Imagining CT](https://arxiv.org/abs/2611.32344)**  
+  <sub>2026-11-24 · Hybrid OPD · [Code](https://github.com/HongYep/DiCT)</sub>  
+  DiCT transfers CT-informed reasoning to an X-ray vision-language model through clipped updates using teacher-versus-student token log-probabilities. The teacher omits the student's X-ray reasoning from its context, so the two conditioning prefixes differ; offline formatting supervision and later clinical GRPO are separate parts of the recipe.
+
+- **[VC-OPD: Learning to See What Matters via Visual Cue On-Policy Self-Distillation](https://arxiv.org/abs/2611.32292)**  
+  <sub>2026-11-24 · Direct OPD</sub>  
+  VC-OPD obtains a fixed bank of visual cues from a larger multimodal model, then gives those cues to a frozen local teacher supervising student responses. Cue-conditioned targets can transfer better than answer or reasoning targets even when the cue-conditioned teacher itself has lower answer accuracy.
+
+- **[HuluOPD: Unifying Heterogeneous Medical Specialists into One Lightweight Model with Unlabeled Prompts](https://arxiv.org/abs/2611.32021)**  
+  <sub>2026-11-24 · Hybrid OPD</sub>  
+  HuluOPD consolidates medical specialists with heterogeneous tokenizers through offline warmup followed by student-rollout distillation. Byte-level alignment separates matched positions from unmatched probability lists, improving transfer while also exposing negative transfer from teacher errors.
+
+- **[Beyond Attention Maps: Understanding and Improving Medical MLLMs via Visual Values](https://arxiv.org/abs/2611.29361)**  
+  <sub>2026-11-22 · Direct OPD</sub>  
+  VIVID transfers paired contrast-image information to a medical vision-language model that sees non-contrast inputs. Visual-value information defines a direction for correcting centered teacher log-probabilities, yielding a target that guides student-generated responses without requiring contrast images at inference.
+
+- **[KMed-31B Technical Report](https://arxiv.org/abs/2611.28719)**  
+  <sub>2026-11-21 · Hybrid OPD</sub>  
+  KMed-31B compares multi-teacher OPD variants for combining specialist and general capabilities. Its MOPD2 update uses centered, directionally filtered expert-base log-probability differences with reference regularization, providing a concrete comparison of target construction and retention within a medical model training recipe.
+
+- **[Med-Agentic: Distilling Agentic Medical Reasoning with Internalized Meta-Capabilities](https://arxiv.org/abs/2611.28176)**  
+  <sub>2026-11-20 · Direct OPD</sub>  
+  Med-Agentic routes student-generated medical responses among four teachers using visual and reasoning capability tags. Comparisons with uniform routing and single-factor routing test how these two routing factors interact in transferring specialist capabilities to one language-generating model.
+
+- **[Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation](https://arxiv.org/abs/2611.26954)**  
+  <sub>2026-11-20 · Hybrid OPD</sub>  
+  Future-OPSD trains a video foresight model that sees only past frames using a teacher with access to future frames. A contrast between true and reference futures modifies the sampled-token distillation advantage, combining privileged temporal information with clipped policy updates.
 
 - **[Which Skill to Distill? SGUID: Selecting a Compact Skill Bank for Model-Skill Co-Evolution](https://arxiv.org/abs/2610.12367)**  
   <sub>2026-10-08 · Direct OPD</sub>  
@@ -734,9 +810,25 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 
 <a id="data-and-training-dynamics"></a>
 
-<details><summary><strong>Data and training dynamics</strong>&nbsp;·&nbsp;71</summary>
+<details><summary><strong>Data and training dynamics</strong>&nbsp;·&nbsp;75</summary>
 
 *Which states, tokens, and training stages matter?*
+
+- **[Rethinking Knowledge Distillation for Diffusion Language Models](https://arxiv.org/abs/2611.33670)**  
+  <sub>2026-11-25 · Hybrid OPD</sub>  
+  This study distills diffusion language models by moving from static warmup to supervision along the student's reverse-process states, with confidence weighting and a periodically frozen anchor. The full recipe gives the best reported perplexity, while trajectory-only training gives the best Dream MAUVE score, exposing a metric-dependent tradeoff.
+
+- **[Describe, Don't Ask: Caption-Driven On-Policy Distillation for Fine-Grained Visual Perception](https://arxiv.org/abs/2611.32463)**  
+  <sub>2026-11-24 · Direct OPD</sub>  
+  CaptionOPD trains fine-grained perception through box-conditioned captions, using clear and degraded views in an EMA teacher. A subsequent handoff reuses those boxed responses under unboxed inputs and masks the first sentence, so this handoff does not sample fresh unboxed responses throughout.
+
+- **[Bridging Teacher-Student Capability Gaps with Recurrent Computation](https://arxiv.org/abs/2611.28603)**  
+  <sub>2026-11-21 · Hybrid OPD</sub>  
+  This study tests whether recurrent computation helps students learn from teachers of different capabilities. It alternates reference-data distillation with student-rollout distillation and examines architecture-by-teacher interactions; recurrent gains vary when converting pretrained models.
+
+- **[Distillation with Errors: Sparse Unbiased Backpropagation for Knowledge Distillation](https://arxiv.org/abs/2611.27131)**  
+  <sub>2026-11-20 · Direct OPD · [Code](https://github.com/dwe-lab/DWE)</sub>  
+  DWE develops sparse output-head backpropagation with an unbiased conditional-gradient estimator and includes an OPD experiment alongside its offline studies. The OPD unit uses a fixed teacher and current-student responses; its reported full-update time reduction is 1.53%, smaller than the savings in offline distillation.
 
 - **[MetaOPD: Meta-Learned Token Weighting for On-Policy Distillation](https://arxiv.org/abs/2610.11989)**  
   <sub>2026-10-08 · Direct OPD</sub>  
@@ -1030,9 +1122,33 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 
 <a id="agentic-and-multi-turn-distillation"></a>
 
-<details><summary><strong>Agentic and multi-turn distillation</strong>&nbsp;·&nbsp;39</summary>
+<details><summary><strong>Agentic and multi-turn distillation</strong>&nbsp;·&nbsp;45</summary>
 
 *How does supervision change across actions and turns?*
+
+- **[Collect for Coverage, Replay with Evidence: Adaptive and Efficient On-Policy Distillation for Long-Horizon Agents](https://arxiv.org/abs/2611.34756)**  
+  <sub>2026-11-25 · Direct OPD</sub>  
+  CARE-OPD expands stored histories through initial-student roll-ins followed by teacher completions, then samples fresh responses from the current student during replay. Confidence gating controls teacher supervision, while hindsight execution evidence allocates replay to consequential turns; the responses are on-policy, but the stored histories are not.
+
+- **[WebVibe: Multimodal Interactive Website Generation via Reverse Synthesis and Visual Self-Distillation](https://arxiv.org/abs/2611.34292)**  
+  <sub>2026-11-25 · Hybrid OPD</sub>  
+  WebVibe combines website training data from reverse synthesis with Interactive-SDPO. During the latter stage, browser traces and before/after visual montages give the self-teacher privileged feedback on student-generated code; weighted distillation on low-reward rollouts accompanies GRPO.
+
+- **[Generalizing Agentic Robotics via Multi-Teacher On-Policy Distillation](https://arxiv.org/abs/2611.30997)**  
+  <sub>2026-11-23 · Direct OPD</sub>  
+  Robo-MOPD distills a vision-language planner that generates language and tool calls during closed-loop robot tasks. Multiple experts provide token log-probabilities for clipped policy updates on student rounds; comparisons with RL show task-dependent outcomes for the planner.
+
+- **[Distilling Visual Agents from Limited Interaction Experience](https://arxiv.org/abs/2611.28618)**  
+  <sub>2026-11-21 · Direct OPD · [Code](https://github.com/elated-sawyer/visual-agent-distillation)</sub>  
+  This visual-agent method selects representative histories from a limited initial-student interaction pool, then regenerates current-student responses for teacher scoring. New actions are not executed during distillation; the reported comparisons control response counts rather than all training tokens or computation.
+
+- **[Tool-to-Self: Internalizing Visual Tool Capabilities via Scaffolded Reinforcement Learning](https://arxiv.org/abs/2611.28564)**  
+  <sub>2026-11-21 · Hybrid OPD</sub>  
+  Tool-to-Self gradually withdraws visual tools while using a privileged self-teacher that can still access hidden tool results. Correctness gating combines distillation with GRPO, studying how tool-assisted supervision can support a student operating with reduced tool access.
+
+- **[Muted Distillation: Sealing Reasoning from Teacher Unlocks Token-Efficient Agents](https://arxiv.org/abs/2611.28445)**  
+  <sub>2026-11-21 · Direct OPD</sub>  
+  Muted Distillation retains the agent student's private thoughts but removes them from the teacher's history, then distills only the visible response tail. This changes the teacher's conditioning information as well as the loss support, testing a route to more token-efficient agent behavior.
 
 - **[SAIL: Scientific Agentic Intelligence via a Science-Aware Loop](https://arxiv.org/abs/2610.11451)**  
   <sub>2026-10-08 · Hybrid OPD</sub>  
@@ -1198,9 +1314,25 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 
 <a id="mechanisms-failures-and-evaluation"></a>
 
-<details><summary><strong>Mechanisms, failures, and evaluation</strong>&nbsp;·&nbsp;46</summary>
+<details><summary><strong>Mechanisms, failures, and evaluation</strong>&nbsp;·&nbsp;50</summary>
 
 *What transfers, what fails, and why?*
+
+- **[Tune for Retention, Not Just Gain: SFT Forgets Far Less than You Think](https://arxiv.org/abs/2611.34579)**  
+  <sub>2026-11-25 · Analysis</sub>  
+  Tune for Retention compares supervised fine-tuning with self-distillation from a demonstration-conditioned EMA teacher on student prefixes. Jointly tuning task gains and capability retention narrows the apparent gap between the methods, while self-distillation retains advantages in retention and learning-rate robustness in the reported settings.
+
+- **[GRAPE-Bench: When Vision Degrades, Does Video Reasoning Hold?](https://arxiv.org/abs/2611.33020)**  
+  <sub>2026-11-24 · Application / system report · [Code](https://github.com/zhangce01/GRAPE-Bench)</sub>  
+  GRAPE-Bench studies video reasoning under visual degradation and includes distillation from a clean-video, answer-conditioned teacher to a corrupted-video student. In its reported comparison, this approach exceeds reasoning SFT but trails direct-answer SFT, showing that richer teacher context need not yield the strongest transfer.
+
+- **[Rethinking Reasoning Effort Training in Large Language Models: On-Policy Distillation or Reinforcement Learning?](https://arxiv.org/abs/2611.32131)**  
+  <sub>2026-11-24 · Analysis</sub>  
+  This study compares reasoning-effort training through routed teacher distillation and reinforcement learning. Effort preferences learned from single-turn tasks fail to transfer reliably to unseen agent tasks; agent trajectories and a high-effort token anchor during RL address this mismatch in the tested settings.
+
+- **[When Students Fail to Learn from Teachers: Learning Dynamics of On-Policy Distillation](https://arxiv.org/abs/2611.27125)**  
+  <sub>2026-11-20 · Analysis · [Code](https://github.com/zhangxinnan123/learning-dynamic-opd)</sub>  
+  This analysis distinguishes immediate token-level distillation updates from the full sequence-KL gradient and studies weak updates at extreme probabilities and coupling across positions. An adaptive switch between forward- and reverse-KL supervision improves the tested learning dynamics, with the strongest reported gains on LiveCodeBench.
 
 - **[Policy Alignment: New Signals for Membership Auditing in On-Policy Distillation](https://arxiv.org/abs/2610.11423)**  
   <sub>2026-10-08 · Analysis</sub>  
@@ -1394,9 +1526,17 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 
 <a id="applications-and-systems"></a>
 
-<details><summary><strong>Applications and systems</strong>&nbsp;·&nbsp;24</summary>
+<details><summary><strong>Applications and systems</strong>&nbsp;·&nbsp;26</summary>
 
 *How does distillation fit into a deployed system?*
+
+- **[WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce](https://arxiv.org/abs/2611.30662)**  
+  <sub>2026-11-23 · Application / system report · [Code](https://github.com/Tencent/WeMM-Ecom)</sub>  
+  WeMM-Ecom applies OPD to multimodal e-commerce models, using teacher token scores on student-generated responses in thinking and non-thinking modes. Distillation is followed by parameter merging and GRPO; the reported final-model comparisons evaluate the overall training recipe.
+
+- **[Post-Training Agents for Long-Document Reasoning](https://arxiv.org/abs/2611.30090)**  
+  <sub>2026-11-23 · Application / system report</sub>  
+  This long-document agent study begins with fresh student responses supervised by the same model conditioned on privileged written feedback, followed by two rubric-based RL stages. It describes preserving response space and token alignment under long teacher contexts and reports the distillation-stage model separately.
 
 - **[Lapras: Latent Reasoning for Time Series Language Models](https://arxiv.org/abs/2610.11111)**  
   <sub>2026-10-08 · Direct OPD</sub>  
@@ -1634,8 +1774,8 @@ These figures use the [current catalog](resources/catalog.json). The [chart data
 
 <details><summary>Latest additions and survey releases</summary>
 
+- **2026-11-27** — Added 35 papers on multi-teacher and multimodal distillation, agent replay, capability retention, and learning dynamics. The collection now contains 397 entries, with updated topic charts and repository links. [Explore the latest papers](https://nick7nlp.github.io/OPDHub/)
 - **2026-10-13** — Refreshed paper metadata and repository links across the reading list and OPDHub. New collection charts show topic, role, and first-release date distributions from the current catalog. [View the collection](https://github.com/nick7nlp/Awesome-LLM-On-Policy-Distillation#the-collection-in-view)
-- **2026-10-12** — Added 59 papers, including MAS-OPD and USA, with expanded reading paths for sparse estimators, adaptive teachers, multi-agent learning, and transfer limits. Redesigned the reading list and OPDHub for easier browsing and comparison. [Explore the collection](https://nick7nlp.github.io/OPDHub/)
 
 [All updates and survey releases](CHANGELOG.md)
 
