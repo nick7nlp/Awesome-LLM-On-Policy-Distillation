@@ -1,5 +1,5 @@
 {
-  "updated_on": "2026-11-27",
+  "updated_on": "2026-11-29",
   "coverage_through": "2026-11",
   "description": "A reading collection of language-model distillation methods, analyses, applications, and related foundations.",
   "papers": [
@@ -373,8 +373,8 @@
       "year": 2024,
       "submitted": "2024-01-02",
       "paper_url": "https://arxiv.org/abs/2401.01335",
-      "description": "SPIN repeatedly generates responses from a previous version of a supervised fine-tuned model and trains the next version to favor existing human demonstrations over those responses. Its comparison target is a fixed demonstration dataset, not a teacher’s token distributions on current student rollouts.",
-      "objective": "Minimize a logistic loss that favors human responses over previous-model responses using their relative sequence log probabilities against the previous model.",
+      "description": "SPIN repeatedly generates responses from a previous version of a supervised fine-tuned model and trains the next version to favor existing SFT demonstrations over those responses. Its comparison target is a fixed demonstration dataset, not a teacher’s token distributions on current student rollouts.",
+      "objective": "Minimize a logistic loss that favors reference SFT responses over previous-model responses using their relative sequence log probabilities against the previous model.",
       "mechanism": "background",
       "home": "background",
       "code_urls": [
@@ -1119,7 +1119,7 @@
       "paper_url": "https://arxiv.org/abs/2503.07067",
       "description": "DistiLLM-2 applies skewed forward divergence to teacher-generated responses and skewed reverse divergence to student-generated responses. The paper proposes adaptive skew and loss weighting; student responses are generated before each epoch and reused within it.",
       "objective": "A weighted sum of skewed forward KL on teacher responses and skewed reverse KL on student responses. Adaptive skew and changing loss weights are proposed components of the paper’s recipe.",
-      "mechanism": "direct_opd",
+      "mechanism": "hybrid_opd",
       "home": "4",
       "code_urls": [
         "https://github.com/jongwooko/distillm-2"
@@ -1145,8 +1145,8 @@
       "submitted": "2025-04-15",
       "paper_url": "https://arxiv.org/abs/2504.11426",
       "description": "DSKD constructs comparable teacher and student output spaces through learned projections. Cross-tokenizer losses use exactly aligned positions; the student-space term also masks positions where the projected teacher fails to reproduce its top prediction. The method does not provide a lossless mapping between arbitrary tokenizers.",
-      "objective": "Minimize distribution-matching losses in both output spaces plus cross-entropy for the teacher-to-student projector to predict the teacher’s top token; the distribution divergence is selectable.",
-      "mechanism": "direct_opd",
+      "objective": "Minimize distribution-matching losses in both output spaces plus cross-entropy for the teacher-to-student projector to predict the teacher’s top token; the distribution divergence is selectable. Main experiments combine this DSKD objective with ground-truth cross-entropy at equal weight.",
+      "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [
         "https://github.com/songmzhang/DSKDv2"
@@ -3035,7 +3035,7 @@
       "paper_url": "https://arxiv.org/abs/2604.24005",
       "description": "TCOD addresses rising divergence across turns in interactive distillation by gradually extending the student’s training horizon. One variant lengthens student-generated prefixes; another starts student suffixes after successful teacher-executed prefixes, which require pre-collected trajectories and do not contribute gradients.",
       "objective": "Minimize teacher-to-student KL on student-executed turns, initially over short prefixes or suffixes and then over a progressively longer interaction horizon; teacher-executed prefix turns receive no gradient.",
-      "mechanism": "direct_opd",
+      "mechanism": "hybrid_opd",
       "home": "7",
       "code_urls": [
         "https://github.com/kokolerk/TCOD"
@@ -3962,7 +3962,7 @@
       "paper_url": "https://arxiv.org/abs/2605.12652",
       "description": "For each prompt, the student generates multiple rollouts that a verifier divides into successes and failures. A teacher uses other rollouts from the group to supervise each target rollout through token-level divergence; the approach depends on reliable success labels and available peers.",
       "objective": "Minimize token-level divergence between the student and peer-conditioned teacher on student-generated trajectories; reverse KL is used for math tasks and Jensen–Shannon divergence for other tasks.",
-      "mechanism": "hybrid_opd",
+      "mechanism": "direct_opd",
       "home": "5",
       "code_urls": [
         "https://github.com/viviable/mopd_code"
@@ -4021,7 +4021,7 @@
       "paper_url": "https://arxiv.org/abs/2605.12913",
       "description": "The DAgger-style recipe queries teacher action labels at states reached by turn-level teacher–student mixing, then trains with cross-entropy on retained valid-submission trajectories. The teacher-execution probability decreases from 1.0 to a floor of 0.6.",
       "objective": "Cross-entropy on teacher-provided action tokens at states visited during mixed teacher–student environment rollouts.",
-      "mechanism": "direct_opd",
+      "mechanism": "hybrid_opd",
       "home": "7",
       "code_urls": [],
       "code_status": "No repository listed",
@@ -6465,7 +6465,7 @@
       "year": 2026,
       "submitted": "2026-07-18",
       "paper_url": "https://arxiv.org/abs/2607.16872",
-      "description": "TOPD samples a masked diffusion student’s denoising trajectories and retains token decisions that survive into the final response. A frozen teacher supervises matching partially denoised states through reverse KL, implemented with sampled-token updates; the transfer experiments focus on mathematical reasoning.",
+      "description": "TOPD samples a masked diffusion student’s denoising trajectories and retains token decisions that survive into the final response. A frozen teacher supervises matching partially denoised states through reverse KL; the transfer experiments focus on mathematical reasoning.",
       "objective": "TOPD matches teacher and student distributions at retained denoising state-position pairs. The main SDAR configuration specifies full-vocabulary reverse KL; the paper also describes a sampled-token form whose mapping to the reported runs is not resolved.",
       "mechanism": "direct_opd",
       "home": "5",
@@ -8636,7 +8636,7 @@
       "submitted": "2026-09-20",
       "paper_url": "https://arxiv.org/abs/2609.23377",
       "description": "This software-engineering pipeline trains category experts and consolidates them through teacher feedback on student rollouts. Reported expert-gain retention is 80.8%, 111.1%, and 84.8% across three categories. The Pro-618 evaluation also selects checkpoints; differing training pools and budgets prevent an isolated consolidation advantage.",
-      "objective": "Executable-outcome reinforcement learning for experts, supervised replay of their verified successes, then label-routed on-policy teacher feedback that retains only improving directions relative to a reference.",
+      "objective": "Executable-outcome reinforcement learning for experts, supervised replay of their verified successes, then label-routed on-policy imitation plus reference-anchored extrapolation restricted to positive teacher–reference gaps.",
       "mechanism": "application",
       "home": "9",
       "code_urls": [],
@@ -9479,7 +9479,7 @@
       "submitted": "2026-10-07",
       "paper_url": "https://arxiv.org/abs/2610.09795",
       "description": "MIRROR evaluates reference-revealed self-distillation on student-generated prefixes for personalized generation; its MIRROR-F variant adds selective, teacher-forced anchoring of context-matched reference terms, improving several reported outcomes while showing task-dependent limits.",
-      "objective": "Self-distillation from privileged experience and verifier feedback on student-generated reasoning.",
+      "objective": "Jensen–Shannon self-distillation from reference-answer-conditioned targets on student-generated personalized responses, with selective teacher-forced anchoring in MIRROR-F.",
       "mechanism": "hybrid_opd",
       "home": "5",
       "code_urls": [],
@@ -10309,7 +10309,7 @@
       "submitted": "2026-10-06",
       "paper_url": "https://arxiv.org/abs/2610.07654",
       "description": "In tested safety-OPD setups, a backdoored teacher and a small number of triggered prompts can yield trigger-conditioned harmful behavior despite improved trigger-free safety; additional training and the choice of token-level KL update materially affect when that behavior appears, while reward clipping only delays it in some settings.",
-      "objective": "Safety-OPD backdoor analysis with triggered prompts, KL-direction controls, and clipping comparisons.",
+      "objective": "Safety-OPD backdoor analysis with triggered prompts, top-k versus sampled-token reverse-KL updates, and clipping comparisons.",
       "mechanism": "direct_opd",
       "home": "8",
       "code_urls": [],
@@ -10633,8 +10633,8 @@
       "paper_url": "https://arxiv.org/abs/2611.33437",
       "home": "5",
       "mechanism": "hybrid_opd",
-      "description": "ViCARD uses visual evidence to weight GRPO updates for groups containing successful responses. For all-failure groups, a teacher with a correct image crop instead supplies distribution supervision on student prefixes; the teacher is updated by exponential moving average.",
-      "objective": "Reward-gated switching between visually weighted GRPO and crop-conditioned self-distillation.",
+      "description": "ViCARD uses visual evidence to weight GRPO updates for groups with both successful and failed responses. For all-failure groups, distillation activates only if a separate response from the crop-conditioned teacher passes the verifier; the teacher then supplies distribution targets on the original student prefixes and is updated by exponential moving average.",
+      "objective": "Visually weighted GRPO for mixed-success groups and crop-conditioned self-distillation for all-failure groups with a verified teacher response, plus optional reference regularization.",
       "code_urls": [],
       "code_status": "No verified repository listed",
       "source_version": "arXiv:2611.33437v1; submitted 2026-11-24T21:04:02Z; updated 2026-11-24T21:04:02Z",

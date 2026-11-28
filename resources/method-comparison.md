@@ -24,7 +24,7 @@ Compare methods by the states they supervise, the information used to construct 
 | [SparseOPD](https://arxiv.org/abs/2609.34386) | Plans corrections from full-vocabulary distributions, then sparsifies and compensates logits for backpropagation | Saves measured backward memory while increasing complete-update time; it does not remove the full-distribution interface. |
 | [SCOUT](https://arxiv.org/abs/2609.38360) | Periodically adapts the teacher to student-induced prefixes during OPD | Teacher training is part of the method and its cost. |
 | [Teacher Preparation](https://arxiv.org/abs/2610.04950) | Prepares a teacher using RL on fixed student-generated prefixes before OPD | Reported downstream cost excludes teacher preparation; its timing differs from SCOUT. |
-| [Delta-OPD](https://arxiv.org/abs/2610.10460) | Combines teacher-relative logit shifts at the student's initialization | Composes supervision before distillation, rather than merging independently distilled experts. |
+| [Delta-MOPD](https://arxiv.org/abs/2610.10460) | Combines teacher-minus-base logit shifts at the student's initialization | Composes supervision before distillation, rather than merging independently distilled experts. |
 | [USA](https://arxiv.org/abs/2609.34225) | Uses update-aware sharpness training to prepare distilled agent experts for parameter merging | Supports the specified OPD interface and reported common-pipeline comparisons; the exact implemented gradient estimator is unspecified. |
 
 ## Constructing a self-teacher
@@ -56,7 +56,7 @@ Compare methods by the states they supervise, the information used to construct 
 | [SimCT](https://arxiv.org/abs/2605.07711) | Compares short continuation units realizable by both tokenizers | The continuation interface must be defined before applying a divergence. |
 | [GAD](https://arxiv.org/abs/2511.10643) | Uses teacher responses to train a discriminator that supplies a scalar reward | This is teacher-mediated optimization with a learned evaluator, rather than direct teacher-logit matching. |
 | [Qwen3](https://arxiv.org/abs/2505.09388) | Off-policy initialization followed by on-policy refinement | Reported student-stage costs do not include the whole teacher-preparation pipeline. |
-| [DeepSeek-V4](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf) | Specialist consolidation through full-vocabulary multi-teacher OPD | A deployment recipe with additional engineering and teacher preparation; overall scores do not isolate OPD's effect. |
+| [DeepSeek-V4](https://arxiv.org/abs/2606.19348) | Specialist consolidation through full-vocabulary multi-teacher OPD | A deployment recipe with additional engineering and teacher preparation; overall scores do not isolate OPD's effect. |
 
 ## Choosing candidates under a measured constraint
 

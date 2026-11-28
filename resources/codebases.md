@@ -2,7 +2,7 @@
 
 [Catalog](../README.md) · [Contributing](../CONTRIBUTING.md)
 
-Updated 2026-11-27. Implementations and resources associated with papers in the catalog. Unofficial reproductions are identified explicitly. Features and release completeness vary by repository.
+Updated 2026-11-29. Implementations and resources associated with papers in the catalog. Unofficial reproductions are identified explicitly. Features and release completeness vary by repository.
 
 | Paper | Repository |
 |---|---|

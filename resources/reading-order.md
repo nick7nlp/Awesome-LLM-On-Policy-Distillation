@@ -37,7 +37,7 @@ For a short introduction, read GKD, MiniLLM, and **[Rethinking OPD](https://arxi
 
 ## 5. Deployment and useful comparators
 
-18. **[Qwen3](https://arxiv.org/abs/2505.09388)** describes off-policy initialization followed by on-policy refinement of smaller students. **[DeepSeek-V4](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf)** describes multi-teacher consolidation with full-vocabulary supervision. These reports show how OPD fits into larger training pipelines; their overall scores are not isolated OPD effects.
+18. **[Qwen3](https://arxiv.org/abs/2505.09388)** describes off-policy initialization followed by on-policy refinement of smaller students. **[DeepSeek-V4](https://arxiv.org/abs/2606.19348)** describes multi-teacher consolidation with full-vocabulary supervision. These reports show how OPD fits into larger training pipelines; their overall scores are not isolated OPD effects.
 19. **[DeepSeek-R1](https://arxiv.org/abs/2501.12948)** provides a teacher-trace transfer baseline. **[Gemma 2](https://arxiv.org/abs/2408.00118)** distinguishes soft-target distillation during pretraining from teacher–student distribution matching on student-generated responses during post-training. Read the stages separately when comparing fixed-data transfer with on-policy training.
 
 ## Paths by research question

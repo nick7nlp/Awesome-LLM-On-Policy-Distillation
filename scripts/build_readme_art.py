@@ -49,7 +49,7 @@ def masthead(theme, mobile=False):
         pieces += [
             '<path d="M49 33v20m8-25v29m8-23v18" class="mark"/>',
             '<text x="83" y="49" class="muted" font-size="14" letter-spacing="2.4">OPD / RESEARCH LIBRARY</text>',
-            '<text x="43" y="142" class="serif ink" font-size="80">On-policy distillation.</text>',
+            '<text x="43" y="142" class="serif ink" font-size="66">On-policy distillation.</text>',
             '<text x="48" y="193" class="muted" font-size="22">Learning from teachers on the student’s own trajectories.</text>',
             '<path d="M48 234H728" class="rule"/>',
             '<text x="48" y="276" class="muted" font-size="17" letter-spacing=".3">Objectives</text>',

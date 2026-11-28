@@ -259,16 +259,16 @@ z
    </g>
    <g id="patch_24">
     <path d="M 470.88 190.95102 
-L 791.322064 190.95102 
-L 791.322064 186.351516 
+L 785.981139 190.95102 
+L 785.981139 186.351516 
 L 470.88 186.351516 
 z
 " clip-path="url(#pf87b004370)" style="fill: #527967"/>
    </g>
    <g id="patch_25">
     <path d="M 470.88 229.28022 
-L 686.288115 229.28022 
-L 686.288115 224.680716 
+L 691.62904 229.28022 
+L 691.62904 224.680716 
 L 470.88 224.680716 
 z
 " clip-path="url(#pf87b004370)" style="fill: #527967"/>
@@ -325,13 +325,13 @@ z
     <text style="font-size: 10.8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #294a3d" x="470.88" y="178.599465" transform="rotate(-0 470.88 178.599465)">Direct OPD</text>
    </g>
    <g id="text_18">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #637165" x="824.256" y="178.378715" transform="rotate(-0 824.256 178.378715)">180  ·  45.3%</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #637165" x="824.256" y="178.378715" transform="rotate(-0 824.256 178.378715)">177  ·  44.6%</text>
    </g>
    <g id="text_19">
     <text style="font-size: 10.8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #294a3d" x="470.88" y="216.928665" transform="rotate(-0 470.88 216.928665)">Hybrid OPD</text>
    </g>
    <g id="text_20">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #637165" x="824.256" y="216.707915" transform="rotate(-0 824.256 216.707915)">121  ·  30.5%</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #637165" x="824.256" y="216.707915" transform="rotate(-0 824.256 216.707915)">124  ·  31.2%</text>
    </g>
    <g id="text_21">
     <text style="font-size: 10.8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #294a3d" x="470.88" y="255.257865" transform="rotate(-0 470.88 255.257865)">Analysis</text>
@@ -408,7 +408,7 @@ L 825.12 501.5088
    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #637165" x="38.88" y="543.6288" transform="rotate(-0 38.88 543.6288)">Roles are reading labels, not mathematical loss classes.  ·  Source: public catalog</text>
   </g>
   <g id="text_42">
-   <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #637165" x="825.12" y="543.6288" transform="rotate(-0 825.12 543.6288)">2026-11-27</text>
+   <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #637165" x="825.12" y="543.6288" transform="rotate(-0 825.12 543.6288)">2026-11-29</text>
   </g>
  </g>
  <defs>

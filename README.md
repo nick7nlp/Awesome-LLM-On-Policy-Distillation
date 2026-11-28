@@ -15,7 +15,7 @@
   <a href="https://arxiv.org/abs/2604.00626"><strong>Read the survey</strong></a> &nbsp;·&nbsp; <a href="https://nick7nlp.github.io/OPDHub/"><strong>Explore OPDHub ↗</strong></a> &nbsp;·&nbsp; <a href="#browse-the-literature">Browse papers</a> &nbsp;·&nbsp; <a href="#citation">Cite</a>
 </p>
 
-<p align="center"><sub>397 entries · 144 with code · Updated&nbsp;2026&#8209;11&#8209;27</sub></p>
+<p align="center"><sub>397 entries · 144 with code · Updated&nbsp;2026&#8209;11&#8209;29</sub></p>
 
 A reading companion to **[A Survey of On-Policy Distillation for Large Language Models](https://arxiv.org/abs/2604.00626)**.
 
@@ -311,7 +311,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
   White-box MM-PbKD matches teacher-weighted Q moments at student-visited states under preference-derived constraints. Comparisons with fixed-preference training and a separate RLHF-plus-KD pipeline support this joint formulation without establishing full teacher-policy recovery.
 
 - **[DistiLLM-2: A Contrastive Approach Boosts the Distillation of LLMs](https://arxiv.org/abs/2503.07067)**  
-  <sub>2025-03-10 · Direct OPD · [Code](https://github.com/jongwooko/distillm-2)</sub>  
+  <sub>2025-03-10 · Hybrid OPD · [Code](https://github.com/jongwooko/distillm-2)</sub>  
   DistiLLM-2 applies skewed forward divergence to teacher-generated responses and skewed reverse divergence to student-generated responses. The paper proposes adaptive skew and loss weighting; student responses are generated before each epoch and reused within it.
 
 - **[AlignDistil: Token-Level Language Model Alignment as Adaptive Policy Distillation](https://arxiv.org/abs/2503.02832)**  
@@ -364,7 +364,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 
 - **[ViCARD: Visual Credit Assignment with Reward-Gated Distillation for Multimodal Reasoning](https://arxiv.org/abs/2611.33437)**  
   <sub>2026-11-24 · Hybrid OPD</sub>  
-  ViCARD uses visual evidence to weight GRPO updates for groups containing successful responses. For all-failure groups, a teacher with a correct image crop instead supplies distribution supervision on student prefixes; the teacher is updated by exponential moving average.
+  ViCARD uses visual evidence to weight GRPO updates for groups with both successful and failed responses. For all-failure groups, distillation activates only if a separate response from the crop-conditioned teacher passes the verifier; the teacher then supplies distribution targets on the original student prefixes and is updated by exponential moving average.
 
 - **[Branch and Consolidate: A Unified Recipe for Multi-Teacher On-Policy Distillation](https://arxiv.org/abs/2611.32515)**  
   <sub>2026-11-24 · Direct OPD</sub>  
@@ -576,7 +576,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 
 - **[Trace-Based On-Policy Distillation for Masked Diffusion Language Models](https://arxiv.org/abs/2607.16872)**  
   <sub>2026-07-18 · Direct OPD</sub>  
-  TOPD samples a masked diffusion student’s denoising trajectories and retains token decisions that survive into the final response. A frozen teacher supervises matching partially denoised states through reverse KL, implemented with sampled-token updates; the transfer experiments focus on mathematical reasoning.
+  TOPD samples a masked diffusion student’s denoising trajectories and retains token decisions that survive into the final response. A frozen teacher supervises matching partially denoised states through reverse KL; the transfer experiments focus on mathematical reasoning.
 
 - **[Diagnosing and Mitigating Thinking Collapse in On-Policy Self-Distillation](https://arxiv.org/abs/2607.10805)**  
   <sub>2026-07-12 · Direct OPD</sub>  
@@ -691,7 +691,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
   After a student rollout fails, RESD uses environmental feedback to generate a retrospective diagnosis and curate reusable lessons in a persistent playbook. That context guides a self-teacher’s token-level supervision on student rollouts, including when successful demonstrations are unavailable; it requires informative feedback.
 
 - **[Multi-Rollout On-Policy Distillation via Peer Successes and Failures](https://arxiv.org/abs/2605.12652)**  
-  <sub>2026-05-12 · Hybrid OPD · [Code](https://github.com/viviable/mopd_code)</sub>  
+  <sub>2026-05-12 · Direct OPD · [Code](https://github.com/viviable/mopd_code)</sub>  
   For each prompt, the student generates multiple rollouts that a verifier divides into successes and failures. A teacher uses other rollouts from the group to supervise each target rollout through token-level divergence; the approach depends on reliable success labels and available peers.
 
 - **[OGLS-SD: On-Policy Self-Distillation with Outcome-Guided Logit Steering for LLM Reasoning](https://arxiv.org/abs/2605.12400)**  
@@ -795,7 +795,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
   GAD trains a discriminator to score teacher responses above current student responses, then uses its scalar score as reinforcement-learning feedback for student rollouts. This permits black-box teacher access, but the feedback is a learned response-level proxy, not teacher token probabilities.
 
 - **[A Dual-Space Framework for General Knowledge Distillation of Large Language Models](https://arxiv.org/abs/2504.11426)**  
-  <sub>2025-04-15 · Direct OPD · [Code](https://github.com/songmzhang/DSKDv2)</sub>  
+  <sub>2025-04-15 · Hybrid OPD · [Code](https://github.com/songmzhang/DSKDv2)</sub>  
   DSKD constructs comparable teacher and student output spaces through learned projections. Cross-tokenizer losses use exactly aligned positions; the student-space term also masks positions where the projected teacher fails to reproduce its top prediction. The method does not provide a lossless mapping between arbitrary tokenizers.
 
 - **[PromptKD: Distilling Student-Friendly Knowledge for Generative Language Models via Prompt Tuning](https://arxiv.org/abs/2402.12842)**  
@@ -1279,7 +1279,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
   SDAR combines agentic RL with an independent, skill-conditioned auxiliary update whose token weights depend on teacher-student probability gaps. Within-recipe comparisons support gap gating over alternative gates, while the published frozen-reference baseline does not isolate gating alone.
 
 - **[Revisiting DAgger in the Era of LLM-Agents](https://arxiv.org/abs/2605.12913)**  
-  <sub>2026-05-13 · Direct OPD</sub>  
+  <sub>2026-05-13 · Hybrid OPD</sub>  
   The DAgger-style recipe queries teacher action labels at states reached by turn-level teacher–student mixing, then trains with cross-entropy on retained valid-submission trajectories. The teacher-execution probability decreases from 1.0 to a floor of 0.6.
 
 - **[SOD: Step-wise On-policy Distillation for Small Language Model Agents](https://arxiv.org/abs/2605.07725)**  
@@ -1291,7 +1291,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
   TT-OPD combines GRPO with turn-normalized reverse-KL supervision from an outcome-conditioned EMA teacher on student-generated medical-agent trajectories. Component comparisons examine teacher updates, privileged hints, and length control, while reporting inconsistencies limit quantitative stability claims.
 
 - **[TCOD: Exploring Temporal Curriculum in On-Policy Distillation for Multi-turn Autonomous Agents](https://arxiv.org/abs/2604.24005)**  
-  <sub>2026-04-27 · Direct OPD · [Code](https://github.com/kokolerk/TCOD)</sub>  
+  <sub>2026-04-27 · Hybrid OPD · [Code](https://github.com/kokolerk/TCOD)</sub>  
   TCOD addresses rising divergence across turns in interactive distillation by gradually extending the student’s training horizon. One variant lengthens student-generated prefixes; another starts student suffixes after successful teacher-executed prefixes, which require pre-collected trajectories and do not contribute gradients.
 
 - **[Skill-SD: Skill-Conditioned Self-Distillation for Multi-turn LLM Agents](https://arxiv.org/abs/2604.10674)**  
@@ -1692,7 +1692,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 
 - **[Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models](https://arxiv.org/abs/2401.01335)**  
   <sub>2024-01-02 · Background · [Code](https://github.com/uclaml/SPIN)</sub>  
-  SPIN repeatedly generates responses from a previous version of a supervised fine-tuned model and trains the next version to favor existing human demonstrations over those responses. Its comparison target is a fixed demonstration dataset, not a teacher’s token distributions on current student rollouts.
+  SPIN repeatedly generates responses from a previous version of a supervised fine-tuned model and trains the next version to favor existing SFT demonstrations over those responses. Its comparison target is a fixed demonstration dataset, not a teacher’s token distributions on current student rollouts.
 
 - **[Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180)**  
   <sub>2023-09-12 · Background · [Code](https://github.com/vllm-project/vllm)</sub>  
